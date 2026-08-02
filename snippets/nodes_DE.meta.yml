@@ -237,19 +237,21 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- auth: jeLq05gFPe
-  down: ''
-  fingerprint: 06c9289b97b5b4d2a002cce385e52ed6a434c9e0b4e56fc8eb7f608b7079ea9d
-  name: 🇩🇪 德国 | DEU 2
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: jeLq05gFPe
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  type: hysteria2
-  up: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_1|3.0MB/s
+  network: tcp
+  port: '33786'
+  reality-opts:
+    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
+    short-id: '!!str f55c53dfd45cfc6d'
+  server: kakaG.tempfast.ir
+  servername: icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
+  xudp: true
 - client-fingerprint: chrome
   name: 🇩🇪 德国 | DEU
   network: ws
@@ -263,6 +265,16 @@ proxies:
     headers:
       Host: 83.143.112.140.cdn-one.org
     path: /29378/wQYeoLE7LS
+- auth: jeLq05gFPe
+  name: 🇩🇪 德国 | DEU 2
+  obfs: salamander
+  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
+  password: jeLq05gFPe
+  port: 443
+  server: 91.107.178.22
+  skip-cert-verify: true
+  sni: www.refersion.com
+  type: hysteria2
 - alpn:
   - h2
   client-fingerprint: firefox
@@ -332,6 +344,14 @@ proxies:
     mode: auto
     path: /
     x-padding-bytes: 100-1000
+- auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  name: 🇩🇪 德国 | DEU 8
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 93.114.194.117
+  skip-cert-verify: true
+  sni: grape-zet-ro-turbo.bumbleshrimp.com
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 9

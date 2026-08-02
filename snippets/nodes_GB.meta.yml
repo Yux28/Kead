@@ -117,6 +117,58 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇮🇹 意大利 | ITA 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-it.emrata.top
+  servername: pro-it.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
+- client-fingerprint: firefox
+  name: 🇯🇵 日本 | JPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-jp.emrata.top
+  servername: pro-jp.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
+- client-fingerprint: firefox
+  name: 🇬🇧GB_3|2.1MB/s
+  network: tcp
+  port: '22012'
+  reality-opts:
+    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+    short-id: '!!str c6e19c434dc87df7'
+  server: 168.119.156.100
+  servername: login.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
+  xudp: true
+- client-fingerprint: firefox
+  name: 🇬🇧GB_4|3.2MB/s
+  network: tcp
+  port: '22012'
+  reality-opts:
+    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+    short-id: '!!str c6e19c434dc87df7'
+  server: 78.47.104.140
+  servername: login.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
+  xudp: true
 - client-fingerprint: firefox
   name: 🇬🇧 英国 | GBR 2
   network: ws
@@ -239,23 +291,6 @@ proxies:
     headers:
       Host: 31.76.251.127.cdn-one.org
     path: /10336/2GCOqG7bvA
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: GB_speednode_0043
-  network: ws
-  port: 443
-  server: 185.170.154.80.vhub.pro
-  servername: 185.170.154.80.vhub.pro
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5083f498-4894-5553-8648-40a2faf4b545
-  ws-opts:
-    headers:
-      Host: 185.170.154.80.vhub.pro
-    path: /websocket?ed=2560
 - client-fingerprint: chrome
   name: GB_speednode_0044
   network: ws

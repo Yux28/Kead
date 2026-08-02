@@ -29,6 +29,18 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- alterId: 2
+  cipher: auto
+  name: 🇸🇬SG_1|4.7MB/s
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
   down: 1000
   name: 🇸🇬 新加坡 | SGP

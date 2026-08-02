@@ -119,6 +119,40 @@ proxies:
     headers:
       Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 🇰🇷KR_1|1.1MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '9450'
+  server: 154.64.226.149
+  skip-cert-verify: true
+  sni: r.kr1.cat.bilibili.com
+  type: trojan
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR_2|5.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: '20801'
+  server: 222.238.227.54
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR_3|4.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: '20801'
+  server: 222.238.227.54
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+  up: ''
 - auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
   down: 1000
   name: 🇰🇷 韩国 | KOR
@@ -129,15 +163,6 @@ proxies:
   sni: kr1.ktmhyld.com
   type: hysteria2
   up: 1000
-- name: KR_speednode_0070
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 🇰🇷 韩国 | KOR 2
@@ -174,6 +199,15 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
+- name: KR_speednode_0070
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
 - client-fingerprint: chrome
   name: KR_speednode_0071
   network: ws

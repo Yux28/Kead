@@ -29,6 +29,20 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇨🇭 瑞士 | CHE 4
+  network: tcp
+  port: 25108
+  reality-opts:
+    public-key: yug_6i3Rlwgxpiii-My5C7uenYGo7tlbKeaOLsn5jEs
+    short-id: '!!str c8f2e9065d4a317b'
+  server: sw1.auragg.org
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
@@ -74,17 +88,3 @@ proxies:
   type: vless
   udp: true
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇨🇭 瑞士 | CHE 4
-  network: tcp
-  port: 25108
-  reality-opts:
-    public-key: yug_6i3Rlwgxpiii-My5C7uenYGo7tlbKeaOLsn5jEs
-    short-id: '!!str c8f2e9065d4a317b'
-  server: sw1.auragg.org
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0

@@ -80,15 +80,12 @@ proxies:
     headers:
       Host: px8r9i1b4k.bpusfaster2.top
     path: /images
-- client-fingerprint: chrome
-  name: 🇺🇸US_2|2.1MB/s
-  network: tcp
-  password: i99Cef
-  port: '28124'
-  server: 209.248.32.115
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸US_16|3.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 98.94.8.252
+  type: ss
   udp: true
 - name: 🇺🇸 美国 | USA 2
   network: ws

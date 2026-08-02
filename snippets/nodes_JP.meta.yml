@@ -155,18 +155,6 @@ proxies:
   sni: jp1.ktmhyld.com
   type: hysteria2
   up: 1000
-- client-fingerprint: firefox
-  name: 🇯🇵 日本 | JPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-jp.emrata.top
-  servername: pro-jp.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
 - client-fingerprint: chrome
   name: 🇯🇵 日本 | JPN 3
   network: ws
