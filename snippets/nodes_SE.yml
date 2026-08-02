@@ -1,0 +1,7 @@
+proxies:
+- cipher: aes-256-cfb
+  name: 🇸🇪 瑞典 | SWE 8
+  password: amazonskr05
+  port: 443
+  server: 16.171.111.98
+  type: ss

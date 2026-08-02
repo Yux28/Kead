@@ -1,0 +1,16 @@
+proxies:
+- client-fingerprint: chrome
+  name: 🇨🇦_加拿大_248
+  network: ws
+  port: 443
+  server: 208.66.228.194
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2

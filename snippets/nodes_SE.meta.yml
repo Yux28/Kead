@@ -1,0 +1,180 @@
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪_瑞典_32
+  port: 443
+  reality-opts:
+    public-key: SUTv6bVuL6TnWcPGf03-1QFmJ8Q_ISoA1WIajvct32M
+  server: 207.2.120.229
+  servername: sw-new.boxypn.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a248b82-ad33-4a8f-8ef7-cdd0ac26c261
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 瑞典 | SWE 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: nQE3INl_ycbBFpNZdzkrgASofD64HB215kzQuH_uZn4
+    short-id: '!!str b512d49930874a31'
+  server: 31.207.7.97
+  servername: cdn-se.ai-apiroute.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
+- client-fingerprint: chrome
+  name: 🇸🇪_瑞典_200
+  network: ws
+  port: 443
+  server: 16.16.207.129
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇸🇪_瑞典_236
+  network: ws
+  port: 12345
+  server: 213.21.229.126
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: webpusiko-grpc
+  name: 🇸🇪 瑞典 | SWE
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ
+    short-id: '!!str 0858af97f4e7324d'
+  server: 109.120.156.136
+  servername: web.pusiko.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 504d0b6e-400d-45ec-b2d0-1c79006ebc16
+- name: 🇸🇪 瑞典 | SWE 3
+  network: ws
+  port: 25643
+  server: 194.238.57.237
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2a088d58-eb38-47bd-b74d-ac392ee12ccd
+  ws-opts:
+    path: /xray
+- client-fingerprint: chrome
+  name: 🇸🇪 瑞典 | SWE 6
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
+  server: 170.168.99.3
+  servername: cdn.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
+  xhttp-opts:
+    host: cdn.steamstatic.com
+    mode: auto
+    path: /
+- alpn:
+  - h2
+  client-fingerprint: random
+  name: 🇸🇪 瑞典 | SWE 7
+  network: xhttp
+  port: 443
+  server: 188.72.103.3
+  servername: g43g324.whit3.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44be17d7-8295-4d56-8623-4ae675a9cf9b
+  xhttp-opts:
+    host: g43g324.whit3.net
+    mode: packet-up
+    path: /api/v1/
+    seq-key: id
+    seq-placement: query
+    uplink-data-key: X-Ver
+    uplink-http-method: GET
+    x-padding-bytes: 100-1000
+    x-padding-header: api_v1
+    x-padding-key: xss
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: query
+- cipher: aes-256-cfb
+  name: 🇸🇪 瑞典 | SWE 8
+  password: amazonskr05
+  port: 443
+  server: 16.171.111.98
+  type: ss
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  name: 🇸🇪 瑞典 | SWE 9
+  network: ws
+  port: 443
+  server: 185.178.208.176
+  servername: founders-blog.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7477d10d-6f06-41ac-9dc8-d8fd0fa94d47
+  ws-opts:
+    headers:
+      Host: founders-blog.online
+    path: /stream/615428/socket
+- client-fingerprint: chrome
+  name: SE_speednode_0236
+  network: ws
+  port: 443
+  server: 193.181.210.149
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: chrome
+  name: SE_speednode_0237
+  network: ws
+  port: 443
+  server: 16.16.207.129
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
