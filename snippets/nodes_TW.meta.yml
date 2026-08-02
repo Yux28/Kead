@@ -1,4 +1,21 @@
 proxies:
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  password: i99Cef
+  port: 28155
+  server: 211.20.156.191
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+- auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
+  down: 1000
+  name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
+  port: 18386
+  server: tw1.ktmhyld.com
+  skip-cert-verify: true
+  sni: tw1.ktmhyld.com
+  type: hysteria2
+  up: 1000
 - name: TW_speednode_0240
   port: 10000
   server: 60.249.101.14

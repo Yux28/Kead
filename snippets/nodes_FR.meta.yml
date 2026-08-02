@@ -97,6 +97,64 @@ proxies:
     headers:
       Host: svg-2.onrender.com
     path: /ws/47667ac5-ac51-7fc6-181f-65321ee2387b
+- name: 🇫🇷 法国 | FRA
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- client-fingerprint: randomized
+  name: 🇫🇷 法国 | FRA 2
+  network: ws
+  port: 443
+  server: 3x-ui-multi-production-b876.up.railway.app
+  servername: 3x-ui-multi-production-b876.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: aa6bb7db-8e34-4f82-b9dc-104b3eef5806
+  ws-opts:
+    headers:
+      Host: 3x-ui-multi-production-b876.up.railway.app
+    path: /in4
+- http-opts:
+    headers:
+      Host:
+      - irimo.ir
+    method: GET
+    path:
+    - /
+  name: 🇫🇷 法国 | FRA 3
+  network: http
+  port: 8080
+  server: 31.56.146.22
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇫🇷 法国 | FRA 4
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo
+  server: 104.245.242.7
+  servername: cdn.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3e876aa-589e-1dcb-e55f-6ff56d8d80f4
+  xhttp-opts:
+    host: cdn.steamstatic.com
+    mode: auto
+    path: /
 - client-fingerprint: chrome
   name: FR_speednode_0027
   network: ws

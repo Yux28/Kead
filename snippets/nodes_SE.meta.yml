@@ -14,8 +14,7 @@ proxies:
   uuid: 6a248b82-ad33-4a8f-8ef7-cdd0ac26c261
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇸🇪 瑞典 | SWE 2
-  network: tcp
+  name: 🇸🇪_瑞典_60
   port: 443
   reality-opts:
     public-key: nQE3INl_ycbBFpNZdzkrgASofD64HB215kzQuH_uZn4
@@ -58,33 +57,19 @@ proxies:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: webpusiko-grpc
   name: 🇸🇪 瑞典 | SWE
-  network: grpc
+  network: tcp
   port: 443
   reality-opts:
-    public-key: aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ
-    short-id: '!!str 0858af97f4e7324d'
-  server: 109.120.156.136
-  servername: web.pusiko.space
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: pro-se.emrata.top
+  servername: pro-se.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: 504d0b6e-400d-45ec-b2d0-1c79006ebc16
-- name: 🇸🇪 瑞典 | SWE 3
-  network: ws
-  port: 25643
-  server: 194.238.57.237
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2a088d58-eb38-47bd-b74d-ac392ee12ccd
-  ws-opts:
-    path: /xray
+  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
 - client-fingerprint: chrome
-  name: 🇸🇪 瑞典 | SWE 6
+  name: 🇸🇪 瑞典 | SWE 2
   network: xhttp
   port: 443
   reality-opts:
@@ -102,7 +87,7 @@ proxies:
 - alpn:
   - h2
   client-fingerprint: random
-  name: 🇸🇪 瑞典 | SWE 7
+  name: 🇸🇪 瑞典 | SWE 3
   network: xhttp
   port: 443
   server: 188.72.103.3
@@ -125,29 +110,32 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: query
-- cipher: aes-256-cfb
-  name: 🇸🇪 瑞典 | SWE 8
-  password: amazonskr05
-  port: 443
-  server: 16.171.111.98
-  type: ss
 - alpn:
-  - h3
   - h2
-  client-fingerprint: chrome
-  name: 🇸🇪 瑞典 | SWE 9
-  network: ws
+  client-fingerprint: random
+  name: 🇸🇪 瑞典 | SWE 5
+  network: xhttp
   port: 443
-  server: 185.178.208.176
-  servername: founders-blog.online
+  server: 188.72.103.3
+  servername: g43g324.whit3.net
   tls: true
   type: vless
   udp: true
-  uuid: 7477d10d-6f06-41ac-9dc8-d8fd0fa94d47
-  ws-opts:
-    headers:
-      Host: founders-blog.online
-    path: /stream/615428/socket
+  uuid: 6dd3c737-9755-4c2b-9d63-911f6d6b6e6b
+  xhttp-opts:
+    host: g43g324.whit3.net
+    mode: packet-up
+    path: /api/v1/
+    seq-key: id
+    seq-placement: query
+    uplink-data-key: X-Ver
+    uplink-http-method: GET
+    x-padding-bytes: 100-1000
+    x-padding-header: api_v1
+    x-padding-key: xss
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: query
 - client-fingerprint: chrome
   name: SE_speednode_0236
   network: ws

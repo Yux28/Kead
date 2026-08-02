@@ -53,11 +53,9 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: 0
+- alterId: 0
   cipher: auto
-  name: 🇳🇱 荷兰 | NLD 8
+  name: 🇮🇷_伊朗_105
   port: 2078
   server: tun1.wizardx1.com
   skip-cert-verify: true
@@ -67,7 +65,7 @@ proxies:
   uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
 - alterId: 0
   cipher: auto
-  name: 🇳🇱 荷兰 | NLD 7
+  name: 🇮🇷_伊朗_91
   port: 2078
   server: 94.182.88.61
   skip-cert-verify: true
@@ -368,6 +366,122 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /ws-vmess
+- client-fingerprint: chrome
+  name: 🇺🇸US_2|2.1MB/s
+  network: tcp
+  password: i99Cef
+  port: '28124'
+  server: 209.248.32.115
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /56227/rSnUrv2yXU
+  name: NL_speednode_0078
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 83.143.112.140.cdn-one.org
+  skip-cert-verify: false
+  sni: 83.143.112.140.cdn-one.org
+  type: trojan
+  udp: true
+- name: 🇫🇷 法国 | FRA
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港 | HKG 2
+  password: ayu1245
+  plugin: obfs
+  plugin-opts:
+    host: 79ca942774.download.windowsupdate.com
+    mode: http
+  port: 824
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  password: i99Cef
+  port: 28155
+  server: 211.20.156.191
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+- name: 🇺🇸 美国 | USA 2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 8
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 17
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 27
+  network: ws
+  password: '521314'
+  port: 443
+  server: 104.16.99.215
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: Telegram
+- name: 🇺🇸 美国 | USA 34
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
   name: GB_speednode_0033
@@ -376,6 +490,17 @@ proxies:
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: GB_speednode_0034
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
 - grpc-opts:
@@ -389,18 +514,6 @@ proxies:
   sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
-- alterId: '1'
-  cipher: auto
-  name: 🇯🇵JP_9|5.3MB/s
-  network: tcp
-  port: 11777
-  server: r8f4n-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8ee65c79-4487-32ff-b896-62c8dce05921
-  xudp: true
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
   name: GB_speednode_0036
@@ -409,101 +522,6 @@ proxies:
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: NL_speednode_0080
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  sni: 83.143.112.140.cdn-one.org
-  type: trojan
-  udp: true
-- name: 🇪🇸 西班牙 | ESP
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.18.250.252
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 英国 | GBR 2
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 134.65.58.5
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 | HKG
-  password: f83107e6-7d68-4707-a57a-a6ef20130ab6
-  port: 9060
-  server: c.normal.main.sys-metric-report.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 | NLD 10
-  password: 1mflFfFVs6qz+QZGLQAWv5ipFJxHacCVZQ+LmBtqQH0=
-  port: 56985
-  server: e3.cover20.ir
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇷🇺 俄罗斯 | RUS 4
-  password: 895b4b796a357570
-  port: 10910
-  server: 176.32.35.51
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇷🇺 俄罗斯 | RUS 6
-  password: NlRpZGVNT2l6Q1NBbHZ5NTM3UW80ZmFFd0NRdFREZU94TzMxSGJQZmt4RFJzU0ZDYlZvOUhCOGxJeTluS0tWYw==
-  port: 45855
-  server: 94.198.219.24
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇸🇪 瑞典 | SWE 8
-  password: amazonskr05
-  port: 443
-  server: 16.171.111.98
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 | SGP
-  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
-  port: 56927
-  server: 161.118.224.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 | USA 14
-  password: ljqdalu13..
-  port: 8313
-  server: 38.180.135.39
-  type: ss
-- name: 🇺🇸 美国 | USA 16
-  password: BxceQaOe
-  port: 29085
-  server: 18.163.90.221
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0034
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
 - grpc-opts:
@@ -542,23 +560,23 @@ proxies:
   udp: true
 - grpc-opts:
     grpc-service-name: /56227/rSnUrv2yXU
-  name: NL_speednode_0078
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  sni: 83.143.112.140.cdn-one.org
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
   name: NL_speednode_0079
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
   server: 83.143.112.140.cdn-one.org
   skip-cert-verify: false
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /56227/rSnUrv2yXU
+  name: NL_speednode_0080
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 83.143.112.140.cdn-one.org
+  skip-cert-verify: false
+  sni: 83.143.112.140.cdn-one.org
   type: trojan
   udp: true
 - grpc-opts:

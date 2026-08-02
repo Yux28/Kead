@@ -1,7 +1,6 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇷🇺 俄罗斯 | RUS
-  network: tcp
+- client-fingerprint: firefox
+  name: 🇬🇧_英国_99
   port: 443
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
@@ -118,38 +117,41 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- alpn:
-  - h2
-  client-fingerprint: random
-  name: 🇸🇪 瑞典 | SWE 5
-  network: xhttp
+- client-fingerprint: firefox
+  name: 🇬🇧 英国 | GBR 2
+  network: ws
   port: 443
-  server: 188.72.103.3
-  servername: g43g324.whit3.net
+  server: 185.170.154.80.vhub.pro
+  servername: 185.170.154.80.vhub.pro
   tls: true
   type: vless
   udp: true
-  uuid: 6dd3c737-9755-4c2b-9d63-911f6d6b6e6b
+  uuid: 5083f498-4894-554b-8648-40a2faf4b545
+  ws-opts:
+    headers:
+      Host: 185.170.154.80.vhub.pro
+    path: /websocket?ed=2560
+- name: 🇬🇧 英国 | GBR 3
+  network: xhttp
+  port: 443
+  server: 167.233.225.59
+  servername: uk-cf.aba-hum.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f2a6194-1748-4ec7-9c5f-8ad504818aa3
   xhttp-opts:
-    host: g43g324.whit3.net
-    mode: packet-up
-    path: /api/v1/
-    seq-key: id
-    seq-placement: query
-    uplink-data-key: X-Ver
-    uplink-http-method: GET
-    x-padding-bytes: 100-1000
-    x-padding-header: api_v1
-    x-padding-key: xss
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 英国 | GBR 2
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 134.65.58.5
-  type: ss
+    path: /
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: GB_speednode_0033
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
   name: GB_speednode_0034
@@ -159,6 +161,27 @@ proxies:
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
   sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: GB_speednode_0035
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: GB_speednode_0036
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
   type: trojan
   udp: true
 - grpc-opts:
@@ -201,6 +224,21 @@ proxies:
   type: vless
   udp: true
   uuid: 8645697d-51c1-4e90-aca5-ba63a0392f11
+- client-fingerprint: chrome
+  name: GB_speednode_0042
+  network: ws
+  port: 443
+  server: 31.76.251.127.cdn-one.org
+  servername: 31.76.251.127.cdn-one.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.251.127.cdn-one.org
+    path: /10336/2GCOqG7bvA
 - alpn:
   - h2
   client-fingerprint: firefox

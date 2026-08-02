@@ -29,17 +29,62 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vless-grpc-reality
   name: 🇨🇭 瑞士 | CHE
-  network: tcp
-  port: 443
+  network: grpc
+  port: 8082
   reality-opts:
-    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
-    short-id: '!!str 10a5c8e2f4b7d936'
-  server: 199.68.196.79
-  servername: ch.tunnelx.space
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: l90909l.vip
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭 瑞士 | CHE 2
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 195.15.213.198
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭 瑞士 | CHE 3
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 83.228.197.174
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇨🇭 瑞士 | CHE 4
+  network: tcp
+  port: 25108
+  reality-opts:
+    public-key: yug_6i3Rlwgxpiii-My5C7uenYGo7tlbKeaOLsn5jEs
+    short-id: '!!str c8f2e9065d4a317b'
+  server: sw1.auragg.org
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
