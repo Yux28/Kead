@@ -1,28 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬_新加坡_108
+- name: 1|🇸🇬 新加坡 | SGP 2
   network: ws
-  port: 36822
-  server: sylva51.ceoiii.com
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.35.127
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
+  sni: yks-dd9.pages.dev
+  type: trojan
   ws-opts:
     headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- alterId: 2
-  cipher: auto
-  name: 🇸🇬SG_1|4.7MB/s
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 1|🇸🇬 新加坡 | SGP 3
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.35.26
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /

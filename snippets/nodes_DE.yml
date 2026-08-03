@@ -1,7 +1,73 @@
 proxies:
+- client-fingerprint: chrome
+  name: 0,1,2|US_speednode_0277
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 0,1,2|US_speednode_0243
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 0,2|US_speednode_0262
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0,1|🇩🇪 德国 | DEU 2
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 158.180.29.33
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 | DEU 3
+  password: bSOOjTnIutwmTb9nTnIKm3
+  port: 5223
+  server: creativeboxde2.zanity.net
+  type: ss
+- name: 1|🇩🇪 德国 | DEU 16
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.241.194
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 1|🇩🇪 德国 | DEU 17
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.66.173.172
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
 - grpc-opts:
     grpc-service-name: /56227/rSnUrv2yXU
-  name: NL_speednode_0078
+  name: 1,2|NL_speednode_0078
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443

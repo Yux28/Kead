@@ -1,8 +1,1 @@
-proxies:
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  password: i99Cef
-  port: 28155
-  server: 211.20.156.191
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
+proxies: []

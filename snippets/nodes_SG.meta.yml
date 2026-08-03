@@ -1,73 +1,54 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬_新加坡_108
-  network: ws
-  port: 36822
-  server: sylva51.ceoiii.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
 - client-fingerprint: chrome
-  name: 🇸🇬_新加坡_255
-  network: ws
-  port: 2000
-  server: 188.239.17.75
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  name: 0|🇸🇬SG_1|1.1MB/s
+  network: tcp
+  port: '31877'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v1.cdn.wj0zugpsmub2.jjxdns.net
+  servername: cdnjs.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- alterId: 2
-  cipher: auto
-  name: 🇸🇬SG_1|4.7MB/s
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
   xudp: true
-- auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
-  down: 1000
-  name: 🇸🇬 新加坡 | SGP
-  password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
-  port: 18383
-  server: sg1.ktmhyld.com
-  skip-cert-verify: true
-  sni: sg1.ktmhyld.com
-  type: hysteria2
-  up: 1000
-- name: 🇸🇬 新加坡 | SGP 2
-  password: 17776029-0660-4cd4-9a0e-210698bf45cb
-  port: 34754
-  server: umoso-eo669-zhse.clodom.com
-  skip-cert-verify: true
-  sni: sg1.clodom.top
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  network: ws
-  port: 8880
-  server: 162.159.21.178
-  tls: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|🇸🇬 新加坡 | SGP
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
+    short-id: '!!str 68a8'
+  server: 5.253.42.164
+  servername: deepl.com
+  tls: true
   type: vless
   udp: true
-  uuid: f09f4baa-7688-4514-8062-c3ea8e319624
+  uuid: e99ba96d-dec8-42eb-be53-19e71eef7cab
+- name: 1|🇸🇬 新加坡 | SGP 2
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.35.127
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
   ws-opts:
     headers:
-      Host: dark-leaf-93a1.440-02e.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 1|🇸🇬 新加坡 | SGP 3
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.35.26
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /

@@ -1,12 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 日期：08-02
-  port: 1233
-  server: 143.110.145.0
-  servername: p05.rghvf.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf
+proxies: []
