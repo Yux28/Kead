@@ -4,7 +4,7 @@
 STOP = False              # 暂停抓取节点
 NAME_SHOW_TYPE = False    # 在节点名称前添加如 [Vmess] 的标签
 NAME_NO_FLAGS  = False    # 将节点名称中的地区旗帜改为文本地区码
-NAME_SHOW_SRC  = True    # 在节点名称前显示所属订阅编号 (订阅见 list_result.csv)
+NAME_SHOW_SRC  = False    # 在节点名称前显示所属订阅编号 (订阅见 list_result.csv)
 ABFURLS = (           # Adblock 规则黑名单
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers_firstparty.txt",
