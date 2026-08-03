@@ -1,1 +1,35 @@
-proxies: []
+proxies:
+- name: 🇭🇰HK_2|4.6MB/s
+  network: ws
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 2053
+  server: cf.csdjhajkshdjkas.com
+  sni: a1.xunfastcdn.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aa1.xunfastcdn.com
+    path: /api/v3/media/update
+- name: HK_speednode_0007
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: HK_speednode_0008
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_speednode_0009
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+  udp: true

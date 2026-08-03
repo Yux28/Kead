@@ -1,19 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB_1|1.4MB/s
-  network: tcp
-  port: '22012'
-  reality-opts:
-    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
-    short-id: '!!str c6e19c434dc87df7'
-  server: 78.47.104.140
-  servername: login.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
-  xudp: true
 - grpc-opts:
     grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
   name: 🇬🇧 英国 | GBR
