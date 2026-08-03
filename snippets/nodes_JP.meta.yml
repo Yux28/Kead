@@ -1,16 +1,9 @@
 proxies:
-- name: 🇯🇵JP_2|3.0MB/s
-  password: BxceQaOe
-  port: 49811
-  server: 16.162.191.180
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_4|4.6MB/s
+  name: 🇯🇵JP_1|2.2MB/s
   network: tcp
-  port: '29855'
+  port: '39409'
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: '!!str bc8e3658db7d1323'
@@ -21,20 +14,19 @@ proxies:
   udp: true
   uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
   xudp: true
-- client-fingerprint: chrome
+- client-fingerprint: random
   name: 🇯🇵 日本 | JPN
   network: ws
   port: 8443
-  server: 45.192.200.66
-  servername: rubifen.adaspoloandco.com
+  server: 108.162.198.165
+  servername: learn00.evany.de5.net
   tls: true
   type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt
 - client-fingerprint: firefox
   name: 🇯🇵 日本 | JPN 2
   network: tcp
@@ -47,18 +39,29 @@ proxies:
   type: vless
   udp: true
   uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
+- name: 🇯🇵 日本 | JPN 3
+  network: ws
+  port: 8880
+  server: download.yunzhongzhuan.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 35e8826f-0873-492d-8b8a-d495c9947480
+  ws-opts:
+    headers:
+      Host: super-sunset-010c.24-43d.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
 - client-fingerprint: firefox
-  name: 🇯🇵 日本 | JPN 3
+  name: 🇯🇵 日本 | JPN 4
   network: tcp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-jp.emrata.top
+  server: 2.26.95.2
   servername: pro-jp.emrata.top
   tls: true
   type: vless
-  udp: true
-  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
+  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
 - client-fingerprint: chrome
   name: JP_speednode_0067
   network: ws

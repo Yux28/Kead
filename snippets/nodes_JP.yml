@@ -1,8 +1,1 @@
-proxies:
-- name: 🇯🇵JP_2|3.0MB/s
-  password: BxceQaOe
-  port: 49811
-  server: 16.162.191.180
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
+proxies: []

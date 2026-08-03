@@ -1,38 +1,54 @@
 proxies:
-- client-fingerprint: chrome
-  name: US_speednode_0277
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: US_speednode_0243
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_9|2.4MB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 152.70.26.250
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 2
+  name: 🇩🇪 德国 | DEU 14
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: 59924
-  server: 158.180.29.33
+  server: 152.70.26.250
   type: ss
-- name: 🇩🇪 德国 | DEU 16
+- name: 🇩🇪 德国 | DEU 15
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cloudflare-ip.mofashi.ltd
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: GB_speednode_0036
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: GB_speednode_0034
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /56227/rSnUrv2yXU
+  name: NL_speednode_0081
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 83.143.112.140.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 🇩🇪 德国 | DEU 23
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -44,7 +60,7 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 🇩🇪 德国 | DEU 17
+- name: 🇩🇪 德国 | DEU 24
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -56,14 +72,3 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: NL_speednode_0078
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  sni: 83.143.112.140.cdn-one.org
-  type: trojan
-  udp: true

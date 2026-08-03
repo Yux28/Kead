@@ -1,4 +1,19 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|3.0MB/s
+  network: tcp
+  port: '39313'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v1.cdn.wj0zugpsmub2.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷 法国 | FRA
   password: ZmM0Z
@@ -6,19 +21,25 @@ proxies:
   server: 83.171.225.55
   type: ss
   udp: true
-- name: 🇫🇷 法国 | FRA 2
-  network: ws
-  password: humanity
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  name: 🇫🇷 法国 | FRA 2
+  network: xhttp
   port: 443
-  server: 104.17.121.43
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
+  server: 37.9.4.128
+  servername: api1.madapp.cc
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
+  uuid: 54dd06d5-4f4c-4eda-b378-0e413610ebab
+  xhttp-opts:
+    host: api1.madapp.cc
+    mode: packet-up
+    path: /api/v2/
+    x-padding-bytes: 100-1000
+    x-padding-obfs-mode: false
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: FR_speednode_0026

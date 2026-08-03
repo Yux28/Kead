@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 🇨🇦 加拿大 | CAN
+  password: i99Cef
+  port: 28152
+  server: 211.20.156.191
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan

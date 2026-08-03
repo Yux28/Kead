@@ -1,43 +1,18 @@
 proxies:
 - client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|2.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: L1mMPvSystB6rMgj4GnHizy37M_M1gj_krywNf3hfHc
-    short-id: '!!str c1a3b5d7e9f02468'
-  server: 162.248.163.237
-  servername: sw.tunnelx.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
   name: 🇸🇪 瑞典 | SWE
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
-    short-id: '!!str 4326'
-  server: 144.31.179.7
-  servername: get2s.skystreamgame.com
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: pro-se.emrata.top
+  servername: pro-se.emrata.top
   tls: true
   type: vless
-  uuid: 840336f4-2c42-4f97-9f0f-97f13642bc5a
-- name: 🇸🇪 瑞典 | SWE 2
-  network: tcp
-  port: 27775
-  server: 16.16.170.253
-  tls: false
-  type: vless
   udp: true
-  uuid: 309c4bd0-7430-b8aa-2238-1075e9e29370
+  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
 - client-fingerprint: chrome
-  name: 🇸🇪 瑞典 | SWE 3
+  name: 🇸🇪 瑞典 | SWE 2
   network: xhttp
   port: 443
   reality-opts:
@@ -52,20 +27,30 @@ proxies:
     host: cdn.steamstatic.com
     mode: auto
     path: /
+- grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇸🇪 瑞典 | SWE 3
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 36475
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  skip-cert-verify: true
+  sni: www.icloud.com
+  type: trojan
 - client-fingerprint: firefox
   name: 🇸🇪 瑞典 | SWE 4
   network: tcp
   port: 443
   reality-opts:
     public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: 2.26.79.64
+  server: 2.26.79.48
   servername: pro-se.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
+  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
 - client-fingerprint: firefox
-  name: 🇸🇪 瑞典 | SWE 7
+  name: 🇸🇪 瑞典 | SWE 5
   network: tcp
   port: 443
   reality-opts:
@@ -75,7 +60,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
+  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
 - client-fingerprint: chrome
   name: SE_speednode_0236
   network: ws
