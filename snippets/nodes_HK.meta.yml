@@ -1,18 +1,12 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇭🇰 香港 | HKG 6
-  network: tcp
-  port: 62465
-  reality-opts:
-    public-key: 8PNGcHyjiOUwhr_f9jsIGlDQ4Z3jOL1Zk6lS3gjrgEs
-    short-id: '!!str c8ee2434'
-  server: 18.178.29.84
-  servername: 16personalities.wwwnav.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15e5476b-12f3-42a7-9c70-a1400e83f4ef
+- auth: 2b0062f7b3a709c26248189c3f094725
+  name: 🇭🇰HK_1|1.0MB/s
+  password: 2b0062f7b3a709c26248189c3f094725
+  port: 40058
+  server: 82.152.161.144
+  skip-cert-verify: true
+  sni: www.amd.com
+  type: hysteria2
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇭🇰 香港 | HKG
@@ -21,21 +15,21 @@ proxies:
   reality-opts:
     public-key: GFhTykg3ZOWs6NWPWJleUcUJMA_I9a_PmZeGN2QsKSU
     short-id: '!!str 8cc0b34f'
-  server: 18.178.29.84
+  server: 3.112.61.18
   servername: 16personalities.wwwnav.com
   tls: true
   type: vless
   udp: true
-  uuid: df1ec606-f21e-4f67-9c3c-02316ecd256d
+  uuid: cdedeffd-e447-4d4f-98be-61bde31bf405
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇭🇰 香港 | HKG 2
   network: tcp
-  port: 63574
+  port: 56444
   reality-opts:
-    public-key: GFhTykg3ZOWs6NWPWJleUcUJMA_I9a_PmZeGN2QsKSU
-    short-id: '!!str 8cc0b34f'
-  server: 18.178.29.84
+    public-key: DR17bSi5Ekgozz98Fvjw9avipgrOxHUxeoFEpUjDhXE
+    short-id: '!!str a1371e3f'
+  server: 3.112.61.18
   servername: 16personalities.wwwnav.com
   tls: true
   type: vless
@@ -45,30 +39,30 @@ proxies:
   flow: xtls-rprx-vision
   name: 🇭🇰 香港 | HKG 3
   network: tcp
-  port: 47302
-  reality-opts:
-    public-key: NB_trxdXXOpnKDwfbpvbK_xygAB9Uv1HqRkFwkTbUGk
-    short-id: '!!str be499dd7'
-  server: 18.178.29.84
-  servername: 16personalities.wwwnav.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15e5476b-12f3-42a7-9c70-a1400e83f4ef
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇭🇰 香港 | HKG 4
-  network: tcp
   port: 63574
   reality-opts:
     public-key: GFhTykg3ZOWs6NWPWJleUcUJMA_I9a_PmZeGN2QsKSU
     short-id: '!!str 8cc0b34f'
-  server: 18.178.29.84
+  server: 3.112.61.18
   servername: 16personalities.wwwnav.com
   tls: true
   type: vless
   udp: true
-  uuid: 2d1cfbf8-428e-4760-b6b9-57fce5da5543
+  uuid: eb7cdfec-469e-472d-91b8-995a64ac7bee
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG 4
+  network: tcp
+  port: 47302
+  reality-opts:
+    public-key: NB_trxdXXOpnKDwfbpvbK_xygAB9Uv1HqRkFwkTbUGk
+    short-id: '!!str be499dd7'
+  server: 3.112.61.18
+  servername: 16personalities.wwwnav.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9c33eaf-a175-4902-b892-93ea6fdf2c99
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇭🇰 香港 | HKG 5
@@ -77,35 +71,49 @@ proxies:
   reality-opts:
     public-key: 8PNGcHyjiOUwhr_f9jsIGlDQ4Z3jOL1Zk6lS3gjrgEs
     short-id: '!!str c8ee2434'
-  server: 18.178.29.84
+  server: 3.112.61.18
   servername: 16personalities.wwwnav.com
   tls: true
   type: vless
   udp: true
-  uuid: 2d1cfbf8-428e-4760-b6b9-57fce5da5543
+  uuid: cdedeffd-e447-4d4f-98be-61bde31bf405
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG 6
+  network: tcp
+  port: 56444
+  reality-opts:
+    public-key: DR17bSi5Ekgozz98Fvjw9avipgrOxHUxeoFEpUjDhXE
+    short-id: '!!str a1371e3f'
+  server: 3.112.61.18
+  servername: 16personalities.wwwnav.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cdedeffd-e447-4d4f-98be-61bde31bf405
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇭🇰 香港 | HKG 7
-  network: tcp
-  port: 47302
-  reality-opts:
-    public-key: NB_trxdXXOpnKDwfbpvbK_xygAB9Uv1HqRkFwkTbUGk
-    short-id: '!!str be499dd7'
-  server: 18.178.29.84
-  servername: 16personalities.wwwnav.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2d1cfbf8-428e-4760-b6b9-57fce5da5543
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇭🇰 香港 | HKG 8
   network: tcp
   port: 46125
   reality-opts:
     public-key: qzR1YYSvhyqPGDyoUZAgTbEh1pOD5iTokp24y809wAU
     short-id: '!!str d8ac0fb5'
-  server: 18.178.29.84
+  server: 3.112.61.18
+  servername: 16personalities.wwwnav.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb7cdfec-469e-472d-91b8-995a64ac7bee
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG 8
+  network: tcp
+  port: 63574
+  reality-opts:
+    public-key: GFhTykg3ZOWs6NWPWJleUcUJMA_I9a_PmZeGN2QsKSU
+    short-id: '!!str 8cc0b34f'
+  server: 3.112.61.18
   servername: 16personalities.wwwnav.com
   tls: true
   type: vless
@@ -115,127 +123,55 @@ proxies:
   flow: xtls-rprx-vision
   name: 🇭🇰 香港 | HKG 9
   network: tcp
-  port: 46125
+  port: 63574
   reality-opts:
-    public-key: qzR1YYSvhyqPGDyoUZAgTbEh1pOD5iTokp24y809wAU
-    short-id: '!!str d8ac0fb5'
-  server: 18.178.29.84
+    public-key: GFhTykg3ZOWs6NWPWJleUcUJMA_I9a_PmZeGN2QsKSU
+    short-id: '!!str 8cc0b34f'
+  server: 3.112.61.18
   servername: 16personalities.wwwnav.com
   tls: true
   type: vless
   udp: true
-  uuid: 2d1cfbf8-428e-4760-b6b9-57fce5da5543
-- name: HK_speednode_0050
-  password: BxceQaOe
-  port: 29443
-  server: 18.166.249.45
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
-- name: HK_speednode_0051
-  password: BxceQaOe
-  port: 29443
-  server: 18.166.249.45
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: HK_speednode_0052
-  password: BxceQaOe
-  port: 29085
-  server: 18.163.90.221
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
+  uuid: d9c33eaf-a175-4902-b892-93ea6fdf2c99
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: HK_speednode_0053
+  name: 🇭🇰 香港 | HKG 10
   network: tcp
-  port: 443
+  port: 56444
   reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: '!!str c6ef72e4635d15a5'
-  server: 45.196.201.236
-  servername: storage.yandex.net
-  skip-cert-verify: false
+    public-key: DR17bSi5Ekgozz98Fvjw9avipgrOxHUxeoFEpUjDhXE
+    short-id: '!!str a1371e3f'
+  server: 3.112.61.18
+  servername: 16personalities.wwwnav.com
   tls: true
   type: vless
   udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- client-fingerprint: chrome
+  uuid: 15e5476b-12f3-42a7-9c70-a1400e83f4ef
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: HK_speednode_0054
+  name: 🇭🇰 香港 | HKG 11
   network: tcp
-  port: 443
+  port: 46125
   reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: '!!str c6ef72e4635d15a5'
-  server: 45.196.201.80
-  servername: storage.yandex.net
-  skip-cert-verify: true
+    public-key: qzR1YYSvhyqPGDyoUZAgTbEh1pOD5iTokp24y809wAU
+    short-id: '!!str d8ac0fb5'
+  server: 3.112.61.18
+  servername: 16personalities.wwwnav.com
   tls: true
   type: vless
   udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- client-fingerprint: firefox
+  uuid: 15e5476b-12f3-42a7-9c70-a1400e83f4ef
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: HK_speednode_0055
+  name: 🇭🇰 香港 | HKG 12
   network: tcp
-  port: 443
+  port: 62465
   reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: '!!str c6ef72e4635d15a5'
-  server: 45.196.201.17
-  servername: storage.yandex.net
-  skip-cert-verify: false
+    public-key: 8PNGcHyjiOUwhr_f9jsIGlDQ4Z3jOL1Zk6lS3gjrgEs
+    short-id: '!!str c8ee2434'
+  server: 3.112.61.18
+  servername: 16personalities.wwwnav.com
   tls: true
   type: vless
   udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: HK_speednode_0056
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: '!!str c6ef72e4635d15a5'
-  server: 45.196.201.222
-  servername: storage.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: HK_speednode_0057
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: '!!str c6ef72e4635d15a5'
-  server: 45.196.201.107
-  servername: storage.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: HK_speednode_0058
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: '!!str c6ef72e4635d15a5'
-  server: 45.196.201.246
-  servername: storage.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  uuid: d9c33eaf-a175-4902-b892-93ea6fdf2c99

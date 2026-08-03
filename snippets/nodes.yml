@@ -1,34 +1,29 @@
 proxies:
-- name: 🇸🇬SG_2|3.5MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
+- name: JP_speednode_0011
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: upright-impala.rooster465.autos
   type: trojan
-- grpc-opts:
-    grpc-service-name: /43588/G43plZahWW
-  name: 🇳🇱NL_1|1.1MB/s
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: '443'
-  server: 2.26.96.251
-  skip-cert-verify: false
-  sni: titandarkness.mooo.com
+  udp: true
+- name: 🇯🇵JP_2|5.6MB/s
+  password: ND91608427
+  port: 443
+  server: relaxing-bluebird.rooster465.autos
+  skip-cert-verify: true
+  sni: relaxing-bluebird.rooster465.autos
+  type: trojan
+- name: KR_speednode_0012
+  password: ND91608427
+  port: 443
+  server: definite-malamute.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-malamute.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.5MB/s
-  password: BxceQaOe
-  port: '9149'
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_2|5.5MB/s
+  name: 🇰🇷KR_4|3.8MB/s
   network: tcp
   password: ND91608427
   port: '443'
@@ -38,39 +33,164 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_3|4.5MB/s
+  name: KR_speednode_0013
   network: tcp
   password: ND91608427
-  port: '443'
-  server: definite-malamute.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-malamute.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_4|4.8MB/s
-  network: tcp
-  password: ND91608427
-  port: '443'
+  port: 443
   server: moved-meerkat.rooster465.autos
   skip-cert-verify: true
   sni: moved-meerkat.rooster465.autos
   type: trojan
   udp: true
-- name: 🇨🇦 加拿大 | CAN
-  password: i99Cef
-  port: 28152
-  server: 211.20.156.191
+- client-fingerprint: chrome
+  name: HK_speednode_0008
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
   skip-cert-verify: true
-  sni: download.windowsupdate.com
   type: trojan
+  udp: true
+- name: HK_speednode_0009
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: HK_speednode_0007
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: JP_speednode_0010
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: definite-sturgeon.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-sturgeon.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|3.1MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 162.159.44.100
+  skip-cert-verify: true
+  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 14
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 152.70.26.250
+  name: 🇧🇷 巴西 | BRA
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 147.15.51.28
   type: ss
-- name: 🇩🇪 德国 | DEU 15
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 巴西 | BRA 2
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.191.41
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 巴西 | BRA 3
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 147.15.107.7
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 巴西 | BRA 4
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.249.216
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 巴西 | BRA 5
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.222.201
+  type: ss
+  udp: true
+- grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇨🇭 瑞士 | CHE 2
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 62181
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  skip-cert-verify: true
+  sni: www.icloud.com
+  type: trojan
+- grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇨🇭 瑞士 | CHE 3
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 62181
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  skip-cert-verify: true
+  sni: www.icloud.com
+  type: trojan
+- name: 🇩🇪 德国 | DEU 4
+  network: ws
+  password: 82dd5d38-1a65-42b9-835e-497b5b51eb84
+  port: 443
+  server: 172.67.78.22
+  skip-cert-verify: true
+  sni: kamonka.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kamonka.eu.org
+    path: /
+- alpn:
+  - http/1.1
+  name: 🇩🇪 德国 | DEU 5
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 172.66.174.41
+  skip-cert-verify: true
+  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇩🇪 德国 | DEU 11
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.242.132
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 🇩🇪 德国 | DEU 13
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -83,60 +203,15 @@ proxies:
       Host: yks-dd9.pages.dev
     path: /
 - grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0036
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇪🇪 爱沙尼亚 | EST 2
   network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0034
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: NL_speednode_0081
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 🇩🇪 德国 | DEU 23
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.241.194
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 41002
+  server: 1------------------------------------------------2.poki-pakipon.ir
   skip-cert-verify: true
-  sni: yks-dd9.pages.dev
+  sni: www.icloud.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
-- name: 🇩🇪 德国 | DEU 24
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.66.173.172
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
 - grpc-opts:
     grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
   name: 🇪🇸 西班牙 | ESP
@@ -147,14 +222,17 @@ proxies:
   skip-cert-verify: true
   sni: www.icloud.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷 法国 | FRA
-  password: ZmM0Z
-  port: 8388
-  server: 83.171.225.55
-  type: ss
-  udp: true
-- name: US_speednode_0243
+- grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇬🇧 英国 | GBR
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 48364
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  skip-cert-verify: true
+  sni: www.icloud.com
+  type: trojan
+- name: 🇬🇧 英国 | GBR 2
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
@@ -162,29 +240,76 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: US_speednode_0277
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
+- grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇬🇧 英国 | GBR 3
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 48364
+  server: 2----------------------------------------------------3.poki-pakipon.ir
   skip-cert-verify: true
-  sni: de.catxstar.com
+  sni: www.icloud.com
   type: trojan
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本 | JPN
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40003
+  server: xunlinknode.csdjhajkshdjkas.com
+  type: ss
+- name: 🇯🇵 日本 | JPN 2
+  password: ND91608427
+  port: 443
+  server: casual-bee.rooster465.autos
+  skip-cert-verify: true
+  sni: casual-bee.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇯🇵 日本 | JPN 3
+  network: http
+  port: 53268
+  server: 47.74.43.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+- name: 🇯🇵 日本 | JPN 5
+  password: ND91608427
+  port: 443
+  server: tough-robin.rooster465.autos
+  skip-cert-verify: true
+  sni: tough-robin.rooster465.autos
+  type: trojan
+- name: 🇯🇵 日本 | JPN 6
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 162.159.44.100
+  skip-cert-verify: true
+  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - name: 🇰🇷 韩国 | KOR 2
-  password: i99Cef
-  port: 28157
-  server: 211.20.156.191
+  password: ND91608427
+  port: 443
+  server: chief-bluegill.rooster465.autos
   skip-cert-verify: true
-  sni: download.windowsupdate.com
+  sni: chief-bluegill.rooster465.autos
   type: trojan
-- name: 🇰🇷 韩国 | KOR 4
-  password: i99Cef
-  port: 28158
-  server: 211.20.156.191
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-- name: 🇳🇱 荷兰 | NLD 8
+- cipher: chacha20-ietf-poly1305
+  name: 🇲🇾 马来西亚 | MYS
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40006
+  server: xunlinknode.csdjhajkshdjkas.com
+  type: ss
+- name: 🇳🇱 荷兰 | NLD
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -196,7 +321,19 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 🇳🇱 荷兰 | NLD 18
+- name: 🇳🇱 荷兰 | NLD 5
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cdn.tzpro.xyz
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 🇳🇱 荷兰 | NLD 7
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -208,6 +345,35 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
+- name: 🇳🇱 荷兰 | NLD 10
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.67.147.60
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇳🇱 荷兰 | NLD 16
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 14027
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  skip-cert-verify: true
+  sni: www.icloud.com
+  type: trojan
+- name: 🇵🇱 波兰 | POL
+  password: ND91608427
+  port: 443
+  server: discrete-basilisk.rooster465.autos
+  skip-cert-verify: true
+  sni: discrete-basilisk.rooster465.autos
+  type: trojan
 - grpc-opts:
     grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
   name: 🇵🇱 波兰 | POL 2
@@ -220,7 +386,17 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇸🇪 瑞典 | SWE 3
+  name: 🇷🇺 俄罗斯 | RUS 3
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 36509
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  skip-cert-verify: true
+  sni: www.icloud.com
+  type: trojan
+- grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇸🇪 瑞典 | SWE
   network: grpc
   password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
   port: 36475
@@ -228,19 +404,13 @@ proxies:
   skip-cert-verify: true
   sni: www.icloud.com
   type: trojan
-- name: 🇸🇬 新加坡 | SGP 3
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.64.35.127
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
-- name: 🇸🇬 新加坡 | SGP 4
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇪 瑞典 | SWE 2
+  password: JlOogWdbpnfIWiJ1KyvzMw
+  port: 5228
+  server: creativeboxlv.zanity.net
+  type: ss
+- name: 🇸🇬 新加坡 | SGP
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -252,43 +422,42 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 🇺🇸 美国 | USA 2
+- name: 🇸🇬 新加坡 | SGP 2
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 104.16.252.34
+  server: 162.159.24.245
   skip-cert-verify: true
   sni: yks-dd9.pages.dev
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 🇺🇸 美国 | USA 3
-  password: i99Cef
-  port: 29739
-  server: 207.246.97.36
+- name: 🇸🇬 新加坡 | SGP 3
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
   skip-cert-verify: true
-  sni: download.windowsupdate.com
+  sni: t.me%25252Fripaojiedian
   type: trojan
-- name: 🇺🇸 美国 | USA 4
-  password: i99Cef
-  port: 27251
-  server: 154.16.27.250
+- alpn:
+  - http/1.1
+  name: 🇸🇬 新加坡 | SGP 4
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.36.192
   skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
+  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 | USA 5
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @VPNine1)7eb777f:123571
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-- name: 🇺🇸 美国 | USA 11
+  udp: true
+  ws-opts:
+    headers:
+      Host: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇸🇬 新加坡 | SGP 5
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -300,33 +469,113 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 🇺🇸 美国 | USA 13
-  network: ws
-  password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
-  port: 443
-  server: 185.18.250.252
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇭 泰国 | THA
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40008
+  server: xunlinknode.csdjhajkshdjkas.com
+  type: ss
+- grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇺🇸 美国 | USA
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 21389
+  server: 1------------------------------------------------2.poki-pakipon.ir
   skip-cert-verify: true
-  sni: unnes.ac.id.r3xxe.eu.cc
+  sni: www.icloud.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇺🇸 美国 | USA 3
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- name: 🇺🇸 美国 | USA 4
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.82.246
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 🇺🇸 美国 | USA 5
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.16.252.34
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 🇺🇸 美国 | USA 8
+  network: ws
+  password: '521314'
+  port: 443
+  server: 172.67.149.60
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: unnes.ac.id.r3xxe.eu.cc
-    path: /au-mt
-- name: 🇺🇸 美国 | USA 18
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- name: 🇺🇸 美国 | USA 9
   network: ws
   password: humanity
   port: 443
-  server: 104.17.121.43
+  server: 172.67.149.60
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
+      Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 24
+- name: 🇺🇸 美国 | USA 15
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cnamefuckxxs.yuchen.icu
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 🇺🇸 美国 | USA 16
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 19
   network: ws
   password: MITIVPN
   port: 443
@@ -338,98 +587,23 @@ proxies:
     headers:
       Host: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0033
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
+- name: 🇺🇸 美国 | USA 20
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0035
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /28786/4U7gXXHftA
-  name: GB_speednode_0037
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.251.127.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: HK_speednode_0050
-  password: BxceQaOe
-  port: 29443
-  server: 18.166.249.45
+  server: cf.0sm.com
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: yks-dd9.pages.dev
   type: trojan
-  udp: true
-- name: HK_speednode_0051
-  password: BxceQaOe
-  port: 29443
-  server: 18.166.249.45
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: NL_speednode_0017
+  password: 1BARPLkaLl
+  port: 32914
+  server: 45.130.22.70
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: HK_speednode_0052
-  password: BxceQaOe
-  port: 29085
-  server: 18.163.90.221
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: NL_speednode_0078
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  sni: 83.143.112.140.cdn-one.org
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: NL_speednode_0079
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: NL_speednode_0080
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  sni: 83.143.112.140.cdn-one.org
-  type: trojan
-  udp: true
-- name: US_speednode_0262
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
+  sni: 45.130.22.70
   type: trojan
   udp: true

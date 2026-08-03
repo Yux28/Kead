@@ -1,60 +1,49 @@
 proxies:
-- name: 🇸🇬SG_2|3.5MB/s
+- client-fingerprint: chrome
+  name: HK_speednode_0008
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_2|3.3MB/s
+  network: tcp
+  port: '31877'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v1.cdn.wj0zugpsmub2.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true
+- name: HK_speednode_0009
   network: tcp
   password: BxceQaOe
   port: 9149
   server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  tls: true
   type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.5MB/s
+  name: HK_speednode_0007
   password: BxceQaOe
-  port: '9149'
+  port: 9149
   server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - name: 🇸🇬 新加坡 | SGP
-  network: ws
-  port: 8880
-  server: www.glassdoor.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
-  ws-opts:
-    headers:
-      Host: red-disk-58df.153-2ce.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP 2
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
-    short-id: '!!str 68a8'
-  server: 5.253.42.164
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e99ba96d-dec8-42eb-be53-19e71eef7cab
-- name: 🇸🇬 新加坡 | SGP 3
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.64.35.127
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
-- name: 🇸🇬 新加坡 | SGP 4
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -66,3 +55,76 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
+- name: 🇸🇬 新加坡 | SGP 2
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.24.245
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 🇸🇬 新加坡 | SGP 3
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 🇸🇬 新加坡 | SGP 4
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.36.192
+  skip-cert-verify: true
+  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇸🇬 新加坡 | SGP 5
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.1.251
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 6
+  network: ws
+  port: 2087
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
+- name: 🇸🇬 新加坡 | SGP 7
+  network: ws
+  port: 8880
+  server: 162.159.21.178
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4f54572a-b852-4da3-8823-0ddccc60b5d8
+  ws-opts:
+    headers:
+      Host: icy-snowflake-1f56.147-1ea.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net

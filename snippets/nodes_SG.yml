@@ -1,26 +1,37 @@
 proxies:
-- name: 🇸🇬SG_2|3.5MB/s
+- client-fingerprint: chrome
+  name: HK_speednode_0008
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK_speednode_0009
   network: tcp
   password: BxceQaOe
   port: 9149
   server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  tls: true
   type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.5MB/s
+  name: HK_speednode_0007
   password: BxceQaOe
-  port: '9149'
+  port: 9149
   server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 🇸🇬 新加坡 | SGP 3
+- name: 🇸🇬 新加坡 | SGP
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 172.64.35.127
+  server: 172.64.146.75
   skip-cert-verify: true
   sni: yks-dd9.pages.dev
   type: trojan
@@ -28,11 +39,46 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 🇸🇬 新加坡 | SGP 4
+- name: 🇸🇬 新加坡 | SGP 2
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 172.64.146.75
+  server: 162.159.24.245
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 🇸🇬 新加坡 | SGP 3
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 🇸🇬 新加坡 | SGP 4
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.36.192
+  skip-cert-verify: true
+  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇸🇬 新加坡 | SGP 5
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.1.251
   skip-cert-verify: true
   sni: yks-dd9.pages.dev
   type: trojan

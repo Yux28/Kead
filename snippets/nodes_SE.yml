@@ -1,7 +1,7 @@
 proxies:
 - grpc-opts:
     grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇸🇪 瑞典 | SWE 3
+  name: 🇸🇪 瑞典 | SWE
   network: grpc
   password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
   port: 36475
@@ -9,3 +9,9 @@ proxies:
   skip-cert-verify: true
   sni: www.icloud.com
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇪 瑞典 | SWE 2
+  password: JlOogWdbpnfIWiJ1KyvzMw
+  port: 5228
+  server: creativeboxlv.zanity.net
+  type: ss

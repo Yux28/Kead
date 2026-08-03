@@ -1,5 +1,15 @@
 proxies:
-- name: US_speednode_0243
+- grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇬🇧 英国 | GBR
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 48364
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  skip-cert-verify: true
+  sni: www.icloud.com
+  type: trojan
+- name: 🇬🇧 英国 | GBR 2
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
@@ -7,42 +17,13 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: US_speednode_0277
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
+- grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇬🇧 英国 | GBR 3
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 48364
+  server: 2----------------------------------------------------3.poki-pakipon.ir
   skip-cert-verify: true
-  sni: de.catxstar.com
+  sni: www.icloud.com
   type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0033
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0035
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /28786/4U7gXXHftA
-  name: GB_speednode_0037
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.251.127.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true

@@ -1,35 +1,7 @@
 proxies:
-- client-fingerprint: firefox
-  name: 🇸🇪 瑞典 | SWE
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: pro-se.emrata.top
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
-- client-fingerprint: chrome
-  name: 🇸🇪 瑞典 | SWE 2
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
-  server: 170.168.99.3
-  servername: cdn.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
-  xhttp-opts:
-    host: cdn.steamstatic.com
-    mode: auto
-    path: /
 - grpc-opts:
     grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇸🇪 瑞典 | SWE 3
+  name: 🇸🇪 瑞典 | SWE
   network: grpc
   password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
   port: 36475
@@ -37,57 +9,9 @@ proxies:
   skip-cert-verify: true
   sni: www.icloud.com
   type: trojan
-- client-fingerprint: firefox
-  name: 🇸🇪 瑞典 | SWE 4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: 2.26.79.48
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
-- client-fingerprint: firefox
-  name: 🇸🇪 瑞典 | SWE 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: pro-se.emrata.top
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
-- client-fingerprint: chrome
-  name: SE_speednode_0236
-  network: ws
-  port: 443
-  server: 193.181.210.149
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: SE_speednode_0237
-  network: ws
-  port: 443
-  server: 16.16.207.129
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇪 瑞典 | SWE 2
+  password: JlOogWdbpnfIWiJ1KyvzMw
+  port: 5228
+  server: creativeboxlv.zanity.net
+  type: ss

@@ -1,7 +1,47 @@
 proxies:
+- name: JP_speednode_0011
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_2|5.6MB/s
+  password: ND91608427
+  port: 443
+  server: relaxing-bluebird.rooster465.autos
+  skip-cert-verify: true
+  sni: relaxing-bluebird.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: JP_speednode_0010
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: definite-sturgeon.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-sturgeon.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|3.1MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 162.159.44.100
+  skip-cert-verify: true
+  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|2.2MB/s
+  name: 🇯🇵JP_5|2.2MB/s
   network: tcp
   port: '39409'
   reality-opts:
@@ -14,81 +54,63 @@ proxies:
   udp: true
   uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
   xudp: true
-- client-fingerprint: random
+- cipher: chacha20-ietf-poly1305
   name: 🇯🇵 日本 | JPN
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40003
+  server: xunlinknode.csdjhajkshdjkas.com
+  type: ss
+- name: 🇯🇵 日本 | JPN 2
+  password: ND91608427
+  port: 443
+  server: casual-bee.rooster465.autos
+  skip-cert-verify: true
+  sni: casual-bee.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇯🇵 日本 | JPN 3
+  network: http
+  port: 53268
+  server: 47.74.43.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+- name: 🇯🇵 日本 | JPN 5
+  password: ND91608427
+  port: 443
+  server: tough-robin.rooster465.autos
+  skip-cert-verify: true
+  sni: tough-robin.rooster465.autos
+  type: trojan
+- name: 🇯🇵 日本 | JPN 6
   network: ws
-  port: 8443
-  server: 108.162.198.165
+  password: MiTiVPN
+  port: 443
+  server: 162.159.44.100
+  skip-cert-verify: true
+  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN 8
+  network: ws
+  port: 443
+  server: 162.159.38.129
   servername: learn00.evany.de5.net
   tls: true
   type: vless
+  udp: true
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     headers:
       Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt
-- client-fingerprint: firefox
-  name: 🇯🇵 日本 | JPN 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-jp.emrata.top
-  servername: pro-jp.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
-- name: 🇯🇵 日本 | JPN 3
-  network: ws
-  port: 8880
-  server: download.yunzhongzhuan.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: 35e8826f-0873-492d-8b8a-d495c9947480
-  ws-opts:
-    headers:
-      Host: super-sunset-010c.24-43d.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- client-fingerprint: firefox
-  name: 🇯🇵 日本 | JPN 4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 2.26.95.2
-  servername: pro-jp.emrata.top
-  tls: true
-  type: vless
-  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
-- client-fingerprint: chrome
-  name: JP_speednode_0067
-  network: ws
-  port: 443
-  server: 52.197.217.169
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: JP_speednode_0068
-  network: ws
-  port: 57554
-  server: 203.137.165.164
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
+    path: /fdip=tw.william.us.ci!txtfp=random
