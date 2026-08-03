@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 1|🇨🇭 瑞士 | CHE
+  name: 🇨🇭 瑞士 | CHE
   network: tcp
   port: 25108
   reality-opts:

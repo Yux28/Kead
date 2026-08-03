@@ -1,18 +1,18 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0,1|🇩🇪 德国 | DEU 3
+  name: 🇩🇪 德国 | DEU 3
   password: bSOOjTnIutwmTb9nTnIKm3
   port: 5223
   server: creativeboxde2.zanity.net
   type: ss
 - cipher: aes-256-cfb
-  name: 0|🇺🇸US_6|2.1MB/s
+  name: 🇺🇸US_6|2.1MB/s
   password: amazonskr05
   port: '443'
   server: 54.196.207.151
   type: ss
   udp: true
-- name: 0|🇺🇸US_8|3.3MB/s
+- name: 🇺🇸US_8|3.3MB/s
   network: tcp
   password: BxceQaOe
   port: 29085
@@ -21,7 +21,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸US_9|1.9MB/s
+  name: 🇺🇸US_9|1.9MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -32,7 +32,7 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: 1|🇺🇸 美国 | USA 13
+- name: 🇺🇸 美国 | USA 13
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -44,7 +44,7 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 1|🇺🇸 美国 | USA 14
+- name: 🇺🇸 美国 | USA 14
   network: ws
   password: MITIVPN
   port: 443
@@ -56,7 +56,7 @@ proxies:
     headers:
       Host: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 1|🇺🇸 美国 | USA 15
+- name: 🇺🇸 美国 | USA 15
   network: ws
   password: '!!str 521314'
   port: 443
@@ -69,7 +69,7 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /
-- name: 1|🇺🇸 美国 | USA 17
+- name: 🇺🇸 美国 | USA 17
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -81,7 +81,7 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 2|US_speednode_0262
+- name: US_speednode_0262
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com

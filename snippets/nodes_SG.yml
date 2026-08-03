@@ -1,12 +1,12 @@
 proxies:
-- name: 0|🇸🇬SG_1|4.0MB/s
+- name: 🇸🇬SG_1|4.0MB/s
   password: BxceQaOe
   port: 9149
   server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 1|🇸🇬 新加坡 | SGP 2
+- name: 🇸🇬 新加坡 | SGP 2
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -18,7 +18,7 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 1|🇸🇬 新加坡 | SGP 3
+- name: 🇸🇬 新加坡 | SGP 3
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443

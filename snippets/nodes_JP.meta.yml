@@ -1,5 +1,5 @@
 proxies:
-- name: 0|🇯🇵JP_2|3.0MB/s
+- name: 🇯🇵JP_2|3.0MB/s
   password: BxceQaOe
   port: 49811
   server: 16.162.191.180
@@ -8,7 +8,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇯🇵JP_4|4.6MB/s
+  name: 🇯🇵JP_4|4.6MB/s
   network: tcp
   port: '29855'
   reality-opts:
@@ -22,7 +22,7 @@ proxies:
   uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇯🇵 日本 | JPN
+  name: 🇯🇵 日本 | JPN
   network: ws
   port: 8443
   server: 45.192.200.66
@@ -36,7 +36,7 @@ proxies:
       Host: rubifen.adaspoloandco.com
     path: /GOrbEh
 - client-fingerprint: firefox
-  name: 1|🇯🇵 日本 | JPN 2
+  name: 🇯🇵 日本 | JPN 2
   network: tcp
   port: 443
   reality-opts:
@@ -48,7 +48,7 @@ proxies:
   udp: true
   uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
 - client-fingerprint: firefox
-  name: 1|🇯🇵 日本 | JPN 3
+  name: 🇯🇵 日本 | JPN 3
   network: tcp
   port: 443
   reality-opts:
@@ -60,7 +60,7 @@ proxies:
   udp: true
   uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
 - client-fingerprint: chrome
-  name: 2|JP_speednode_0067
+  name: JP_speednode_0067
   network: ws
   port: 443
   server: 52.197.217.169
@@ -75,7 +75,7 @@ proxies:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
 - client-fingerprint: chrome
-  name: 2|JP_speednode_0068
+  name: JP_speednode_0068
   network: ws
   port: 57554
   server: 203.137.165.164

@@ -1,5 +1,5 @@
 proxies:
-- name: 0|🇭🇰HK_2|4.6MB/s
+- name: 🇭🇰HK_2|4.6MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39412
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 0|🇭🇰HK_3|4.5MB/s
+- name: 🇭🇰HK_3|4.5MB/s
   password: BxceQaOe
   port: 39412
   server: 16.162.191.180
@@ -16,14 +16,14 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 1|🇭🇰 香港 | HKG 3
+  name: 🇭🇰 香港 | HKG 3
   port: 30809
   server: v9.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 2|HK_speednode_0050
+- name: HK_speednode_0050
   password: BxceQaOe
   port: 29443
   server: 18.166.249.45
@@ -31,7 +31,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- name: 2|HK_speednode_0051
+- name: HK_speednode_0051
   password: BxceQaOe
   port: 29443
   server: 18.166.249.45
@@ -39,7 +39,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 2|HK_speednode_0052
+- name: HK_speednode_0052
   password: BxceQaOe
   port: 29085
   server: 18.163.90.221

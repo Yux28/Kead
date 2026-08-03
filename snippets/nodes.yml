@@ -1,12 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0,1|🇩🇪 德国 | DEU 3
+  name: 🇩🇪 德国 | DEU 3
   password: bSOOjTnIutwmTb9nTnIKm3
   port: 5223
   server: creativeboxde2.zanity.net
   type: ss
 - client-fingerprint: chrome
-  name: 0,1,2|US_speednode_0277
+  name: US_speednode_0277
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -16,14 +16,14 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 0|🇺🇸US_6|2.1MB/s
+  name: 🇺🇸US_6|2.1MB/s
   password: amazonskr05
   port: '443'
   server: 54.196.207.151
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 0,1,2|US_speednode_0243
+  name: US_speednode_0243
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -32,7 +32,7 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: 0|🇭🇰HK_2|4.6MB/s
+- name: 🇭🇰HK_2|4.6MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39412
@@ -40,7 +40,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 0|🇺🇸US_8|3.3MB/s
+- name: 🇺🇸US_8|3.3MB/s
   network: tcp
   password: BxceQaOe
   port: 29085
@@ -49,7 +49,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸US_9|1.9MB/s
+  name: 🇺🇸US_9|1.9MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -60,21 +60,21 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: 0|🇭🇰HK_3|4.5MB/s
+- name: 🇭🇰HK_3|4.5MB/s
   password: BxceQaOe
   port: 39412
   server: 16.162.191.180
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 0|🇯🇵JP_2|3.0MB/s
+- name: 🇯🇵JP_2|3.0MB/s
   password: BxceQaOe
   port: 49811
   server: 16.162.191.180
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 0|🇸🇬SG_1|4.0MB/s
+- name: 🇸🇬SG_1|4.0MB/s
   password: BxceQaOe
   port: 9149
   server: 16.162.22.218
@@ -84,7 +84,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /43588/G43plZahWW
-  name: 0|🇳🇱NL_3|1.6MB/s
+  name: 🇳🇱NL_3|1.6MB/s
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: '443'
@@ -96,7 +96,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /43588/G43plZahWW
-  name: 0|🇳🇱NL_4|1.9MB/s
+  name: 🇳🇱NL_4|1.9MB/s
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: '443'
@@ -108,7 +108,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 0|🇳🇱NL_5|2.2MB/s
+  name: 🇳🇱NL_5|2.2MB/s
   network: ws
   password: MITIVPN
   port: '443'
@@ -125,7 +125,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 0|🇳🇱NL_6|2.0MB/s
+  name: 🇳🇱NL_6|2.0MB/s
   network: ws
   password: MiTiVPN
   port: '443'
@@ -140,32 +140,32 @@ proxies:
         Gecko) Chrome/41.0.2272.76 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼TW_1|4.2MB/s
+  name: 🇹🇼TW_1|4.2MB/s
   password: 28789988-887e-4e41-83cd-27bbfb7999ad
   port: '40028'
   server: xunlinknode.csdjhajkshdjkas.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪DE_9|2.4MB/s
+  name: 🇩🇪DE_9|2.4MB/s
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: '59924'
   server: 152.70.26.250
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇧🇷 巴西 | BRA
+  name: 🇧🇷 巴西 | BRA
   password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
   port: 59319
   server: 163.176.88.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 | DEU 2
+  name: 🇩🇪 德国 | DEU 2
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: 59924
   server: 158.180.29.33
   type: ss
-- name: 1|🇩🇪 德国 | DEU 16
+- name: 🇩🇪 德国 | DEU 16
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -177,7 +177,7 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 1|🇩🇪 德国 | DEU 17
+- name: 🇩🇪 德国 | DEU 17
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -191,7 +191,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: /56227/rSnUrv2yXU
-  name: 1,2|NL_speednode_0078
+  name: NL_speednode_0078
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -201,13 +201,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇫🇷 法国 | FRA
+  name: 🇫🇷 法国 | FRA
   password: ZmM0Z
   port: 8388
   server: 83.171.225.55
   type: ss
   udp: true
-- name: 1|🇫🇷 法国 | FRA 2
+- name: 🇫🇷 法国 | FRA 2
   network: ws
   password: humanity
   port: 443
@@ -222,7 +222,7 @@ proxies:
     path: /assignment
 - alterId: 2
   cipher: auto
-  name: 1|🇭🇰 香港 | HKG 3
+  name: 🇭🇰 香港 | HKG 3
   port: 30809
   server: v9.hdacd.com
   skip-cert-verify: true
@@ -231,14 +231,14 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 1|🇮🇪 爱尔兰 | IRL
+  name: 🇮🇪 爱尔兰 | IRL
   port: 30804
   server: v4.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 1|🇳🇱 荷兰 | NLD 11
+- name: 🇳🇱 荷兰 | NLD 11
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -252,7 +252,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 1|🇵🇱 波兰 | POL 5
+  name: 🇵🇱 波兰 | POL 5
   network: grpc
   password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
   port: 43877
@@ -260,7 +260,7 @@ proxies:
   skip-cert-verify: true
   sni: www.icloud.com
   type: trojan
-- name: 1|🇸🇬 新加坡 | SGP 2
+- name: 🇸🇬 新加坡 | SGP 2
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -272,7 +272,7 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 1|🇸🇬 新加坡 | SGP 3
+- name: 🇸🇬 新加坡 | SGP 3
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -284,7 +284,7 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 1|🇺🇸 美国 | USA 13
+- name: 🇺🇸 美国 | USA 13
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -296,7 +296,7 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 1|🇺🇸 美国 | USA 14
+- name: 🇺🇸 美国 | USA 14
   network: ws
   password: MITIVPN
   port: 443
@@ -308,7 +308,7 @@ proxies:
     headers:
       Host: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 1|🇺🇸 美国 | USA 15
+- name: 🇺🇸 美国 | USA 15
   network: ws
   password: '521314'
   port: 443
@@ -321,7 +321,7 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /
-- name: 1|🇺🇸 美国 | USA 17
+- name: 🇺🇸 美国 | USA 17
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -335,7 +335,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 2|GB_speednode_0033
+  name: GB_speednode_0033
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -345,7 +345,7 @@ proxies:
   udp: true
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 2|GB_speednode_0034
+  name: GB_speednode_0034
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -356,7 +356,7 @@ proxies:
   udp: true
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 2|GB_speednode_0035
+  name: GB_speednode_0035
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
@@ -367,7 +367,7 @@ proxies:
   udp: true
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 2|GB_speednode_0036
+  name: GB_speednode_0036
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
@@ -377,7 +377,7 @@ proxies:
   udp: true
 - grpc-opts:
     grpc-service-name: /28786/4U7gXXHftA
-  name: 2|GB_speednode_0037
+  name: GB_speednode_0037
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -385,7 +385,7 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: 2|HK_speednode_0050
+- name: HK_speednode_0050
   password: BxceQaOe
   port: 29443
   server: 18.166.249.45
@@ -393,7 +393,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- name: 2|HK_speednode_0051
+- name: HK_speednode_0051
   password: BxceQaOe
   port: 29443
   server: 18.166.249.45
@@ -401,7 +401,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 2|HK_speednode_0052
+- name: HK_speednode_0052
   password: BxceQaOe
   port: 29085
   server: 18.163.90.221
@@ -411,7 +411,7 @@ proxies:
   udp: true
 - grpc-opts:
     grpc-service-name: /56227/rSnUrv2yXU
-  name: 2|NL_speednode_0079
+  name: NL_speednode_0079
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -421,7 +421,7 @@ proxies:
   udp: true
 - grpc-opts:
     grpc-service-name: /56227/rSnUrv2yXU
-  name: 2|NL_speednode_0080
+  name: NL_speednode_0080
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
@@ -432,7 +432,7 @@ proxies:
   udp: true
 - grpc-opts:
     grpc-service-name: /56227/rSnUrv2yXU
-  name: 2|NL_speednode_0081
+  name: NL_speednode_0081
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
@@ -440,7 +440,7 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: 2|US_speednode_0262
+- name: US_speednode_0262
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com

@@ -1,5 +1,5 @@
 proxies:
-- name: 0|🇸🇬SG_1|4.0MB/s
+- name: 🇸🇬SG_1|4.0MB/s
   password: BxceQaOe
   port: 9149
   server: 16.162.22.218
@@ -8,7 +8,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇸🇬SG_2|3.4MB/s
+  name: 🇸🇬SG_2|3.4MB/s
   network: tcp
   port: '31877'
   reality-opts:
@@ -23,7 +23,7 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 1|🇸🇬 新加坡 | SGP
+  name: 🇸🇬 新加坡 | SGP
   network: tcp
   port: 40443
   reality-opts:
@@ -35,7 +35,7 @@ proxies:
   type: vless
   udp: true
   uuid: e99ba96d-dec8-42eb-be53-19e71eef7cab
-- name: 1|🇸🇬 新加坡 | SGP 2
+- name: 🇸🇬 新加坡 | SGP 2
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -47,7 +47,7 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 1|🇸🇬 新加坡 | SGP 3
+- name: 🇸🇬 新加坡 | SGP 3
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
