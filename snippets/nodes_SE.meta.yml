@@ -2,13 +2,13 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 0|🇸🇪SE_1|2.0MB/s
+  name: 0|🇸🇪SE_1|2.4MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: L1mMPvSystB6rMgj4GnHizy37M_M1gj_krywNf3hfHc
     short-id: '!!str c1a3b5d7e9f02468'
-  server: sw.tunnelx.space
+  server: 162.248.163.237
   servername: sw.tunnelx.space
   tls: true
   type: vless
@@ -53,29 +53,17 @@ proxies:
     mode: auto
     path: /
 - client-fingerprint: firefox
-  name: 1|🇸🇪 瑞典 | SWE 5
+  name: 1|🇸🇪 瑞典 | SWE 4
   network: tcp
   port: 443
   reality-opts:
     public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: pro-se.emrata.top
+  server: 2.26.79.64
   servername: pro-se.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
-- client-fingerprint: firefox
-  name: 1|🇸🇪 瑞典 | SWE 6
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: pro-se.emrata.top
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
+  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
 - client-fingerprint: firefox
   name: 1|🇸🇪 瑞典 | SWE 7
   network: tcp

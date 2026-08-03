@@ -1,4 +1,26 @@
 proxies:
+- name: 0|🇯🇵JP_2|3.0MB/s
+  password: BxceQaOe
+  port: 49811
+  server: 16.162.191.180
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵JP_4|4.6MB/s
+  network: tcp
+  port: '29855'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v2.cdn.yye837u1f6xg.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true
 - client-fingerprint: chrome
   name: 1|🇯🇵 日本 | JPN
   network: ws

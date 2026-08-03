@@ -1,20 +1,37 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 0|🇺🇸US_11|1.4MB/s
-  network: ws
-  password: MITIVPN
+- cipher: chacha20-ietf-poly1305
+  name: 0,1|🇩🇪 德国 | DEU 3
+  password: bSOOjTnIutwmTb9nTnIKm3
+  port: 5223
+  server: creativeboxde2.zanity.net
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸US_6|2.1MB/s
+  password: amazonskr05
   port: '443'
-  server: 104.16.239.120
-  skip-cert-verify: true
-  sni: Ussa1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
+  server: 54.196.207.151
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 0|🇺🇸US_8|3.3MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 29085
+  server: 16.162.164.238
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸US_9|1.9MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @VPNine1)7eb777f:123571
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - name: 1|🇺🇸 美国 | USA 13
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
@@ -64,3 +81,11 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
+- name: 2|US_speednode_0262
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true

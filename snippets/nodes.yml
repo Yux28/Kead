@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0,1|🇩🇪 德国 | DEU 3
+  password: bSOOjTnIutwmTb9nTnIKm3
+  port: 5223
+  server: creativeboxde2.zanity.net
+  type: ss
 - client-fingerprint: chrome
   name: 0,1,2|US_speednode_0277
   network: tcp
@@ -9,8 +15,16 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 0|🇺🇸US_6|2.1MB/s
+  password: amazonskr05
+  port: '443'
+  server: 54.196.207.151
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 0,1,2|US_speednode_0243
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
@@ -18,36 +32,59 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 0,2|US_speednode_0262
+- name: 0|🇭🇰HK_2|4.6MB/s
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 39412
+  server: 16.162.191.180
   skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
+  sni: www.nintendogames.net
   type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: 0|🇺🇸US_11|1.4MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 104.16.239.120
+- name: 0|🇺🇸US_8|3.3MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 29085
+  server: 16.162.164.238
   skip-cert-verify: true
-  sni: Ussa1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸US_9|1.9MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @VPNine1)7eb777f:123571
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  skip-cert-verify: true
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 0|🇭🇰HK_3|4.5MB/s
+  password: BxceQaOe
+  port: 39412
+  server: 16.162.191.180
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 0|🇯🇵JP_2|3.0MB/s
+  password: BxceQaOe
+  port: 49811
+  server: 16.162.191.180
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 0|🇸🇬SG_1|4.0MB/s
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /43588/G43plZahWW
-  name: 0|🇳🇱NL_1|2.5MB/s
+  name: 0|🇳🇱NL_3|1.6MB/s
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: '443'
@@ -56,25 +93,64 @@ proxies:
   sni: titandarkness.mooo.com
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /43588/G43plZahWW
+  name: 0|🇳🇱NL_4|1.9MB/s
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: '443'
+  server: 2.26.96.251
+  skip-cert-verify: false
+  sni: titandarkness.mooo.com
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 0|🇳🇱NL_5|2.2MB/s
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: 188.114.98.0
+  skip-cert-verify: true
+  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 0|🇳🇱NL_6|2.0MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 188.114.97.6
+  skip-cert-verify: true
+  sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇭TH_1|3.0MB/s
+  name: 0|🇹🇼TW_1|4.2MB/s
   password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  port: '40008'
+  port: '40028'
   server: xunlinknode.csdjhajkshdjkas.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇧🇷BR_3|1.8MB/s
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: '59319'
-  server: 140.238.191.246
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0,1|🇩🇪 德国 | DEU 2
+  name: 0|🇩🇪DE_9|2.4MB/s
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 158.180.29.33
+  port: '59924'
+  server: 152.70.26.250
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -84,10 +160,10 @@ proxies:
   server: 163.176.88.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 | DEU 3
-  password: bSOOjTnIutwmTb9nTnIKm3
-  port: 5223
-  server: creativeboxde2.zanity.net
+  name: 1|🇩🇪 德国 | DEU 2
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 158.180.29.33
   type: ss
 - name: 1|🇩🇪 德国 | DEU 16
   network: ws
@@ -362,5 +438,13 @@ proxies:
   port: 443
   server: 83.143.112.140.cdn-one.org
   skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 2|US_speednode_0262
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true

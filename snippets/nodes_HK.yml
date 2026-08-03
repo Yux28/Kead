@@ -1,4 +1,19 @@
 proxies:
+- name: 0|🇭🇰HK_2|4.6MB/s
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 39412
+  server: 16.162.191.180
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0|🇭🇰HK_3|4.5MB/s
+  password: BxceQaOe
+  port: 39412
+  server: 16.162.191.180
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 1|🇭🇰 香港 | HKG 3

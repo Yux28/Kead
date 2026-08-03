@@ -1,7 +1,33 @@
 proxies:
+- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
+  name: 0,1|🇰🇷 韩国 | KOR
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: 222.238.227.54
+  skip-cert-verify: true
+  type: hysteria2
+- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
+  name: 0,1|🇰🇷 韩国 | KOR 2
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 0|🇰🇷KR_4|2.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: '20801'
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+  up: ''
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 0,1|🇰🇷 韩国 | KOR 4
+  name: 1|🇰🇷 韩国 | KOR 4
   network: tcp
   port: 8899
   reality-opts:
@@ -13,33 +39,6 @@ proxies:
   type: vless
   udp: true
   uuid: d95e62f8-b961-4362-bb07-e1e421b02274
-- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
-  name: 0,1|🇰🇷 韩国 | KOR 2
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: 20801
-  server: hg1.yuanbaojc.site
-  skip-cert-verify: true
-  type: hysteria2
-- name: 0|🇰🇷KR_3|2.6MB/s
-  password: ''
-  port: '1080'
-  server: 43.164.136.189
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
-  down: ''
-  fingerprint: ''
-  name: 0,1|🇰🇷 韩国 | KOR
-  obfs: ''
-  obfs-password: ''
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: 20801
-  server: 222.238.227.54
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-  up: ''
 - client-fingerprint: chrome
   name: 2|KR_speednode_0069
   network: ws

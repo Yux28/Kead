@@ -1,77 +1,34 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0,1|🇩🇪 德国 | DEU 3
+  password: bSOOjTnIutwmTb9nTnIKm3
+  port: 5223
+  server: creativeboxde2.zanity.net
+  type: ss
 - client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 0,1|🇺🇸 美国 | USA 5
+  name: 0,1|🇸🇪 瑞典 | SWE 5
   network: tcp
   port: 443
   reality-opts:
-    public-key: rg_sl-tQIau_CXdjpo-BvLmlZMmlbq2KMrH5K4kdyCY
-  server: 31.56.178.59
-  servername: us.boxypn.com
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: pro-se.emrata.top
+  servername: pro-se.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: 6a248b82-ad33-4a8f-8ef7-cdd0ac26c261
-  xudp: true
-- name: 0|🇺🇸US_2|2.8MB/s
-  password: test123
-  port: '1080'
-  server: 185.145.99.41
-  skip-cert-verify: true
-  type: socks5
-  username: test123
-- name: 0,2|US_speednode_0250
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
+  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
+- client-fingerprint: firefox
+  name: 0,1|🇸🇪 瑞典 | SWE 6
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: pro-se.emrata.top
+  servername: pro-se.emrata.top
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 0,2|US_speednode_0256
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 0,2|US_speednode_0260
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 0,2|US_speednode_0261
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 0,2|US_speednode_0268
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 0,2|US_speednode_0271
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 0,2|US_speednode_0284
-  password: None
-  port: 9002
-  server: 156.146.59.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 0,1,2|US_speednode_0312
@@ -86,22 +43,6 @@ proxies:
   type: vless
   udp: true
   uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-- alpn:
-  - http/1.1
-  name: 0|🇺🇸US_11|1.4MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 104.16.239.120
-  skip-cert-verify: true
-  sni: Ussa1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - multiplexing: MULTIPLEXING_LOW
   name: 0,1|🇺🇸 美国 | USA 16
   password: dongtaiwang.com
@@ -110,35 +51,133 @@ proxies:
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: 0|🇺🇸US_13|3.1MB/s
+- cipher: aes-256-cfb
+  name: 0|🇺🇸US_6|2.1MB/s
+  password: amazonskr05
+  port: '443'
+  server: 54.196.207.151
+  type: ss
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 0|🇺🇸US_7|3.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: '443'
+  server: taga10.api3-max.ru
+  skip-cert-verify: true
+  sni: taga10.api3-max.ru
+  type: hysteria2
+  up: ''
+- name: 0|🇺🇸US_8|3.3MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 29085
+  server: 16.162.164.238
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸US_9|1.9MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @VPNine1)7eb777f:123571
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: 0,2|US_speednode_0266
   port: 9002
-  server: 156.146.59.49
+  server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 0|🇺🇸US_14|3.0MB/s
+- name: 0,2|US_speednode_0268
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 0|🇺🇸US_13|1.3MB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 0|🇺🇸US_14|3.1MB/s
   password: None
   port: 9002
-  server: 156.146.59.16
+  server: 156.146.59.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 0|🇺🇸US_15|2.2MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.43
   skip-cert-verify: true
   tls: true
   type: http
   username: null
 - client-fingerprint: firefox
-  encryption: none
-  name: 0,1|🇸🇪 瑞典 | SWE 4
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸US_16|1.4MB/s
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: 2.26.79.64
-  servername: pro-se.emrata.top
+    public-key: da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4
+    short-id: '!!str '
+  server: pro-tr.emrata.top
+  servername: pro-tr.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
+  uuid: fdac0300-5963-4e68-adb6-fc89a2de99a2
   xudp: true
+- name: 0|🇺🇸US_17|3.4MB/s
+  password: ''
+  port: '9002'
+  server: 156.146.59.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 0|🇺🇸US_18|4.3MB/s
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸US_19|3.3MB/s
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- down: ''
+  fingerprint: ''
+  name: 0|🇺🇸US_20|4.2MB/s
+  obfs: salamander
+  obfs-password: XBvVbvzQCq6Ovbnh
+  password: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  port: '14101'
+  server: usaw2.awo-link.com
+  skip-cert-verify: false
+  sni: usaw2.awo-link.com
+  type: hysteria2
+  up: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 1|🇷🇺 俄罗斯 | RUS 2
@@ -234,6 +273,33 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|🇺🇸 美国 | USA 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: rg_sl-tQIau_CXdjpo-BvLmlZMmlbq2KMrH5K4kdyCY
+  server: 31.56.178.59
+  servername: us.boxypn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a248b82-ad33-4a8f-8ef7-cdd0ac26c261
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1,2|US_speednode_0283
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - name: 1|🇺🇸 美国 | USA 8
   network: ws
   port: 2095
@@ -395,6 +461,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 2|US_speednode_0250
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 2|US_speednode_0251
   port: 9002
   server: 138.199.35.202
@@ -424,6 +497,14 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 2|US_speednode_0256
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 2|US_speednode_0257
   port: 9002
   server: 138.199.35.195
@@ -438,6 +519,28 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 2|US_speednode_0260
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 2|US_speednode_0261
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 2|US_speednode_0262
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
 - name: 2|US_speednode_0263
   port: 9002
   server: 156.146.59.7
@@ -448,13 +551,6 @@ proxies:
 - name: 2|US_speednode_0264
   port: 9002
   server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 2|US_speednode_0266
-  port: 9002
-  server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
@@ -476,6 +572,13 @@ proxies:
 - name: 2|US_speednode_0270
   port: 9002
   server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 2|US_speednode_0271
+  port: 9002
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
@@ -550,6 +653,14 @@ proxies:
   type: vless
   udp: true
   uuid: 767a17d0-0579-4d98-ae13-413198f44752
+- name: 2|US_speednode_0284
+  password: None
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 2|US_speednode_0285
   port: 9002
   server: 156.146.59.23
