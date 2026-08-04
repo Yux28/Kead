@@ -1,5 +1,34 @@
 proxies:
-- name: 🇭🇰 香港 | HKG 11
+- name: 🇭🇰 香港 | HKG 6
+  network: ws
+  password: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
+  port: 443
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: true
+  sni: 9l3ysxf7rj3nz549.tkgogocsgo.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 9l3ysxf7rj3nz549.tkgogocsgo.top
+    path: /images
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 7
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰 香港 | HKG 8
+  password: ND91608427
+  port: 443
+  server: ace-starling.rooster465.autos
+  skip-cert-verify: true
+  sni: ace-starling.rooster465.autos
+  type: trojan
+- name: 🇭🇰 香港 | HKG 9
   password: ND91608427
   port: 443
   server: upright-hamster.rooster465.autos

@@ -1,17 +1,23 @@
 proxies:
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: neurex
-  name: 🇨🇭 瑞士 | CHE
-  network: grpc
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: chc.kosmosapp.ru
-  servername: mail.yandex.ru
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇭CH_1|1.1MB/s
+  network: ws
+  port: '2083'
+  server: 162.159.38.119
+  servername: sw.shadowsinner.fun
   tls: true
   type: vless
   udp: true
-  uuid: 0f4aeb95-32ae-457c-8d71-b66bb9ff1073
+  uuid: 6d60d9a8-401a-4f99-968e-ccae68a6c2f4
+  ws-opts:
+    headers:
+      Host: sw.shadowsinner.fun
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /
+  xudp: true

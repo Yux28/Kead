@@ -1,221 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU
-  network: ws
-  port: 8443
-  server: 104.21.40.223
-  servername: ad-005.limaklhc6.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2e1eb27b-9b56-40e9-a2f8-b959bc71736e
-  ws-opts:
-    headers:
-      Host: ad-005.limaklhc6.info
-    path: /
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 2
-  network: ws
-  port: 2053
-  server: deapp.jisuyun.top
-  servername: deapp.jisuyun.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /devm
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 3
-  network: ws
-  port: 8443
-  server: 167.253.156.210
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 4
-  network: ws
-  port: 8443
-  server: 82.40.42.204
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 5
-  network: ws
-  port: 8443
-  server: 47.76.171.37
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- name: 🇩🇪 德国 | DEU 6
-  network: ws
-  password: 82dd5d38-1a65-42b9-835e-497b5b51eb84
-  port: 443
-  server: 172.67.78.22
-  skip-cert-verify: true
-  sni: kamonka.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kamonka.eu.org
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fIHyB12KhckFIltSSEJMUWap0NnVtyGo_HjIi9jQAxg
-    short-id: '!!str 0f1bc0ca817772cb'
-  server: 156.226.174.234
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 8
-  network: ws
-  port: 8443
-  server: 85.155.176.93
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 🇩🇪 德国 | DEU 9
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: true
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 10
-  network: ws
-  port: 8443
-  server: 45.89.232.141
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 11
-  network: ws
-  port: 8443
-  server: 74.222.12.165
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- name: 🇩🇪 德国 | DEU 12
-  network: ws
-  port: 80
-  server: psf-1.zdshop.ir
-  servername: machinemag.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: ea1278d8-c65a-4bdf-8c68-e84a26be53a3
-  ws-opts:
-    headers:
-      Host: machinemag.ir
-    path: /
-- client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 13
-  network: ws
-  port: 8443
-  server: 209.33.173.7
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 14
-  network: ws
-  port: 8443
-  server: 45.76.54.46
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- alpn:
-  - h2
-  - h3
-  client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 15
-  network: ws
-  port: 443
-  server: new01.asaltabie.monster
-  servername: new01.asaltabie.monster
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0211e2dc-c485-465d-87bd-426635433114
-  ws-opts:
-    headers:
-      Host: new01.asaltabie.monster
-    path: /
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 🇩🇪 德国 | DEU 16
+  name: 🇩🇪 德国 | DEU
   port: 26691
   protocol: udp
   server: 5.83.129.143
@@ -227,7 +16,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 17
+  name: 🇩🇪 德国 | DEU 12
   network: grpc
   port: 443
   reality-opts:
@@ -238,40 +27,107 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 5c87f6ff-acd2-42ff-89fc-3e7ee8b38403
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 18
-  network: ws
-  port: 8443
-  server: 206.251.53.91
-  servername: rubifen.adaspoloandco.com
+  uuid: 78b58296-16a0-47ac-ba3f-8fe64425457f
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 2
+  password: 0w2SXgRXHtKQ0FKwGIzq0j
+  port: 5223
+  server: creativeboxde3.zanity.net
+  type: ss
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: neurex
+  name: 🇩🇪 德国 | DEU 3
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 152.233.78.14
+  servername: music.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  uuid: 65829ae0-497a-4482-bc59-15738d6baa73
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 4
+  network: tcp
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 5
+  network: tcp
+  packet-encoding: xudp
+  port: 25520
+  reality-opts:
+    public-key: CdbZitEgBioklscSAiU8eGR_sRvzLPrH3davu5DrNBc
+    short-id: '!!str a8de8bc1e9f5ef'
+  server: 91.107.182.197
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7fc1ee8b-3abf-4b4e-ab73-007460d767bd
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 6
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: '!!str b997e34499a919f3'
+  server: mnl.savesafe.space
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  xhttp-opts:
+    host: ya.ru
+    mode: auto
+    path: /
+- alpn:
+  - h2
+  - h3
+  client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 7
+  network: ws
+  port: 443
+  server: new01.asaltabie.monster
+  servername: new01.asaltabie.monster
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0e5bb7a-4d44-4316-9038-91bf4e343289
   ws-opts:
     headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 19
+      Host: new01.asaltabie.monster
+    path: /
+- client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 8
   network: tcp
-  port: 8443
+  port: 2081
   reality-opts:
-    public-key: mBkMemux3_s1HQWHJMc70Fk2sOEtIIQIXlhfTEi70R4
-    short-id: '!!str a21caa5a42b85d80'
-  server: 156.226.174.234
-  servername: www.cloudflare.com
+    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+    short-id: '!!str c6e19c434dc87df7'
+  server: t.vevluma.ir
+  servername: login.yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc
+  uuid: aa9dfeec-9933-4b41-9154-daae02003c3d
 - client-fingerprint: qq
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 20
+  name: 🇩🇪 德国 | DEU 9
   network: grpc
   port: 443
   reality-opts:
@@ -282,12 +138,12 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c9365135-3db0-4f02-b542-95248e06502c
+  uuid: 08124084-34ff-4bd2-ad42-072a508b29d4
 - client-fingerprint: qq
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 21
+  name: 🇩🇪 德国 | DEU 10
   network: grpc
   port: 443
   reality-opts:
@@ -303,7 +159,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 22
+  name: 🇩🇪 德国 | DEU 11
   network: grpc
   port: 443
   reality-opts:
@@ -314,46 +170,92 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 460f62ce-c385-4092-96ee-99f46ade626b
+  uuid: c9365135-3db0-4f02-b542-95248e06502c
 - alpn:
-  - h2
-  client-fingerprint: firefox
-  name: AE_speednode_0003
-  network: tcp
-  packet-encoding: xudp
+  - http/1.1
+  name: 🇩🇪 德国 | DEU 13
+  network: ws
+  password: MiTiVPN
   port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
   udp: true
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 24
-  network: tcp
-  port: 10037
-  reality-opts:
-    public-key: 1w_E-3hZml0BGu7hVEBjRUZQQ8MBxSXnpwlVTo_NkWI
-    short-id: '!!str f0'
-  server: family.bucket.9.kfc-520.com
-  servername: www.adobe.com
-  tls: true
-  type: vless
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 🇩🇪 德国 | DEU 14
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: true
+  sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
+  type: trojan
   udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 25
-  network: tcp
-  packet-encoding: xudp
-  port: 25520
-  reality-opts:
-    public-key: CdbZitEgBioklscSAiU8eGR_sRvzLPrH3davu5DrNBc
-    short-id: '!!str a8de8bc1e9f5ef'
-  server: 91.107.182.197
-  servername: yahoo.com
+  ws-opts:
+    headers:
+      Host: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 15
+  network: ws
+  port: 2053
+  server: deapp.jisuyun.top
+  servername: deapp.jisuyun.top
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: 7fc1ee8b-3abf-4b4e-ab73-007460d767bd
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /devm
+- name: 🇩🇪 德国 | DEU 16
+  password: ND91608427
+  port: 443
+  server: informed-alpaca.rooster465.autos
+  skip-cert-verify: true
+  sni: informed-alpaca.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇩🇪 德国 | DEU 17
+  password: ND91608427
+  port: 443
+  server: large-baboon.rooster465.autos
+  skip-cert-verify: true
+  sni: large-baboon.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇩🇪 德国 | DEU 18
+  password: ND91608427
+  port: 443
+  server: gentle-raptor.rooster465.autos
+  skip-cert-verify: true
+  sni: gentle-raptor.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇩🇪 德国 | DEU 19
+  password: ND91608427
+  port: 443
+  server: next-turkey.rooster465.autos
+  skip-cert-verify: true
+  sni: next-turkey.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇩🇪 德国 | DEU 20
+  password: ND91608427
+  port: 443
+  server: rapid-firefly.rooster465.autos
+  skip-cert-verify: true
+  sni: rapid-firefly.rooster465.autos
+  type: trojan
+  udp: true

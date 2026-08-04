@@ -1,161 +1,23 @@
 proxies:
-- name: 🇸🇬SG_1|4.2MB/s
-  network: ws
-  port: 443
-  server: 162.159.49.14
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    path: /?ed=2560
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_2|1.8MB/s
+  name: 🇸🇬 新加坡 | SGP
   network: ws
-  packet-encoding: xudp
   port: 2096
   server: 104.17.70.206
   servername: free-server.techsonic.dev
   tls: true
   type: vless
+  udp: true
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   ws-opts:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
 - client-fingerprint: chrome
-  name: 🇸🇬SG_3|1.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: ZTo_XhHaaXEJnDZFZ7S8-BYBS_fbk2F2IADoHdmU7W8
-    short-id: '!!str 3cf84632f6dd14c7'
-  server: 34.126.158.226
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f7031b3-cd5c-4ba6-9627-91a9cc702941
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP
-  network: tcp
-  port: 10016
-  reality-opts:
-    public-key: RFG8d5sxG4ysTNqNnjeSVk7gftcPMpUBSbPu0HKZrAQ
-    short-id: '!!str ca2593defe'
-  server: family.bucket.6.kfc-520.com
-  servername: www.sap.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇸🇬 新加坡 | SGP 2
-  network: http
-  port: 8080
-  server: 43.160.231.254
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 96201234-168e-47d4-f83d-b64fb9d700ea
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 3
-  network: ws
-  port: 443
-  server: 104.18.32.47
-  servername: aio.zxcore.biz.id
-  tls: true
-  type: vless
-  udp: true
-  uuid: da78f96e-01d3-4289-9d0b-fbbe3f0a5472
-  ws-opts:
-    headers:
-      Host: aio.zxcore.biz.id
-    path: /aioproxybot/124.153.168.248-50001
-- client-fingerprint: chrome
   name: 🇸🇬 新加坡 | SGP 4
-  network: ws
-  port: 8443
-  server: 172.64.154.5
-  servername: learn00.evany.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt?ed=2560fp=random
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 | SGP 5
-  network: ws
-  port: 36809
-  server: cindy58.ceoiii.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- name: 🇸🇬 新加坡 | SGP 6
-  network: ws
-  port: 8880
-  server: 162.159.21.178
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4f54572a-b852-4da3-8823-0ddccc60b5d8
-  ws-opts:
-    headers:
-      Host: icy-snowflake-1f56.147-1ea.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- client-fingerprint: random
-  name: 🇸🇬 新加坡 | SGP 7
-  network: ws
-  port: 2087
-  server: 162.159.36.117
-  servername: learn00.evany.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt
-- name: 🇸🇬 新加坡 | SGP 8
-  network: ws
-  port: 8880
-  server: 104.18.34.245
-  tls: false
-  type: vless
-  udp: true
-  uuid: 78b73cc4-8c3c-40ce-bb74-d5dcd3277c67
-  ws-opts:
-    headers:
-      Host: white-hill-f907.23-b68.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 9
   network: ws
   port: 2087
   server: 172.64.146.211
@@ -168,9 +30,68 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 | SGP 10
-  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
-  port: 56927
-  server: 134.185.82.106
-  type: ss
+- name: 🇸🇬 新加坡 | SGP 2
+  network: ws
+  port: 8880
+  server: 162.159.21.178
+  tls: false
+  type: vless
+  udp: true
+  uuid: f09f4baa-7688-4514-8062-c3ea8e319624
+  ws-opts:
+    headers:
+      Host: dark-leaf-93a1.440-02e.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- name: 🇸🇬 新加坡 | SGP 3
+  network: ws
+  port: 8880
+  server: 162.159.21.178
+  tls: false
+  type: vless
+  udp: true
+  uuid: 94977b19-6720-48a6-92fd-00238757ea30
+  ws-opts:
+    headers:
+      Host: fragrant-credit-c4cf.148-e68.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZTo_XhHaaXEJnDZFZ7S8-BYBS_fbk2F2IADoHdmU7W8
+    short-id: '!!str 3cf84632f6dd14c7'
+  server: 34.126.158.226
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 7f7031b3-cd5c-4ba6-9627-91a9cc702941
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 | SGP 6
+  network: tcp
+  port: 10017
+  reality-opts:
+    public-key: XV85nYU2U8OlC9HYGBH9gXLUvkLELGbHAeI8bGD0SSY
+    short-id: '!!str 68f899acc3729e'
+  server: family.bucket.6.kfc-520.com
+  servername: www.sap.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+- alpn:
+  - http/1.1
+  name: 🇸🇬 新加坡 | SGP 7
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.36.192
+  skip-cert-verify: true
+  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
