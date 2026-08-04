@@ -1,5 +1,19 @@
 proxies:
 - client-fingerprint: chrome
+  name: 🇹🇼TW_1|4.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: HsoG0C19O-NY_EcFpK0ybZv9lFol0MjDJLzjDzWAGXs
+    short-id: '!!str d79d3dc3816c329d'
+  server: 35.187.156.27
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8ca2900-3ed7-4b58-970e-060d0a6cbf99
+  xudp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇹🇼 🇨🇳 台湾 | TWN
   network: tcp
@@ -13,22 +27,17 @@ proxies:
   type: vless
   udp: true
   uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  password: f8744af0-8406-440f-9f90-45a4d004f3e9
-  port: 45379
-  server: cm1.kaochangcn.org
-  type: ss
-- name: 🇹🇼 🇨🇳 台湾 | TWN 3
-  network: ws
+  network: tcp
   port: 443
-  server: 60.248.219.78
-  servername: ty986gfazs.cainiaohub.xyz
+  reality-opts:
+    public-key: hZvWDPjsxTSrNSqFXUFgNnXn44vKdr5uirPsie6RGBk
+    short-id: '!!str 16ba1b6178a4bdde'
+  server: 141.11.87.48
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-  ws-opts:
-    headers:
-      Host: ty986gfazs.cainiaohub.xyz
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+  uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc

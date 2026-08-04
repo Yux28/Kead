@@ -1,12 +1,1 @@
-proxies:
-- client-fingerprint: firefox
-  name: 🇸🇪 瑞典 | SWE
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: 2.26.79.32
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  uuid: 0c0a91de-5250-4d6c-9922-f3594d99f096
+proxies: []

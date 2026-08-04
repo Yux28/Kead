@@ -1,92 +1,29 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 98.93.33.57
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_3|3.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.163.196.142
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇦🇺 澳大利亚 | AUS
-  password: f8744af0-8406-440f-9f90-45a4d004f3e9
-  port: 42142
-  server: cm1.kaochangcn.org
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺 俄罗斯 | RUS
-  password: qO92B1kbwxoKUDHH3l__7g
-  port: 1080
-  server: 109.71.247.246
-  type: ss
 - cipher: aes-256-gcm
-  name: 🇷🇺 俄罗斯 | RUS 4
-  password: 81a20429165df87e
-  port: 10991
-  server: 195.133.23.200
+  name: 🇷🇺 俄罗斯 | RUS 2
+  password: 895b4b796a357570
+  port: 10916
+  server: 176.32.35.51
   type: ss
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 3
+  udp: true
+- name: 🇺🇸 美国 | USA
   network: ws
-  password: MiTiVPN
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
   port: 443
-  server: 104.16.98.215
+  server: 104.16.148.5
   skip-cert-verify: true
-  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 7
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 104.17.148.22
-  skip-cert-verify: true
-  sni: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 8
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
+  sni: dimskiee.biz.id
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 🇺🇸 美国 | USA 12
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.16.252.34
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
-- name: 🇺🇸 美国 | USA 13
+      Host: dimskiee.biz.id
+    path: /WangCai-8
+- name: 🇺🇸 美国 | USA 3
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.143
+  server: 104.16.174.72
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -95,33 +32,16 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 17
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cf.0sm.com
+- name: 🇺🇸 美国 | USA 11
+  password: BxceQaOe
+  port: 15775
+  server: 18.163.193.0
   skip-cert-verify: true
-  sni: yks-dd9.pages.dev
+  sni: t.me%252Fripaojiedian
   type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
-- name: 🇺🇸 美国 | USA 18
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 162.159.82.246
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
 - alpn:
   - http/1.1
-  name: 🇺🇸 美国 | USA 19
+  name: 🇺🇸 美国 | USA 28
   network: ws
   password: MiTiVPN
   port: 443
@@ -134,9 +54,3 @@ proxies:
     headers:
       Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 | USA 20
-  password: f8744af0-8406-440f-9f90-45a4d004f3e9
-  port: 48003
-  server: cm1.kaochangcn.org
-  type: ss

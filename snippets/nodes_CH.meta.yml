@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: neurex
+  name: 🇨🇭 瑞士 | CHE
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: chc.kosmosapp.ru
+  servername: mail.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f4aeb95-32ae-457c-8d71-b66bb9ff1073
