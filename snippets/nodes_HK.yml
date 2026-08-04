@@ -1,15 +1,10 @@
 proxies:
-- name: 🇭🇰HK_2|4.6MB/s
-  network: ws
-  password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  port: 2053
-  server: cf.csdjhajkshdjkas.com
-  sni: a1.xunfastcdn.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aa1.xunfastcdn.com
-    path: /api/v3/media/update
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港 | HKG
+  password: f8744af0-8406-440f-9f90-45a4d004f3e9
+  port: 28039
+  server: cm1.kaochangcn.org
+  type: ss
 - name: HK_speednode_0007
   password: BxceQaOe
   port: 9149

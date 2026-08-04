@@ -1,5 +1,5 @@
 proxies:
-- name: 🇩🇪 德国 | DEU 4
+- name: 🇩🇪DE_1|2.3MB/s
   network: ws
   password: 82dd5d38-1a65-42b9-835e-497b5b51eb84
   port: 443
@@ -12,22 +12,7 @@ proxies:
     headers:
       Host: kamonka.eu.org
     path: /
-- alpn:
-  - http/1.1
-  name: 🇩🇪 德国 | DEU 5
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 172.66.174.41
-  skip-cert-verify: true
-  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇩🇪 德国 | DEU 11
+- name: 🇩🇪 德国 | DEU 7
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -39,7 +24,19 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 🇩🇪 德国 | DEU 13
+- name: 🇩🇪 德国 | DEU 16
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.241.194
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 🇩🇪 德国 | DEU 20
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443

@@ -1,12 +1,58 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.5MB/s
-  password: QV31589740
-  port: '443'
-  server: great-krill.rooster465.autos
-  skip-cert-verify: false
+- name: 🇫🇷 法国 | FRA
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 2
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.18.250.252
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 法国 | FRA 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 78.17.208.20
+  servername: fr03.skorostnet.space
+  tls: true
+  type: vless
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 法国 | FRA 4
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 65T6l7e51lwKu1rzQ4FgqVPe-JyG43IqPLw6r9U2v10
+    short-id: '!!str 0befa76540b5db79'
+  server: 193.177.0.251
+  servername: fr.bvps.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
 - name: FR_speednode_0006
   password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443

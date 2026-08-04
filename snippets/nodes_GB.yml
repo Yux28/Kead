@@ -1,29 +1,15 @@
 proxies:
-- grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇬🇧 英国 | GBR
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 48364
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  skip-cert-verify: true
-  sni: www.icloud.com
-  type: trojan
-- name: 🇬🇧 英国 | GBR 2
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 英国 | GBR 2
+  password: f8744af0-8406-440f-9f90-45a4d004f3e9
+  port: 36521
+  server: cm1.kaochangcn.org
+  type: ss
+- name: 🇬🇧 英国 | GBR 5
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
-  server: Hkdcrtc-e.catcat321.com
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: de.catxstar.com
   type: trojan
   udp: true
-- grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇬🇧 英国 | GBR 3
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 48364
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  skip-cert-verify: true
-  sni: www.icloud.com
-  type: trojan

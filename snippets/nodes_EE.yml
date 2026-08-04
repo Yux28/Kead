@@ -1,11 +1,1 @@
-proxies:
-- grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇪🇪 爱沙尼亚 | EST 2
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 41002
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  skip-cert-verify: true
-  sni: www.icloud.com
-  type: trojan
+proxies: []

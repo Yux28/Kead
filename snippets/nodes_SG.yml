@@ -1,18 +1,9 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|1.7MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: sacred-treefrog.rooster465.autos
-  skip-cert-verify: true
-  sni: sacred-treefrog.rooster465.autos
-  type: trojan
 - name: 🇸🇬 新加坡 | SGP
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 172.64.146.75
+  server: 172.64.35.127
   skip-cert-verify: true
   sni: yks-dd9.pages.dev
   type: trojan
@@ -20,7 +11,22 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 🇸🇬 新加坡 | SGP 2
+- alpn:
+  - http/1.1
+  name: 🇸🇬 新加坡 | SGP 3
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.36.192
+  skip-cert-verify: true
+  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇸🇬 新加坡 | SGP 4
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -33,13 +39,6 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- name: 🇸🇬 新加坡 | SGP 3
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%25252Fripaojiedian
-  type: trojan
 - name: 🇸🇬 新加坡 | SGP 5
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
@@ -52,3 +51,17 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇸🇬 新加坡 | SGP 6
+  network: http
+  port: 8080
+  server: 43.160.231.254
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 96201234-168e-47d4-f83d-b64fb9d700ea
