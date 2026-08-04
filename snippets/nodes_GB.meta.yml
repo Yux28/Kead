@@ -1,16 +1,25 @@
 proxies:
-- http-opts:
-    headers:
-      Host:
-      - farhang.athforce.ir
-    method: GET
-    path:
-    - /
-  name: 🇬🇧 英国 | GBR
-  network: http
-  port: 38778
-  server: farhang.athforce.ir
-  tls: false
-  type: vless
+- name: GB_speednode_0005
+  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  port: 443
+  server: 03a71324-t9zts0-tiuovf-v3c2.uk.oshuawei.com
+  tls: true
+  type: http
   udp: true
-  uuid: 7a74bb65-e652-4c0e-a1a7-d0bc0d963352
+  username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- name: GB_speednode_0006
+  password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+  port: 443
+  server: 07b7ddcf-tcxds0-tifnix-1ro8s.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+- name: GB_speednode_0007
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b

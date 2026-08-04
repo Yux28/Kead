@@ -1,5 +1,5 @@
 proxies:
-- name: 🇭🇰 香港 | HKG 6
+- name: 🇭🇰 香港 | HKG
   network: ws
   password: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
   port: 443
@@ -12,7 +12,69 @@ proxies:
     headers:
       Host: 9l3ysxf7rj3nz549.tkgogocsgo.top
     path: /images
-- name: 🇺🇦UA_1|3.4MB/s
+- cipher: aes-128-gcm
+  name: 🇸🇨SC_1|5.0MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 9022
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸US_1|3.3MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 911
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇭🇰HK_2|5.8MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 9052
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸US_2|4.4MB/s
+  password: ay2loud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 906
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇨SC_2|5.3MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 20012
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 | HKG 2
+  network: tcp
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -21,30 +83,244 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_2|4.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.162.164
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_3|1.3MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 104.16.6.189
+  skip-cert-verify: true
+  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_1|1009KB/s
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: '59924'
+  server: 130.61.86.101
   type: ss
   udp: true
-- name: 🇺🇦UA_2|3.5MB/s
-  network: tcp
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 巴西 | BRA
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 137.131.226.109
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.178.74
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 2
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.226.94
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 3
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.86.126
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 4
+  password: 0w2SXgRXHtKQ0FKwGIzq0j
+  port: 5223
+  server: creativeboxde3.zanity.net
+  type: ss
+- name: 🇭🇰 香港 | HKG 3
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | HKG 4
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: HK_speednode_0008
+  password: ND91608427
+  port: 443
+  server: upright-hamster.rooster465.autos
+  skip-cert-verify: true
+  sni: upright-hamster.rooster465.autos
+  type: trojan
+  udp: true
+- name: IE_speednode_0009
+  password: ND91608427
+  port: 443
+  server: skilled-lioness.rooster465.autos
+  skip-cert-verify: true
+  sni: skilled-lioness.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本 | JPN
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)7836d8f7:130689
+    mode: tls
+  port: 2377
+  server: 43.206.229.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 | NLD
+  password: nfqXKhEmvHdOUVqFyNLnvx
+  port: 5228
+  server: creativeboxnl2.zanity.net
+  type: ss
+- alpn:
+  - http/1.1
+  name: 🇳🇱 荷兰 | NLD 10
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 188.114.98.0
+  skip-cert-verify: true
+  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: aes-256-cfb
+  name: 🇸🇪 瑞典 | SWE
+  password: amazonskr05
+  port: 443
+  server: 13.61.13.49
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇹🇷 土耳其 | TUR 2
+  network: ws
+  port: 80
+  server: pro.mzwebm.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f21d27ae-6412-4d4a-878d-a5edc51cf043
+  ws-opts:
+    headers:
+      Host: dl3name.global.ssl.fastly.net
+    path: /vipmax
+- name: 🇺🇦 乌克兰 | UKR
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 2
-  password: 0w2SXgRXHtKQ0FKwGIzq0j
-  port: 5223
-  server: creativeboxde3.zanity.net
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国 | USA 4
+  password: xo6k84l7b00n2hJp
+  port: 57841
+  server: 23.185.200.135
   type: ss
+  udp: true
+- name: 🇺🇸 美国 | USA 29
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.16.6.189
+  skip-cert-verify: true
+  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    headers:
+      Host: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
-  name: 🇩🇪 德国 | DEU 13
+  name: 🇺🇸 美国 | USA 30
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.16.98.215
+  skip-cert-verify: true
+  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇺🇸 美国 | USA 31
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇺🇸 美国 | USA 32
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 33
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.97
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 34
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.20.48.11
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cmee.ezbiz.dynv6.net
+    path: /
+- alpn:
+  - http/1.1
+  name: 🇺🇸 美国 | USA 35
   network: ws
   password: MiTiVPN
   port: 443
@@ -59,7 +335,21 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
-  name: 🇩🇪 德国 | DEU 14
+  name: 🇺🇸 美国 | USA 36
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ssl.fastly.com
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 🇺🇸 美国 | USA 38
   network: ws
   password: MiTiVPN
   port: 443
@@ -72,386 +362,24 @@ proxies:
     headers:
       Host: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 15
-  network: ws
-  port: 2053
-  server: deapp.jisuyun.top
-  servername: deapp.jisuyun.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /devm
-- name: 🇩🇪 德国 | DEU 16
+- name: LU_speednode_0012
   password: ND91608427
   port: 443
-  server: informed-alpaca.rooster465.autos
+  server: eager-louse.rooster465.autos
   skip-cert-verify: true
-  sni: informed-alpaca.rooster465.autos
+  sni: eager-louse.rooster465.autos
   type: trojan
-  udp: true
-- name: 🇩🇪 德国 | DEU 17
-  password: ND91608427
-  port: 443
-  server: large-baboon.rooster465.autos
-  skip-cert-verify: true
-  sni: large-baboon.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇩🇪 德国 | DEU 18
-  password: ND91608427
-  port: 443
-  server: gentle-raptor.rooster465.autos
-  skip-cert-verify: true
-  sni: gentle-raptor.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇩🇪 德国 | DEU 19
-  password: ND91608427
-  port: 443
-  server: next-turkey.rooster465.autos
-  skip-cert-verify: true
-  sni: next-turkey.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇩🇪 德国 | DEU 20
-  password: ND91608427
-  port: 443
-  server: rapid-firefly.rooster465.autos
-  skip-cert-verify: true
-  sni: rapid-firefly.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇫🇷 法国 | FRA
-  password: ND91608427
-  port: 443
-  server: careful-tadpole.rooster465.autos
-  skip-cert-verify: true
-  sni: careful-tadpole.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇫🇷 法国 | FRA 2
-  password: ND91608427
-  port: 443
-  server: star-kiwi.rooster465.autos
-  skip-cert-verify: true
-  sni: star-kiwi.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇫🇷 法国 | FRA 3
-  password: ND91608427
-  port: 443
-  server: fancy-skink.rooster465.autos
-  skip-cert-verify: true
-  sni: fancy-skink.rooster465.autos
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 7
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 香港 | HKG 8
-  password: ND91608427
-  port: 443
-  server: ace-starling.rooster465.autos
-  skip-cert-verify: true
-  sni: ace-starling.rooster465.autos
-  type: trojan
-- name: 🇭🇰 香港 | HKG 9
-  password: ND91608427
-  port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-hamster.rooster465.autos
-  type: trojan
-- name: 🇮🇪 爱尔兰 | IRL
-  password: ND91608427
-  port: 443
-  server: skilled-lioness.rooster465.autos
-  skip-cert-verify: true
-  sni: skilled-lioness.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇯🇵 日本 | JPN
-  password: amazonskr05
-  port: 443
-  server: 13.231.179.245
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  name: 🇸🇬 新加坡 | SGP 7
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.18.36.192
-  skip-cert-verify: true
-  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 23
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.16.98.215
-  skip-cert-verify: true
-  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 24
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 104.17.148.22
-  skip-cert-verify: true
-  sni: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 25
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.103
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 26
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ssl.fastly.com
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 28
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 162.159.44.100
-  skip-cert-verify: true
-  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 29
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 188.114.98.0
-  skip-cert-verify: true
-  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 30
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 31
-  network: ws
-  password: eb2b32c4-8844-4e79-8ec8-133a8a3aca3c
-  port: 443
-  server: yuzhenb886.dpdns.org
-  skip-cert-verify: true
-  sni: yuzhenb886.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: yuzhenb886.dpdns.org
-    path: /
-- name: 🇺🇸 美国 | USA 32
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cf.0sm.com
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
-- name: 🇺🇸 美国 | USA 33
-  password: ND91608427
-  port: 443
-  server: sincere-gelding.rooster465.autos
-  skip-cert-verify: true
-  sni: sincere-gelding.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国 | USA 34
-  password: ND91608427
-  port: 443
-  server: fleet-bonefish.rooster465.autos
-  skip-cert-verify: true
-  sni: fleet-bonefish.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国 | USA 35
-  password: ND91608427
-  port: 443
-  server: pet-ghost.rooster465.autos
-  skip-cert-verify: true
-  sni: pet-ghost.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: CZ_speednode_0005
-  password: Hb8mL9G4l166
-  port: 8388
-  server: 212.192.13.12
-  type: ss
-  udp: true
-- name: HK_speednode_0007
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: HK_speednode_0008
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_speednode_0009
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
-- name: JP_speednode_0010
-  password: ND91608427
-  port: 443
-  server: definite-sturgeon.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-sturgeon.rooster465.autos
-  type: trojan
-  udp: true
-- name: JP_speednode_0011
-  password: ND91608427
-  port: 443
-  server: upright-impala.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
-  type: trojan
-  udp: true
-- name: KR_speednode_0012
-  password: ND91608427
-  port: 443
-  server: definite-malamute.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-malamute.rooster465.autos
-  type: trojan
-  udp: true
-- name: KR_speednode_0013
-  password: ND91608427
-  port: 443
-  server: moved-meerkat.rooster465.autos
-  skip-cert-verify: true
-  sni: moved-meerkat.rooster465.autos
-  type: trojan
-  udp: true
-- name: NL_speednode_0017
-  password: 1BARPLkaLl
-  port: 32914
-  server: 45.130.22.70
-  skip-cert-verify: true
-  sni: 45.130.22.70
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: RU_speednode_0083
-  password: bdb313adf74c2ede
-  port: 20188
-  server: 195.133.5.207
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: RU_speednode_0084
-  password: 895b4b796a357570
-  port: 10916
-  server: 176.32.35.51
-  type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: US_speednode_0090
-  port: 9006
-  server: select-hk.ddnskunlun.com
+  name: NN_speednode_0019
+  network: ws
+  port: 23388
+  server: 2001:bc8:32d7:1a9::2
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
-  name: US_speednode_0093
-  port: 11973
-  server: board-04.ddnskunlun.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang

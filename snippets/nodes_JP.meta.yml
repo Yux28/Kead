@@ -1,105 +1,44 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 5
-  network: tcp
-  port: 32326
-  reality-opts:
-    public-key: yQCIXuOIYIxJ6BeQ1I-pvdfZDkrqv25oy7oU25424HA
-    short-id: '!!str bc41498a'
-  server: jpvl.xinchenone.world
-  servername: www.mozilla.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_2|4.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.162.164
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   name: 🇯🇵 日本 | JPN
-  password: amazonskr05
-  port: 443
-  server: 13.231.179.245
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)7836d8f7:130689
+    mode: tls
+  port: 2377
+  server: 43.206.229.103
   type: ss
-  udp: true
-- client-fingerprint: random
+- client-fingerprint: chrome
   name: 🇯🇵 日本 | JPN 2
-  network: ws
-  port: 8443
-  server: 108.162.198.165
-  servername: learn00.evany.de5.net
+  network: tcp
+  port: 37630
+  reality-opts:
+    public-key: _z2_BSDft7ZeqhGuUIFedGSFjSK5SwMRaTQs6hc8NDE
+    short-id: '!!str 3682af'
+  server: 191.222.212.130
+  servername: youtubeeducation.com
   tls: true
   type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt
+  udp: true
+  uuid: c9794354-f682-4039-acc5-6bbcd6742d98
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇯🇵 日本 | JPN 3
   network: tcp
-  port: 443
+  port: 20502
   reality-opts:
-    public-key: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
-    short-id: '!!str cf61f7f0'
-  server: www.hjzhiliancafe.world
-  servername: www.bing.com
+    public-key: 76SU9ZkANPusbBXTVyF7XoQqlxFm8JHI_YT6VyGqzjU
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 87.76.198.214
+  servername: v1-dy.ixigua.com
   tls: true
   type: vless
   udp: true
-  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
-- client-fingerprint: chrome
+  uuid: d054d90c-0ba9-47fe-ac83-f0011713c1c2
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇯🇵 日本 | JPN 4
-  network: tcp
-  port: 32366
-  reality-opts:
-    public-key: Tla7Wtei7OJGE4odCL1BFf2y0hL_5S_C2tHWhlJkJjU
-    short-id: '!!str 97bc2eae'
-  server: jpvl.xinchenone.world
-  servername: www.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 6
-  network: tcp
-  port: 10003
-  reality-opts:
-    public-key: BLxr2zh1eI34_v_CCzROgLIfUW6-ki5ZpbQiZ7LS80g
-    short-id: '!!str 98'
-  server: family.bucket.2.kfc-520.com
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 7
-  network: tcp
-  port: 10013
-  reality-opts:
-    public-key: hqr_brbMw2eUng9LZE5_Ik8g0Y-hl8Ok5ka_EPSXskY
-    short-id: '!!str 02dd11'
-  server: family.bucket.7.kfc-520.com
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 8
   network: tcp
   port: 10015
   reality-opts:
@@ -111,19 +50,18 @@ proxies:
   type: vless
   udp: true
   uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- name: JP_speednode_0010
-  password: ND91608427
-  port: 443
-  server: definite-sturgeon.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-sturgeon.rooster465.autos
-  type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: JP_speednode_0011
+  network: tcp
+  port: 10005
+  reality-opts:
+    public-key: ryX4yUguNp9iQ6j_BPlEMyCK62474if28u_ouXSPciQ
+    short-id: '!!str 1974efea3b2148'
+  server: family.bucket.4.kfc-520.com
+  servername: www.asus.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: JP_speednode_0011
-  password: ND91608427
-  port: 443
-  server: upright-impala.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
-  type: trojan
-  udp: true
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7

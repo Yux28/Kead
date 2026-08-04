@@ -1,69 +1,59 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 🇩🇪 德国 | DEU
-  port: 26691
-  protocol: udp
-  server: 5.83.129.143
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 12
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_1|1009KB/s
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: '59924'
+  server: 130.61.86.101
+  type: ss
   udp: true
-  uuid: 78b58296-16a0-47ac-ba3f-8fe64425457f
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.178.74
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪 德国 | DEU 2
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.226.94
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 3
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.86.126
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 4
   password: 0w2SXgRXHtKQ0FKwGIzq0j
   port: 5223
   server: creativeboxde3.zanity.net
   type: ss
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: neurex
-  name: 🇩🇪 德国 | DEU 3
-  network: grpc
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: 152.233.78.14
-  servername: music.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65829ae0-497a-4482-bc59-15738d6baa73
 - alpn:
   - h2
+  - http/1.1
   client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 4
-  network: tcp
+  name: 🇩🇪 德国 | DEU 5
+  network: xhttp
   port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
+  server: 167.82.101.210
+  servername: global.fastly.coM.
   tls: true
   type: vless
   udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+  xhttp-opts:
+    host: farangis.global.ssl.fastly.neT.
+    mode: auto
+    path: /
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 100-1000
 - client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 5
+  name: 🇩🇪 德国 | DEU 6
   network: tcp
   packet-encoding: xudp
   port: 25520
@@ -77,185 +67,27 @@ proxies:
   udp: true
   uuid: 7fc1ee8b-3abf-4b4e-ab73-007460d767bd
 - client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 6
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
-    short-id: '!!str b997e34499a919f3'
-  server: mnl.savesafe.space
-  servername: ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
-  xhttp-opts:
-    host: ya.ru
-    mode: auto
-    path: /
-- alpn:
-  - h2
-  - h3
-  client-fingerprint: chrome
   name: 🇩🇪 德国 | DEU 7
-  network: ws
-  port: 443
-  server: new01.asaltabie.monster
-  servername: new01.asaltabie.monster
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0e5bb7a-4d44-4316-9038-91bf4e343289
-  ws-opts:
-    headers:
-      Host: new01.asaltabie.monster
-    path: /
-- client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 8
   network: tcp
-  port: 2081
+  port: 4040
   reality-opts:
-    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
-    short-id: '!!str c6e19c434dc87df7'
-  server: t.vevluma.ir
-  servername: login.yahoo.com
+    public-key: H9OGLRos1CxS7C197U2G6vmAINTN6GMasevL3gX9uEI
+    short-id: '!!str c57bcc26'
+  server: vl1.salar4040.ir
+  servername: www.nvidia.com
   tls: true
   type: vless
   udp: true
-  uuid: aa9dfeec-9933-4b41-9154-daae02003c3d
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 9
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 08124084-34ff-4bd2-ad42-072a508b29d4
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 10
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2e0c6bc-507b-4236-bb46-f4c8e378940b
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 11
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c9365135-3db0-4f02-b542-95248e06502c
-- alpn:
-  - http/1.1
-  name: 🇩🇪 德国 | DEU 13
+  uuid: b1d2a517-3ff2-4eb7-a9cd-2a42a2eb1c29
+- name: 🇩🇪 德国 | DEU 8
   network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.26.2.173
-  skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
   udp: true
+  uuid: b334d1aa-aa87-4802-ac8a-d739378e658d
   ws-opts:
     headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 🇩🇪 德国 | DEU 14
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 188.114.97.6
-  skip-cert-verify: true
-  sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 15
-  network: ws
-  port: 2053
-  server: deapp.jisuyun.top
-  servername: deapp.jisuyun.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /devm
-- name: 🇩🇪 德国 | DEU 16
-  password: ND91608427
-  port: 443
-  server: informed-alpaca.rooster465.autos
-  skip-cert-verify: true
-  sni: informed-alpaca.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇩🇪 德国 | DEU 17
-  password: ND91608427
-  port: 443
-  server: large-baboon.rooster465.autos
-  skip-cert-verify: true
-  sni: large-baboon.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇩🇪 德国 | DEU 18
-  password: ND91608427
-  port: 443
-  server: gentle-raptor.rooster465.autos
-  skip-cert-verify: true
-  sni: gentle-raptor.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇩🇪 德国 | DEU 19
-  password: ND91608427
-  port: 443
-  server: next-turkey.rooster465.autos
-  skip-cert-verify: true
-  sni: next-turkey.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇩🇪 德国 | DEU 20
-  password: ND91608427
-  port: 443
-  server: rapid-firefly.rooster465.autos
-  skip-cert-verify: true
-  sni: rapid-firefly.rooster465.autos
-  type: trojan
-  udp: true
+      Host: rb24.ir
+    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
