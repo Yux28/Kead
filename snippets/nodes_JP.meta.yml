@@ -1,91 +1,91 @@
 proxies:
-- name: 0|🇯🇵JP_2|3.0MB/s
-  password: BxceQaOe
-  port: 49811
-  server: 16.162.191.180
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇯🇵JP_4|4.6MB/s
+  name: 🇯🇵 日本 | JPN 2
   network: tcp
-  port: '29855'
+  port: 32326
   reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: v2.cdn.yye837u1f6xg.jjxdns.net
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  xudp: true
-- client-fingerprint: chrome
-  name: 1|🇯🇵 日本 | JPN
-  network: ws
-  port: 8443
-  server: 45.192.200.66
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: firefox
-  name: 1|🇯🇵 日本 | JPN 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-jp.emrata.top
-  servername: pro-jp.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
-- client-fingerprint: firefox
-  name: 1|🇯🇵 日本 | JPN 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-jp.emrata.top
-  servername: pro-jp.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
-- client-fingerprint: chrome
-  name: 2|JP_speednode_0067
-  network: ws
-  port: 443
-  server: 52.197.217.169
-  servername: sni.ehb.cc.cd
+    public-key: yQCIXuOIYIxJ6BeQ1I-pvdfZDkrqv25oy7oU25424HA
+    short-id: '!!str bc41498a'
+  server: jpvl.xinchenone.world
+  servername: www.mozilla.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_2|5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.179.245
+  type: ss
+  udp: true
+- name: 🇯🇵 日本 | JPN
+  network: ws
+  port: 8880
+  server: download.yunzhongzhuan.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7a2df38b-2d8b-486b-9b43-641c81e11f40
   ws-opts:
     headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: 2|JP_speednode_0068
+      Host: shiny-mud-d9fa.466.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: 🇯🇵 日本 | JPN 3
   network: ws
-  port: 57554
-  server: 203.137.165.164
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: false
+  port: 8880
+  server: download.yunzhongzhuan.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 35e8826f-0873-492d-8b8a-d495c9947480
+  ws-opts:
+    headers:
+      Host: super-sunset-010c.24-43d.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: kPWsR7ZqLC1gADJKZCEJYMUI3_wgWGcZYbLJvTvRMB4
+    short-id: '!!str d61bf3ec8054f8de'
+  server: 45.202.254.53
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
+  uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
+    short-id: '!!str cf61f7f0'
+  server: www.hjzhiliancafe.world
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
+- name: JP_speednode_0010
+  password: ND91608427
+  port: 443
+  server: definite-sturgeon.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-sturgeon.rooster465.autos
+  type: trojan
+  udp: true
+- name: JP_speednode_0011
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
+  type: trojan
+  udp: true

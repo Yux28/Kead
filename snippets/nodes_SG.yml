@@ -1,32 +1,36 @@
 proxies:
-- name: 0|🇸🇬SG_1|4.0MB/s
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇸🇬 新加坡 | SGP 2
+  network: http
+  port: 8080
+  server: 43.160.231.254
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 1|🇸🇬 新加坡 | SGP 2
+  tls: false
+  type: vmess
+  uuid: 96201234-168e-47d4-f83d-b64fb9d700ea
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 | SGP 5
   network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.64.35.127
+  port: 36809
+  server: cindy58.ceoiii.com
   skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
   ws-opts:
     headers:
-      Host: yks-dd9.pages.dev
-    path: /
-- name: 1|🇸🇬 新加坡 | SGP 3
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.64.35.26
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡 | SGP 10
+  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
+  port: 56927
+  server: 134.185.82.106
+  type: ss

@@ -1,15 +1,17 @@
 proxies:
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|🇨🇭 瑞士 | CHE
-  network: tcp
-  port: 25108
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: neurex
+  name: 🇨🇭 瑞士 | CHE
+  network: grpc
+  port: 16923
   reality-opts:
-    public-key: yug_6i3Rlwgxpiii-My5C7uenYGo7tlbKeaOLsn5jEs
-    short-id: '!!str c8f2e9065d4a317b'
-  server: sw1.auragg.org
-  servername: cloudflare.com
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: chc.kosmosapp.ru
+  servername: mail.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
+  uuid: 0f4aeb95-32ae-457c-8d71-b66bb9ff1073

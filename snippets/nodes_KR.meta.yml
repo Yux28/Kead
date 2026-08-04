@@ -1,60 +1,5 @@
 proxies:
-- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
-  name: 0,1|🇰🇷 韩国 | KOR
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: 20801
-  server: 222.238.227.54
-  skip-cert-verify: true
-  type: hysteria2
-- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
-  name: 0,1|🇰🇷 韩国 | KOR 2
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: 20801
-  server: hg1.yuanbaojc.site
-  skip-cert-verify: true
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 0|🇰🇷KR_4|2.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: '20801'
-  server: hg1.yuanbaojc.site
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  type: hysteria2
-  up: ''
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 1|🇰🇷 韩国 | KOR 4
-  network: tcp
-  port: 8899
-  reality-opts:
-    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
-    short-id: '!!str 11d27eb4'
-  server: 152.67.211.233
-  servername: www.lovelive-anime.jp
-  tls: true
-  type: vless
-  udp: true
-  uuid: d95e62f8-b961-4362-bb07-e1e421b02274
-- client-fingerprint: chrome
-  name: 2|KR_speednode_0069
-  network: ws
-  port: 443
-  server: 211.49.57.179
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- name: 2|KR_speednode_0070
+- name: 🇰🇷KR_1|2.7MB/s
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -63,18 +8,19 @@ proxies:
   type: http
   udp: true
   username: test
-- client-fingerprint: chrome
-  name: 2|KR_speednode_0071
-  network: ws
-  port: 28973
-  server: 218.155.85.44
-  servername: sni.ehb.cc.cd
+- name: KR_speednode_0012
+  password: ND91608427
+  port: 443
+  server: definite-malamute.rooster465.autos
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: definite-malamute.rooster465.autos
+  type: trojan
   udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
+- name: KR_speednode_0013
+  password: ND91608427
+  port: 443
+  server: moved-meerkat.rooster465.autos
+  skip-cert-verify: true
+  sni: moved-meerkat.rooster465.autos
+  type: trojan
+  udp: true
