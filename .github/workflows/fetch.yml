@@ -48,7 +48,7 @@ jobs:
       id: purge_urls
       run: |
         sleep 5
-        baseUrl="https://cdn.jsdelivr.net/gh/${{ github.repository }}@master"
+        baseUrl="https://cdn.jsdelivr.net/gh/${{ github.repository }}@main"
         urls=""
         for f in `find snippets -name "*.yml" -type f`; do
           urls+="${baseUrl}/${f},"
