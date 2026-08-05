@@ -1,43 +1,16 @@
 proxies:
-- name: 🇭🇰 香港 | HKG
-  network: ws
-  password: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
-  port: 443
-  server: cdn2.bpcdn.cc
-  skip-cert-verify: true
-  sni: 9l3ysxf7rj3nz549.tkgogocsgo.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 9l3ysxf7rj3nz549.tkgogocsgo.top
-    path: /images
-- cipher: aes-128-gcm
-  name: 🇭🇰HK_2|5.8MB/s
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 9052
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- name: 🇭🇰 香港 | HKG 3
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港 | HKG 4
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: 🇭🇰HK_1|1.8MB/s
+  network: grpc
+  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
+  port: '443'
+  server: kaizen-hk-3.gocmydns.com
+  skip-cert-verify: false
+  sni: www.zueuqnpjvcllc.co
   type: trojan
   udp: true
 - name: HK_speednode_0008

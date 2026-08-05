@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: 🇸🇬 新加坡 | SGP 2
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 40783
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan

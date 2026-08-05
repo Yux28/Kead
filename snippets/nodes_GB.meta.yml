@@ -1,4 +1,79 @@
 proxies:
+- name: 🇬🇧GB_1|2.8MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|2.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: 31.76.123.45
+  servername: pro-fi.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
+  xudp: true
+- client-fingerprint: firefox
+  name: 🇬🇧GB_3|2.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: pro-jp.emrata.top
+  servername: pro-jp.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e4101cd-40b4-4d1a-8df6-cc949c136e5a
+  xudp: true
+- name: 🇬🇧 英国 | GBR
+  network: tcp
+  port: 2550
+  server: 217.79.125.105
+  tls: false
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
+- name: 🇬🇧 英国 | GBR 2
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇬🇧 英国 | GBR 3
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: GB_speednode_0004
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -3odEfg8iWnQ-DQ4xN7nKLu8NFgdAXhv02FhlTACs10
+    short-id: '!!str 64c1fe36c7846400'
+  server: 212.104.141.166
+  servername: findmypackets.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
 - name: GB_speednode_0005
   password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
   port: 443

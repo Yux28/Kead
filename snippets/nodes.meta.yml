@@ -1,47 +1,1669 @@
 proxies:
-- name: 🇭🇰 香港 | HKG
-  network: ws
-  password: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: api.v1.StreamService
+  name: 🇩🇪 德国 | DEU 9
+  network: grpc
   port: 443
-  server: cdn2.bpcdn.cc
+  reality-opts:
+    public-key: q3kOYHdjmqWLLYj8oikvna1bTjofk45ktegGaJE611g
+    short-id: 'd3b394558cfe0266'
+  server: 88.216.220.88
+  servername: files.noneok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪 德国 | DEU 15
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: 'abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce774085-ab7b-468a-9282-a5199a525518
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪 德国 | DEU 16
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: 'abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 236d1f18-40c5-49d8-9611-85355754c326
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪 德国 | DEU 20
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: 'abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a61e92c-8816-43b3-bf4e-05c754505181
+- name: 🇩🇪 德国 | DEU 24
+  network: ws
+  password: ersi13mjahoao8e6
+  port: 443
+  server: hyperon.site
   skip-cert-verify: true
-  sni: 9l3ysxf7rj3nz549.tkgogocsgo.top
+  sni: ramz.xuithree.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ramz.xuithree.dpdns.org
+    path: /dksk
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇪🇪 爱沙尼亚 | EST
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: 'a696de84963656de'
+  server: 95.85.224.51
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
+- auth: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
+  name: 🇳🇱 荷兰 | NLD
+  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
+  port: 443
+  server: 5.255.102.165
+  skip-cert-verify: true
+  sni: 5.255.102.165
+  type: hysteria2
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇳🇱 荷兰 | NLD 6
+  network: tcp
+  port: 33729
+  reality-opts:
+    public-key: b5vvvll6WHFXYBOc-P4iEYNFw_uVALgypTESN0Nup2s
+    short-id: '0bd4698a48'
+  server: kino.memhd.store
+  servername: ymail.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf8906f5-63d3-44c2-8c1f-d2906cb3a229
+- client-fingerprint: firefox
+  name: 🇸🇪 瑞典 | SWE
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
+  server: 84.32.99.238
+  servername: recaptcha.net.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
+  xhttp-opts:
+    host: recaptcha.net.cn
+    mode: auto
+    path: /api/v1/data
+- name: 🇸🇬 新加坡 | SGP 2
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 40783
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: TunService
+  name: 🇹🇷 土耳其 | TUR
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.3
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
+- auth: c7d6c12d-64b4-4915-b9ec-c4286abe2bfd
+  name: 🇺🇸 美国 | USA 3
+  password: c7d6c12d-64b4-4915-b9ec-c4286abe2bfd
+  port: 25379
+  server: uswx4.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: 144.225.187.153#美国4@wxgqlfx
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_6|2.9MB/s
+  network: tcp
+  port: '443'
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪DE_7|1.1MB/s
+  network: xhttp
+  port: '8443'
+  server: 104.16.6.189
+  servername: butimcreepimweirdo.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: butimcreepimweirdo.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE_8|2.0MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '3303c7a5'
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc2
+  name: 🇺🇸US_2|3.9MB/s
+  network: grpc
+  port: '2096'
+  reality-opts:
+    public-key: -Dg4mGAAM5Lwe9ri7Bx5WlYdPBsyYJy-Pai2Z0FGlyc
+    short-id: 'afee962d'
+  server: 31.207.7.48
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2181d0c8-448a-4f75-b848-1718029baef9
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇳🇱NL_3|3.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
+  port: '443'
+  server: 5.255.102.165
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  up: ''
+- name: FR_speednode_0003
+  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  port: 443
+  server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+- name: RO_speednode_0033
+  port: 9002
+  server: 84.239.14.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO_speednode_0034
+  password: 'null'
+  port: 9002
+  server: 84.239.49.58
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: RO_speednode_0039
+  port: 9002
+  server: 84.239.49.228
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO_speednode_0042
+  port: 9002
+  server: 84.239.14.148
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: RO_speednode_0046
+  password: None
+  port: 9002
+  server: 84.239.49.244
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0063
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0066
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0069
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_9|2.8MB/s
+  network: ws
+  password: ersi13mjahoao8e6
+  port: '443'
+  server: cctvhikvision.center
+  skip-cert-verify: false
+  sni: ramz.xuithree.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 9l3ysxf7rj3nz549.tkgogocsgo.top
-    path: /images
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /dksk
+- client-fingerprint: chrome
+  name: 🇹🇼TW_2|2.8MB/s
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: '39221'
+  server: speed-01.aliyun-web-tracker.cn
+  skip-cert-verify: true
+  sni: speed-01.aliyun-web-tracker.cn
+  type: trojan
+  udp: true
+- name: 🇳🇱NL_4|1.4MB/s
+  password: None
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_1|2.8MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇳🇱NL_5|2.4MB/s
+  password: None
+  port: 8888
+  server: 95.211.64.139
+  type: http
+  username: null
+- name: 🇳🇱NL_6|4.5MB/s
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇫🇷FR_2|3.3MB/s
+  password: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+  port: 443
+  server: 3de61285-t9zts0-tkhmfr-1jm8i.fr.oshuawei.com
+  skip-cert-verify: true
+  sni: 3de61285-t9zts0-tkhmfr-1jm8i.fr.oshuawei.com
+  tls: true
+  type: http
+  username: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- name: 🇫🇷FR_3|3.8MB/s
+  password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
+  port: 443
+  server: 7382cbd7-tcxds0-th9kx9-1os43.fr.oshuawei.com
+  sni: 7382cbd7-tcxds0-th9kx9-1os43.fr.oshuawei.com
+  tls: true
+  type: http
+  username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
+- name: 🇷🇴RO_6|1.1MB/s
+  port: 9002
+  server: 84.239.49.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_6|4.2MB/s
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_7|1.6MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_8|2.1MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  name: 🇺🇦 乌克兰 | UKR
+  network: tcp
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- name: 🇷🇴RO_7|4.3MB/s
+  port: 9002
+  server: 84.239.49.38
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_8|1.1MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.173
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇷🇴RO_9|1.7MB/s
+  port: 9002
+  server: 84.239.49.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_10|3.8MB/s
+  password: None
+  port: 9002
+  server: 84.239.14.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_10|2.7MB/s
+  port: 1081
+  server: 46.37.123.166
+  type: socks5
+- name: 🇷🇴RO_11|4.2MB/s
+  port: 9002
+  server: 84.239.49.225
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_12|1.3MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇷🇴RO_13|2.4MB/s
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_14|1.1MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.58
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_9|2.5MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇷🇴RO_15|2.3MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.163
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇷🇴RO_16|1.8MB/s
+  password: None
+  port: 9002
+  server: 84.239.14.160
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇫🇮FI_1|1.8MB/s
+  port: 9443
+  server: 135.87.39.23
+  type: http
+- name: 🇷🇴RO_17|2.4MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.194
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇷🇴RO_18|3.3MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.41
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇷🇴RO_19|2.8MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.181
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇷🇴RO_20|3.3MB/s
+  password: None
+  port: 9002
+  server: 84.239.14.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_10|1.3MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇷🇴RO_21|1.1MB/s
+  port: 9002
+  server: 84.239.49.189
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_22|2.8MB/s
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_23|4.4MB/s
+  port: 9002
+  server: 84.239.49.212
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_24|3.1MB/s
+  password: ''
+  port: 9002
+  server: 84.239.49.196
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  username: ''
+- name: 🇷🇴RO_25|2.1MB/s
+  password: None
+  port: 9002
+  server: 84.239.14.155
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇷🇴RO_26|3.2MB/s
+  port: 9002
+  server: 84.239.49.157
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_27|3.6MB/s
+  password: None
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_11|2.0MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_12|3.4MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.43
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_13|3.3MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇷🇴RO_28|1.4MB/s
+  port: 9002
+  server: 84.239.49.254
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇨🇭CH_1|3.6MB/s
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: RO_speednode_0036
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_30|1.7MB/s
+  port: 9002
+  server: 84.239.14.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇷🇴RO_31|1.1MB/s
+  port: 9002
+  server: 84.239.49.173
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_32|2.0MB/s
+  port: 9002
+  server: 84.239.49.162
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_34|3.2MB/s
+  port: 9002
+  server: 84.239.49.204
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_35|3.1MB/s
+  port: 9002
+  server: 84.239.49.207
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: 🇭🇰HK_1|1.8MB/s
+  network: grpc
+  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
+  port: '443'
+  server: kaizen-hk-3.gocmydns.com
+  skip-cert-verify: false
+  sni: www.zueuqnpjvcllc.co
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇺🇸US_14|2.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: ''
+  server: 2.26.79.39
+  servername: pro-se.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇦🇪AE_1|2.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: 'fdda9806fe5d8584'
+  server: 78.17.208.23
+  servername: fr06.skorostnet.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_4|1.5MB/s
+  network: ws
+  port: '443'
+  server: paul.ns.cloudflare.com
+  servername: ziro.skin
+  tls: true
+  type: vless
+  udp: true
+  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
+  ws-opts:
+    headers:
+      Host: ziro.skin
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+    path: /xxvclws
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|2.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: 31.76.123.45
+  servername: pro-fi.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_15|2.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4
+    short-id: ''
+  server: pro-tr.emrata.top
+  servername: pro-tr.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e4101cd-40b4-4d1a-8df6-cc949c136e5a
+  xudp: true
+- client-fingerprint: firefox
+  name: 🇬🇧GB_3|2.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: pro-jp.emrata.top
+  servername: pro-jp.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e4101cd-40b4-4d1a-8df6-cc949c136e5a
+  xudp: true
+- name: 🇺🇸US_16|3.0MB/s
+  password: ''
+  port: '38182'
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_11|1.7MB/s
+  network: ws
+  port: '8443'
+  server: 172.67.225.147
+  servername: ftp.skylinknet.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 187cba2e-94df-407e-8d0a-f6d34311fe34
+  ws-opts:
+    headers:
+      Host: ftp.skylinknet.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇳🇱NL_7|3.9MB/s
+  network: tcp
+  port: '62145'
+  server: 141.144.196.166
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  xudp: true
+- name: 🇷🇴RO_36|1.3MB/s
+  port: 9002
+  server: 84.239.49.168
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: RO_speednode_0045
+  port: 9002
+  server: 84.239.49.60
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_38|3.7MB/s
+  port: 9002
+  server: 84.239.49.53
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_39|2.8MB/s
+  port: 9002
+  server: 84.239.49.217
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_40|2.7MB/s
+  port: 9002
+  server: 84.239.49.224
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_41|2.1MB/s
+  port: 9002
+  server: 84.239.14.159
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_42|4.2MB/s
+  port: 9002
+  server: 84.239.49.230
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_43|3.3MB/s
+  port: 9002
+  server: 84.239.49.248
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_44|2.0MB/s
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: RO_speednode_0047
+  port: 9002
+  server: 84.239.49.229
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: RO_speednode_0023
+  port: 9002
+  server: 84.239.49.175
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_47|1.8MB/s
+  port: 9002
+  server: 84.239.49.186
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_48|3.3MB/s
+  port: 9002
+  server: 84.239.49.198
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴RO_49|2.9MB/s
+  port: 9002
+  server: 84.239.49.185
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷 韩国 | KOR
+    grpc-service-name: assets.RealityFanout2
+  name: 🇦🇺 澳大利亚 | AUS
   network: grpc
-  port: 10047
+  port: 443
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: kr2-r.link-t7.com
-  servername: s0.awsstatic.com
+    public-key: bKDaOHdoIGn61t71D2iF-5_Jh9YS2aGOCXadFYuAhT8
+    short-id: '2aff3dd38675a4c7'
+  server: vpn.morrow-vpn.ru
+  servername: hh.ru
   tls: true
   type: vless
   udp: true
-  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
+  uuid: 482d4c0f-69df-1ddb-9803-b933a6b990a2
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 巴西 | BRA
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 136.248.89.191
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 巴西 | BRA 2
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 137.131.181.254
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇦 加拿大 | CAN
+  network: tcp
+  packet-encoding: xudp
+  port: 5151
+  reality-opts:
+    public-key: T3vWH0zPUrOsgdK7cvEEnMbS3LIJDxQ17_L_GhmZJ0E
+    short-id: '69b851'
+  server: 185.206.170.69
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26c0589f-79e5-4789-8ff7-914f2e26e8e5
+- auth: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+  name: 🇩🇪 德国 | DEU
+  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+  port: 443
+  server: node-degame.bangboonet.ru
+  skip-cert-verify: true
+  sni: node-degame.bangboonet.ru
+  type: hysteria2
+- auth: 22j0d00lev7mq0yv
+  name: 🇩🇪 德国 | DEU 2
+  obfs: salamander
+  obfs-password: 8zzng75tz4tf82pj
+  password: 22j0d00lev7mq0yv
+  port: 8443
+  server: musicclips.videolinks.ru
+  skip-cert-verify: true
+  sni: musicclips.videolinks.ru
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 🇩🇪 德国 | DEU 3
+  port: 26691
+  protocol: udp
+  server: 5.83.129.143
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 11 Mbps
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 4
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- name: 🇩🇪 德国 | DEU 5
+  network: ws
+  port: 8880
+  server: 104.17.121.110
+  tls: false
+  type: vless
+  udp: true
+  uuid: a733d1a0-6321-46ab-b525-f9da2b44b9c2
+  ws-opts:
+    headers:
+      Host: bgphajik.lorqino.ir
+    path: /mmd
+    v2ray-http-upgrade: true
+- client-fingerprint: edge
+  name: 🇩🇪 德国 | DEU 6
+  network: xhttp
+  port: 443
+  server: 185.126.93.15
+  servername: wx-deu-022.cdnphotos.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cca8201-c93e-40eb-bd8a-fea4170c169e
+  xhttp-opts:
+    host: wx-deu-022.cdnphotos.org
+    mode: auto
+    path: /api/v1/
+- name: 🇩🇪 德国 | DEU 7
+  network: ws
+  port: 8880
+  server: 193.227.99.54
+  tls: false
+  type: vless
+  udp: true
+  uuid: a733d1a0-6321-46ab-b525-f9da2b44b9c2
+  ws-opts:
+    headers:
+      Host: bgphajik.lorqino.ir
+    path: mmd
+    v2ray-http-upgrade: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: api.v1.StreamService
+  name: 🇩🇪 德国 | DEU 8
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: S8O8R938N960cpQfIIDXsJTxeGAkbVv6PlIqP0-d30w
+    short-id: '1ea59febb8d4fc8e'
+  server: 88.216.220.87
+  servername: api.noneok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 10
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: 'b997e34499a919f3'
+  server: mnl.savesafe.space
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  xhttp-opts:
+    host: ya.ru
+    mode: auto
+    path: /
+- alpn:
+  - h2
+  client-fingerprint: qq
+  name: 🇩🇪 德国 | DEU 11
+  network: xhttp
+  port: 443
+  server: wx-deu-022.cdnphotos.org
+  servername: wx-deu-022.cdnphotos.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cca8201-c93e-40eb-bd8a-fea4170c169e
+  xhttp-opts:
+    host: wx-deu-022.cdnphotos.org
+    mode: auto
+    path: /api/v1/
+- name: 🇩🇪 德国 | DEU 12
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d2pwbkmfr5lxa4.cloudfront.net
+  tls: false
+  type: vless
+  udp: true
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  ws-opts:
+    headers:
+      Host: d2pwbkmfr5lxa4.cloudfront.net
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 13
+  network: tcp
+  port: 3770
+  reality-opts:
+    public-key: ELP_3NkuidJ_Ze66sWRte1sRb_Wxnp2XSk4E5-nN4T0
+    short-id: '1a6ce783b05a09b0'
+  server: hde.mobleamiri10.ir
+  servername: play.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f3ca0464-f6cc-4c60-a237-df97544ebf8a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 14
+  network: tcp
+  port: 57228
+  reality-opts:
+    public-key: iWiQ0JyYhl_yzWSbIh4L4wOiiXBOhNVMhWmgtDvF1jo
+    short-id: '6e3e0d3abe3e78a4'
+  server: 77.91.84.96
+  servername: www.googletagmanager.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f319a005-6bd0-44b3-910c-a596a2573efe
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪 德国 | DEU 17
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: 'abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ab01e1d-f495-4189-bc1b-54b0d83978eb
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪 德国 | DEU 18
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: 'abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78b58296-16a0-47ac-ba3f-8fe64425457f
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪 德国 | DEU 19
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: 'abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1691261e-1f25-4f75-b84d-5fc982bf08f2
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪 德国 | DEU 21
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: 'abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57bf75ba-5c9d-487b-8a57-1451ad729b4d
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪 德国 | DEU 22
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: 'abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee0be4b8-b1ad-49e8-8336-8cec3570d089
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: assets.RealityFanout7
+  name: 🇩🇪 德国 | DEU 23
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: bKDaOHdoIGn61t71D2iF-5_Jh9YS2aGOCXadFYuAhT8
+    short-id: '2aff3dd38675a4c7'
+  server: vpn.morrow-vpn.ru
+  servername: 2gis.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 482d4c0f-69df-1c8b-9803-b933a6b990a2
+- name: 🇩🇪 德国 | DEU 25
+  network: ws
+  password: ersi13mjahoao8e6
+  port: 443
+  server: hikvision-plus.com
+  skip-cert-verify: true
+  sni: ramz.xuithree.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ramz.xuithree.dpdns.org
+    path: /dksk
+- grpc-opts:
+    grpc-service-name: /16835/Cba1c1ZOir
+  name: 🇩🇪 德国 | DEU 26
+  network: grpc
+  password: yooog56ts3ymtpp5
+  port: 443
+  server: 78.17.103.162
+  skip-cert-verify: true
+  sni: driveservice.mooo.com
+  type: trojan
+  udp: true
+- name: 🇫🇷 法国 | FRA
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇬🇧 英国 | GBR
+  network: tcp
+  port: 2550
+  server: 217.79.125.105
+  tls: false
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
+- name: 🇬🇧 英国 | GBR 2
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇬🇧 英国 | GBR 3
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- auth: 34eaf53b-a8fd-49c8-8588-f11cf793ed66
+  name: 🇭🇰 香港 | HKG
+  obfs: salamander
+  obfs-password: sSRDkt6ZVfkPEkj2
+  password: 34eaf53b-a8fd-49c8-8588-f11cf793ed66
+  port: 8443
+  server: hk.script-hub.de5.net
+  skip-cert-verify: true
+  sni: hk.script-hub.de5.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 | HKG 2
+  network: ws
+  port: 8443
+  server: 103.148.73.176
+  servername: ty986gfazs.cainiaohub.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5ce79f9-fdac-4e80-8286-a15b96fded72
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 | HKG 3
+  network: ws
+  port: 8443
+  server: 103.180.20.228
+  servername: ty986gfazs.cainiaohub.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5ce79f9-fdac-4e80-8286-a15b96fded72
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- name: 🇮🇪 爱尔兰 | IRL
+  password: ND91608427
+  port: 443
+  server: willing-beagle.rooster465.autos
+  skip-cert-verify: true
+  sni: willing-beagle.rooster465.autos
+  type: trojan
+- auth: 71cada65-d23e-418c-88e4-a06188d14689
+  name: 🇮🇹 意大利 | ITA
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: it-one.quiet-rogue.site
+  skip-cert-verify: true
+  sni: it-one.quiet-rogue.site
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN
+  network: tcp
+  port: 27407
+  reality-opts:
+    public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
+    short-id: 'e6ac18b63f23'
+  server: 13.193.205.133
+  servername: bgcpartners.com
+  tls: true
+  type: vless
+  uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN 2
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+    path: /glasspanel/92298abb_0_5744c010dde7/
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN 3
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+    path: /glasspanel/92298abb_0_5744c010dde7/
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇯🇵 日本 | JPN 4
+  network: http
+  port: 53268
+  server: 47.74.43.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+- name: 🇯🇵 日本 | JPN 5
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇱🇻 拉脱维亚 | LVA
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: -Dg4mGAAM5Lwe9ri7Bx5WlYdPBsyYJy-Pai2Z0FGlyc
+    short-id: 'afee962d'
+  server: 185.220.223.61
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2181d0c8-448a-4f75-b848-1718029baef9
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇳🇱 荷兰 | NLD 9
+  name: 🇱🇻 拉脱维亚 | LVA 2
   network: tcp
-  port: 10049
+  packet-encoding: xudp
+  port: 443
   reality-opts:
-    public-key: 5mklCKyNnRZwmN9sTwrR81latb570OKWykB0x_LL3zA
-    short-id: 'a6b2be44'
-  server: family.bucket.9.kfc-520.com
-  servername: www.intel.com
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: '93ae75024604f796'
+  server: 188.92.78.81
+  servername: anyfile2file.com
   tls: true
   type: vless
   udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
+- name: 🇳🇱 荷兰 | NLD 2
+  network: tcp
+  port: 62145
+  server: 141.148.235.203
+  tls: false
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- client-fingerprint: chrome
+  name: 🇳🇱 荷兰 | NLD 3
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  xhttp-opts:
+    host: download.nvidia.com
+    mode: auto
+    path: /
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: TunService
+  name: 🇳🇱 荷兰 | NLD 4
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: TunService
+  name: 🇳🇱 荷兰 | NLD 5
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+- name: 🇳🇱 荷兰 | NLD 7
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.126
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇵🇱 波兰 | POL
+  network: ws
+  port: 443
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e37ef76-835d-4ad2-a1d3-414ef90532bf
+  ws-opts:
+    headers:
+      Host: ov186.ochmaybrooooo.online
+    path: /
+- auth: 35415e5e-3666-4454-8c45-903af0fcddf4
+  name: 🇷🇴 罗马尼亚 | ROU
+  password: 35415e5e-3666-4454-8c45-903af0fcddf4
+  port: 47257
+  server: 85.120.228.208
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 🇷🇺 俄罗斯 | RUS
+  network: ws
+  port: 4100
+  server: 104.171.132.185
+  tls: false
+  type: vless
+  udp: true
+  uuid: 112912a9-cedf-485d-b8ed-d8f8d4774437
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- name: 🇷🇺 俄罗斯 | RUS 2
+  network: ws
+  port: 4100
+  server: 104.171.135.186
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2c66d559-9889-45c5-a712-d8b7a31fa04d
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- name: 🇷🇺 俄罗斯 | RUS 3
+  network: ws
+  port: 2200
+  server: 109.73.196.160
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5d0206d9-fb42-4c8b-a84b-3d95ab0f42c7
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
+- client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯 | RUS 4
+  network: xhttp
+  port: 443
+  server: 159.194.238.114
+  servername: ru.node.sillyvpn.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
+  xhttp-opts:
+    host: ru.node.sillyvpn.cc
+    mode: packet-up
+    path: /api/burmalda.json
+- name: 🇷🇺 俄罗斯 | RUS 5
+  network: ws
+  port: 4100
+  server: 168.222.202.15
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2001e98b-e06e-4244-910f-7ff640746eda
+  ws-opts:
+    path: /v1
+- client-fingerprint: edge
+  name: 🇷🇺 俄罗斯 | RUS 6
+  network: xhttp
+  port: 443
+  server: 185.126.93.17
+  servername: wx-deu-037.cdnphotos.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77930005-ea92-44dc-9d94-e9192427f519
+  xhttp-opts:
+    host: wx-deu-037.cdnphotos.org
+    mode: auto
+    path: /api/v1/
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 俄罗斯 | RUS 7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo
+    short-id: '7f2e9c4b1a8d6a53'
+  server: 37.139.43.57
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ceeba701-bb9f-4f2c-8142-677d27a2acb1
+- client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯 | RUS 8
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+- client-fingerprint: edge
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: rpc.v2.FeedService
+  name: 🇷🇺 俄罗斯 | RUS 9
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: eU2IqYoHVYNfFqNlTNEAGooWqL2WqKbbQwxAPRu_7wc
+    short-id: '93762a4ddf178703'
+  server: 83.217.192.233
+  servername: api.univesalsrv.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b92d620-add7-42bd-ac1b-93ee4dfacee0
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: rpc.v2.FeedService
+  name: 🇷🇺 俄罗斯 | RUS 10
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: eU2IqYoHVYNfFqNlTNEAGooWqL2WqKbbQwxAPRu_7wc
+    short-id: '93762a4ddf178703'
+  server: api.univesalsrv.com
+  servername: api.univesalsrv.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b92d620-add7-42bd-ac1b-93ee4dfacee0
 - alpn:
   - h2
   - http/1.1
@@ -59,627 +1681,105 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- cipher: aes-128-gcm
-  name: 🇸🇨SC_1|5.0MB/s
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 9022
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸US_1|3.3MB/s
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 911
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇭🇰HK_2|5.8MB/s
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 9052
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸US_2|4.4MB/s
-  password: ay2loud1
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 906
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇸🇨SC_2|5.3MB/s
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 20012
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇭🇰 香港 | HKG 2
-  network: tcp
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇸🇨SC_3|3.1MB/s
-  port: 1080
-  server: 27.155.93.29
-  type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_3|1.3MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.16.6.189
-  skip-cert-verify: true
-  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_1|1009KB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 130.61.86.101
-  type: ss
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇦🇺 澳大利亚 | AUS
+  name: 🇹🇷 土耳其 | TUR 2
   network: tcp
-  port: 10026
+  port: 993
   reality-opts:
-    public-key: -iZh6xpEREbTssMskcpNOjrqzHuDTb3t5Mg9L7t9qXM
-    short-id: '017184'
-  server: family.bucket.8.kfc-520.com
-  servername: www.hp.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇷 巴西 | BRA
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 137.131.226.109
-  type: ss
-  udp: true
-- name: 🇨🇴 哥伦比亚 | COL
-  network: tcp
-  port: 62145
-  server: 149.130.181.254
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 🇨🇴 哥伦比亚 | COL 2
-  network: tcp
-  port: 62145
-  server: 157.137.217.152
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 🇨🇴 哥伦比亚 | COL 3
-  network: tcp
-  port: 62145
-  server: 157.137.235.122
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇿 捷克 | CZE
-  network: tcp
-  port: 10050
-  reality-opts:
-    public-key: U1eMEZpYrlL2SvcFw0efhudE0SSBJ9q5QKCWWEXA53w
-    short-id: '8def87fb30886534'
-  server: family.bucket.9.kfc-520.com
-  servername: www.hp.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.178.74
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 2
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.226.94
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 3
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.86.126
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 4
-  password: 0w2SXgRXHtKQ0FKwGIzq0j
-  port: 5223
-  server: creativeboxde3.zanity.net
-  type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 5
-  network: xhttp
-  port: 443
-  server: 167.82.101.210
-  servername: global.fastly.coM.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-  xhttp-opts:
-    host: farangis.global.ssl.fastly.neT.
-    mode: auto
-    path: /
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-- client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 6
-  network: tcp
-  packet-encoding: xudp
-  port: 25520
-  reality-opts:
-    public-key: CdbZitEgBioklscSAiU8eGR_sRvzLPrH3davu5DrNBc
-    short-id: 'a8de8bc1e9f5ef'
-  server: 91.107.182.197
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7fc1ee8b-3abf-4b4e-ab73-007460d767bd
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 7
-  network: tcp
-  port: 4040
-  reality-opts:
-    public-key: H9OGLRos1CxS7C197U2G6vmAINTN6GMasevL3gX9uEI
-    short-id: 'c57bcc26'
-  server: vl1.salar4040.ir
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1d2a517-3ff2-4eb7-a9cd-2a42a2eb1c29
-- name: 🇩🇪 德国 | DEU 8
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
-  type: vless
-  udp: true
-  uuid: b334d1aa-aa87-4802-ac8a-d739378e658d
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇪🇪 爱沙尼亚 | EST
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: '64c1fe36c7846400'
-  server: 185.215.184.31
-  servername: anyfile2file.com
-  tls: true
-  type: vless
-  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇪🇪 爱沙尼亚 | EST 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-    short-id: 'a696de84963656de'
-  server: 95.85.224.51
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
-- name: 🇭🇰 香港 | HKG 3
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港 | HKG 4
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: HK_speednode_0008
-  password: ND91608427
-  port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-hamster.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: JP_speednode_0010
-  network: tcp
-  port: 10053
-  reality-opts:
-    public-key: o-ud3x7exNVYmknsVseZyUGMyK_680Nub0Cf6W4KiRw
-    short-id: 'cbbf64'
-  server: family.bucket.9.kfc-520.com
-  servername: www.amd.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- name: IE_speednode_0009
-  password: ND91608427
-  port: 443
-  server: skilled-lioness.rooster465.autos
-  skip-cert-verify: true
-  sni: skilled-lioness.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本 | JPN
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)7836d8f7:130689
-    mode: tls
-  port: 2377
-  server: 43.206.229.103
-  type: ss
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 2
-  network: tcp
-  port: 37630
-  reality-opts:
-    public-key: _z2_BSDft7ZeqhGuUIFedGSFjSK5SwMRaTQs6hc8NDE
-    short-id: '3682af'
-  server: 191.222.212.130
-  servername: youtubeeducation.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c9794354-f682-4039-acc5-6bbcd6742d98
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 3
-  network: tcp
-  port: 20502
-  reality-opts:
-    public-key: 76SU9ZkANPusbBXTVyF7XoQqlxFm8JHI_YT6VyGqzjU
-    short-id: '6ba85179e30d4fc2'
-  server: 87.76.198.214
-  servername: v1-dy.ixigua.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d054d90c-0ba9-47fe-ac83-f0011713c1c2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 4
-  network: tcp
-  port: 10015
-  reality-opts:
-    public-key: ikCB12OSZuP08JB3pfGfS1QE02Xw7Ddm9k1RDS3ZWmE
-    short-id: 'e38d'
-  server: family.bucket.7.kfc-520.com
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- auth: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f
-  name: 🇰🇿 哈萨克斯坦 | KAZ
-  password: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f
-  port: 8443
-  server: 213.155.22.202
-  skip-cert-verify: true
-  sni: azer-tea-grape.bumbleshrimp.com
-  type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇱🇻 拉脱维亚 | LVA
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: '93ae75024604f796'
-  server: 188.92.78.81
-  servername: anyfile2file.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇲🇾 马来西亚 | MYS
-  network: tcp
-  port: 10031
-  reality-opts:
-    public-key: XD4QDqCtwoTo5TsoU8Kl2Mj7F-hQNzlyK5z0cg8VZ20
-    short-id: 'd83b1991a19fb038'
-  server: family.bucket.9.kfc-520.com
-  servername: www.hp.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 | NLD
-  password: nfqXKhEmvHdOUVqFyNLnvx
-  port: 5228
-  server: creativeboxnl2.zanity.net
-  type: ss
-- name: 🇳🇱 荷兰 | NLD 2
-  network: tcp
-  port: 62145
-  server: 134.98.158.207
-  tls: false
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 🇳🇱 荷兰 | NLD 3
-  network: tcp
-  port: 62145
-  server: 141.148.235.203
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 🇳🇱 荷兰 | NLD 4
-  network: tcp
-  port: 62145
-  server: 158.178.159.208
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 🇳🇱 荷兰 | NLD 5
-  network: tcp
-  port: 62145
-  server: 84.235.173.150
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: TunService
-  name: 🇳🇱 荷兰 | NLD 6
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.3
   servername: download.nvidia.com
   tls: true
   type: vless
   udp: true
   uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
 - client-fingerprint: chrome
-  name: 🇳🇱 荷兰 | NLD 7
+  name: 🇹🇷 土耳其 | TUR 3
   network: xhttp
-  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.3
   servername: download.nvidia.com
   tls: true
   type: vless
   udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
   xhttp-opts:
     host: download.nvidia.com
     mode: auto
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: NL_speednode_0013
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: '64c1fe36c7846400'
-  server: 89.105.197.203
-  servername: anyfile2file.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
-- alpn:
-  - http/1.1
-  name: 🇳🇱 荷兰 | NLD 10
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 188.114.98.0
-  skip-cert-verify: true
-  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇵🇹 葡萄牙 | PRT
-  network: tcp
-  port: 60771
-  server: 93.119.168.215
-  tls: false
-  type: vless
-  udp: true
-  uuid: 060a5db6-7ff9-4a64-87c1-8a27be4f11ab
 - client-fingerprint: chrome
-  name: 🇷🇺 俄罗斯 | RUS
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- cipher: aes-256-cfb
-  name: 🇸🇪 瑞典 | SWE
-  password: amazonskr05
-  port: 443
-  server: 13.61.13.49
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 2
-  network: ws
-  port: 2087
-  server: 172.64.146.211
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇹🇭 泰国 | THA
-  network: tcp
-  port: 10032
-  reality-opts:
-    public-key: yXxDl06l9pXXT4_1kqpdgOyfAhORcsfPgLTxHu50zQM
-    short-id: 'f9275dbb5a'
-  server: family.bucket.9.kfc-520.com
-  servername: www.hp.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- grpc-opts:
+  grpc-opts:
     grpc-mode: gun
-    grpc-service-name: grpc
-  name: 🇹🇷 土耳其 | TUR
+    grpc-service-name: TunService
+  name: 🇹🇷 土耳其 | TUR 4
   network: grpc
   port: 8443
-  server: 185.39.204.155
+  reality-opts:
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.5
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6f220ed-41f2-21ba-438c-80f05ebbf92a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇷 土耳其 | TUR 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.229
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- name: 🇹🇷 土耳其 | TUR 6
+  network: tcp
+  port: 43971
+  server: bonus.ahora-65.ir
   tls: false
   type: vless
   udp: true
-  uuid: 7e8f7489-e65f-4be6-93ed-867a74ec6759
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇹🇷 土耳其 | TUR 2
-  network: ws
-  port: 80
-  server: pro.mzwebm.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  uuid: 3a55aed6-4756-4b41-9dfa-116d32aeb8e5
+- client-fingerprint: chrome
+  name: 🇹🇷 土耳其 | TUR 7
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 0NCVdIN-gT854Meoc8v-8DJsGEDgIvyaia6Ytrxo5yA
+  server: un.nexavps.com.tr
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
   udp: true
-  uuid: f21d27ae-6412-4d4a-878d-a5edc51cf043
-  ws-opts:
-    headers:
-      Host: dl3name.global.ssl.fastly.net
-    path: /vipmax
-- name: 🇺🇦 乌克兰 | UKR
+  uuid: b140b69a-1592-4af1-ee8e-d92c927a97cf
+- name: 🇺🇦 乌克兰 | UKR 2
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- auth: 1db7c1ae-e1e1-4612-8057-9f7b54849472
+- auth: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
   name: 🇺🇸 美国 | USA
+  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+  port: 30001
+  server: 155.117.19.221
+  skip-cert-verify: true
+  type: hysteria2
+- auth: 1db7c1ae-e1e1-4612-8057-9f7b54849472
+  name: 🇺🇸 美国 | USA 2
   password: 1db7c1ae-e1e1-4612-8057-9f7b54849472
   port: 25379
   server: uswx3.wxgqlfx.vip
   skip-cert-verify: true
   sni: 144.225.187.184#美国3@wxgqlfx
-  type: hysteria2
-- auth: c7d6c12d-64b4-4915-b9ec-c4286abe2bfd
-  name: 🇺🇸 美国 | USA 2
-  password: c7d6c12d-64b4-4915-b9ec-c4286abe2bfd
-  port: 25379
-  server: uswx4.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 144.225.187.153#美国4@wxgqlfx
-  type: hysteria2
-- auth: 34eaf53b-a8fd-49c8-8588-f11cf793ed66
-  name: 🇺🇸 美国 | USA 3
-  obfs: salamander
-  obfs-password: L9Kylv1Gm2uz4MGY
-  password: 34eaf53b-a8fd-49c8-8588-f11cf793ed66
-  port: 8443
-  server: us.script-hub.de5.net
-  skip-cert-verify: true
-  sni: us.script-hub.de5.net
   type: hysteria2
 - cipher: aes-128-gcm
   name: 🇺🇸 美国 | USA 4
@@ -688,89 +1788,24 @@ proxies:
   server: 23.185.200.135
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- alpn:
+  - h2
+  client-fingerprint: chrome
   name: 🇺🇸 美国 | USA 5
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: wleI_i5zku-rrqzLdCZ3qe5C4HrE27IzCRmbXOmcMkw
-    short-id: '72f70ccc0c2568ef'
-  server: 103.94.185.145
-  servername: www.apple.com
+  server: 108.162.194.119
+  servername: utmwb.freshlionnode-fla.sbs
   tls: true
   type: vless
-  uuid: 40aba943-fa2a-4236-9034-e5a8911b8f78
+  udp: true
+  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
+  ws-opts:
+    headers:
+      Host: utmwb.freshlionnode-fla.sbs
+    path: /carbon
 - client-fingerprint: chrome
   name: 🇺🇸 美国 | USA 6
-  network: ws
-  port: 2087
-  server: 104.16.150.130
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 7
-  network: ws
-  port: 443
-  server: 104.17.223.103
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 8
-  network: ws
-  port: 443
-  server: 104.17.3.81
-  servername: soucuovls.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
-  ws-opts:
-    headers:
-      Host: soucuovls.pages.dev
-    path: /pyip=proxyip.cmliussss.net
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 9
-  network: ws
-  port: 443
-  server: 104.24.67.15
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- name: 🇺🇸 美国 | USA 10
-  network: ws
-  port: 8880
-  server: 162.159.21.178
-  tls: false
-  type: vless
-  udp: true
-  uuid: f09f4baa-7688-4514-8062-c3ea8e319624
-  ws-opts:
-    headers:
-      Host: dark-leaf-93a1.440-02e.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 11
   network: ws
   port: 443
   server: 162.159.38.105
@@ -784,49 +1819,35 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
 - client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 12
+  name: 🇺🇸 美国 | USA 7
   network: ws
-  port: 443
-  server: 162.159.38.119
-  servername: lw-1-wn5a3ofs.zrizan.ir
+  port: 2087
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   tls: true
   type: vless
   udp: true
-  uuid: bbab81f3-87a0-4e63-8b3b-010c645d8da7
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: lw-1-wn5a3ofs.zrizan.ir
-    path: /meti
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 13
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
+- client-fingerprint: random
+  name: 🇺🇸 美国 | USA 8
   network: ws
   port: 443
-  server: 172.66.44.97
-  servername: josni.hoyes.cloudns.ch
+  server: 172.64.32.2
+  servername: soucuovls.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
   ws-opts:
     headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi
+      Host: soucuovls.pages.dev
+    path: pyip=proxyip.cmliussss.net
 - client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 14
-  network: ws
-  port: 443
-  server: 172.67.150.239
-  servername: 1.rmgyvpn.rest
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98262dbd-3606-437b-b12e-3f38ca62522f
-  ws-opts:
-    headers:
-      Host: 1.rmgyvpn.rest
-    path: /ws-cdn
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 15
+  name: 🇺🇸 美国 | USA 9
   network: tcp
   port: 25129
   reality-opts:
@@ -838,80 +1859,18 @@ proxies:
   type: vless
   udp: true
   uuid: 98d58579-9dc4-4e3e-b94e-6a472faf6a41
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 16
+- name: 🇺🇸 美国 | USA 10
   network: ws
-  port: 443
-  server: 188.114.97.3
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
+  port: 58549
+  server: 216.167.9.238
+  tls: false
   type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: 4a291562-7e80-41c1-97dd-592303a675b4
   ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 17
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee65e0bd-0223-46bb-9e18-6798c10ce155
-  ws-opts:
-    headers:
-      Host: lsjaoijji.global.ssl.fastly.neT
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: GB_speednode_0004
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: -3odEfg8iWnQ-DQ4xN7nKLu8NFgdAXhv02FhlTACs10
-    short-id: '64c1fe36c7846400'
-  server: 212.104.141.166
-  servername: findmypackets.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸 美国 | USA 19
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: vSg0Cr4YV0ODJfb1TBjEOUxmFphSdFMXIJ-0ZNxcQiw
-    short-id: '8a7be6783eae0fe3'
-  server: 216.24.191.214
-  servername: sb.music.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bc3dd3d6-0684-4852-bff8-07c0b741aa08
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 20
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7VxTJ07mi8LjFwq6js_slff3Y3YgEzGzR7x9SeT5N3U
-    short-id: '660d5a6915710e6e'
-  server: 38.47.113.204
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 594f4505-d8dc-4ebd-b709-15d0d5046832
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国 | USA 21
+  name: 🇺🇸 美国 | USA 11
   network: tcp
   port: 35457
   reality-opts:
@@ -937,21 +1896,7 @@ proxies:
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国 | USA 23
-  network: tcp
-  port: 16565
-  reality-opts:
-    public-key: JqblL-dYqxHH3pAju89x3OkXlBQ8k5LzO2Yoadi8ylk
-    short-id: '373e14d458'
-  server: 94.124.119.187
-  servername: yulife.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a3756ec-179b-48fe-b861-27c0287710ae
-- name: 🇺🇸 美国 | USA 24
+- name: 🇺🇸 美国 | USA 13
   network: ws
   port: 2095
   server: www.wto.org
@@ -963,49 +1908,49 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国 | USA 25
-  network: tcp
-  port: 10003
-  reality-opts:
-    public-key: BLxr2zh1eI34_v_CCzROgLIfUW6-ki5ZpbQiZ7LS80g
-    short-id: '98'
-  server: family.bucket.2.kfc-520.com
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国 | USA 26
-  network: tcp
-  port: 10007
-  reality-opts:
-    public-key: uMDcH_hT82rYMOiaYGGPJ5Aa9hk9Sdo2svtRIHBSBFo
-    short-id: '61e4433c2b25da'
-  server: family.bucket.5.kfc-520.com
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
 - client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 27
+  name: 🇺🇸 美国 | USA 14
   network: ws
   port: 443
-  server: support.zoom.us
-  servername: support.zoom.us.yxls.eu.cc
+  server: d.mygoldiran.com
+  servername: usa_multi.mygoldiran.com
   tls: true
   type: vless
   udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: 76792e97-ee95-4d29-86da-347362d491f2
   ws-opts:
     headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- name: 🇺🇸 美国 | USA 28
+      Host: usa_multi.mygoldiran.com
+    path: /idea
+- client-fingerprint: chrome
+  name: 🇺🇸 美国 | USA 15
+  network: ws
+  port: 8443
+  server: ad-013.atlaswyxd3.info
+  servername: ad-013.atlaswyxd3.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+  ws-opts:
+    headers:
+      Host: ad-013.atlaswyxd3.info
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇸 美国 | USA 16
+  network: ws
+  port: 8443
+  server: ad-013.core6g25r.info
+  servername: ad-013.core6g25r.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+  ws-opts:
+    headers:
+      Host: ad-013.core6g25r.info
+    path: /
+- name: 🇺🇸 美国 | USA 17
   network: ws
   port: 2095
   server: www.fbi.gov
@@ -1017,49 +1962,24 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
-- name: 🇺🇸 美国 | USA 29
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.16.6.189
-  skip-cert-verify: true
-  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 30
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.16.98.215
-  skip-cert-verify: true
-  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 31
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 104.17.148.22
-  skip-cert-verify: true
-  sni: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 32
+- name: 🇺🇸 美国 | USA 18
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.175
+  server: 104.17.121.43
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 19
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1068,98 +1988,28 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 33
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 34
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.20.48.11
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cmee.ezbiz.dynv6.net
-    path: /
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 35
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.26.2.173
-  skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 36
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ssl.fastly.com
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸 美国 | USA 37
+  name: 🇺🇸 美国 | USA 20
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 38
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国 | USA 21
   network: ws
-  password: MiTiVPN
-  port: 443
-  server: 188.114.97.6
+  port: 23142
+  server: la.2555555.xyz
   skip-cert-verify: true
-  sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
-  type: trojan
-  udp: true
+  tls: true
+  type: vmess
+  uuid: 22ca377b-2ee8-49a9-907a-e6219b267113
   ws-opts:
     headers:
-      Host: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇻🇳 越南 | VNM
-  network: tcp
-  port: 10033
-  reality-opts:
-    public-key: mQvQHrpr_4068cLt-AOl44mQN6YccQv7yLfCP5Kp9HU
-    short-id: '667925235980'
-  server: family.bucket.9.kfc-520.com
-  servername: www.hp.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+      Host: la.2555555.xyz
+    path: /pfrq
 - client-fingerprint: firefox
   name: AE_speednode_0001
   port: 443
@@ -1177,15 +2027,21 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: FR_speednode_0003
-  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: GB_speednode_0004
+  network: tcp
   port: 443
-  server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
+  reality-opts:
+    public-key: -3odEfg8iWnQ-DQ4xN7nKLu8NFgdAXhv02FhlTACs10
+    short-id: '64c1fe36c7846400'
+  server: 212.104.141.166
+  servername: findmypackets.com
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
 - name: GB_speednode_0005
   password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
   port: 443
@@ -1210,6 +2066,37 @@ proxies:
   type: http
   udp: true
   username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: HK_speednode_0008
+  password: ND91608427
+  port: 443
+  server: upright-hamster.rooster465.autos
+  skip-cert-verify: true
+  sni: upright-hamster.rooster465.autos
+  type: trojan
+  udp: true
+- name: IE_speednode_0009
+  password: ND91608427
+  port: 443
+  server: skilled-lioness.rooster465.autos
+  skip-cert-verify: true
+  sni: skilled-lioness.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: JP_speednode_0010
+  network: tcp
+  port: 10053
+  reality-opts:
+    public-key: o-ud3x7exNVYmknsVseZyUGMyK_680Nub0Cf6W4KiRw
+    short-id: 'cbbf64'
+  server: family.bucket.9.kfc-520.com
+  servername: www.amd.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: JP_speednode_0011
@@ -1233,6 +2120,21 @@ proxies:
   sni: eager-louse.rooster465.autos
   type: trojan
   udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: NL_speednode_0013
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: '64c1fe36c7846400'
+  server: 89.105.197.203
+  servername: anyfile2file.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
 - name: NL_speednode_0014
   port: 9002
   server: 84.17.47.147
@@ -1302,13 +2204,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: RO_speednode_0023
-  port: 9002
-  server: 84.239.49.175
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: RO_speednode_0024
   port: 9002
   server: 84.239.49.242
@@ -1372,32 +2267,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: RO_speednode_0033
-  port: 9002
-  server: 84.239.14.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0034
-  password: 'null'
-  port: 9002
-  server: 84.239.49.58
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - name: RO_speednode_0035
   port: 9002
   server: 84.239.49.227
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0036
-  port: 9002
-  server: 193.176.84.19
   skip-cert-verify: true
   tls: true
   type: http
@@ -1416,13 +2288,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: RO_speednode_0039
-  port: 9002
-  server: 84.239.49.228
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: RO_speednode_0040
   port: 9002
   server: 84.239.49.245
@@ -1433,13 +2298,6 @@ proxies:
 - name: RO_speednode_0041
   port: 9002
   server: 193.176.84.38
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0042
-  port: 9002
-  server: 84.239.14.148
   skip-cert-verify: true
   tls: true
   type: http
@@ -1455,28 +2313,6 @@ proxies:
   password: None
   port: 9002
   server: 193.176.84.26
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0045
-  port: 9002
-  server: 84.239.49.60
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0046
-  password: None
-  port: 9002
-  server: 84.239.49.244
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0047
-  port: 9002
-  server: 84.239.49.229
   skip-cert-verify: true
   tls: true
   type: http
@@ -1583,13 +2419,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US_speednode_0063
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0064
   password: 'null'
   port: 9002
@@ -1608,13 +2437,6 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: US_speednode_0066
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0067
   port: 9002
   server: 138.199.35.199
@@ -1625,13 +2447,6 @@ proxies:
 - name: US_speednode_0068
   port: 9002
   server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0069
-  port: 9002
-  server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http

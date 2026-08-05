@@ -1,34 +1,52 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_1|1009KB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 130.61.86.101
-  type: ss
+- name: 🇩🇪 德国 | DEU 24
+  network: ws
+  password: ersi13mjahoao8e6
+  port: 443
+  server: hyperon.site
+  skip-cert-verify: true
+  sni: ramz.xuithree.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ramz.xuithree.dpdns.org
+    path: /dksk
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_9|2.8MB/s
+  network: ws
+  password: ersi13mjahoao8e6
+  port: '443'
+  server: cctvhikvision.center
+  skip-cert-verify: false
+  sni: ramz.xuithree.dpdns.org
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.178.74
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 2
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.226.94
-  type: ss
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /dksk
+- name: 🇩🇪 德国 | DEU 25
+  network: ws
+  password: ersi13mjahoao8e6
+  port: 443
+  server: hikvision-plus.com
+  skip-cert-verify: true
+  sni: ramz.xuithree.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ramz.xuithree.dpdns.org
+    path: /dksk
+- grpc-opts:
+    grpc-service-name: /16835/Cba1c1ZOir
+  name: 🇩🇪 德国 | DEU 26
+  network: grpc
+  password: yooog56ts3ymtpp5
+  port: 443
+  server: 78.17.103.162
+  skip-cert-verify: true
+  sni: driveservice.mooo.com
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 3
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.86.126
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 4
-  password: 0w2SXgRXHtKQ0FKwGIzq0j
-  port: 5223
-  server: creativeboxde3.zanity.net
-  type: ss

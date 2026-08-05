@@ -1,61 +1,256 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 🇺🇸US_1|3.3MB/s
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 911
-  server: 260323.1.0.l3.unclemanco.com
+- auth: c7d6c12d-64b4-4915-b9ec-c4286abe2bfd
+  name: 🇺🇸 美国 | USA 3
+  password: c7d6c12d-64b4-4915-b9ec-c4286abe2bfd
+  port: 25379
+  server: uswx4.wxgqlfx.vip
   skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸US_2|4.4MB/s
-  password: ay2loud1
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 906
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_3|1.3MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.16.6.189
-  skip-cert-verify: true
-  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇦🇺 澳大利亚 | AUS
-  network: tcp
-  port: 10026
+  sni: 144.225.187.153#美国4@wxgqlfx
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc2
+  name: 🇺🇸US_2|3.9MB/s
+  network: grpc
+  port: '2096'
   reality-opts:
-    public-key: -iZh6xpEREbTssMskcpNOjrqzHuDTb3t5Mg9L7t9qXM
-    short-id: '!!str 017184'
-  server: family.bucket.8.kfc-520.com
-  servername: www.hp.com
+    public-key: -Dg4mGAAM5Lwe9ri7Bx5WlYdPBsyYJy-Pai2Z0FGlyc
+    short-id: '!!str afee962d'
+  server: 31.207.7.48
+  servername: max.ru
   tls: true
   type: vless
   udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+  uuid: 2181d0c8-448a-4f75-b848-1718029baef9
+  xudp: true
+- name: US_speednode_0063
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0066
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0069
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_6|4.2MB/s
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_7|1.6MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_8|2.1MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_9|2.5MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_10|1.3MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_11|2.0MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_12|3.4MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.43
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_13|3.3MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇺🇸US_14|2.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: '!!str '
+  server: 2.26.79.39
+  servername: pro-se.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_15|2.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4
+    short-id: '!!str '
+  server: pro-tr.emrata.top
+  servername: pro-tr.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e4101cd-40b4-4d1a-8df6-cc949c136e5a
+  xudp: true
+- name: 🇺🇸US_16|3.0MB/s
+  password: ''
+  port: '38182'
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
-  name: 🇷🇺 俄罗斯 | RUS
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: assets.RealityFanout2
+  name: 🇦🇺 澳大利亚 | AUS
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: bKDaOHdoIGn61t71D2iF-5_Jh9YS2aGOCXadFYuAhT8
+    short-id: '!!str 2aff3dd38675a4c7'
+  server: vpn.morrow-vpn.ru
+  servername: hh.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 482d4c0f-69df-1ddb-9803-b933a6b990a2
+- name: 🇷🇺 俄罗斯 | RUS
+  network: ws
+  port: 4100
+  server: 104.171.132.185
+  tls: false
+  type: vless
+  udp: true
+  uuid: 112912a9-cedf-485d-b8ed-d8f8d4774437
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- name: 🇷🇺 俄罗斯 | RUS 2
+  network: ws
+  port: 4100
+  server: 104.171.135.186
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2c66d559-9889-45c5-a712-d8b7a31fa04d
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- name: 🇷🇺 俄罗斯 | RUS 3
+  network: ws
+  port: 2200
+  server: 109.73.196.160
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5d0206d9-fb42-4c8b-a84b-3d95ab0f42c7
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
+- client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯 | RUS 4
+  network: xhttp
+  port: 443
+  server: 159.194.238.114
+  servername: ru.node.sillyvpn.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
+  xhttp-opts:
+    host: ru.node.sillyvpn.cc
+    mode: packet-up
+    path: /api/burmalda.json
+- name: 🇷🇺 俄罗斯 | RUS 5
+  network: ws
+  port: 4100
+  server: 168.222.202.15
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2001e98b-e06e-4244-910f-7ff640746eda
+  ws-opts:
+    path: /v1
+- client-fingerprint: edge
+  name: 🇷🇺 俄罗斯 | RUS 6
+  network: xhttp
+  port: 443
+  server: 185.126.93.17
+  servername: wx-deu-037.cdnphotos.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77930005-ea92-44dc-9d94-e9192427f519
+  xhttp-opts:
+    host: wx-deu-037.cdnphotos.org
+    mode: auto
+    path: /api/v1/
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 俄罗斯 | RUS 7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo
+    short-id: '!!str 7f2e9c4b1a8d6a53'
+  server: 37.139.43.57
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ceeba701-bb9f-4f2c-8142-677d27a2acb1
+- client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯 | RUS 8
   network: tcp
   port: 443
   reality-opts:
@@ -67,31 +262,52 @@ proxies:
   type: vless
   udp: true
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- auth: 1db7c1ae-e1e1-4612-8057-9f7b54849472
+- client-fingerprint: edge
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: rpc.v2.FeedService
+  name: 🇷🇺 俄罗斯 | RUS 9
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: eU2IqYoHVYNfFqNlTNEAGooWqL2WqKbbQwxAPRu_7wc
+    short-id: '!!str 93762a4ddf178703'
+  server: 83.217.192.233
+  servername: api.univesalsrv.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b92d620-add7-42bd-ac1b-93ee4dfacee0
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: rpc.v2.FeedService
+  name: 🇷🇺 俄罗斯 | RUS 10
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: eU2IqYoHVYNfFqNlTNEAGooWqL2WqKbbQwxAPRu_7wc
+    short-id: '!!str 93762a4ddf178703'
+  server: api.univesalsrv.com
+  servername: api.univesalsrv.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b92d620-add7-42bd-ac1b-93ee4dfacee0
+- auth: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
   name: 🇺🇸 美国 | USA
+  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+  port: 30001
+  server: 155.117.19.221
+  skip-cert-verify: true
+  type: hysteria2
+- auth: 1db7c1ae-e1e1-4612-8057-9f7b54849472
+  name: 🇺🇸 美国 | USA 2
   password: 1db7c1ae-e1e1-4612-8057-9f7b54849472
   port: 25379
   server: uswx3.wxgqlfx.vip
   skip-cert-verify: true
   sni: 144.225.187.184#美国3@wxgqlfx
-  type: hysteria2
-- auth: c7d6c12d-64b4-4915-b9ec-c4286abe2bfd
-  name: 🇺🇸 美国 | USA 2
-  password: c7d6c12d-64b4-4915-b9ec-c4286abe2bfd
-  port: 25379
-  server: uswx4.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 144.225.187.153#美国4@wxgqlfx
-  type: hysteria2
-- auth: 34eaf53b-a8fd-49c8-8588-f11cf793ed66
-  name: 🇺🇸 美国 | USA 3
-  obfs: salamander
-  obfs-password: L9Kylv1Gm2uz4MGY
-  password: 34eaf53b-a8fd-49c8-8588-f11cf793ed66
-  port: 8443
-  server: us.script-hub.de5.net
-  skip-cert-verify: true
-  sni: us.script-hub.de5.net
   type: hysteria2
 - cipher: aes-128-gcm
   name: 🇺🇸 美国 | USA 4
@@ -100,89 +316,24 @@ proxies:
   server: 23.185.200.135
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- alpn:
+  - h2
+  client-fingerprint: chrome
   name: 🇺🇸 美国 | USA 5
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: wleI_i5zku-rrqzLdCZ3qe5C4HrE27IzCRmbXOmcMkw
-    short-id: '!!str 72f70ccc0c2568ef'
-  server: 103.94.185.145
-  servername: www.apple.com
+  server: 108.162.194.119
+  servername: utmwb.freshlionnode-fla.sbs
   tls: true
   type: vless
-  uuid: 40aba943-fa2a-4236-9034-e5a8911b8f78
+  udp: true
+  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
+  ws-opts:
+    headers:
+      Host: utmwb.freshlionnode-fla.sbs
+    path: /carbon
 - client-fingerprint: chrome
   name: 🇺🇸 美国 | USA 6
-  network: ws
-  port: 2087
-  server: 104.16.150.130
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 7
-  network: ws
-  port: 443
-  server: 104.17.223.103
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 8
-  network: ws
-  port: 443
-  server: 104.17.3.81
-  servername: soucuovls.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
-  ws-opts:
-    headers:
-      Host: soucuovls.pages.dev
-    path: /pyip=proxyip.cmliussss.net
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 9
-  network: ws
-  port: 443
-  server: 104.24.67.15
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- name: 🇺🇸 美国 | USA 10
-  network: ws
-  port: 8880
-  server: 162.159.21.178
-  tls: false
-  type: vless
-  udp: true
-  uuid: f09f4baa-7688-4514-8062-c3ea8e319624
-  ws-opts:
-    headers:
-      Host: dark-leaf-93a1.440-02e.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 11
   network: ws
   port: 443
   server: 162.159.38.105
@@ -196,49 +347,35 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
 - client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 12
+  name: 🇺🇸 美国 | USA 7
   network: ws
-  port: 443
-  server: 162.159.38.119
-  servername: lw-1-wn5a3ofs.zrizan.ir
+  port: 2087
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   tls: true
   type: vless
   udp: true
-  uuid: bbab81f3-87a0-4e63-8b3b-010c645d8da7
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: lw-1-wn5a3ofs.zrizan.ir
-    path: /meti
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 13
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
+- client-fingerprint: random
+  name: 🇺🇸 美国 | USA 8
   network: ws
   port: 443
-  server: 172.66.44.97
-  servername: josni.hoyes.cloudns.ch
+  server: 172.64.32.2
+  servername: soucuovls.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
   ws-opts:
     headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi
+      Host: soucuovls.pages.dev
+    path: pyip=proxyip.cmliussss.net
 - client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 14
-  network: ws
-  port: 443
-  server: 172.67.150.239
-  servername: 1.rmgyvpn.rest
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98262dbd-3606-437b-b12e-3f38ca62522f
-  ws-opts:
-    headers:
-      Host: 1.rmgyvpn.rest
-    path: /ws-cdn
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 15
+  name: 🇺🇸 美国 | USA 9
   network: tcp
   port: 25129
   reality-opts:
@@ -250,80 +387,18 @@ proxies:
   type: vless
   udp: true
   uuid: 98d58579-9dc4-4e3e-b94e-6a472faf6a41
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 16
+- name: 🇺🇸 美国 | USA 10
   network: ws
-  port: 443
-  server: 188.114.97.3
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
+  port: 58549
+  server: 216.167.9.238
+  tls: false
   type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: 4a291562-7e80-41c1-97dd-592303a675b4
   ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 17
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee65e0bd-0223-46bb-9e18-6798c10ce155
-  ws-opts:
-    headers:
-      Host: lsjaoijji.global.ssl.fastly.neT
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: GB_speednode_0004
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: -3odEfg8iWnQ-DQ4xN7nKLu8NFgdAXhv02FhlTACs10
-    short-id: '!!str 64c1fe36c7846400'
-  server: 212.104.141.166
-  servername: findmypackets.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸 美国 | USA 19
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: vSg0Cr4YV0ODJfb1TBjEOUxmFphSdFMXIJ-0ZNxcQiw
-    short-id: '!!str 8a7be6783eae0fe3'
-  server: 216.24.191.214
-  servername: sb.music.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bc3dd3d6-0684-4852-bff8-07c0b741aa08
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 20
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7VxTJ07mi8LjFwq6js_slff3Y3YgEzGzR7x9SeT5N3U
-    short-id: '!!str 660d5a6915710e6e'
-  server: 38.47.113.204
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 594f4505-d8dc-4ebd-b709-15d0d5046832
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国 | USA 21
+  name: 🇺🇸 美国 | USA 11
   network: tcp
   port: 35457
   reality-opts:
@@ -349,21 +424,7 @@ proxies:
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国 | USA 23
-  network: tcp
-  port: 16565
-  reality-opts:
-    public-key: JqblL-dYqxHH3pAju89x3OkXlBQ8k5LzO2Yoadi8ylk
-    short-id: '!!str 373e14d458'
-  server: 94.124.119.187
-  servername: yulife.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a3756ec-179b-48fe-b861-27c0287710ae
-- name: 🇺🇸 美国 | USA 24
+- name: 🇺🇸 美国 | USA 13
   network: ws
   port: 2095
   server: www.wto.org
@@ -375,49 +436,49 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国 | USA 25
-  network: tcp
-  port: 10003
-  reality-opts:
-    public-key: BLxr2zh1eI34_v_CCzROgLIfUW6-ki5ZpbQiZ7LS80g
-    short-id: '!!str 98'
-  server: family.bucket.2.kfc-520.com
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国 | USA 26
-  network: tcp
-  port: 10007
-  reality-opts:
-    public-key: uMDcH_hT82rYMOiaYGGPJ5Aa9hk9Sdo2svtRIHBSBFo
-    short-id: '!!str 61e4433c2b25da'
-  server: family.bucket.5.kfc-520.com
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
 - client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 27
+  name: 🇺🇸 美国 | USA 14
   network: ws
   port: 443
-  server: support.zoom.us
-  servername: support.zoom.us.yxls.eu.cc
+  server: d.mygoldiran.com
+  servername: usa_multi.mygoldiran.com
   tls: true
   type: vless
   udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: 76792e97-ee95-4d29-86da-347362d491f2
   ws-opts:
     headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- name: 🇺🇸 美国 | USA 28
+      Host: usa_multi.mygoldiran.com
+    path: /idea
+- client-fingerprint: chrome
+  name: 🇺🇸 美国 | USA 15
+  network: ws
+  port: 8443
+  server: ad-013.atlaswyxd3.info
+  servername: ad-013.atlaswyxd3.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+  ws-opts:
+    headers:
+      Host: ad-013.atlaswyxd3.info
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇸 美国 | USA 16
+  network: ws
+  port: 8443
+  server: ad-013.core6g25r.info
+  servername: ad-013.core6g25r.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+  ws-opts:
+    headers:
+      Host: ad-013.core6g25r.info
+    path: /
+- name: 🇺🇸 美国 | USA 17
   network: ws
   port: 2095
   server: www.fbi.gov
@@ -429,49 +490,24 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
-- name: 🇺🇸 美国 | USA 29
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.16.6.189
-  skip-cert-verify: true
-  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 30
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.16.98.215
-  skip-cert-verify: true
-  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 31
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 104.17.148.22
-  skip-cert-verify: true
-  sni: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 32
+- name: 🇺🇸 美国 | USA 18
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.175
+  server: 104.17.121.43
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 19
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -480,84 +516,28 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 33
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 34
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.20.48.11
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cmee.ezbiz.dynv6.net
-    path: /
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 35
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.26.2.173
-  skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 36
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ssl.fastly.com
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸 美国 | USA 37
+  name: 🇺🇸 美国 | USA 20
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 38
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国 | USA 21
   network: ws
-  password: MiTiVPN
-  port: 443
-  server: 188.114.97.6
+  port: 23142
+  server: la.2555555.xyz
   skip-cert-verify: true
-  sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
-  type: trojan
-  udp: true
+  tls: true
+  type: vmess
+  uuid: 22ca377b-2ee8-49a9-907a-e6219b267113
   ws-opts:
     headers:
-      Host: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: la.2555555.xyz
+    path: /pfrq
 - name: US_speednode_0056
   password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
   port: 443
@@ -604,13 +584,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US_speednode_0063
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0064
   password: 'null'
   port: 9002
@@ -629,13 +602,6 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: US_speednode_0066
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0067
   port: 9002
   server: 138.199.35.199
@@ -646,13 +612,6 @@ proxies:
 - name: US_speednode_0068
   port: 9002
   server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0069
-  port: 9002
-  server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
