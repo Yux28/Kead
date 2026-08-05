@@ -1,43 +1,9 @@
 proxies:
-- auth: 34eaf53b-a8fd-49c8-8588-f11cf793ed66
-  name: 🇭🇰 香港 | HKG
-  obfs: salamander
-  obfs-password: sSRDkt6ZVfkPEkj2
-  password: 34eaf53b-a8fd-49c8-8588-f11cf793ed66
-  port: 8443
-  server: hk.script-hub.de5.net
-  skip-cert-verify: true
-  sni: hk.script-hub.de5.net
-  type: hysteria2
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港 | HKG 2
-  password: WWMo8FMXNGLs
-  port: 8388
-  server: 212.192.15.13
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港 | HKG 3
-  password: 72553320ae6bcc8f
-  port: 10910
-  server: 212.192.15.33
-  type: ss
-- client-fingerprint: chrome
-  name: 🇭🇰 香港 | HKG 4
-  network: tcp
-  port: 41528
-  reality-opts:
-    public-key: vSXM6NtiXtPcwqZpXCTpKLBOPewzcEfr9-p18aiywio
-    short-id: '!!str b4'
-  server: 47.86.249.58
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 97672a88-ec39-4234-a102-1df6f9236f36
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇭🇰 香港 | HKG 5
+  name: 🇭🇰 香港 | HKG 2
   network: grpc
   packet-encoding: xudp
   port: 10126
@@ -54,7 +20,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇭🇰 香港 | HKG 6
+  name: 🇭🇰 香港 | HKG 3
   network: grpc
   packet-encoding: xudp
   port: 10127
@@ -67,16 +33,17 @@ proxies:
   type: vless
   udp: true
   uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: mm_grpc
-  name: 🇭🇰 香港 | HKG 7
-  network: grpc
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: 443
-  server: kaizen-hk-3.gocmydns.com
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港 | HKG
+  password: WWMo8FMXNGLs
+  port: 8388
+  server: 212.192.15.13
+  type: ss
+- name: 🇭🇰 香港 | HKG 4
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20034
+  server: oplosgru-c.catcat321.com
   skip-cert-verify: true
-  sni: www.zueuqnpjvcllc.co
+  sni: hk.catxstar.com
   type: trojan
   udp: true

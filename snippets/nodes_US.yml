@@ -1,27 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇺🇸US_6|3.0MB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: '53199'
-  server: speed-01.aliyun-web-tracker.cn
-  skip-cert-verify: true
-  sni: speed-01.aliyun-web-tracker.cn
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   name: 🇷🇺 俄罗斯 | RUS
   password: bdb313adf74c2ede
   port: 20916
   server: 195.133.5.207
   type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸 美国 | USA
-  password: xo6k84l7b00n2hJp
-  port: 57841
-  server: 23.185.200.135
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: US_speednode_0024
   password: amazonskr05
@@ -29,83 +12,78 @@ proxies:
   server: 3.85.61.177
   type: ss
   udp: true
-- name: 🇺🇸 美国 | USA 23
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.152
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 24
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 25
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 26
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.21.84.3
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
 - name: 🇺🇸 美国 | USA 28
-  password: UaQmDQajuW
-  port: 55523
-  server: 185.132.54.106
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.22
   skip-cert-verify: true
-  sni: b32-10.cmj0502.cn
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /%2Fassignment
 - name: 🇺🇸 美国 | USA 29
-  password: ND91608427
+  network: ws
+  password: humanity
   port: 443
-  server: natural-collie.rooster465.autos
+  server: 104.16.174.6
   skip-cert-verify: true
-  sni: natural-collie.rooster465.autos
+  sni: www.ignitelimit.com
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 🇺🇸 美国 | USA 30
   network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  password: humanity
   port: 443
-  server: cdn.tzpro.xyz
+  server: 104.18.152.208
   skip-cert-verify: true
-  sni: yks-dd9.pages.dev
+  sni: www.ignitelimit.com
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: yks-dd9.pages.dev
-    path: /
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 31
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇺🇸 美国 | USA 33
+  password: 0c946396-6336-40c3-a161-fcb6bec776ce
+  port: 11949
+  server: los.chihirokk.online
+  skip-cert-verify: true
+  sni: los.chihirokk.online
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  name: 🇺🇸 美国 | USA 34
+  network: ws
+  password: b54d0753-6ff3-419b-a4b9-17ca462ecd51
+  port: 443
+  server: soskeynets-luffy-ezaccess1-a079.up.railway.app
+  skip-cert-verify: true
+  sni: ezaccess1-luffy-ezaccess1-a079.up.railway.app
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ezaccess1-luffy-ezaccess1-a079.up.railway.app
+    path: /ws/trojan/b54d0753-6ff3-419b-a4b9-17ca462ecd51?ed=2048

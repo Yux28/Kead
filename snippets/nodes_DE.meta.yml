@@ -1,20 +1,54 @@
 proxies:
-- client-fingerprint: qq
+- client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪DE_1|1.2MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
+  name: 🇩🇪DE_1|2.9MB/s
+  network: ws
+  port: '2087'
+  server: 104.18.19.39
+  servername: ftp.skylinknet.ir
   tls: true
   type: vless
   udp: true
-  uuid: 7c160962-7cfc-4c4d-ad14-d25a79b955af
+  uuid: 78bb684e-0c43-45f7-aefb-e16368228948
+  ws-opts:
+    headers:
+      Host: ftp.skylinknet.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_2|1.9MB/s
+  obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  password: ik0zt621uw9iqvsi
+  port: '52023'
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - rubika.ir
+    path:
+    - /filimo-video/177430809054030600/1774365690/cb857b0770767a2b38b3ebc9d4c44d7fc5630fdd/196328x264new1-1080p.mp4/s-20-v1-a1.ts
+  name: 🇩🇪DE_3|1.8MB/s
+  network: http
+  port: '61885'
+  reality-opts:
+    public-key: zhx1Hs2m5-qHm6S6FqKJVBbAkoEtU5Xzh7d9S1unfBI
+    short-id: '!!str 64b02fb5e0ccd03b'
+  server: grmanvip.jahwuw.neninet.ir
+  servername: skyroom.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 727fea7a-67d7-4781-9662-661ae14ac949
   xudp: true
 - auth: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   name: 🇩🇪 德国 | DEU
@@ -24,53 +58,17 @@ proxies:
   skip-cert-verify: true
   sni: flkf3.mangshe.xyz
   type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
+- auth: 22j0d00lev7mq0yv
   name: 🇩🇪 德国 | DEU 2
-  port: 26691
-  protocol: udp
-  server: 5.83.129.143
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU 3
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪 德国 | DEU 4
-  network: xhttp
+  obfs: salamander
+  obfs-password: 8zzng75tz4tf82pj
+  password: 22j0d00lev7mq0yv
   port: 8443
-  server: 104.16.6.189
-  servername: butimcreepimweirdo.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: butimcreepimweirdo.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-- name: 🇩🇪 德国 | DEU 5
+  server: musicclips.videolinks.ru
+  skip-cert-verify: true
+  sni: musicclips.videolinks.ru
+  type: hysteria2
+- name: 🇩🇪 德国 | DEU 3
   network: ws
   port: 8880
   server: 193.227.99.54
@@ -83,68 +81,40 @@ proxies:
       Host: bgphajik.lorqino.ir
     path: mmd
     v2ray-http-upgrade: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc
-  name: 🇩🇪 德国 | DEU 6
-  network: grpc
-  port: 7443
-  reality-opts:
-    public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js
-    short-id: '!!str 89136b6e'
-  server: 193.233.74.57
-  servername: www.telekom.de
-  tls: true
+- name: 🇩🇪 德国 | DEU 4
+  network: tcp
+  port: 1293
+  server: 200.165.226.216
+  tls: false
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc
-  name: 🇩🇪 德国 | DEU 7
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: ycW5LB_qsf61SQrWr6eIbPfNCzb5_J3rD9QFlN8TIEc
-    short-id: '!!str 9a44c802e4756255'
-  server: 79.137.203.64
-  servername: www.ibm.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1e816db-0dc6-4b44-8037-c59700028214
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  name: 🇩🇪 德国 | DEU 8
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: q3kOYHdjmqWLLYj8oikvna1bTjofk45ktegGaJE611g
-    short-id: '!!str d3b394558cfe0266'
-  server: 88.216.220.88
-  servername: files.noneok.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401
-- client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 9
+  uuid: d0961a50-1306-49a6-b71e-6f0dc183ffb7
+- client-fingerprint: edge
+  name: 🇩🇪 德国 | DEU 5
   network: tcp
   port: 443
   reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-de.emrata.top
-  servername: pro-de.emrata.top
+    public-key: Td6pxpk4V5hmDKU7_K0zV64VzUL1mEtI-F_6TCHNwjE
+  server: 5.231.18.206
+  servername: monalisgame.com
   tls: true
   type: vless
   udp: true
-  uuid: 18f71148-a3c7-0032-b02a-be04da72efe3
+  uuid: bdba330b-dfc6-4b66-93e4-b10f906bf4fb
+- name: 🇩🇪 德国 | DEU 6
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86465c9c-1304-42f0-acba-208987365bcd
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
 - client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 10
+  name: 🇩🇪 德国 | DEU 7
   network: xhttp
   port: 443
   server: 193.84.3.57
@@ -156,94 +126,21 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 11
-  network: tcp
-  port: 443
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 8
+  network: xhttp
+  port: 8088
   reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 31.76.123.45
-  servername: pro-fi.emrata.top
-  tls: true
-  type: vless
-  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 12
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
+    public-key: hYLvEGoxIMNpQkqxVJt298bBGE1Tz8dhtXGsPsLznj0
+    short-id: '!!str 2acf8977eb67ea0c'
+  server: banger-ip.lorqino.ir
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: ee0be4b8-b1ad-49e8-8336-8cec3570d089
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 13
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fdccfb75-edb1-4b92-88a1-4bbbae8d1673
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 14
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf08bea6-fc7f-47b2-a6e2-15dd3c8b3dc7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 15
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-fi.emrata.top
-  servername: pro-fi.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 16
-  network: ws
-  port: 2053
-  server: deapp.jisuyun.top
-  servername: deapp.jisuyun.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /devm
+  uuid: 2067bd3d-3ff6-42a5-91f3-ef1ce76fb14e
+  xhttp-opts:
+    host: yahoo.com
+    mode: auto
+    path: /path
+    x-padding-bytes: 100-1000

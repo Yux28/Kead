@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP_1|5.2MB/s
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: '19001'
+  server: ss.044.node-for-bigairport.win
+  type: ss
+  udp: true
 - auth: 6c077487-06af-4fb1-9e46-d485d98f0a31
   name: 🇯🇵 日本 | JPN
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
@@ -15,28 +22,6 @@ proxies:
   skip-cert-verify: true
   sni: c1.bestai.beauty
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_3|5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.227.228
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵JP_4|1.3MB/s
-  network: raw
-  port: '27407'
-  reality-opts:
-    public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
-    short-id: '!!str e6ac18b63f23'
-  server: 13.193.205.133
-  servername: bgcpartners.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
-  xudp: true
 - client-fingerprint: firefox
   name: 🇯🇵 日本 | JPN 3
   network: tcp
@@ -48,16 +33,10 @@ proxies:
   tls: true
   type: vless
   uuid: 2e4101cd-40b4-4d1a-8df6-cc949c136e5a
-- client-fingerprint: firefox
-  name: 🇯🇵 日本 | JPN 4
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-jp.emrata.top
-  servername: pro-jp.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
+- name: 🇯🇵 日本 | JPN 4
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
