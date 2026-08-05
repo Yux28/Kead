@@ -1,5 +1,5 @@
 proxies:
-- name: 🇬🇧 英国 | GBR 2
+- name: 🇬🇧 英国 | GBR 4
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
@@ -7,7 +7,7 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: 🇬🇧 英国 | GBR 3
+- name: 🇬🇧 英国 | GBR 5
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com

@@ -1,24 +1,138 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_1|3.7MB/s
+  network: ws
+  port: '443'
+  server: 172.64.146.86
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+- name: 🇸🇬SG_2|1.3MB/s
+  password: '!!str 111'
+  port: 20000
+  server: 101.33.74.115
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: '111'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_3|1.9MB/s
+  network: ws
+  port: '2096'
+  server: 104.17.70.206
+  servername: freenet.sahanwickramasinghevip.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: bbb97927-d9d8-475e-928b-b723e61f5e51
+  ws-opts:
+    headers:
+      Host: freenet.sahanwickramasinghevip.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /
+  xudp: true
+- auth: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  name: 🇸🇬 新加坡 | SGP
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 1935
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  type: hysteria2
 - name: 🇸🇬 新加坡 | SGP 2
+  network: ws
+  port: 8880
+  server: 162.159.21.178
+  tls: false
+  type: vless
+  udp: true
+  uuid: 94977b19-6720-48a6-92fd-00238757ea30
+  ws-opts:
+    headers:
+      Host: fragrant-credit-c4cf.148-e68.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 3
+  network: ws
+  port: 2087
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
+- name: 🇸🇬 新加坡 | SGP 4
+  network: ws
+  port: 8880
+  server: codecanyon.net
+  tls: false
+  type: vless
+  udp: true
+  uuid: 692d631b-cff1-4ed4-ba81-f716388fff46
+  ws-opts:
+    headers:
+      Host: odd-darkness-57ce.334-a29.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- name: 🇸🇬 新加坡 | SGP 5
+  network: ws
+  port: 8880
+  server: codecanyon.net
+  tls: false
+  type: vless
+  udp: true
+  uuid: f3d7ebbc-03a1-40f9-a911-ae8628d3927a
+  ws-opts:
+    headers:
+      Host: dawn-waterfall-6052.360-001.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: 🇸🇬 新加坡 | SGP 6
+  network: ws
+  port: 8880
+  server: codecanyon.net
+  servername: codecanyon.net
+  tls: false
+  type: vless
+  udp: true
+  uuid: f12cc297-c9ce-4cdb-98d4-8e47c3f09644
+  ws-opts:
+    headers:
+      Host: weathered-union-5358.101-262.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 7
+  network: tcp
+  port: 443
+  server: free-server.techsonic.dev
+  servername: aka.ms
+  tls: true
+  type: vless
+  udp: true
+  uuid: f1178fbe-1420-4eef-b087-4f33b32b4a19
+- name: 🇸🇬 新加坡 | SGP 8
   password: 55354c2b8ee339571bd657a9bb9858cc
   port: 40783
   server: 106.75.132.91
   skip-cert-verify: true
   type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP
-  network: ws
-  port: 2096
-  server: 104.17.70.206
-  servername: free-server.techsonic.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.dev

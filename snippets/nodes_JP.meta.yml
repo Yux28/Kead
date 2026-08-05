@@ -1,8 +1,32 @@
 proxies:
-- client-fingerprint: chrome
+- auth: 6c077487-06af-4fb1-9e46-d485d98f0a31
   name: 🇯🇵 日本 | JPN
-  network: tcp
-  port: 27407
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 52454
+  server: 45.88.43.116
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- auth: aa3c486e-6a1c-470e-b248-e6c55998206d
+  name: 🇯🇵 日本 | JPN 2
+  password: aa3c486e-6a1c-470e-b248-e6c55998206d
+  port: 3488
+  server: c1.bestai.beauty
+  skip-cert-verify: true
+  sni: c1.bestai.beauty
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_3|5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.227.228
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_4|1.3MB/s
+  network: raw
+  port: '27407'
   reality-opts:
     public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
     short-id: '!!str e6ac18b63f23'
@@ -10,81 +34,30 @@ proxies:
   servername: bgcpartners.com
   tls: true
   type: vless
+  udp: true
   uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 2
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
-  tls: true
-  type: vless
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
-  ws-opts:
-    headers:
-      Host: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
-    path: /glasspanel/92298abb_0_5744c010dde7/
-- client-fingerprint: chrome
+  xudp: true
+- client-fingerprint: firefox
   name: 🇯🇵 日本 | JPN 3
-  network: ws
+  network: tcp
   port: 443
-  server: cf.130519.xyz
-  servername: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-jp.emrata.top
+  servername: pro-jp.emrata.top
   tls: true
   type: vless
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
-  ws-opts:
-    headers:
-      Host: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
-    path: /glasspanel/92298abb_0_5744c010dde7/
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
+  uuid: 2e4101cd-40b4-4d1a-8df6-cc949c136e5a
+- client-fingerprint: firefox
   name: 🇯🇵 日本 | JPN 4
-  network: http
-  port: 53268
-  server: 47.74.43.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
-- name: 🇯🇵 日本 | JPN 5
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: JP_speednode_0010
   network: tcp
-  port: 10053
+  packet-encoding: xudp
+  port: 443
   reality-opts:
-    public-key: o-ud3x7exNVYmknsVseZyUGMyK_680Nub0Cf6W4KiRw
-    short-id: '!!str cbbf64'
-  server: family.bucket.9.kfc-520.com
-  servername: www.amd.com
-  skip-cert-verify: false
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-jp.emrata.top
+  servername: pro-jp.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: JP_speednode_0011
-  network: tcp
-  port: 10005
-  reality-opts:
-    public-key: ryX4yUguNp9iQ6j_BPlEMyCK62474if28u_ouXSPciQ
-    short-id: '!!str 1974efea3b2148'
-  server: family.bucket.4.kfc-520.com
-  servername: www.asus.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3

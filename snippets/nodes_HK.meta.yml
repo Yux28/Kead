@@ -1,18 +1,4 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: mm_grpc
-  name: 🇭🇰HK_1|1.8MB/s
-  network: grpc
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: '443'
-  server: kaizen-hk-3.gocmydns.com
-  skip-cert-verify: false
-  sni: www.zueuqnpjvcllc.co
-  type: trojan
-  udp: true
 - auth: 34eaf53b-a8fd-49c8-8588-f11cf793ed66
   name: 🇭🇰 香港 | HKG
   obfs: salamander
@@ -23,39 +9,74 @@ proxies:
   skip-cert-verify: true
   sni: hk.script-hub.de5.net
   type: hysteria2
-- client-fingerprint: chrome
+- cipher: aes-256-gcm
   name: 🇭🇰 香港 | HKG 2
-  network: ws
-  port: 8443
-  server: 103.148.73.176
-  servername: ty986gfazs.cainiaohub.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e5ce79f9-fdac-4e80-8286-a15b96fded72
-  ws-opts:
-    headers:
-      Host: ty986gfazs.cainiaohub.xyz
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-- client-fingerprint: chrome
+  password: WWMo8FMXNGLs
+  port: 8388
+  server: 212.192.15.13
+  type: ss
+- cipher: aes-256-gcm
   name: 🇭🇰 香港 | HKG 3
-  network: ws
-  port: 8443
-  server: 103.180.20.228
-  servername: ty986gfazs.cainiaohub.xyz
+  password: 72553320ae6bcc8f
+  port: 10910
+  server: 212.192.15.33
+  type: ss
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 | HKG 4
+  network: tcp
+  port: 41528
+  reality-opts:
+    public-key: vSXM6NtiXtPcwqZpXCTpKLBOPewzcEfr9-p18aiywio
+    short-id: '!!str b4'
+  server: 47.86.249.58
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 97672a88-ec39-4234-a102-1df6f9236f36
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇭🇰 香港 | HKG 5
+  network: grpc
+  packet-encoding: xudp
+  port: 10126
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk1-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: e5ce79f9-fdac-4e80-8286-a15b96fded72
-  ws-opts:
-    headers:
-      Host: ty986gfazs.cainiaohub.xyz
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-- name: HK_speednode_0008
-  password: ND91608427
+  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇭🇰 香港 | HKG 6
+  network: grpc
+  packet-encoding: xudp
+  port: 10127
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: 🇭🇰 香港 | HKG 7
+  network: grpc
+  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
   port: 443
-  server: upright-hamster.rooster465.autos
+  server: kaizen-hk-3.gocmydns.com
   skip-cert-verify: true
-  sni: upright-hamster.rooster465.autos
+  sni: www.zueuqnpjvcllc.co
   type: trojan
   udp: true

@@ -1,16 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇦 加拿大 | CAN
-  network: tcp
-  packet-encoding: xudp
-  port: 5151
-  reality-opts:
-    public-key: T3vWH0zPUrOsgdK7cvEEnMbS3LIJDxQ17_L_GhmZJ0E
-    short-id: '!!str 69b851'
-  server: 185.206.170.69
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26c0589f-79e5-4789-8ff7-914f2e26e8e5
+proxies: []

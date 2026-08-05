@@ -1,52 +1,19 @@
 proxies:
-- name: 🇩🇪 德国 | DEU 24
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: hyperon.site
-  skip-cert-verify: true
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ramz.xuithree.dpdns.org
-    path: /dksk
 - alpn:
-  - http/1.1
-  name: 🇩🇪DE_9|2.8MB/s
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 16
   network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: cctvhikvision.center
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
+  port: 2053
+  server: deapp.jisuyun.top
+  servername: deapp.jisuyun.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
   udp: true
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /dksk
-- name: 🇩🇪 德国 | DEU 25
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: hikvision-plus.com
-  skip-cert-verify: true
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ramz.xuithree.dpdns.org
-    path: /dksk
-- grpc-opts:
-    grpc-service-name: /16835/Cba1c1ZOir
-  name: 🇩🇪 德国 | DEU 26
-  network: grpc
-  password: yooog56ts3ymtpp5
-  port: 443
-  server: 78.17.103.162
-  skip-cert-verify: true
-  sni: driveservice.mooo.com
-  type: trojan
-  udp: true
+      Host: deapp.jisuyun.top
+    path: /devm
