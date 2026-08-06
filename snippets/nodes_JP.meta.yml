@@ -1,42 +1,67 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_1|5.2MB/s
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: '19001'
-  server: ss.044.node-for-bigairport.win
-  type: ss
-  udp: true
-- auth: 6c077487-06af-4fb1-9e46-d485d98f0a31
+- client-fingerprint: chrome
   name: 🇯🇵 日本 | JPN
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: 52454
-  server: 45.88.43.116
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- auth: aa3c486e-6a1c-470e-b248-e6c55998206d
-  name: 🇯🇵 日本 | JPN 2
-  password: aa3c486e-6a1c-470e-b248-e6c55998206d
-  port: 3488
-  server: c1.bestai.beauty
-  skip-cert-verify: true
-  sni: c1.bestai.beauty
-  type: hysteria2
-- client-fingerprint: firefox
-  name: 🇯🇵 日本 | JPN 3
   network: tcp
-  port: 443
+  port: 27407
   reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-jp.emrata.top
-  servername: pro-jp.emrata.top
+    public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
+    short-id: '!!str e6ac18b63f23'
+  server: 13.193.205.133
+  servername: bgcpartners.com
   tls: true
   type: vless
-  uuid: 2e4101cd-40b4-4d1a-8df6-cc949c136e5a
-- name: 🇯🇵 日本 | JPN 4
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
+  udp: true
+  uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN 2
+  network: ws
+  port: 443
+  server: 162.159.38.105
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇯🇵 日本 | JPN 3
+  network: http
+  port: 53268
+  server: 47.74.43.250
   skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
+  tls: false
+  type: vmess
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 4
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇯🇵 日本 | JPN 5
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17968
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: 🇯🇵 日本 | JPN 6
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17962
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true

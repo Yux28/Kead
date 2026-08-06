@@ -1,61 +1,40 @@
 proxies:
-- auth: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  name: 🇸🇬 新加坡 | SGP
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 1935
-  server: sg1.xiaoliyu.cyou
+- name: 🇸🇬SG_1|1.5MB/s
+  network: ws
+  port: '8880'
+  server: www.glassdoor.com
+  type: vless
+  udp: true
+  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
+  ws-opts:
+    headers:
+      Host: red-disk-58df.153-2ce.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_2|5.0MB/s
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: '29072'
+  server: 106.75.132.91
   skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
-  type: hysteria2
-- auth: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  name: 🇸🇬 新加坡 | SGP 2
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4466
-  server: sg3.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg3.xiaoliyu.cyou
-  type: hysteria2
+  type: trojan
+  udp: true
 - auth: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  name: 🇸🇬 新加坡 | SGP 3
+  name: 🇸🇬 新加坡 | SGP
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2055
   server: xjp1.mangshe.xyz
   skip-cert-verify: true
   sni: xjp1.mangshe.xyz
   type: hysteria2
-- auth: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  name: 🇸🇬 新加坡 | SGP 4
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2060
-  server: xjp2.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp2.mangshe.xyz
-  type: hysteria2
-- auth: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  name: 🇸🇬 新加坡 | SGP 5
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2060
-  server: xjp3.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp3.mangshe.xyz
-  type: hysteria2
-- name: 🇸🇬 新加坡 | SGP 6
-  network: ws
-  port: 8880
-  server: 162.159.21.178
-  tls: false
-  type: vless
-  udp: true
-  uuid: 94977b19-6720-48a6-92fd-00238757ea30
-  ws-opts:
-    headers:
-      Host: fragrant-credit-c4cf.148-e68.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 7
+  name: 🇸🇬 新加坡 | SGP 2
   network: ws
   port: 8443
   server: 172.66.40.229
@@ -68,17 +47,32 @@ proxies:
     headers:
       Host: freenet.sahanwickramasinghevip.shop
     path: /
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 8
-  network: ws
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 3
+  network: tcp
   port: 443
-  server: www.shopify.com
-  servername: hht.hhlldjc.kdns.fr
+  server: free-server.techsonic.dev
+  servername: aka.ms
   tls: true
   type: vless
   udp: true
-  uuid: a4f61bab-947b-4451-b289-2e09962b9c9e
-  ws-opts:
-    headers:
-      Host: hht.hhlldjc.kdns.fr
-    path: /
+  uuid: f1178fbe-1420-4eef-b087-4f33b32b4a19
+- name: 🇸🇬 新加坡 | SGP 4
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17967
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 5
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17961
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
