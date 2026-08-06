@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇦 加拿大 | CAN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
+    short-id: '!!str 69cc4c0d5e'
+  server: nl2.miyazono-kaori.com
+  servername: www.philips.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c67eb9b2-f600-4b59-ba90-258e5a72d498

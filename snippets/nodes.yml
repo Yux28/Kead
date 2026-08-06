@@ -1,52 +1,64 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_1|3.6MB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: 🇲🇴MO_1|1.2MB/s
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20068
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_2|5.0MB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: '29072'
-  server: 106.75.132.91
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 5
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.233.183
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇧🇷 巴西 | BRA
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.59.72
+  name: 🇩🇪 德国 | DEU 6
+  password: d3dNkbPb1w5BCBx9Fr5xsb
+  port: 5223
+  server: creativeboxfin.zanity.net
   type: ss
-- grpc-opts:
-    grpc-service-name: /43588/G43plZahWW
-  name: 🇧🇷 巴西 | BRA 2
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 | NLD 2
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: 45819
+  server: 152.70.53.15
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡 | SGP
+  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
+  port: 56927
+  server: 168.107.83.128
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇷 土耳其 | TUR
+  password: yijvtycn/16XSdzMKa0v5XqPpERY+Ndka+tAbHj64X4=
+  port: 56985
+  server: e3.cover20.ir
+  type: ss
+  udp: true
+- name: 🇺🇸 美国 | USA 28
+  network: ws
+  password: MiTiVPN
   port: 443
-  server: 177.3.208.169
+  server: 104.17.112.113
   skip-cert-verify: true
-  sni: titandarkness.mooo.com
+  sni: sws-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sws-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇺🇸 美国 | USA 29
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 🇩🇪 德国 | DEU 21
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 30
   network: ws
   password: MiTiVPN
   port: 443
@@ -59,162 +71,6 @@ proxies:
     headers:
       Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇫🇷 法国 | FRA 7
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.18.250.252
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 8
-  network: ws
-  password: humanity
-  port: 443
-  server: 212.183.88.136
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  name: 🇫🇷 法国 | FRA 9
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇬🇧 英国 | GBR 5
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港 | HKG 4
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20088
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港 | HKG 5
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 6
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇮🇪 爱尔兰 | IRL
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: 🇮🇹 意大利 | ITA
-  password: d1fa2f4b98a38bc8
-  port: 10901
-  server: 62.76.234.75
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹 意大利 | ITA 2
-  password: d1fa2f4b98a38bc8
-  port: 10901
-  server: it2.levikogjgfdd.ir
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇯🇵 日本 | JPN 3
-  network: http
-  port: 53268
-  server: 47.74.43.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵 日本 | JPN 4
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 🇰🇷 韩国 | KOR
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺 俄罗斯 | RUS
-  password: eAfQb4p8exIxYlbiO04QPQ
-  port: 1080
-  server: 193.233.216.247
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸 美国 | USA 5
-  password: xo6k84l7b00n2hJp
-  port: 57841
-  server: 23.185.200.135
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 美国 | USA 16
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 美国 | USA 17
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
   name: RU_speednode_0020
   password: 895b4b796a357570

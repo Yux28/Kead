@@ -1,76 +1,92 @@
 proxies:
-- name: 🇸🇬SG_1|1.5MB/s
-  network: ws
-  port: '8880'
-  server: www.glassdoor.com
-  type: vless
-  udp: true
-  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
-  ws-opts:
-    headers:
-      Host: red-disk-58df.153-2ce.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_2|5.0MB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: '29072'
-  server: 106.75.132.91
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- auth: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+- cipher: chacha20-ietf-poly1305
   name: 🇸🇬 新加坡 | SGP
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2055
-  server: xjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp1.mangshe.xyz
-  type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
+  port: 56927
+  server: 168.107.83.128
+  type: ss
+  udp: true
+- client-fingerprint: chrome
   name: 🇸🇬 新加坡 | SGP 2
   network: ws
-  port: 8443
-  server: 172.66.40.229
-  servername: freenet.sahanwickramasinghevip.shop
+  port: 2087
+  server: 162.159.32.124
+  servername: free-7f1.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 270c0392-ff26-42ce-b056-1964f41cd7f4
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
   ws-opts:
     headers:
-      Host: freenet.sahanwickramasinghevip.shop
+      Host: free-7f1.pages.dev
     path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 🇸🇬 新加坡 | SGP 3
-  network: tcp
-  port: 443
-  server: free-server.techsonic.dev
-  servername: aka.ms
+  network: ws
+  port: 2083
+  server: 188.164.248.220
+  servername: free-7f1.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: f1178fbe-1420-4eef-b087-4f33b32b4a19
-- name: 🇸🇬 新加坡 | SGP 4
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  ws-opts:
+    headers:
+      Host: free-7f1.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 4
+  network: ws
+  port: 443
+  server: 188.164.248.69
+  servername: free-7f1.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  ws-opts:
+    headers:
+      Host: free-7f1.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 5
+  network: ws
+  port: 8443
+  server: 198.41.223.159
+  servername: free-7f1.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  ws-opts:
+    headers:
+      Host: free-7f1.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 6
+  network: ws
+  port: 2087
+  server: 198.41.223.39
+  servername: free-7f1.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  ws-opts:
+    headers:
+      Host: free-7f1.pages.dev
+    path: /
+- name: 🇸🇬 新加坡 | SGP 7
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17967
+  port: 17961
   server: jjz.jjznodenode.top
   skip-cert-verify: true
   sni: jjz.jjznodenode.top
   type: anytls
   udp: true
-- name: 🇸🇬 新加坡 | SGP 5
+- name: 🇸🇬 新加坡 | SGP 8
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17961
+  port: 17967
   server: jjz.jjznodenode.top
   skip-cert-verify: true
   sni: jjz.jjznodenode.top
