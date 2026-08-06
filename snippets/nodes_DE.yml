@@ -1,42 +1,14 @@
 proxies:
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 2
+- name: 🇩🇪 德国 | DEU 21
   network: ws
-  port: 2053
-  server: deapp.jisuyun.top
-  servername: deapp.jisuyun.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /devm
-- name: 🇩🇪 德国 | DEU 6
-  network: ws
-  password: 82dd5d38-1a65-42b9-835e-497b5b51eb84
+  password: MiTiVPN
   port: 443
-  server: 172.67.78.22
+  server: 104.26.2.173
   skip-cert-verify: true
-  sni: kamonka.eu.org
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kamonka.eu.org
-    path: /
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 🇩🇪 德国 | DEU 9
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: true
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN

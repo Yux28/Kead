@@ -1,17 +1,23 @@
 proxies:
+- name: 🇨🇭CH_1|1.3MB/s
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: neurex
-  name: 🇨🇭 瑞士 | CHE
-  network: grpc
-  port: 16923
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_2|2.8MB/s
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: chc.kosmosapp.ru
-  servername: mail.yandex.ru
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 185.232.117.114
+  servername: vl04.skorostnet.space
   tls: true
   type: vless
   udp: true
-  uuid: 0f4aeb95-32ae-457c-8d71-b66bb9ff1073
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  xudp: true

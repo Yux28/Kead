@@ -1,1 +1,36 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  name: 🇸🇪 瑞典 | SWE
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: 2.26.79.43
+  servername: pro-se.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
+- client-fingerprint: firefox
+  name: 🇸🇪 瑞典 | SWE 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: 2.26.79.57
+  servername: pro-se.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
+- client-fingerprint: firefox
+  name: 🇸🇪 瑞典 | SWE 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: pro-se.emrata.top
+  servername: pro-se.emrata.top
+  tls: true
+  type: vless
+  uuid: 02ae7872-1c03-4214-8b95-14c126da831e

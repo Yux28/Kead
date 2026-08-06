@@ -1,221 +1,77 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU
-  network: ws
-  port: 8443
-  server: 104.21.40.223
-  servername: ad-005.limaklhc6.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2e1eb27b-9b56-40e9-a2f8-b959bc71736e
-  ws-opts:
-    headers:
-      Host: ad-005.limaklhc6.info
-    path: /
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 2
-  network: ws
-  port: 2053
-  server: deapp.jisuyun.top
-  servername: deapp.jisuyun.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /devm
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 3
-  network: ws
-  port: 8443
-  server: 167.253.156.210
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 4
-  network: ws
-  port: 8443
-  server: 82.40.42.204
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 5
-  network: ws
-  port: 8443
-  server: 47.76.171.37
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- name: 🇩🇪 德国 | DEU 6
-  network: ws
-  password: 82dd5d38-1a65-42b9-835e-497b5b51eb84
-  port: 443
-  server: 172.67.78.22
-  skip-cert-verify: true
-  sni: kamonka.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kamonka.eu.org
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fIHyB12KhckFIltSSEJMUWap0NnVtyGo_HjIi9jQAxg
-    short-id: '!!str 0f1bc0ca817772cb'
-  server: 156.226.174.234
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 8
-  network: ws
-  port: 8443
-  server: 85.155.176.93
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 🇩🇪 德国 | DEU 9
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: true
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 10
-  network: ws
-  port: 8443
-  server: 45.89.232.141
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 11
-  network: ws
-  port: 8443
-  server: 74.222.12.165
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- name: 🇩🇪 德国 | DEU 12
-  network: ws
-  port: 80
-  server: psf-1.zdshop.ir
-  servername: machinemag.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: ea1278d8-c65a-4bdf-8c68-e84a26be53a3
-  ws-opts:
-    headers:
-      Host: machinemag.ir
-    path: /
-- client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 13
-  network: ws
-  port: 8443
-  server: 209.33.173.7
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 14
-  network: ws
-  port: 8443
-  server: 45.76.54.46
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
 - alpn:
   - h2
-  - h3
   client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 15
-  network: ws
-  port: 443
-  server: new01.asaltabie.monster
-  servername: new01.asaltabie.monster
+  encryption: none
+  name: 🇩🇪DE_1|3.0MB/s
+  network: tcp
+  port: '443'
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
   tls: true
   type: vless
   udp: true
-  uuid: 0211e2dc-c485-465d-87bd-426635433114
-  ws-opts:
-    headers:
-      Host: new01.asaltabie.monster
-    path: /
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 10
+  network: tcp
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|3.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 45.129.78.196
+  servername: ger05.skorostnet.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  xudp: true
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  name: 🇩🇪 德国 | DEU
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.215
+  skip-cert-verify: true
+  sni: mercedes-grape.yyuyy.com
+  type: hysteria2
+- auth: ik0zt621uw9iqvsi
+  name: 🇩🇪 德国 | DEU 2
+  obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  password: ik0zt621uw9iqvsi
+  port: 52023
+  server: assets.gateway-stream.com
+  skip-cert-verify: true
+  sni: assets.gateway-stream.com
+  type: hysteria2
+- auth: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+  name: 🇩🇪 德国 | DEU 3
+  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+  port: 443
+  server: node-degame.bangboonet.ru
+  skip-cert-verify: true
+  sni: node-degame.bangboonet.ru
+  type: hysteria2
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 🇩🇪 德国 | DEU 16
+  name: 🇩🇪 德国 | DEU 5
   port: 26691
   protocol: udp
   server: 5.83.129.143
@@ -223,11 +79,152 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 6
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- name: 🇩🇪 德国 | DEU 8
+  network: ws
+  port: 8880
+  server: 104.17.121.110
+  tls: false
+  type: vless
+  udp: true
+  uuid: f3d6c244-772a-428f-b8fe-e2d632cd76e4
+  ws-opts:
+    headers:
+      Host: svn-panel-team.lorqino.ir
+    path: /mmd
+    v2ray-http-upgrade: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc
+  name: 🇩🇪 德国 | DEU 9
+  network: grpc
+  port: 7443
+  reality-opts:
+    public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js
+    short-id: '!!str 89136b6e'
+  server: 193.233.74.57
+  servername: www.telekom.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- name: 🇩🇪 德国 | DEU 11
+  network: tcp
+  port: 40124
+  server: 91.107.157.137
+  tls: false
+  type: vless
+  udp: true
+  uuid: e41f1455-24f5-4d28-9588-a2cba790171c
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 12
+  network: ws
+  port: 443
+  server: 92.42.96.240
+  servername: mAhaNrEaliteAm.MaHkHan.iR
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4038f946-bd95-5505-a111-196c05d6d92f
+  ws-opts:
+    headers:
+      Host: mAhaNrEaliteAm.MaHkHan.iR
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 13
+  network: tcp
+  port: 448
+  reality-opts:
+    public-key: qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w
+    short-id: '!!str e1bdc95c1554c8eb'
+  server: 93.114.194.115
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc5b801f-49a7-4db7-ac92-a2c57d42d132
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 14
+  network: ws
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  servername: 31.76.11.46.cdn-one.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.11.46.cdn-one.org
+    path: /52872/BNzG4FvIAr
+- client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 15
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-de.emrata.top
+  servername: pro-de.emrata.top
+  tls: true
+  type: vless
+  uuid: 95f50108-2bae-0032-948c-b22e01ae3133
+- client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 16
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-de.emrata.top
+  servername: pro-de.emrata.top
+  tls: true
+  type: vless
+  uuid: 95f50108-2bae-4634-948c-b22e01ae3133
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 17
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: mAhaNrEaliteAm.MaHkHan.iR
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: mAhaNrEaliteAm.MaHkHan.iR
+    path: /?ed=2560
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 18
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 31.76.123.47
+  servername: pro-fi.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95f50108-2bae-4634-948c-b22e01ae3133
 - client-fingerprint: qq
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 17
+  name: 🇩🇪 德国 | DEU 19
   network: grpc
   port: 443
   reality-opts:
@@ -238,35 +235,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 5c87f6ff-acd2-42ff-89fc-3e7ee8b38403
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 18
-  network: ws
-  port: 8443
-  server: 206.251.53.91
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 19
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: mBkMemux3_s1HQWHJMc70Fk2sOEtIIQIXlhfTEi70R4
-    short-id: '!!str a21caa5a42b85d80'
-  server: 156.226.174.234
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc
+  uuid: d977810a-10a5-4cd2-8caf-76121dc9c18d
 - client-fingerprint: qq
   grpc-opts:
     grpc-mode: gun
@@ -282,78 +251,25 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c9365135-3db0-4f02-b542-95248e06502c
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 21
-  network: grpc
+  uuid: cf08bea6-fc7f-47b2-a6e2-15dd3c8b3dc7
+- name: 🇩🇪 德国 | DEU 21
+  network: ws
+  password: MiTiVPN
   port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
   udp: true
-  uuid: b2e0c6bc-507b-4236-bb46-f4c8e378940b
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 德国 | DEU 22
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇩🇪 德国 | DEU 22
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17966
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
   udp: true
-  uuid: 460f62ce-c385-4092-96ee-99f46ade626b
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: AE_speednode_0003
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 24
-  network: tcp
-  port: 10037
-  reality-opts:
-    public-key: 1w_E-3hZml0BGu7hVEBjRUZQQ8MBxSXnpwlVTo_NkWI
-    short-id: '!!str f0'
-  server: family.bucket.9.kfc-520.com
-  servername: www.adobe.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 25
-  network: tcp
-  packet-encoding: xudp
-  port: 25520
-  reality-opts:
-    public-key: CdbZitEgBioklscSAiU8eGR_sRvzLPrH3davu5DrNBc
-    short-id: '!!str a8de8bc1e9f5ef'
-  server: 91.107.182.197
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7fc1ee8b-3abf-4b4e-ab73-007460d767bd
