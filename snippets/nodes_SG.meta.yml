@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 新加坡 | SGP 2
+- name: 🇸🇬 新加坡 | SGP
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17967
   server: jjz.jjznodenode.top
@@ -19,20 +19,7 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP
-  network: tcp
-  port: 443
-  server: free-server.techsonic.dev
-  servername: aka.ms
-  tls: true
-  type: vless
-  udp: true
-  uuid: f1178fbe-1420-4eef-b087-4f33b32b4a19
-- name: 🇸🇬 新加坡 | SGP 3
+- name: 🇸🇬 新加坡 | SGP 2
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17961
   server: jjz.jjznodenode.top

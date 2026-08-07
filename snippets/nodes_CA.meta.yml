@@ -1,9 +1,1 @@
-proxies:
-- name: 🇨🇦 加拿大 | CAN
-  network: tcp
-  port: 29898
-  server: 65.49.234.130
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8728958d-cd6a-443f-bf6d-d13f25dc073b
+proxies: []

@@ -1,11 +1,1 @@
-proxies:
-- auth: ik0zt621uw9iqvsi
-  name: 🇸🇪 瑞典 | SWE
-  obfs: salamander
-  obfs-password: hg7rfvz151ftjh0w
-  password: ik0zt621uw9iqvsi
-  port: 52062
-  server: assets.gateway-stream.com
-  skip-cert-verify: true
-  sni: assets.gateway-stream.com
-  type: hysteria2
+proxies: []

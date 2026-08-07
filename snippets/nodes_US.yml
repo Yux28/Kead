@@ -1,16 +1,31 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇺🇸 美国 | USA 5
+  name: 🇺🇸 美国 | USA 2
   password: amazonskr05
   port: 443
   server: 100.31.139.112
   type: ss
   udp: true
-- name: 🇺🇸 美国 | USA 14
+- alpn:
+  - http/1.1
+  name: 🇺🇸 美国 | USA 30
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.207
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 31
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.208
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -19,7 +34,20 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 15
+- name: 🇺🇸 美国 | USA 32
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 33
   network: ws
   password: chrysanthemum
   port: 443
@@ -32,21 +60,19 @@ proxies:
     headers:
       Host: cmee.ezbiz.dynv6.net
     path: /
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 17
+- name: 🇺🇸 美国 | USA 36
   network: ws
-  password: MiTiVPN
+  password: 257d8622-6701-4c98-a432-67a9696f58ae
   port: 443
-  server: 172.66.40.99
+  server: shazira.app
   skip-cert-verify: true
-  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+  sni: shazira.app
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: shazira.app
+    path: /Novan-ID9
 - cipher: aes-256-cfb
   name: US_speednode_0024
   password: amazonskr05

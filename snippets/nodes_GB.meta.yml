@@ -1,27 +1,21 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: chrome
   name: 🇬🇧 英国 | GBR
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 129.151.91.89
-  type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR 2
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: 185.232.117.114
-  servername: vl04.skorostnet.space
+  server: 104.17.108.69
+  servername: 639215869853809938.abadeh-amma.info
   tls: true
   type: vless
   udp: true
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  uuid: 9272f5c6-fb34-4be8-b9c8-c24240e3ca40
+  ws-opts:
+    headers:
+      Host: 639215869853809938.abadeh-amma.info
+    path: /fyvotcws
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR 3
+  name: 🇬🇧 英国 | GBR 2
   network: tcp
   port: 443
   reality-opts:
@@ -34,7 +28,7 @@ proxies:
   udp: true
   uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
 - client-fingerprint: chrome
-  name: 🇬🇧 英国 | GBR 4
+  name: 🇬🇧 英国 | GBR 3
   network: ws
   port: 443
   server: 8.6.112.223
@@ -47,7 +41,7 @@ proxies:
     headers:
       Host: OhPwIlJo8.RoBoRoCkS.Ir
     path: /mashdi
-- name: 🇬🇧 英国 | GBR 5
+- name: 🇬🇧 英国 | GBR 4
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
@@ -55,7 +49,7 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: 🇬🇧 英国 | GBR 6
+- name: 🇬🇧 英国 | GBR 5
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com

@@ -1,11 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 英国 | GBR
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 129.151.91.89
-  type: ss
-- name: 🇬🇧 英国 | GBR 5
+- name: 🇬🇧 英国 | GBR 4
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
@@ -13,7 +7,7 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: 🇬🇧 英国 | GBR 6
+- name: 🇬🇧 英国 | GBR 5
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com

@@ -1,5 +1,5 @@
 proxies:
-- name: 🇯🇵 日本 | JPN 4
+- name: 🇯🇵 日本 | JPN 5
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17962
   server: jjz.jjznodenode.top
@@ -7,7 +7,7 @@ proxies:
   sni: jjz.jjznodenode.top
   type: anytls
   udp: true
-- name: 🇯🇵 日本 | JPN 5
+- name: 🇯🇵 日本 | JPN 6
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17968
   server: jjz.jjznodenode.top
@@ -23,7 +23,7 @@ proxies:
   username: u1179940355
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN
+  name: 🇯🇵 日本 | JPN 2
   network: tcp
   port: 443
   reality-opts:
@@ -36,9 +36,23 @@ proxies:
   udp: true
   uuid: 9194bade-099b-4723-9f19-606edb5aeab8
   xudp: true
+- client-fingerprint: firefox
+  name: 🇯🇵 日本 | JPN
+  network: ws
+  port: 8443
+  server: 45.76.49.112
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: /GOrbEh
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 2
+  name: 🇯🇵 日本 | JPN 3
   network: tcp
   port: 443
   reality-opts:
@@ -51,7 +65,7 @@ proxies:
   uuid: 44ebd5d8-c8a3-408c-8195-1cb1e97c5c21
 - alterId: 2
   cipher: auto
-  name: 🇯🇵 日本 | JPN 3
+  name: 🇯🇵 日本 | JPN 4
   port: 30806
   server: v6.hdacd.com
   skip-cert-verify: true
