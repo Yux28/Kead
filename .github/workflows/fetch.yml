@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
   schedule:
     # 表达式生成 https://crontab.guru/
-    - cron: '0 10 * * *'
+    - cron: '0 4 * * *'
   push:
     paths:
       - 'sources.list'
       - 'config.yml'
       - 'abpwhite.txt'
-      - '.github/workflows/fetch.yml'
+     # - '.github/workflows/fetch.yml'
       - '**.py'
 
 jobs:
