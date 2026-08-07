@@ -2,9 +2,9 @@ name: Fetch
 
 on:
   workflow_dispatch:
-  schedule:
+ # schedule:
     # 表达式生成 https://crontab.guru/
-    - cron: '30 4 * * *'
+   # - cron: '30 4 * * *'
   push:
     paths:
       - 'sources.list'
