@@ -1,16 +1,136 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|3.0MB/s
-  network: ws
-  port: 443
-  server: paul.ns.cloudflare.com
-  servername: ziro.skin
+- name: 🇩🇪 德国 | DEU 23
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17966
+  server: jjz.jjznodenode.top
   skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: 🇬🇧 英国 | GBR 7
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17965
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: uk.jjznodenode.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|2.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.97
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 🇫🇷 法国 | FRA
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷 法国 | FRA 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C819rM4M_c473A8glp-eBFh8Fm9O1cmEeXmivDhM1Fc
+  server: 185.193.89.51
+  servername: p.keshevoz.ru
   tls: true
   type: vless
   udp: true
-  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
+  uuid: c124a209-d949-4951-8234-e2d918b3e6c0
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 法国 | FRA 3
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 78.17.208.21
+  servername: fr04.skorostnet.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 法国 | FRA 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 78.17.208.24
+  servername: fr07.skorostnet.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷 法国 | FRA 5
+  network: ws
+  port: 443
+  server: cf2.coixconqwe1.ir
+  servername: france.havray2025.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: b31e868d-86cb-4aad-915d-3ee7a5080260
   ws-opts:
     headers:
-      Host: ziro.skin
-    path: /xxvclws
+      Host: france.havray2025.ir
+    path: /?ed=2560
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: api.v1.data
+  name: 🇫🇷 法国 | FRA 6
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY
+    short-id: '!!str 524efc1f88592266'
+  server: gr013.bamajobin.ir
+  servername: play.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9aa9ea3-9388-483f-a58d-a754f33ec505
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷 法国 | FRA 7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C819rM4M_c473A8glp-eBFh8Fm9O1cmEeXmivDhM1Fc
+  server: paris.vypnet.su
+  servername: p.keshevoz.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c124a209-d949-4951-8234-e2d918b3e6c0
+- alterId: 2
+  cipher: auto
+  name: 🇫🇷 法国 | FRA 8
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

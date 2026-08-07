@@ -1,55 +1,229 @@
 proxies:
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|2.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.97
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 5
+  name: 🇩🇪 德国 | DEU 10
+  password: vgi6UU38zMyqTARPkGLwZb
+  port: 5228
+  server: creativeboxde2.zanity.net
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇸🇬SG_2|5.3MB/s
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /43588/G43plZahWW
+  name: 🇧🇷 巴西 | BRA 3
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 177.3.208.169
+  skip-cert-verify: true
+  sni: titandarkness.mooo.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|1.6MB/s
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  name: ❓Other_2|1.3MB/s
+  network: tcp
+  password: i99Cef
+  port: '28120'
+  server: 209.248.32.116
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 9
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: 59924
-  server: 130.61.233.183
+  server: 130.61.102.202
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 6
-  password: d3dNkbPb1w5BCBx9Fr5xsb
-  port: 5223
-  server: creativeboxfin.zanity.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 | NLD 2
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 152.70.53.15
-  type: ss
+- name: 🇦🇹 奥地利 | AUT 4
+  network: ws
+  password: humanity
+  port: 443
+  server: 212.183.88.136
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 | SGP
-  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
-  port: 56927
-  server: 168.107.83.128
+  name: 🇧🇷 巴西 | BRA
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 147.15.42.184
   type: ss
+- name: 🇩🇪 德国 | DEU 21
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.20.48.11
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: cmee.ezbiz.dynv6.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 22
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇪🇸 西班牙 | ESP
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.18.250.245
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- alterId: 2
+  cipher: auto
+  name: 🇫🇷 法国 | FRA 8
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 英国 | GBR
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.91.89
+  type: ss
+- name: 🇬🇧 英国 | GBR 5
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇬🇧 英国 | GBR 6
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | HKG
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇮🇪 爱尔兰 | IRL
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 3
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇲🇴 澳门 | MAC
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20068
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇳🇱 荷兰 | NLD 9
+  port: 15910
+  server: nl.sokviwseh.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f4b888c-b919-416f-a740-3887ad58fcd9
 - cipher: chacha20-ietf-poly1305
   name: 🇹🇷 土耳其 | TUR
-  password: yijvtycn/16XSdzMKa0v5XqPpERY+Ndka+tAbHj64X4=
+  password: oQwS+vy+ZXh9jXR2uUaerIzUiX0aojlEXA1D3KX9sIM=
   port: 56985
   server: e3.cover20.ir
   type: ss
   udp: true
-- name: 🇺🇸 美国 | USA 28
-  network: ws
-  password: MiTiVPN
+- cipher: aes-256-cfb
+  name: 🇺🇸 美国 | USA 5
+  password: amazonskr05
   port: 443
-  server: 104.17.112.113
-  skip-cert-verify: true
-  sni: sws-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sws-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 29
+  server: 100.31.139.112
+  type: ss
+  udp: true
+- name: 🇺🇸 美国 | USA 14
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.175
+  server: 104.18.152.207
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -58,19 +232,34 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 30
+- name: 🇺🇸 美国 | USA 15
   network: ws
-  password: MiTiVPN
+  password: chrysanthemum
   port: 443
-  server: 104.26.2.173
+  server: 104.19.152.118
   skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  sni: cmee.ezbiz.dynv6.net
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: cmee.ezbiz.dynv6.net
+    path: /
+- alpn:
+  - http/1.1
+  name: 🇺🇸 美国 | USA 17
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 172.66.40.99
+  skip-cert-verify: true
+  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: aes-256-gcm
   name: RU_speednode_0020
   password: 895b4b796a357570

@@ -1,25 +1,67 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: chacha20-ietf-poly1305
   name: 🇬🇧 英国 | GBR
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.91.89
+  type: ss
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 | GBR 2
   network: tcp
   port: 443
   reality-opts:
-    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
-    short-id: '!!str 20'
-  server: uk2.miyazono-kaori.com
-  servername: www.bp.com
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 185.232.117.114
+  servername: vl04.skorostnet.space
   tls: true
   type: vless
   udp: true
-  uuid: c67eb9b2-f600-4b59-ba90-258e5a72d498
-- name: 🇬🇧 英国 | GBR 2
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17965
-  server: jjz.jjznodenode.top
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 | GBR 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 185.232.117.116
+  servername: vl06.skorostnet.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+- client-fingerprint: chrome
+  name: 🇬🇧 英国 | GBR 4
+  network: ws
+  port: 443
+  server: 8.6.112.223
+  servername: OhPwIlJo8.RoBoRoCkS.Ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a6729c4-81d4-4b05-8747-3fffc17b6a64
+  ws-opts:
+    headers:
+      Host: OhPwIlJo8.RoBoRoCkS.Ir
+    path: /mashdi
+- name: 🇬🇧 英国 | GBR 5
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: uk.jjznodenode.top
-  type: anytls
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇬🇧 英国 | GBR 6
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
   udp: true
 - name: GB_speednode_0002
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b

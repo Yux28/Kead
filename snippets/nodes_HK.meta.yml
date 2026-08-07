@@ -1,25 +1,5 @@
 proxies:
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 🇭🇰 香港 | HKG
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇭🇰 香港 | HKG 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bSK8gtmPMlw7gP415tmh6kQzzFiwzxBsT3Kuqql6cRo
-    short-id: '!!str ec2c7091fe76336c'
-  server: 35.241.98.220
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 96563f88-f743-4395-a3b2-27ec462ae45e
-- name: 🇭🇰 香港 | HKG 3
+- name: 🇭🇰 香港 | HKG 2
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17960
   server: jjz.jjznodenode.top
@@ -27,3 +7,21 @@ proxies:
   sni: hk.jjznodenode.top
   type: anytls
   udp: true
+- name: 🇭🇰HK_2|2.7MB/s
+  password: <password>
+  port: 8443
+  server: 2520dda7-tcxds0-tgzvop-hns7.hkt.cdnhuawei.com
+  sni: 2520dda7-tcxds0-tgzvop-hns7.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | HKG
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

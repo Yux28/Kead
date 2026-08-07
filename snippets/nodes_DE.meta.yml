@@ -1,95 +1,288 @@
 proxies:
-- auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 10
+  password: vgi6UU38zMyqTARPkGLwZb
+  port: 5228
+  server: creativeboxde2.zanity.net
+  type: ss
+  udp: true
+- name: 🇩🇪DE_2|1.1MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪DE_3|2.3MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8f0ef2b-a1c5-43f6-895d-8033e77f9bec
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 9
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.102.202
+  type: ss
+  udp: true
+- auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
   name: 🇩🇪 德国 | DEU
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
+  type: hysteria2
+- auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  name: 🇩🇪 德国 | DEU 2
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 93.114.194.119
   skip-cert-verify: true
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   type: hysteria2
-- auth: ik0zt621uw9iqvsi
-  name: 🇩🇪 德国 | DEU 2
-  obfs: salamander
-  obfs-password: gu74jg3ym0e21zco
-  password: ik0zt621uw9iqvsi
-  port: 52000
-  server: 95.217.96.131
+- auth: 71cada65-d23e-418c-88e4-a06188d14689
+  name: 🇩🇪 德国 | DEU 3
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: de-two.quiet-rogue.site
   skip-cert-verify: true
-  sni: assets.gateway-stream.com
+  sni: de-two.quiet-rogue.site
   type: hysteria2
 - auth: ik0zt621uw9iqvsi
-  name: 🇩🇪 德国 | DEU 3
+  name: 🇩🇪 德国 | DEU 4
   obfs: salamander
-  obfs-password: ielzukpwth087afx
+  obfs-password: detgimgm8qh8i2g2
   password: ik0zt621uw9iqvsi
-  port: 52002
+  port: 52023
   server: assets.gateway-stream.com
   skip-cert-verify: true
   sni: assets.gateway-stream.com
+  type: hysteria2
+- auth: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  name: 🇩🇪 德国 | DEU 5
+  obfs: salamander
+  obfs-password: PQ$hN78bzXWN
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 10086
+  server: us1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- auth: 22j0d00lev7mq0yv
+  name: 🇩🇪 德国 | DEU 6
+  obfs: salamander
+  obfs-password: 8zzng75tz4tf82pj
+  password: 22j0d00lev7mq0yv
+  port: 8443
+  server: musicclips.videolinks.ru
+  skip-cert-verify: true
+  sni: musicclips.videolinks.ru
   type: hysteria2
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 🇩🇪 德国 | DEU 4
-  port: 26691
+  down: 1000
+  name: 🇩🇪 德国 | DEU 7
+  port: 20088
   protocol: udp
-  server: 5.83.129.143
+  server: 5.83.129.153
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
-  up: 11 Mbps
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 5
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.233.183
-  type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 6
-  password: d3dNkbPb1w5BCBx9Fr5xsb
-  port: 5223
-  server: creativeboxfin.zanity.net
-  type: ss
+  up: 500
 - alpn:
-  - h2
-  - http/1.1
   - h3
-  client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 7
-  network: ws
-  port: 8443
-  server: 104.17.66.0
-  servername: subsanaei.pannelman.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8581742d-6ec6-47be-b4f5-a6d3032d6e74
-  ws-opts:
-    headers:
-      Host: subsanaei.pannelman.ir
-    path: /
-- client-fingerprint: chrome
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55
   name: 🇩🇪 德国 | DEU 8
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: 11
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 11
   network: ws
   port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
+  server: 104.16.0.10
+  servername: gm.havray2025.ir
   tls: true
   type: vless
   udp: true
-  uuid: 7540ffce-d883-4374-96b0-de82f1c05a56
+  uuid: 44e2de60-761e-4363-9f16-75ce5d8baac5
   ws-opts:
     headers:
-      Host: pan1.global.ssl.fastly.neT
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- name: 🇩🇪 德国 | DEU 9
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17966
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
+      Host: gm.havray2025.ir
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 12
+  network: ws
+  port: 443
+  server: 104.16.0.10
+  servername: gm.havray2025.ir
+  tls: true
+  type: vless
   udp: true
+  uuid: 310dfba2-66ff-4028-be06-334c98459ef5
+  ws-opts:
+    headers:
+      Host: gm.havray2025.ir
+    path: /?ed=2560
+- client-fingerprint: ios
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vless-grpc-reality
+  name: 🇩🇪 德国 | DEU 13
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 147.45.48.143
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 14
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 45.129.78.196
+  servername: ger05.skorostnet.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+- http-opts:
+    headers:
+      Host:
+      - www.amzn.com
+    method: GET
+    path:
+    - /
+  name: 🇩🇪 德国 | DEU 15
+  network: http
+  port: 443
+  server: 91.107.252.170
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0169fc3b-8462-4dc7-bfbd-b09c4451d78c
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 16
+  network: ws
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  servername: 31.76.11.46.cdn-one.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.11.46.cdn-one.org
+    path: /52872/BNzG4FvIAr
+- name: 🇩🇪 德国 | DEU 17
+  network: ws
+  port: 2052
+  server: pg.restauranzorban.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7699e066-2abf-466a-b4a8-5d725b80650b
+  ws-opts:
+    headers:
+      Host: germany1.restaurantnetwork.ir
+    path: /
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: randomizednoalpn
+  name: 🇩🇪 德国 | DEU 18
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: gga.nyanners.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c2b43d1-0a6a-4688-d1e1-a427f2e3ae1d
+  ws-opts:
+    headers:
+      Host: gga.nyanners.ir
+    path: /
+- name: 🇩🇪 德国 | DEU 19
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  udp: true
+  uuid: d009b156-bd22-48c0-9020-60645ed05e41
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 20
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg
+    short-id: '!!str aaec521b22bbe6cb'
+  server: 185.221.163.211
+  servername: fin1.panel11.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc74bd1a-ec97-41cb-9de6-7cccf65dc042
+- name: 🇩🇪 德国 | DEU 21
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.20.48.11
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cmee.ezbiz.dynv6.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 22
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

@@ -1,21 +1,16 @@
 proxies:
-- name: 🇺🇸 美国 | USA 28
-  network: ws
-  password: MiTiVPN
+- cipher: aes-256-cfb
+  name: 🇺🇸 美国 | USA 5
+  password: amazonskr05
   port: 443
-  server: 104.17.112.113
-  skip-cert-verify: true
-  sni: sws-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sws-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 29
+  server: 100.31.139.112
+  type: ss
+  udp: true
+- name: 🇺🇸 美国 | USA 14
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.175
+  server: 104.18.152.207
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -24,19 +19,34 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 30
+- name: 🇺🇸 美国 | USA 15
   network: ws
-  password: MiTiVPN
+  password: chrysanthemum
   port: 443
-  server: 104.26.2.173
+  server: 104.19.152.118
   skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  sni: cmee.ezbiz.dynv6.net
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: cmee.ezbiz.dynv6.net
+    path: /
+- alpn:
+  - http/1.1
+  name: 🇺🇸 美国 | USA 17
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 172.66.40.99
+  skip-cert-verify: true
+  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: aes-256-cfb
   name: US_speednode_0024
   password: amazonskr05
