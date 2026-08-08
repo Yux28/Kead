@@ -1,28 +1,10 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_1|3.7MB/s
-  password: vgi6UU38zMyqTARPkGLwZb
-  port: '5228'
-  server: creativeboxde2.zanity.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_4|4.3MB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 130.61.102.202
-  type: ss
-  udp: true
-- name: 🇩🇪 德国 | DEU 28
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.20.48.11
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 2
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cmee.ezbiz.dynv6.net
-    path: /
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

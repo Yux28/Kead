@@ -6,26 +6,52 @@ proxies:
   server: 100.31.139.112
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺 俄罗斯 | RUS 2
+  password: GczuHD12R6yCLxNEohm_nQ
+  port: 1080
+  server: 37.77.105.11
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸 美国 | USA 8
+  password: amazonskr05
+  port: 443
+  server: 98.89.48.191
+  type: ss
+- name: 🇺🇸 美国 | USA 14
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - alpn:
   - http/1.1
-  name: 🇺🇸 美国 | USA 30
+  name: 🇺🇸 美国 | USA 15
   network: ws
-  password: humanity
+  password: MiTiVPN
   port: 443
-  server: 104.17.121.9
+  server: 188.114.96.3
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 31
+      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇺🇸 美国 | USA 16
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.208
+  server: 104.18.152.175
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -34,45 +60,6 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 32
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.210
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 33
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.19.152.118
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cmee.ezbiz.dynv6.net
-    path: /
-- name: 🇺🇸 美国 | USA 36
-  network: ws
-  password: 257d8622-6701-4c98-a432-67a9696f58ae
-  port: 443
-  server: shazira.app
-  skip-cert-verify: true
-  sni: shazira.app
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: shazira.app
-    path: /Novan-ID9
 - cipher: aes-256-cfb
   name: US_speednode_0024
   password: amazonskr05

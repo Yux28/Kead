@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇪🇪 爱沙尼亚 | EST
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+  server: ee001.fi1-cosmostechnology.ru
+  servername: fi1-cosmostechnology.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f692629b-3557-488a-9c9b-60775331e423
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇪🇪 爱沙尼亚 | EST 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+  server: ee02.fi1-cosmostechnology.ru
+  servername: fi1-cosmostechnology.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f692629b-3557-488a-9c9b-60775331e423

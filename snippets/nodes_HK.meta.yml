@@ -1,5 +1,5 @@
 proxies:
-- name: 🇭🇰 香港 | HKG 2
+- name: 🇭🇰 香港 | HKG
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17960
   server: jjz.jjznodenode.top
@@ -7,17 +7,9 @@ proxies:
   sni: hk.jjznodenode.top
   type: anytls
   udp: true
-- name: 🇭🇰HK_2|2.7MB/s
-  password: <password>
-  port: 8443
-  server: 2520dda7-tcxds0-tgzvop-hns7.hkt.cdnhuawei.com
-  sni: 2520dda7-tcxds0-tgzvop-hns7.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港 | HKG
+  name: 🇭🇰 香港 | HKG 2
   port: 30809
   server: v9.hdacd.com
   skip-cert-verify: true

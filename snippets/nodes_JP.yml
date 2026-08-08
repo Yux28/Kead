@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇯🇵 日本 | JPN 4
+  name: 🇯🇵 日本 | JPN 2
   port: 30806
   server: v6.hdacd.com
   skip-cert-verify: true

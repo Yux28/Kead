@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港 | HKG
+  name: 🇭🇰 香港 | HKG 2
   port: 30809
   server: v9.hdacd.com
   skip-cert-verify: true

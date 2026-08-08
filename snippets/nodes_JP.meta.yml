@@ -1,71 +1,15 @@
 proxies:
-- name: 🇯🇵 日本 | JPN 5
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17962
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- name: 🇯🇵 日本 | JPN 6
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17968
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- name: 🇯🇵JP_3|2.6MB/s
-  password: kZqh4Dk9rrkxfI4B
-  port: 8888
-  server: 45.192.198.137
-  type: socks5
-  username: u1179940355
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -Xqm17XFjFPUHutSnpMNOlrqlT1pJfKuHT003dU3aks
-    short-id: '!!str 06'
-  server: 64.176.55.120
-  servername: shop-us-en.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9194bade-099b-4723-9f19-606edb5aeab8
-  xudp: true
-- client-fingerprint: firefox
+- auth: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   name: 🇯🇵 日本 | JPN
-  network: ws
-  port: 8443
-  server: 45.76.49.112
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 3
-  network: tcp
+  password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   port: 443
-  reality-opts:
-    public-key: kOzjn-aqsOrs5AXRAYKOsU-xY-NdK3Q8ZH0XdwitFRI
-    short-id: '!!str 069fba81c72d1e'
-  server: 64.176.61.124
-  servername: products.amd.com
-  tls: true
-  type: vless
-  uuid: 44ebd5d8-c8a3-408c-8195-1cb1e97c5c21
+  server: jp.cryptoofarm.com
+  skip-cert-verify: true
+  sni: jp.cryptoofarm.com
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 🇯🇵 日本 | JPN 4
+  name: 🇯🇵 日本 | JPN 2
   port: 30806
   server: v6.hdacd.com
   skip-cert-verify: true
@@ -73,3 +17,19 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇯🇵 日本 | JPN 3
+  network: grpc
+  port: 10035
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
