@@ -40,32 +40,20 @@
 注意：下列 JsDelivr 链接有长时间缓存，得到的订阅可能存在 1 小时 ～ 7 天 不等的延迟。更新订阅时优先使用非 JsDelivr 订阅；如无法更新再使用 JsDelivr 订阅，然后在开启代理的情况下从“原始链接”更新。
 
 添加 Base64 订阅：
-- [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
-- [GhProxy.net](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
-- 此处不公开部分私有镜像站
-- [JsDelivr 默认 (当前 Fastly)](https://cdn.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
-- [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
-- [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
-- [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt)
+- [原始链接](https://raw.githubusercontent.com/Yux28/Kead/refs/heads/main/list.txt)
+- [GhProxy.net](https://ghproxy.net/https://raw.githubusercontent.com/Yux28/Kead/refs/heads/main/list.txt)
+
 
 或添加 Clash Meta 订阅：（如果使用的是原版 Clash，请将链接最后的 `.meta.yml` 替换成 `.yml`。我们始终建议您使用 Clash Meta 而不是已被废弃的 Clash。**提醒：Clash Meta (mihomo) 是有手机版的！还在用 Clash For Android 的用户请尽快迁移至 [Clash Meta For Android](https://github.com/MetaCubeX/ClashMetaForAndroid)！**）
-- [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)
-- [GhProxy.net](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)
-- 此处不公开部分私有镜像站
-- [JsDelivr 默认 (当前 Fastly)](https://cdn.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml)
-- [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml)
-- [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml)
-- [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml)
+- [原始链接](https://raw.githubusercontent.com/Yux28/Kead/refs/heads/main/list.meta.yml)
+- [GhProxy.net](https://ghproxy.net/https://raw.githubusercontent.com/Yux28/Kead/refs/heads/main/list.meta.yml)
+
 
 或添加自更新的 Clash Meta 订阅：（适用于不支持自动更新订阅的客户端，或是直接使用内核。尽管该文件很少变更，我们仍然建议您定期手动更新本地配置。更多详情请见 [配置片段说明](./snippets/README.md)）
 
-- [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/example.yml)
-- [GhProxy.net](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/example.yml)
-- 此处不公开部分私有镜像站
-- [JsDelivr 默认 (当前 Fastly)](https://cdn.jsdelivr.net/gh/peasoft/NoMoreWalls@master/snippets/example.yml)
-- [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/snippets/example.yml)
-- [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/snippets/example.yml)
-- [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/snippets/example.yml)
+- [原始链接](https://raw.githubusercontent.com/Yux28/Kead/refs/heads/main/snippets/example.yml)
+- [GhProxy.net](https://ghproxy.net/https://raw.githubusercontent.com/Yux28/Kead/refs/heads/main/snippets/example.yml)
+
 
 或添加 Sing-Box 订阅：（第三方提供转换，不支持本项目的节点选择和分流规则。建议在本地搭建转换服务。）
 - [转换链接（第三方）](https://subwork.top/singbox?config=https%3A%2F%2Fraw.githubusercontent.com%2Fpeasoft%2FNoMoreWalls%2Fmaster%2Fsnippets%2Fnodes.meta.yml&ua=&selectedRules=%5B%22Location%3ACN%22%2C%22Private%22%2C%22Non-China%22%2C%22Github%22%2C%22Google%22%2C%22Youtube%22%2C%22AI+Services%22%2C%22Telegram%22%5D&customRules=%5B%5D&enable_clash_ui=true)
