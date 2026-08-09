@@ -1,15 +1,34 @@
 proxies:
-- name: 🇭🇰 香港 | HKG
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17960
-  server: jjz.jjznodenode.top
+- fingerprint: ''
+  name: 🇭🇰 香港 | HKG 4
+  password: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d
+  port: 443
+  server: 99bfa3b9-tiw740-u1a7t2-1qwla.hk3.hyhuawei.com
   skip-cert-verify: true
-  sni: hk.jjznodenode.top
+  sni: 127.0.0.1
   type: anytls
   udp: true
+  username: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d
+- auth: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  name: 🇭🇰 香港 | HKG
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  port: 5010
+  server: nas.aizhzo.com
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+- name: 🇭🇰 香港 | HKG 2
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
+  port: 443
+  server: 43.249.172.27
+  skip-cert-verify: true
+  sni: hongkong.kingonestar.com
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港 | HKG 2
+  name: 🇭🇰 香港 | HKG 3
   port: 30809
   server: v9.hdacd.com
   skip-cert-verify: true

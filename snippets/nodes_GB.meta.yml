@@ -1,47 +1,39 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 10
-  network: xhttp
-  port: 443
-  server: www.speedtest.net
-  servername: sazeg.bEwiNja.ir.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: sazeg.bEwiNja.ir.
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-- name: 🇬🇧 英国 | GBR
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17965
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: uk.jjznodenode.top
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR 2
+  name: 🇬🇧 英国 | GBR 3
   network: tcp
   port: 443
   reality-opts:
-    public-key: b75SrHI--As9QxOVfRIPkGmGfXjs53CGAjbws2K99Rs
-  server: 194.150.166.12
-  servername: www.avito.ru
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str abe4a59b9f2407e3'
+  server: 5.254.14.165
+  servername: cdn4-81.yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 1e973bda-3a02-4431-9df8-83595f6f65d8
+  uuid: 408e08b4-4e08-4819-9eb6-0e660ec87530
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 英国 | GBR
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.81.122
+  type: ss
+  udp: true
+- name: 🇬🇧GB_3|1.2MB/s
+  password: None
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇬🇧 英国 | GBR 3
+  name: 🇬🇧 英国 | GBR 2
   network: ws
   port: 443
   server: 140.248.186.45
@@ -54,59 +46,29 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  client-fingerprint: chrome
   name: 🇬🇧 英国 | GBR 4
-  network: ws
-  port: 2087
-  server: 104.18.37.228
-  servername: s1--faragate--faragate--faragate--faragate--faragate--faragate-.kharidmodem.ir
+  network: xhttp
+  port: 2083
+  server: ip.feywebsite.ir
+  servername: gb.feyland.ir
   tls: true
   type: vless
   udp: true
-  uuid: 8a86a2c0-d769-4493-9f76-b059c464afea
-  ws-opts:
-    headers:
-      Host: s1--faragate--faragate--faragate--faragate--faragate--faragate-.kharidmodem.ir
-    path: /video
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.data
-  name: 🇬🇧 英国 | GBR 5
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY
-    short-id: '!!str 524efc1f88592266'
-  server: gr013.bamajobin.ir
-  servername: play.google.com
-  tls: true
-  type: vless
+  uuid: b91abe1a-80ca-417b-998b-2b542661c16f
+  xhttp-opts:
+    host: ip.feywebsite.ir
+    path: /api/v1/stream
+- name: 🇬🇧 英国 | GBR 5
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
   udp: true
-  uuid: d9aa9ea3-9388-483f-a58d-a754f33ec505
-- name: 🇬🇧 英国 | GBR 6
-  network: tcp
-  port: 35412
-  server: 87.242.85.201
-  tls: false
-  type: vless
-  udp: true
-  uuid: bfa91d79-049c-41e1-be94-029397377150
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: fi1cosmos
-  name: 🇬🇧 英国 | GBR 7
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
-  server: gb1.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
 - name: GB_speednode_0002
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443

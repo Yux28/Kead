@@ -1,84 +1,60 @@
 proxies:
-- name: 🇩🇪 德国 | DEU 12
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17966
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇫🇷 法国 | FRA 4
-  network: tcp
+- name: 🇫🇷FR_1|3.2MB/s
+  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
   port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: fr3.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇫🇷 法国 | FRA 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: fr.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇫🇷 法国 | FRA 8
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: fr5.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- name: 🇫🇷FR_5|1.2MB/s
-  port: 443
-  server: 103.82.101.44
-  skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  server: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com
+  sni: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com
   tls: true
   type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷FR_6|1.8MB/s
-  network: ws
-  port: 443
-  server: 77.105.163.46
-  servername: ov186.ochmaybrooooo.online
-  skip-cert-verify: true
-  tfo: false
+  username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇫🇷 法国 | FRA
+  network: tcp
+  port: 2443
+  reality-opts:
+    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+    short-id: '!!str a20d3ed244c76426'
+  server: 144.31.107.73
+  servername: fr.serverstats.ru
   tls: true
   type: vless
-  uuid: 1f964d0e-7e33-42b0-9c9f-c2c1a8b157c6
+  udp: true
+  uuid: cd16b981-0321-4c34-b7ca-db163f95f2d6
+- client-fingerprint: chrome
+  name: 🇫🇷 法国 | FRA 2
+  network: xhttp
+  port: 8445
+  reality-opts:
+    public-key: 7Udu8M44zSpjPJ-t0Fan1kAaykeB3PkKBCCoJCoxOjk
+    short-id: '!!str f9fe9522b62bac68'
+  server: ir4.tetrov.top
+  servername: www.varzesh3.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd7234b9-803a-42ca-ab05-f2d547bb130a
+  xhttp-opts:
+    host: www.varzesh3.com
+    mode: auto
+    path: /DeliveryMarket
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 100-1000
+- name: 🇫🇷 法国 | FRA 3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.144
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: ov186.ochmaybrooooo.online
-    path: /
-- name: 🇫🇷FR_7|2.0MB/s
-  password: b5cd881264728d1879d16a5505591d41
-  port: '10805'
-  server: proxyma.space
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 3186a0f8135d989a
-- name: 🇫🇷 法国 | FRA
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 4
   network: ws
   password: humanity
   port: 443
@@ -91,57 +67,12 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷 法国 | FRA 2
-  network: ws
-  port: 443
-  server: 104.17.108.69
-  servername: 639216722493636932.eslamshahr-sxft.beauty
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1bc14e5b-b632-4008-8d5f-e5b99bbd7696
-  ws-opts:
-    headers:
-      Host: 639216722493636932.eslamshahr-sxft.beauty
-    path: /vnitpcws
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇫🇷 法国 | FRA 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: fr4.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇫🇷 法国 | FRA 6
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: fr2.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: chrome
-  name: 🇫🇷 法国 | FRA 7
-  network: ws
-  port: 443
-  server: 104.17.108.69
-  servername: 639216722493642090.eslamshahr-sxft.beauty
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1a08570f-951b-409d-9e51-64c5df62e824
-  ws-opts:
-    headers:
-      Host: 639216722493642090.eslamshahr-sxft.beauty
-    path: /ilmhlpws
+- alterId: 2
+  cipher: auto
+  name: 🇫🇷 法国 | FRA 5
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

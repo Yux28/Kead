@@ -1,27 +1,16 @@
 proxies:
 - client-fingerprint: qq
+  encryption: none
   flow: xtls-rprx-vision
   name: 🇪🇪 爱沙尼亚 | EST
   network: tcp
   port: 443
   reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: ee001.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
+    public-key: g-WqfHKjac71MMtkmq5bIvTFavzXTCAnEI_17KoTNSQ
+  server: 91.235.234.186
+  servername: us7fs3.proxen.pdevinfra.com
   tls: true
   type: vless
   udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇪🇪 爱沙尼亚 | EST 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: ee02.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
+  uuid: 4593aa27-a2a1-412f-935f-3829495c0970
+  xudp: true

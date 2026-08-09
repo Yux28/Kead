@@ -1,75 +1,15 @@
 proxies:
-- cipher: aes-256-cfb
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
   name: 🇸🇪 瑞典 | SWE
-  password: amazonskr05
-  port: 443
-  server: 13.61.189.139
-  type: ss
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: fi1cosmos
-  name: 🇸🇪 瑞典 | SWE 2
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
-  server: ct1.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: fi1cosmos
-  name: 🇸🇪 瑞典 | SWE 3
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
-  server: it2.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇸🇪 瑞典 | SWE 4
   network: tcp
-  port: 443
+  port: 4249
   reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: sw4.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
+    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+    short-id: '!!str a20d3ed244c76426'
+  server: 144.31.107.73
+  servername: swe.serverstats.ru
   tls: true
   type: vless
   udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇸🇪 瑞典 | SWE 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: sw2.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- cipher: aes-256-cfb
-  name: 🇸🇪 瑞典 | SWE 6
-  password: amazonskr05
-  port: 443
-  server: 51.21.130.209
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇪 瑞典 | SWE 7
-  password: amazonskr05
-  port: 443
-  server: 13.50.4.72
-  type: ss
+  uuid: cd16b981-0321-4c34-b7ca-db163f95f2d6

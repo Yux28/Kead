@@ -1,92 +1,169 @@
 proxies:
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: fi1cosmos
-  name: 🇩🇪 德国 | DEU 6
-  network: grpc
+- alpn:
+  - h2
+  client-fingerprint: ios
+  name: 🇷🇺 俄罗斯 | RUS 5
+  network: xhttp
   port: 443
-  reality-opts:
-    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
-  server: sk.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
+  server: deu513.globalunlock.org
+  servername: deu513.globalunlock.org
   tls: true
   type: vless
   udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
+  uuid: 77930005-ea92-44dc-9d94-e9192427f519
+  xhttp-opts:
+    host: deu513.globalunlock.org
+    mode: auto
+    path: /api/v1/
+- client-fingerprint: edge
+  name: 🇩🇪 德国 | DEU 12
+  network: tcp
+  port: 443
+  server: 217.60.193.4
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
 - auth: 71cada65-d23e-418c-88e4-a06188d14689
-  name: 🇩🇪 德国 | DEU 25
+  name: 🇩🇪 德国 | DEU
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
-  server: de-two.quiet-rogue.site
+  server: 144.31.166.91
   skip-cert-verify: true
   sni: de-two.quiet-rogue.site
   type: hysteria2
-- name: 🇩🇪 德国 | DEU 28
+- auth: FPSfGfmZs5rjz5dlqreuDK7B
+  name: 🇩🇪 德国 | DEU 2
+  password: FPSfGfmZs5rjz5dlqreuDK7B
+  port: 62202
+  server: 37.120.189.107
+  skip-cert-verify: true
+  sni: de1.143259.xyz
+  type: hysteria2
+- auth: 7836b28e-8451-4596-ad3e-e3601b2335ba
+  name: 🇩🇪 德国 | DEU 3
+  password: 7836b28e-8451-4596-ad3e-e3601b2335ba
+  port: 8443
+  server: 78.159.240.69
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  type: hysteria2
+- auth: 22j0d00lev7mq0yv
+  name: 🇩🇪 德国 | DEU 4
+  obfs: salamander
+  obfs-password: 8zzng75tz4tf82pj
+  password: 22j0d00lev7mq0yv
+  port: 8443
+  server: musicclips.videolinks.ru
+  skip-cert-verify: true
+  sni: musicclips.videolinks.ru
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 🇩🇪 德国 | DEU 5
+  port: 26691
+  protocol: udp
+  server: 5.83.129.143
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 11 Mbps
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 6
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 7
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- name: 🇩🇪 德国 | DEU 8
   network: ws
-  port: 8880
-  server: cd-site.benomiz.ir
+  port: 50559
+  server: 135.125.184.182
   tls: false
   type: vless
   udp: true
-  uuid: ba8511c3-66b3-496a-b30f-4c870c87754f
+  uuid: 3fd3909b-238f-42c4-9170-38d10014b1d8
   ws-opts:
     headers:
-      Host: gr.gadawebi.ir
+      Host: Play.googel.com
     path: /
-    v2ray-http-upgrade: true
-- client-fingerprint: qq
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 31
+  name: 🇩🇪 德国 | DEU 10
   network: tcp
-  port: 443
+  port: 8443
   reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: de8.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
+    public-key: mBaiGOrxW7NFGpW7aZLztWiME6vulM0Nk1Uh0SxX4zc
+    short-id: '!!str fa1a12cf'
+  server: 161.104.32.106
+  servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_5|1.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: '443'
-  server: 144.31.166.91
-  skip-cert-verify: false
-  sni: de-two.quiet-rogue.site
-  type: hysteria2
-  up: ''
-- client-fingerprint: qq
+  uuid: 501b6afa-f955-473f-8440-1010110a1548
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU
+  name: 🇩🇪 德国 | DEU 11
   network: tcp
-  port: 443
+  port: 7443
   reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: ee2.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
+    public-key: mBaiGOrxW7NFGpW7aZLztWiME6vulM0Nk1Uh0SxX4zc
+    short-id: '!!str fa1a12cf'
+  server: 161.104.32.106
+  servername: eh.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 2
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 501b6afa-f955-473f-8440-1010110a1548
+- client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 13
+  network: xhttp
+  port: 18443
+  reality-opts:
+    public-key: TwMkcv1njZw5vFE-g5AUdpa_Y2vb_9393Nobv0Uqdi4
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 31.177.111.14
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57284239-1ceb-439f-826e-cd25fcc1c1c5
+  xhttp-opts:
+    host: yandex.ru
+    mode: stream-one
+    path: /
+    x-padding-bytes: 100-1000
+    x-padding-obfs-mode: false
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: your-custom-path
-  name: 🇩🇪 德国 | DEU 3
+  name: 🇩🇪 德国 | DEU 14
   network: grpc
   port: 6443
   reality-opts:
@@ -98,298 +175,174 @@ proxies:
   type: vless
   udp: true
   uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
-- auth: 16ab4d4a-fd81-4535-9b7b-346677226ce8
-  name: 🇩🇪 德国 | DEU 4
-  password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
-  port: 443
-  server: on.cryptoofarm.com
-  skip-cert-verify: true
-  sni: on.cryptoofarm.com
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY
-    short-id: '!!str 6c6082a2223c1d03'
-  server: 5.181.21.234
-  servername: fl4.raketa-balance.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7fc372d-c057-43ce-8070-9b96abbc60f3
-- name: 🇩🇪 德国 | DEU 7
-  network: tcp
-  port: 43630
-  server: 47.82.120.47
-  tls: false
-  type: vless
-  udp: true
-  uuid: 01a95af3-a2f6-453e-9f88-b2fc011627cc
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 8
+- client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 15
   network: ws
-  port: 443
-  server: 82.158.120.149
-  servername: 7ptggg3x7538.dopgangster.com
+  port: 8443
+  server: 85.155.176.44
+  servername: rubifen.adaspoloandco.com
   tls: true
   type: vless
   udp: true
-  uuid: dbcc7cef-7c3a-4eb8-905b-37783abcea1d
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
   ws-opts:
     headers:
-      Host: 7ptggg3x7538.dopgangster.com
-    path: /----MXGRiD----
-- client-fingerprint: random
-  name: 🇩🇪 德国 | DEU 9
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: v_s3GW5_7jvB081tdUeyoDUUTq6fZwqKbVS7CdvLFA0
-    short-id: '!!str 72cd47c079c0a3df'
-  server: 194.5.65.36
-  servername: ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02
-  xhttp-opts:
-    host: ya.ru
-    mode: auto
-    path: /
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 10
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: ee4.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 13
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: pCo2-ElBkfx1KTUwjzUyQVxcqGHcQXoX6-_z5uIccC0
-    short-id: '!!str 5918f395cc696590'
-  server: fast.superturk.ir
-  servername: telewebion.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: b3790af1-e595-408d-bd26-2f21a15cd610
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 14
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: de13.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- auth: 7836b28e-8451-4596-ad3e-e3601b2335ba
-  name: 🇩🇪 德国 | DEU 15
-  password: 7836b28e-8451-4596-ad3e-e3601b2335ba
-  port: 8443
-  server: 78.159.240.69
-  skip-cert-verify: true
-  sni: quic.tyr-agentstvo.tech
-  type: hysteria2
-- client-fingerprint: qq
+      Host: rubifen.adaspoloandco.com
+    path: /GOrbEh
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 16
   network: tcp
-  port: 443
+  port: 7443
   reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: de9.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
+    public-key: UJASCPCy2vuNWu3q2C7vVte-HxG0r0XI83pgxBFBv1E
+    short-id: '!!str 9c56af76'
+  server: 85.234.100.49
+  servername: images.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: chrome
+  uuid: 501b6afa-f955-473f-8440-1010110a1548
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 17
-  network: ws
+  network: tcp
   port: 8443
-  server: 172.67.225.147
-  servername: ftp.skylinknet.ir
+  reality-opts:
+    public-key: UJASCPCy2vuNWu3q2C7vVte-HxG0r0XI83pgxBFBv1E
+    short-id: '!!str 9c56af76'
+  server: 85.234.100.49
+  servername: www.python.org
   tls: true
   type: vless
   udp: true
-  uuid: 3764c80e-0fd2-48bc-9072-25fccb9992bf
-  ws-opts:
-    headers:
-      Host: ftp.skylinknet.ir
-    path: /
+  uuid: 501b6afa-f955-473f-8440-1010110a1548
+- client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 18
+  network: tcp
+  port: 6443
+  reality-opts:
+    public-key: UJASCPCy2vuNWu3q2C7vVte-HxG0r0XI83pgxBFBv1E
+    short-id: '!!str 9c56af76'
+  server: 85.234.100.49
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 501b6afa-f955-473f-8440-1010110a1548
 - client-fingerprint: chrome
   name: 🇩🇪 德国 | DEU 19
   network: ws
   port: 8443
-  server: 104.18.155.141
-  servername: ftp.skylinknet.ir
+  server: 91.110.174.210
+  servername: rubifen.adaspoloandco.com
   tls: true
   type: vless
   udp: true
-  uuid: 3764c80e-0fd2-48bc-9072-25fccb9992bf
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
   ws-opts:
     headers:
-      Host: ftp.skylinknet.ir
-    path: /
-- client-fingerprint: chrome
+      Host: rubifen.adaspoloandco.com
+    path: /GOrbEh
+- client-fingerprint: qq
   name: 🇩🇪 德国 | DEU 20
   network: tcp
-  port: 448
-  reality-opts:
-    public-key: qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w
-    short-id: '!!str e1bdc95c1554c8eb'
-  server: 93.114.194.120
-  servername: www.samsung.com
+  port: 443
+  server: ddc-akn.astralweb.tech
+  servername: ddc-akn.astralweb.tech
   tls: true
   type: vless
   udp: true
-  uuid: bc5b801f-49a7-4db7-ac92-a2c57d42d132
-- client-fingerprint: qq
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 21
   network: tcp
   port: 443
   reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: de10.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
+    public-key: RWznvelrkz8tOe6iz9qFVyXbak3E08bs37ZO1rRLfxg
+  server: apple-cd2b77.cdx-edge.com
+  servername: deepl.com
   tls: true
   type: vless
   udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
+  uuid: 6f5bfa9c-e469-454d-8109-9b5e0266d6c3
+- alpn:
+  - h2
+  client-fingerprint: firefox
   name: 🇩🇪 德国 | DEU 22
-  network: tcp
+  network: xhttp
   port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: de11.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
+  server: cloudberry-n9d4xk.vkvideo-cdn.com
+  servername: cloudberry-n9d4xk.vkvideo-cdn.com
   tls: true
   type: vless
   udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
+  uuid: a68a9249-89db-476e-8f3c-d946d91f619f
+  xhttp-opts:
+    host: cloudberry-n9d4xk.vkvideo-cdn.com
+    mode: packet-up
+    path: /content/media/stream/
+    uplink-data-placement: body
+    uplink-http-method: GET
+    x-padding-bytes: 16-64
+    x-padding-header: X-Signature
+    x-padding-key: _token
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: query
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
   name: 🇩🇪 德国 | DEU 23
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: 132.243.225.142
-  servername: fi1-cosmostechnology.ru
+  server: cdn-de.sxvpn.pro
+  servername: cdn-de.sxvpn.pro
   tls: true
   type: vless
   udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- encryption: mlkem768x25519plus.native.0rtt.390j8tzrdyy1qNaluw8zKLp-oImo080BfdXw-3JWNBs
-  http-opts:
+  uuid: 501b6afa-f955-473f-8440-1010110a1548
+  ws-opts:
     headers:
-      Host:
-      - icloud.com
-    method: GET
-    path:
-    - /
+      Host: cdn-de.sxvpn.pro
+    path: /sx-cdn-ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   name: 🇩🇪 德国 | DEU 24
-  network: http
-  port: 4433
-  server: 82.158.120.149
+  network: ws
+  port: 443
+  server: cdn-ru.sxvpn.pro
+  servername: cdn-ru.sxvpn.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 501b6afa-f955-473f-8440-1010110a1548
+  ws-opts:
+    headers:
+      Host: cdn-ru.sxvpn.pro
+    path: /sx-cdn-ws
+- name: 🇩🇪 德国 | DEU 25
+  network: ws
+  port: 80
+  server: 146.75.119.82
   tls: false
   type: vless
-  udp: true
-  uuid: dbcc7cef-7c3a-4eb8-905b-37783abcea1d
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 26
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: de14.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless-grpc-reality
-  name: 🇩🇪 德国 | DEU 29
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 94.103.3.19
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  uuid: 2f298412-a011-463a-aa17-d4d0ea660a86
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
 - alpn:
   - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU 30
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 32
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: de12.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- auth: 22j0d00lev7mq0yv
-  name: 🇩🇪 德国 | DEU 33
-  obfs: salamander
-  obfs-password: 8zzng75tz4tf82pj
-  password: 22j0d00lev7mq0yv
+  - h2
+  - http/1.1
+  name: 🇩🇪 德国 | DEU 26
+  password: DYdUPxtSFW40-VHeazYsQAEp1pTVWg0H
   port: 8443
-  server: musicclips.videolinks.ru
+  server: gr.federal-usa.com
   skip-cert-verify: true
-  sni: musicclips.videolinks.ru
-  type: hysteria2
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 34
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: de7.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
+  sni: gr.federal-usa.com
+  type: trojan
   udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423

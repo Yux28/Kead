@@ -1,10 +1,13 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 2
-  port: 30833
-  server: v33.hdacd.com
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 🇩🇪 德国 | DEU 26
+  password: DYdUPxtSFW40-VHeazYsQAEp1pTVWg0H
+  port: 8443
+  server: gr.federal-usa.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  sni: gr.federal-usa.com
+  type: trojan
+  udp: true

@@ -1,65 +1,20 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇺🇸 美国 | USA 2
-  password: amazonskr05
-  port: 443
-  server: 100.31.139.112
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺 俄罗斯 | RUS 2
-  password: GczuHD12R6yCLxNEohm_nQ
-  port: 1080
-  server: 37.77.105.11
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸 美国 | USA 8
-  password: amazonskr05
-  port: 443
-  server: 98.89.48.191
-  type: ss
-- name: 🇺🇸 美国 | USA 14
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国 | USA 16
   network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.152
+  port: 8443
+  server: www.nextkyc.com
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 15
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: true
-  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 16
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - cipher: aes-256-cfb
   name: US_speednode_0024
   password: amazonskr05

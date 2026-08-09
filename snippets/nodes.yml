@@ -1,61 +1,37 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇺🇸 美国 | USA 2
-  password: amazonskr05
-  port: 443
-  server: 100.31.139.112
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 英国 | GBR
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.81.122
   type: ss
   udp: true
 - alpn:
+  - h3
+  - h2
   - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬SG_3|2.1MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.18.32.47
+  name: 🇩🇪 德国 | DEU 26
+  password: DYdUPxtSFW40-VHeazYsQAEp1pTVWg0H
+  port: 8443
+  server: gr.federal-usa.com
   skip-cert-verify: true
-  sni: fls-bbg--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
+  sni: gr.federal-usa.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/F-ls
-- name: 🇦🇹 奥地利 | AUT
+- name: 🇫🇷 法国 | FRA 3
   network: ws
   password: humanity
   port: 443
-  server: 212.183.88.136
+  server: 104.18.152.144
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
+      Host: www.ignitelimit.com
     path: /assignment
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳 CN_143
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 2
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇫🇷 法国 | FRA
+- name: 🇫🇷 法国 | FRA 4
   network: ws
   password: humanity
   port: 443
@@ -70,7 +46,31 @@ proxies:
     path: /assignment
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港 | HKG 2
+  name: 🇫🇷 法国 | FRA 5
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇬🇧 英国 | GBR 5
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | HKG 2
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
+  port: 443
+  server: 43.249.172.27
+  skip-cert-verify: true
+  sni: hongkong.kingonestar.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 3
   port: 30809
   server: v9.hdacd.com
   skip-cert-verify: true
@@ -97,73 +97,9 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇳🇱 荷兰 | NLD 12
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.126
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺 俄罗斯 | RUS 2
-  password: GczuHD12R6yCLxNEohm_nQ
-  port: 1080
-  server: 37.77.105.11
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇸🇪 瑞典 | SWE
-  password: amazonskr05
-  port: 443
-  server: 13.61.189.139
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇪 瑞典 | SWE 6
-  password: amazonskr05
-  port: 443
-  server: 51.21.130.209
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇪 瑞典 | SWE 7
-  password: amazonskr05
-  port: 443
-  server: 13.50.4.72
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇷 土耳其 | TUR 4
-  password: NHnR/CZ9XSTK2hIKVZ6qCVLKHe4cbZsozY58EIq/HZI=
-  port: 56985
-  server: e3.cover20.ir
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸 美国 | USA 8
-  password: amazonskr05
-  port: 443
-  server: 98.89.48.191
-  type: ss
-- name: 🇺🇸 美国 | USA 14
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.152
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
 - alpn:
   - http/1.1
-  name: 🇺🇸 美国 | USA 15
+  name: 🇳🇱 荷兰 | NLD 7
   network: ws
   password: MiTiVPN
   port: 443
@@ -176,19 +112,33 @@ proxies:
     headers:
       Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇺🇸 美国 | USA 16
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇵🇱 波兰 | POL 3
+  password: DYdUPxtSFW40-VHeazYsQAEp1pTVWg0H
+  port: 7443
+  server: fio.federal-usa.com
   skip-cert-verify: true
-  sni: www.ignitelimit.com
+  sni: fio.federal-usa.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国 | USA 16
+  network: ws
+  port: 8443
+  server: www.nextkyc.com
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - cipher: aes-256-gcm
   name: RU_speednode_0020
   password: 895b4b796a357570

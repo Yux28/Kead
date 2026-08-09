@@ -1,7 +1,14 @@
 proxies:
+- name: 🇭🇰 香港 | HKG 2
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
+  port: 443
+  server: 43.249.172.27
+  skip-cert-verify: true
+  sni: hongkong.kingonestar.com
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港 | HKG 2
+  name: 🇭🇰 香港 | HKG 3
   port: 30809
   server: v9.hdacd.com
   skip-cert-verify: true
