@@ -1,251 +1,95 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: ios
-  name: 🇷🇺 俄罗斯 | RUS 5
-  network: xhttp
-  port: 443
-  server: deu513.globalunlock.org
-  servername: deu513.globalunlock.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77930005-ea92-44dc-9d94-e9192427f519
-  xhttp-opts:
-    host: deu513.globalunlock.org
-    mode: auto
-    path: /api/v1/
 - client-fingerprint: edge
-  name: 🇩🇪 德国 | DEU 12
+  name: 🇩🇪 德国 | DEU
   network: tcp
   port: 443
   server: 217.60.193.4
   servername: ddc-akn.astralweb.tech
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-- auth: 71cada65-d23e-418c-88e4-a06188d14689
-  name: 🇩🇪 德国 | DEU
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: 144.31.166.91
-  skip-cert-verify: true
-  sni: de-two.quiet-rogue.site
-  type: hysteria2
-- auth: FPSfGfmZs5rjz5dlqreuDK7B
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 2
-  password: FPSfGfmZs5rjz5dlqreuDK7B
-  port: 62202
-  server: 37.120.189.107
-  skip-cert-verify: true
-  sni: de1.143259.xyz
-  type: hysteria2
-- auth: 7836b28e-8451-4596-ad3e-e3601b2335ba
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
+    short-id: '!!str f7d0420b8ab26060'
+  server: 185.238.191.155
+  servername: de-cdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 3
-  password: 7836b28e-8451-4596-ad3e-e3601b2335ba
-  port: 8443
-  server: 78.159.240.69
-  skip-cert-verify: true
-  sni: quic.tyr-agentstvo.tech
-  type: hysteria2
-- auth: 22j0d00lev7mq0yv
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  server: 31.76.111.91
+  servername: de3.rexten.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 4
-  obfs: salamander
-  obfs-password: 8zzng75tz4tf82pj
-  password: 22j0d00lev7mq0yv
-  port: 8443
-  server: musicclips.videolinks.ru
-  skip-cert-verify: true
-  sni: musicclips.videolinks.ru
-  type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
+  network: tcp
+  port: 443
+  server: fast_s28.slopllex.app
+  servername: fast_s28.slopllex.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01c1c842-214b-4de1-b8e1-68c783a6db74
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 5
-  port: 26691
-  protocol: udp
-  server: 5.83.129.143
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
+    short-id: '!!str f7d0420b8ab26060'
+  server: 185.238.191.156
+  servername: de-cdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+- alterId: 0
+  cipher: auto
   name: 🇩🇪 德国 | DEU 6
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU 7
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- name: 🇩🇪 德国 | DEU 8
   network: ws
-  port: 50559
-  server: 135.125.184.182
+  port: 16644
+  server: m.cnmjin.net.xiaoyan.io
+  skip-cert-verify: true
   tls: false
-  type: vless
-  udp: true
-  uuid: 3fd3909b-238f-42c4-9170-38d10014b1d8
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
   ws-opts:
     headers:
-      Host: Play.googel.com
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
     path: /
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 10
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: mBaiGOrxW7NFGpW7aZLztWiME6vulM0Nk1Uh0SxX4zc
-    short-id: '!!str fa1a12cf'
-  server: 161.104.32.106
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 501b6afa-f955-473f-8440-1010110a1548
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 11
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: mBaiGOrxW7NFGpW7aZLztWiME6vulM0Nk1Uh0SxX4zc
-    short-id: '!!str fa1a12cf'
-  server: 161.104.32.106
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 501b6afa-f955-473f-8440-1010110a1548
-- client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 13
-  network: xhttp
-  port: 18443
-  reality-opts:
-    public-key: TwMkcv1njZw5vFE-g5AUdpa_Y2vb_9393Nobv0Uqdi4
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 31.177.111.14
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57284239-1ceb-439f-826e-cd25fcc1c1c5
-  xhttp-opts:
-    host: yandex.ru
-    mode: stream-one
-    path: /
-    x-padding-bytes: 100-1000
-    x-padding-obfs-mode: false
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: your-custom-path
-  name: 🇩🇪 德国 | DEU 14
-  network: grpc
-  port: 6443
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: '!!str 2da4299da566b7'
-  server: 45.151.101.103
-  servername: maps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
-- client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 15
-  network: ws
-  port: 8443
-  server: 85.155.176.44
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 16
+  name: 🇩🇪 德国 | DEU 7
   network: tcp
-  port: 7443
+  port: 443
   reality-opts:
-    public-key: UJASCPCy2vuNWu3q2C7vVte-HxG0r0XI83pgxBFBv1E
-    short-id: '!!str 9c56af76'
-  server: 85.234.100.49
-  servername: images.apple.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.233.255.7
+  servername: de.sellflow.org
   tls: true
   type: vless
   udp: true
-  uuid: 501b6afa-f955-473f-8440-1010110a1548
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 17
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: UJASCPCy2vuNWu3q2C7vVte-HxG0r0XI83pgxBFBv1E
-    short-id: '!!str 9c56af76'
-  server: 85.234.100.49
-  servername: www.python.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 501b6afa-f955-473f-8440-1010110a1548
-- client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 18
-  network: tcp
-  port: 6443
-  reality-opts:
-    public-key: UJASCPCy2vuNWu3q2C7vVte-HxG0r0XI83pgxBFBv1E
-    short-id: '!!str 9c56af76'
-  server: 85.234.100.49
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 501b6afa-f955-473f-8440-1010110a1548
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 19
-  network: ws
-  port: 8443
-  server: 91.110.174.210
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
+  uuid: b90d6e73-ade0-41e7-8c48-bc29401a2174
 - client-fingerprint: qq
-  name: 🇩🇪 德国 | DEU 20
+  name: 🇩🇪 德国 | DEU 8
   network: tcp
   port: 443
   server: ddc-akn.astralweb.tech
@@ -254,95 +98,25 @@ proxies:
   type: vless
   udp: true
   uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-- client-fingerprint: chrome
+- auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  name: 🇩🇪 德国 | DEU 9
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 93.114.194.122
+  skip-cert-verify: true
+  sni: grape-zet-ro-turbo.bumbleshrimp.com
+  type: hysteria2
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 21
+  name: 🇩🇪 德国 | DEU 10
   network: tcp
   port: 443
   reality-opts:
-    public-key: RWznvelrkz8tOe6iz9qFVyXbak3E08bs37ZO1rRLfxg
-  server: apple-cd2b77.cdx-edge.com
-  servername: deepl.com
+    public-key: c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM
+    short-id: '!!str 08804e078e1257c8'
+  server: nexvio.orbvia.online
+  servername: nexvio.orbvia.online
   tls: true
   type: vless
   udp: true
-  uuid: 6f5bfa9c-e469-454d-8109-9b5e0266d6c3
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 22
-  network: xhttp
-  port: 443
-  server: cloudberry-n9d4xk.vkvideo-cdn.com
-  servername: cloudberry-n9d4xk.vkvideo-cdn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a68a9249-89db-476e-8f3c-d946d91f619f
-  xhttp-opts:
-    host: cloudberry-n9d4xk.vkvideo-cdn.com
-    mode: packet-up
-    path: /content/media/stream/
-    uplink-data-placement: body
-    uplink-http-method: GET
-    x-padding-bytes: 16-64
-    x-padding-header: X-Signature
-    x-padding-key: _token
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 23
-  network: ws
-  port: 443
-  server: cdn-de.sxvpn.pro
-  servername: cdn-de.sxvpn.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 501b6afa-f955-473f-8440-1010110a1548
-  ws-opts:
-    headers:
-      Host: cdn-de.sxvpn.pro
-    path: /sx-cdn-ws
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 24
-  network: ws
-  port: 443
-  server: cdn-ru.sxvpn.pro
-  servername: cdn-ru.sxvpn.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 501b6afa-f955-473f-8440-1010110a1548
-  ws-opts:
-    headers:
-      Host: cdn-ru.sxvpn.pro
-    path: /sx-cdn-ws
-- name: 🇩🇪 德国 | DEU 25
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
-  type: vless
-  uuid: 2f298412-a011-463a-aa17-d4d0ea660a86
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 🇩🇪 德国 | DEU 26
-  password: DYdUPxtSFW40-VHeazYsQAEp1pTVWg0H
-  port: 8443
-  server: gr.federal-usa.com
-  skip-cert-verify: true
-  sni: gr.federal-usa.com
-  type: trojan
-  udp: true
+  uuid: e3c40721-22bc-4862-a358-09502fc14af6

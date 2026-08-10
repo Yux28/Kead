@@ -1,16 +1,20 @@
 proxies:
-- fingerprint: ''
-  name: 🇭🇰 香港 | HKG 4
-  password: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d
-  port: 443
-  server: 99bfa3b9-tiw740-u1a7t2-1qwla.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  type: anytls
-  udp: true
-  username: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d
-- auth: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+- alterId: 0
+  cipher: auto
   name: 🇭🇰 香港 | HKG
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
+- auth: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  name: 🇭🇰 香港 | HKG 2
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -19,13 +23,6 @@ proxies:
   skip-cert-verify: true
   sni: 127.0.0.1
   type: hysteria2
-- name: 🇭🇰 香港 | HKG 2
-  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
-  port: 443
-  server: 43.249.172.27
-  skip-cert-verify: true
-  sni: hongkong.kingonestar.com
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港 | HKG 3

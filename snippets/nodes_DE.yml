@@ -1,13 +1,15 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 🇩🇪 德国 | DEU 26
-  password: DYdUPxtSFW40-VHeazYsQAEp1pTVWg0H
-  port: 8443
-  server: gr.federal-usa.com
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 6
+  network: ws
+  port: 16644
+  server: m.cnmjin.net.xiaoyan.io
   skip-cert-verify: true
-  sni: gr.federal-usa.com
-  type: trojan
-  udp: true
+  tls: false
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /

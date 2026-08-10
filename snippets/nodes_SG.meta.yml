@@ -1,10 +1,4 @@
 proxies:
-- name: 🇸🇬SG_1|1.8MB/s
-  password: ESfDSCxpD
-  port: 64462
-  server: 154.219.254.66
-  type: http
-  username: n17sMRE7S
 - auth: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   name: 🇸🇬 新加坡 | SGP
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
@@ -13,3 +7,38 @@ proxies:
   skip-cert-verify: true
   sni: sg3.xiaoliyu.cyou
   type: hysteria2
+- name: 🇸🇬 新加坡 | SGP 2
+  password: HC04361579
+  port: 443
+  server: tops-owl.rooster465.autos
+  skip-cert-verify: true
+  sni: tops-owl.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 3
+  network: ws
+  port: 2083
+  server: 188.164.248.72
+  servername: jcxjcnasvip.jcdenas.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
+  ws-opts:
+    headers:
+      Host: jcxjcnasvip.jcdenas.top
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 4
+  network: ws
+  port: 8443
+  server: 8.35.211.224
+  servername: pphmsubs.911388.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c029086-e4b3-4f22-82d8-b84dd70f243c
+  ws-opts:
+    headers:
+      Host: pphmsubs.911388.xyz
+    path: /

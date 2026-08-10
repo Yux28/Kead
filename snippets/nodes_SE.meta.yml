@@ -1,15 +1,71 @@
 proxies:
-- client-fingerprint: qq
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇪 瑞典 | SWE
   network: tcp
-  port: 4249
+  port: 443
   reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: '!!str a20d3ed244c76426'
-  server: 144.31.107.73
-  servername: swe.serverstats.ru
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: '!!str 2d6d073dc88f22a8'
+  server: 132.243.231.95
+  servername: se-cdn.ru
   tls: true
   type: vless
   udp: true
-  uuid: cd16b981-0321-4c34-b7ca-db163f95f2d6
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 瑞典 | SWE 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V9MHR6nhlKPenVUq1172uIHJFZYOkRVqSOUkjCS4430
+    short-id: '!!str f0ba53a31b489b3e'
+  server: glidio.shieldix.top
+  servername: glidio.shieldix.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3c40721-22bc-4862-a358-09502fc14af6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 瑞典 | SWE 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: '!!str 2d6d073dc88f22a8'
+  server: 132.243.231.94
+  servername: se-cdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 瑞典 | SWE 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: '!!str 2d6d073dc88f22a8'
+  server: 132.243.231.90
+  servername: se-cdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 瑞典 | SWE 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: '!!str 2d6d073dc88f22a8'
+  server: 132.243.231.93
+  servername: se-cdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
