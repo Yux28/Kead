@@ -1,8 +1,1 @@
-proxies:
-- name: 🇸🇬 新加坡 | SGP 2
-  password: HC04361579
-  port: 443
-  server: tops-owl.rooster465.autos
-  skip-cert-verify: true
-  sni: tops-owl.rooster465.autos
-  type: trojan
+proxies: []

@@ -1,15 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英国 | GBR 6
-  network: ws
-  port: 16645
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
+proxies: []

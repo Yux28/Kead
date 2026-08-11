@@ -1,7 +1,87 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG 3
+  network: tcp
+  port: 9713
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
 - alterId: 0
   cipher: auto
+  name: 🇭🇰 香港 | HKG 4
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 5
+  network: ws
+  port: 16632
+  server: m.cnmjin.net.xiaoyan.io
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG 6
+  network: tcp
+  port: 29715
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- alterId: 2
+  cipher: auto
   name: 🇭🇰 香港 | HKG
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 2
+  network: ws
+  port: 16622
+  server: m.cnmjin.net.xiaoyan.io
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 7
   network: ws
   port: 16622
   server: planb.mojcn.com.linuxlh.xin
@@ -13,23 +93,3 @@ proxies:
     headers:
       Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
     path: /
-- auth: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  name: 🇭🇰 香港 | HKG 2
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  port: 5010
-  server: nas.aizhzo.com
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  type: hysteria2
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 3
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

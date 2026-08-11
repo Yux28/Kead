@@ -1,15 +1,1 @@
-proxies:
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇨🇦 加拿大 | CAN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '!!str 00a61d55a07de885'
-  server: ru-sl.convert-flow.net
-  servername: ru-sl.convert-flow.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5710bc50-f5ff-007c-a3f5-067959ed2644
+proxies: []

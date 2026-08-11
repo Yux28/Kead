@@ -1,6 +1,63 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mFfDWNmPFHIN3ojAw2GENgpklJUCOvfj1i_zix8Pnkc
+    short-id: '!!str 73122674fa25a3ab'
+  server: 20.89.106.34
+  servername: www.stanford.edu
+  tls: true
+  type: vless
+  uuid: 7781929f-165f-4a94-b07b-689edf7913e2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇯🇵 日本 | JPN 4
+  network: grpc
+  port: 10035
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: 18.179.40.96
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP_3|5.1MB/s
+  network: ws
+  port: 16617
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN
+  network: tcp
+  port: 20725
+  reality-opts:
+    public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
+    short-id: '!!str 0102ac4e'
+  server: rm-jp-01.409648.xyz
+  servername: buylite.tv.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
+- client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
@@ -17,27 +74,24 @@ proxies:
   type: vless
   udp: true
   uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
-  xudp: true
-- name: 🇯🇵JP_2|1.9MB/s
-  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- cipher: aes-256-cfb
+  name: 🇯🇵 日本 | JPN 5
+  password: amazonskr05
   port: 443
-  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇯🇵 日本 | JPN
-  network: grpc
-  port: 10035
+  server: 54.65.160.21
+  type: ss
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 6
+  network: tcp
+  packet-encoding: xudp
+  port: 40443
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 18.179.40.96
-  servername: s0.awsstatic.com
+    public-key: EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I
+    short-id: '!!str 09f696119a54ea3c'
+  server: 88.216.188.11
+  servername: deepl.com
   tls: true
   type: vless
   udp: true
-  uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+  uuid: 641baa2f-6f74-4ecf-b948-032d19ba0142

@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP_3|5.1MB/s
+  network: ws
+  port: 16617
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
+- cipher: aes-256-cfb
+  name: 🇯🇵 日本 | JPN 5
+  password: amazonskr05
+  port: 443
+  server: 54.65.160.21
+  type: ss

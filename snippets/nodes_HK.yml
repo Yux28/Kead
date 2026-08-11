@@ -1,7 +1,59 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇭🇰 香港 | HKG 4
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 5
+  network: ws
+  port: 16632
+  server: m.cnmjin.net.xiaoyan.io
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
+- alterId: 2
+  cipher: auto
   name: 🇭🇰 香港 | HKG
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 2
+  network: ws
+  port: 16622
+  server: m.cnmjin.net.xiaoyan.io
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 7
   network: ws
   port: 16622
   server: planb.mojcn.com.linuxlh.xin
@@ -13,13 +65,3 @@ proxies:
     headers:
       Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
     path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 3
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
