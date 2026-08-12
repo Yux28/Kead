@@ -1,36 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇸🇬SG_1|5.1MB/s
-  network: ws
-  port: 2087
-  server: 188.164.248.32
-  servername: jcxjcnasvip.jcdenas.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
-  ws-opts:
-    headers:
-      Host: jcxjcnasvip.jcdenas.top
-    path: /
-- client-fingerprint: chrome
-  name: 🇸🇬SG_2|5.2MB/s
-  network: ws
-  port: 8443
-  server: 8.35.211.224
-  servername: pphmsubs.911388.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2c029086-e4b3-4f22-82d8-b84dd70f243c
-  ws-opts:
-    headers:
-      Host: pphmsubs.911388.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|4.4MB/s
+  name: 🇸🇬SG_1|5.0MB/s
   network: ws
   port: 2083
   server: 8.39.125.209
@@ -45,7 +15,7 @@ proxies:
       Host: pphmsubs.911388.xyz
     path: /
 - client-fingerprint: chrome
-  name: 🇸🇬SG_4|4.8MB/s
+  name: 🇸🇬SG_2|4.4MB/s
   network: ws
   port: 2083
   server: 188.164.248.72
@@ -61,29 +31,23 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇸🇬SG_5|2.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 31871
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 🇸🇬 新加坡 | SGP
   network: tcp
   port: 443
   reality-opts:
-    public-key: s0DJvbVUHHr1HP8XvPru3FK6gH4QWJ84JWERkzLKJWA
-    short-id: '!!str 13e240c22713c7a6'
-  server: 178.128.127.117
-  servername: www.cloudflare.com
+    public-key: -O8QFkqeMAc6TzQp6eY1s38my_8jhBd7HDHxNki6QlY
+    short-id: '!!str 7f7f'
+  server: 178.128.112.70
+  servername: www.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: 3534d1f5-cf1d-490c-adbe-7365f2ff0151
+  uuid: 9206ae06-88ee-49b1-a558-531ade80fcaa
+- auth: 1427eb10-7529-4d38-a6a2-01b337868b37
+  name: 🇸🇬 新加坡 | SGP 2
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 1935
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  type: hysteria2

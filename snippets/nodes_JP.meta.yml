@@ -1,97 +1,37 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mFfDWNmPFHIN3ojAw2GENgpklJUCOvfj1i_zix8Pnkc
-    short-id: '!!str 73122674fa25a3ab'
-  server: 20.89.106.34
-  servername: www.stanford.edu
-  tls: true
-  type: vless
-  uuid: 7781929f-165f-4a94-b07b-689edf7913e2
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇯🇵 日本 | JPN 4
-  network: grpc
-  port: 10035
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 18.179.40.96
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP_3|5.1MB/s
-  network: ws
-  port: 16617
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: qq
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇯🇵 日本 | JPN
   network: tcp
-  port: 20725
+  port: 21443
   reality-opts:
-    public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
-    short-id: '!!str 0102ac4e'
-  server: rm-jp-01.409648.xyz
-  servername: buylite.tv.apple.com
+    public-key: jxmd60h22_LgUlequekara-UbjKGbvqq1f8CBCLBek8
+    short-id: '!!str 08db2d117d'
+  server: 34.124.166.13
+  servername: djp01.ps5.update.playstation.net
   tls: true
   type: vless
   udp: true
-  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇯🇵 日本 | JPN 2
-  network: grpc
-  packet-encoding: xudp
-  port: 10035
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: jp5-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
-- cipher: aes-256-cfb
-  name: 🇯🇵 日本 | JPN 5
-  password: amazonskr05
-  port: 443
-  server: 54.65.160.21
-  type: ss
+  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 6
+  name: 🇯🇵 日本 | JPN 2
   network: tcp
-  packet-encoding: xudp
-  port: 40443
+  port: 21143
   reality-opts:
-    public-key: EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I
-    short-id: '!!str 09f696119a54ea3c'
-  server: 88.216.188.11
-  servername: deepl.com
+    public-key: VFcjMcy9uLRCq3dy9zqYFOPF73TAx6QO11rleDrfBgM
+    short-id: '!!str 274772e3550ee3eb'
+  server: 35.200.86.178
+  servername: www.spotify.com
   tls: true
   type: vless
   udp: true
-  uuid: 641baa2f-6f74-4ecf-b948-032d19ba0142
+  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
+- name: JP_speednode_0014
+  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
+  port: 55682
+  server: t11.qifei.app
+  skip-cert-verify: true
+  sni: t11.qifei.app
+  type: trojan
+  udp: true

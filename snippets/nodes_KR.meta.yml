@@ -1,34 +1,27 @@
 proxies:
-- name: 🇰🇷KR_1|1.3MB/s
-  password: admin
-  port: '5555'
-  server: 158.180.91.51
-  skip-cert-verify: true
-  type: socks5
-  username: admin
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 🇰🇷 韩国 | KOR
   network: tcp
-  port: 443
+  port: 8686
   reality-opts:
-    public-key: fI-eoLmyyeYXgUHr2SWzHcwxkhxmDj2QBnivpUPYfVY
-    short-id: '!!str e3db542f549f5504'
-  server: 52.141.0.244
-  servername: www.stanford.edu
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 43.201.22.218
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 5822b465-036b-4a3b-89d0-b3e52ae20815
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+- client-fingerprint: chrome
   name: 🇰🇷 韩国 | KOR 2
-  port: 29009
-  server: 366-1095.rabbitpro-in-3.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  network: tcp
+  port: 8686
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 3.37.55.114
+  servername: www.apple.com
+  tls: true
+  type: vless
   udp: true
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+  uuid: f0b9ae63-91a7-4673-924e-498e0e0828c0
