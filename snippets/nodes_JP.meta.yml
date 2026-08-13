@@ -1,32 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN
-  network: tcp
-  port: 21443
-  reality-opts:
-    public-key: jxmd60h22_LgUlequekara-UbjKGbvqq1f8CBCLBek8
-    short-id: '!!str 08db2d117d'
-  server: 34.124.166.13
-  servername: djp01.ps5.update.playstation.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 2
-  network: tcp
-  port: 21143
-  reality-opts:
-    public-key: VFcjMcy9uLRCq3dy9zqYFOPF73TAx6QO11rleDrfBgM
-    short-id: '!!str 274772e3550ee3eb'
-  server: 35.200.86.178
-  servername: www.spotify.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
 - name: JP_speednode_0014
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682

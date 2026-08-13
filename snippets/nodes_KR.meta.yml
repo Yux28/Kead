@@ -1,27 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇰🇷 韩国 | KOR
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇰🇷KR_1|2.7MB/s
   network: tcp
-  port: 8686
+  port: '2053'
   reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 43.201.22.218
-  servername: www.apple.com
+    public-key: nNohnS45XyaEcSAKchLKkCTEBzVUc-PZ6UfbKo83z0E
+    short-id: '!!str 44e0e12bb5fcebe2'
+  server: 151.245.106.49
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
-- client-fingerprint: chrome
-  name: 🇰🇷 韩国 | KOR 2
-  network: tcp
-  port: 8686
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 3.37.55.114
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0b9ae63-91a7-4673-924e-498e0e0828c0
+  uuid: d6d7619a-6b7b-4a80-bd8c-5ddb645eba4a
+  xudp: true

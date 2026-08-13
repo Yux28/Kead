@@ -1,53 +1,30 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|5.0MB/s
-  network: ws
-  port: 2083
-  server: 8.39.125.209
-  servername: pphmsubs.911388.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- name: 🇸🇬SG_1|4.9MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 60572
+  server: sivp666.ipad1el.com
+  sni: yzhou015.jdvipkuai.cc
+  type: anytls
   udp: true
-  uuid: 2c029086-e4b3-4f22-82d8-b84dd70f243c
-  ws-opts:
-    headers:
-      Host: pphmsubs.911388.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 🇸🇬SG_2|4.4MB/s
-  network: ws
-  port: 2083
-  server: 188.164.248.72
-  servername: jcxjcnasvip.jcdenas.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
-  ws-opts:
-    headers:
-      Host: jcxjcnasvip.jcdenas.top
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- auth: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
   name: 🇸🇬 新加坡 | SGP
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -O8QFkqeMAc6TzQp6eY1s38my_8jhBd7HDHxNki6QlY
-    short-id: '!!str 7f7f'
-  server: 178.128.112.70
-  servername: www.amazon.com
+  password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
+  port: 8443
+  server: 209.74.81.28
+  skip-cert-verify: true
+  sni: 209.74.81.28
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 2
+  network: ws
+  port: 2096
+  server: 91.193.58.250
+  servername: free-server.techsonic.dev
   tls: true
   type: vless
   udp: true
-  uuid: 9206ae06-88ee-49b1-a558-531ade80fcaa
-- auth: 1427eb10-7529-4d38-a6a2-01b337868b37
-  name: 🇸🇬 新加坡 | SGP 2
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 1935
-  server: sg1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
-  type: hysteria2
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
