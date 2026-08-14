@@ -1,30 +1,58 @@
 proxies:
-- name: 🇸🇬SG_1|4.9MB/s
+- name: 🇸🇬SG_1|1.4MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 41421
+  server: 18.167.42.162
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇸🇬SG_2|1.8MB/s
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
   port: 60572
   server: sivp666.ipad1el.com
   sni: yzhou015.jdvipkuai.cc
   type: anytls
   udp: true
-- auth: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
-  name: 🇸🇬 新加坡 | SGP
-  password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
-  port: 8443
-  server: 209.74.81.28
+- fingerprint: ''
+  name: 🇸🇬SG_3|4.3MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: '60572'
+  server: 47.128.71.58
   skip-cert-verify: true
-  sni: 209.74.81.28
-  type: hysteria2
+  sni: yzhou015.jdvipkuai.cc
+  type: anytls
+  udp: true
+  username: 13f0acfa-38c1-4e82-a758-583aa31740df
 - client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 2
-  network: ws
-  port: 2096
-  server: 91.193.58.250
-  servername: free-server.techsonic.dev
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬 新加坡 | SGP
+  network: grpc
+  port: 10039
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg4-r.link-t7.com
+  servername: d1.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.dev
+  uuid: CB9C296F-A571-4B73-961E-142D832F35D0
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬 新加坡 | SGP 2
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: CB9C296F-A571-4B73-961E-142D832F35D0

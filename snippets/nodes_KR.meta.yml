@@ -1,16 +1,88 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇰🇷KR_1|2.7MB/s
-  network: tcp
-  port: '2053'
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 韩国 | KOR 2
+  network: grpc
+  port: 10047
   reality-opts:
-    public-key: nNohnS45XyaEcSAKchLKkCTEBzVUc-PZ6UfbKo83z0E
-    short-id: '!!str 44e0e12bb5fcebe2'
-  server: 151.245.106.49
-  servername: www.cloudflare.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr2-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: d6d7619a-6b7b-4a80-bd8c-5ddb645eba4a
-  xudp: true
+  uuid: CB9C296F-A571-4B73-961E-142D832F35D0
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 韩国 | KOR 3
+  network: grpc
+  port: 10047
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 韩国 | KOR 4
+  network: grpc
+  port: 10049
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: CB9C296F-A571-4B73-961E-142D832F35D0
+- auth: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  name: 🇰🇷 韩国 | KOR 5
+  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  port: 8080
+  server: 139.28.168.54
+  skip-cert-verify: true
+  sni: grape-honk.yyuyy.com
+  type: hysteria2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 韩国 | KOR 6
+  network: grpc
+  port: 10050
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 韩国 | KOR 7
+  network: grpc
+  port: 10046
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: CB9C296F-A571-4B73-961E-142D832F35D0

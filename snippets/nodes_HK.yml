@@ -1,7 +1,32 @@
 proxies:
+- name: 🇭🇰HK_3|4.7MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 29444
+  server: 18.162.156.145
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰HK_4|4.7MB/s
+  password: BxceQaOe
+  port: '29444'
+  server: 18.162.156.145
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | HKG
+  password: AE62539071
+  port: 443
+  server: strong-haddock.rooster465.autos
+  skip-cert-verify: true
+  sni: strong-haddock.rooster465.autos
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港 | HKG 3
+  name: 🇭🇰 香港 | HKG 2
   port: 30809
   server: v9.hdacd.com
   skip-cert-verify: true
