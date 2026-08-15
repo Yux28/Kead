@@ -1,62 +1,18 @@
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: 🇭🇰HK_1|4.8MB/s
-  network: grpc
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
-- name: 🇭🇰HK_3|4.7MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 29444
-  server: 18.162.156.145
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇭🇰HK_4|4.7MB/s
-  password: BxceQaOe
-  port: '29444'
-  server: 18.162.156.145
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: movie
-  name: 🇭🇰HK_5|4.9MB/s
-  network: grpc
-  port: '10128'
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 18.166.223.140
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
-  xudp: true
-- name: 🇭🇰 香港 | HKG
-  password: AE62539071
+- name: 🇭🇰HK_1|3.4MB/s
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
+  type: socks5
+  username: '123'
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 🇭🇰 香港 | HKG
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: strong-haddock.rooster465.autos
+  server: 202.146.222.89
   skip-cert-verify: true
-  sni: strong-haddock.rooster465.autos
-  type: trojan
-  udp: true
+  sni: https://t.me/clashv8🇨🇳
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港 | HKG 2
@@ -65,60 +21,52 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: edge
-  name: 🇭🇰 香港 | HKG 3
-  network: ws
-  port: 8443
-  server: xmm5.130209.xyz
-  servername: hongkong.11459178.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  ws-opts:
-    headers:
-      Host: hongkong.11459178.xyz
-    path: /cdn/packages/runtime-core.tar.gz
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰 香港 | HKG 4
-  network: tcp
-  port: 1033
-  reality-opts:
-    public-key: phK9HhXyGBqNUpERXHHjQIZOEiiOQe9qZRguAOkJ-S0
-    short-id: '!!str 5b81b837'
-  server: zs-hk4nu-t.center-link.org
-  servername: sns-video-al.xhscdn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇭🇰 香港 | HKG 5
+  name: 🇭🇰 香港 | HKG 3
   network: grpc
-  port: 10127
+  port: 10126
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
-  server: hk2-r.link-t7.com
+  server: 95.40.100.129
   servername: s0.awsstatic.com
   tls: true
   type: vless
-  udp: true
-  uuid: CB9C296F-A571-4B73-961E-142D832F35D0
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 🇭🇰 香港 | HKG 6
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.89
+  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 4
+  network: ws
+  port: 32913
+  server: 47.243.39.251
   skip-cert-verify: true
-  sni: https://t.me/clashv8🇨🇳
-  type: hysteria2
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 47506713-508e-441a-bb02-56eb679b4dc9
+  ws-opts:
+    path: /
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 5
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    path: /
 - name: HK_speednode_0012
   password: BxceQaOe
   port: 27161

@@ -1,269 +1,186 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪DE_1|1.1MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 🇩🇪 德国 | DEU
-  port: 26691
-  protocol: udp
-  server: 5.83.129.143
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.1MB/s
-  network: xhttp
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|2.1MB/s
+  network: tcp
   port: 443
-  server: 185.229.190.148
-  servername: moein-bf821.b-cdn.net
+  reality-opts:
+    public-key: rkRBWVPGbMdh1UXAMu0I019NbBFWoBh4W1T856oyl2o
+    short-id: '!!str bbab5af2663db00a'
+  server: 81.31.210.138
+  servername: nl1.murhost.network
   tls: true
   type: vless
   udp: true
-  uuid: 311cadaf-79ed-4f84-be27-bcf46f920b41
-  xhttp-opts:
-    host: moein-bf821.b-cdn.net
-    mode: auto
-    path: /api
-- name: 🇩🇪DE_4|3.9MB/s
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_5|3.5MB/s
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: '443'
-  server: de2.sferavpn.pro
-  skip-cert-verify: false
-  sni: de2.sferavpn.pro
-  type: hysteria2
-  up: ''
-- client-fingerprint: qq
+  uuid: a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac
+- client-fingerprint: safari
   encryption: none
   grpc-opts:
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪DE_6|2.0MB/s
+    grpc-service-name: grpc
+  name: 🇩🇪DE_2|2.7MB/s
   network: grpc
   port: '443'
   reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '!!str 3303c7a5'
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
   tls: true
   type: vless
   udp: true
-  uuid: 733d70b2-a94d-4703-9810-8f7dcc812cc2
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_7|1.6MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: Ec54Eop0jZft7rcJsPN4RHc4xG9smXhtenM52pJFUQI
-    short-id: '!!str 27e53bbcab7593d7'
-  server: 84.201.178.175
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
 - client-fingerprint: chrome
-  name: 🇩🇪DE_8|1.1MB/s
-  network: ws
-  port: '2087'
-  server: 172.67.65.53
-  servername: shanxp.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: shanxp.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
-- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  name: 🇩🇪 德国 | DEU 2
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.124.99
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|2.6MB/s
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: '!!str dc8109baf0f607ea'
+  server: 78.159.247.253
+  servername: storage.yandex.net
   skip-cert-verify: true
-  sni: mercedes-grape.yyuyy.com
-  type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: YkcQyTOh9YpZmilRob-eVxwoo4uwBAa9oHmURMTFzEM
-    short-id: '!!str a7'
-  server: 31.77.196.201
-  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 4e7eb9d5-022a-4b0a-ba37-2d1be458947b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 4
-  network: tcp
-  port: 47822
-  reality-opts:
-    public-key: VWhynxStqii0ll4ttnUJWG4Qy9dJFXhZu6Y8OiIO5Vk
-    short-id: '!!str c577182abe08e64c'
-  server: pg-de-bot.gigatapbot.top
-  servername: pg-bot.gigatapbot.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: VWhynxStqii0ll4ttnUJWG4Qy9dJFXhZu6Y8OiIO5Vk
-    short-id: '!!str c577182abe08e64c'
-  server: pg-de-443-vless-tcp.gigatapbot.top
-  servername: pg-de-443-vless-tcp.gigatapbot.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
-- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  name: 🇩🇪 德国 | DEU 6
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.124.102
-  skip-cert-verify: true
-  sni: mercedes-grape.yyuyy.com
-  type: hysteria2
-- alpn:
-  - h2
-  - h3
-  client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 7
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- client-fingerprint: chrome
+  name: 🇩🇪DE_4|1.2MB/s
   network: ws
   port: 443
   server: new01.asaltabie.monster
   servername: new01.asaltabie.monster
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  udp: true
   uuid: d0f4d620-db2b-45e0-8353-a073461b1130
   ws-opts:
     headers:
       Host: new01.asaltabie.monster
     path: /
-- auth: 553e3253-c454-431d-a7e6-42bc06ea5e14
+- client-fingerprint: chrome
   name: 🇩🇪 德国 | DEU 8
-  password: 553e3253-c454-431d-a7e6-42bc06ea5e14
+  password: FH72359861
+  port: 443
+  server: renewed-porpoise.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|1.2MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: DM3bRAvFPKomKjjmatlS2dH5VYZnUkPHw0BmA40kI2k
+    short-id: '!!str 0f4daaf87f9dff'
+  server: 46.8.210.166
+  servername: smartcaptcha.yandexcloud.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: c099de6a-0805-0002-b959-fd4ab4fc209e
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺 俄罗斯 | RUS
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.131.212.49
+  servername: sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: ccb00ba5-3f61-4766-b7de-abf774342d00
+  xudp: true
+- auth: 130e6aab-9eba-441e-9021-22cbccc72832
+  name: 🇩🇪 德国 | DEU
+  password: 130e6aab-9eba-441e-9021-22cbccc72832
   port: 8443
   server: srvhy1.ezcon24.online
   skip-cert-verify: true
   sni: srvhy1.ezcon24.online
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 9
+- name: 🇩🇪 德国 | DEU 2
   network: tcp
+  port: 22223
+  server: 63.180.184.26
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇩🇪 德国 | DEU 3
+  network: tcp
+  port: 22579
+  server: 89.167.12.115
+  tls: false
+  type: vless
+  udp: true
+  uuid: 39ad12ba-914a-4aa1-a825-3ee4db7c0a52
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 4
+  network: ws
   port: 443
-  reality-opts:
-    public-key: HYvULWO1KqHge0lNcpejfOI6zI_aqOIPZxB-QlYLyW4
-    short-id: '!!str bd86'
-  server: 95.85.239.230
-  servername: rasputin.linus-qanary.lol
+  server: 199.232.78.159
+  servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: c32ef0e3-6f3b-4c5e-a560-16b8c85ec404
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇩🇪 德国 | DEU 10
-  password: dbab9df7-5c0a-4726-8574-11e34972b67d
-  port: 33014
-  reduce-rtt: false
-  request-timeout: 0
-  server: 86.53.105.117
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: dbab9df7-5c0a-4726-8574-11e34972b67d
-- auth: Apt1923_N9x234gn_Nal5Nx3j_s
-  name: 🇩🇪 德国 | DEU 11
-  password: Apt1923_N9x234gn_Nal5Nx3j_s
-  port: 8443
-  server: 222.167.212.24
-  skip-cert-verify: true
-  sni: grape-power-pl.ddnsguru.com
-  type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 12
-  network: xhttp
-  port: 2087
-  server: s2.zynetraq.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: f3e85a59-8744-4760-f6c7-fef646ecb044
-  xhttp-opts:
-    host: s2.zynetraq.ir
-    mode: auto
-    path: /BetForward
-    x-padding-bytes: 100-1000
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 13
+  uuid: e0454af2-6fe9-4983-a55d-05e1da202602
+  ws-opts:
+    headers:
+      Host: lsjaoijji.global.ssl.fastly.neT.
+    path: /
+- name: 🇩🇪 德国 | DEU 5
   network: tcp
-  port: 8443
+  port: 1000
+  server: 5.75.197.25
+  tls: false
+  type: vless
+  udp: true
+  uuid: 97ee39cc-cb22-42fd-9476-0c1a5f5a9621
+- name: 🇩🇪 德国 | DEU 6
+  network: tcp
+  port: 22224
+  server: 63.180.184.26
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- client-fingerprint: ios
+  name: 🇩🇪 德国 | DEU 7
+  network: tcp
+  port: 1230
   reality-opts:
-    public-key: jEYpHC8oQBX99tfjLEJadLIFogSy9WNvT9y6114pHwI
-    short-id: '!!str ce4e92bc7547'
-  server: 144.31.126.177
-  servername: music.yandex.ru
+    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
+    short-id: '!!str 9b60d3'
+  server: p1real1.greewebservices.ir
+  servername: play.googleapis.com
   tls: true
   type: vless
   udp: true
-  uuid: 14fc8c9e-061e-4856-87fa-9290208f1565
+  uuid: 8088b716-70a1-4685-9434-5cee89738af4
+- name: 🇩🇪 德国 | DEU 9
+  password: FH72359861
+  port: 443
+  server: engaging-toucan.rooster465.autos
+  skip-cert-verify: true
+  sni: engaging-toucan.rooster465.autos
+  type: trojan
+  udp: true
+- auth: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
+  name: 🇩🇪 德国 | DEU 10
+  password: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
+  port: 9443
+  server: 194.48.250.10
+  skip-cert-verify: true
+  sni: onecloudstream.com
+  type: hysteria2
 - name: DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443

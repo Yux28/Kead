@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 🇨🇳 台湾 | TWN
+  network: ws
+  port: 10000
+  server: 117.27.228.29
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2c90af15-bac7-f850-4c7c-120c5a420636
+  ws-opts:
+    path: /
