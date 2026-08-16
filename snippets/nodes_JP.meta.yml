@@ -1,123 +1,47 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇯🇵JP_1|3.6MB/s
-  password: FH72359861
-  port: '443'
-  server: trusting-elf.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN
-  password: FH72359861
+  name: 🇯🇵JP_1|3.3MB/s
+  network: tcp
   port: 443
-  server: welcome-owl.rooster465.autos
-  skip-cert-verify: true
-  sni: welcome-owl.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 2
-  password: FH72359861
-  port: 443
-  server: trusting-elf.rooster465.autos
-  skip-cert-verify: true
-  sni: trusting-elf.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 3
-  password: FH72359861
-  port: 443
-  server: united-sculpin.rooster465.autos
-  skip-cert-verify: true
-  sni: united-sculpin.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 4
-  password: FH72359861
-  port: 443
-  server: equal-labrador.rooster465.autos
-  skip-cert-verify: true
-  sni: equal-labrador.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 5
-  password: FH72359861
-  port: 443
-  server: bright-quagga.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: 🇯🇵 日本 | JPN 6
-  password: FH72359861
-  port: 443
-  server: lucky-primate.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 7
-  password: FH72359861
-  port: 443
-  server: driven-bulldog.rooster465.autos
-  skip-cert-verify: true
-  sni: driven-bulldog.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 8
-  password: FH72359861
-  port: 443
-  server: content-rabbit.rooster465.autos
-  skip-cert-verify: true
-  sni: content-rabbit.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 9
-  password: FH72359861
-  port: 443
-  server: lasting-jaguar.rooster465.autos
-  skip-cert-verify: true
-  sni: lasting-jaguar.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 10
-  password: FH72359861
-  port: 443
-  server: communal-troll.rooster465.autos
-  skip-cert-verify: true
-  sni: communal-troll.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 11
-  password: FH72359861
-  port: 443
-  server: stunning-mastodon.rooster465.autos
-  skip-cert-verify: true
-  sni: stunning-mastodon.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 12
-  password: FH72359861
-  port: 443
-  server: bright-buffalo.rooster465.autos
-  skip-cert-verify: true
-  sni: bright-buffalo.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 13
-  password: FH72359861
-  port: 443
-  server: grateful-leech.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 14
-  password: FH72359861
-  port: 443
-  server: pleased-sawfly.rooster465.autos
-  skip-cert-verify: true
-  sni: pleased-sawfly.rooster465.autos
-  type: trojan
-  udp: true
+  reality-opts:
+    public-key: Zi3V0K3Mg8xDRLdpPF5Srlc3sHWEWn_2g6laXmZNXEQ
+    short-id: '!!str 3f91fcb900e7b35e'
+  server: 206.237.120.221
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 9caa5a2d-371d-4eb9-8960-6ae3cc20ac37
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 15
+  name: 🇯🇵 日本 | JPN
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: '!!str af1bdd293097b664'
+  server: 8.216.82.150
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 3
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: '!!str af1bdd293097b664'
+  server: 154.83.93.197
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 4
   network: tcp
   port: 55555
   reality-opts:
@@ -128,80 +52,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: fae482df-d9f1-491f-9f9e-1ee522d4560c
-- name: 🇯🇵 日本 | JPN 16
-  password: FH72359861
-  port: 443
-  server: engaged-lionfish.rooster465.autos
-  skip-cert-verify: true
-  sni: engaged-lionfish.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 17
-  network: tcp
-  port: 55555
-  reality-opts:
-    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-    short-id: '!!str af317506'
-  server: uh-jp01.ziyoufly.xyz
-  servername: download-porter.hoyoverse.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fae482df-d9f1-491f-9f9e-1ee522d4560c
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 18
-  network: ws
-  port: 443
-  server: cfyes.ziyoufly.xyz
-  servername: cf-aws-jp01.23523463.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: fae482df-d9f1-491f-9f9e-1ee522d4560c
-  ws-opts:
-    headers:
-      Host: cf-aws-jp01.23523463.xyz
-    path: /ziyou
-- name: 🇯🇵 日本 | JPN 19
-  password: FH72359861
-  port: 443
-  server: literate-grizzly.rooster465.autos
-  skip-cert-verify: true
-  sni: literate-grizzly.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 20
-  password: FH72359861
-  port: 443
-  server: living-hagfish.rooster465.autos
-  skip-cert-verify: true
-  sni: living-hagfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 21
-  password: FH72359861
-  port: 443
-  server: casual-stallion.rooster465.autos
-  skip-cert-verify: true
-  sni: casual-stallion.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 22
-  password: FH72359861
-  port: 443
-  server: classic-pug.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: 🇯🇵 日本 | JPN 23
-  password: FH72359861
-  port: 443
-  server: internal-peacock.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  uuid: 5fce1c98-0192-4d03-a8b4-9ba8a8eef474
 - name: JP_speednode_0014
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682

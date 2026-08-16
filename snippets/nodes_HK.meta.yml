@@ -1,18 +1,52 @@
 proxies:
-- name: 🇭🇰HK_1|3.4MB/s
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 🇭🇰 香港 | HKG
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.89
+- name: 🇭🇰HK_1|2.2MB/s
+  password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a2
+  port: 448
+  server: 119.147.134.47
   skip-cert-verify: true
-  sni: https://t.me/clashv8🇨🇳
-  type: hysteria2
+  sni: ssp.vivo.com.cn
+  type: anytls
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 🇭🇰HK_2|4.0MB/s
+  network: grpc
+  port: '10126'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: 95.40.100.129
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
+  xudp: true
+- cipher: chacha20-ietf
+  name: 🇭🇰HK_3|4.9MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8103
+  server: cn01.somethingstranges.com
+  type: ss
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG
+  network: tcp
+  port: 1035
+  reality-opts:
+    public-key: EOwdLvCu7cpV1TrTdBd5F3pNs7Ltm9ncwEw4gpyJTFc
+    short-id: '!!str 7e62c0ce'
+  server: zs-hk4nu-t.center-link.org
+  servername: sns-video-al.xhscdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港 | HKG 2
@@ -22,51 +56,84 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
+- alterId: 0
+  cipher: auto
   name: 🇭🇰 香港 | HKG 3
-  network: grpc
-  port: 10126
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6d27fe18-4e19-4b4e-8f47-e05a85414f0d
+  ws-opts:
+    headers:
+      Host: a7fbf12df555e5e8a99fc901525aaa76.mobgslb.tbcache.com
+    path: /
+- name: 🇭🇰 香港 | HKG 4
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- auth: 216d5cc4cf42e8c49fbe5ba962f94442
+  name: 🇭🇰 香港 | HKG 5
+  password: 216d5cc4cf42e8c49fbe5ba962f94442
+  port: 50160
+  server: 20-2-34-124.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 20-2-34-124.liao.kdns.fr
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 6
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+- name: 🇭🇰 香港 | HKG 7
+  password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a1
+  port: 448
+  server: 119.147.134.47
+  skip-cert-verify: true
+  sni: ssp.vivo.com.cn
+  type: anytls
+  udp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG 8
+  network: tcp
+  port: 13443
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 95.40.100.129
-  servername: s0.awsstatic.com
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: '!!str a7f3c91b2e6d84c0'
+  server: 114.29.238.251
+  servername: auto.cendora.ru
   tls: true
   type: vless
-  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - alpn:
   - ''
   alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 4
-  network: ws
-  port: 32913
-  server: 47.243.39.251
+  cipher: chacha20-poly1305
+  name: 🇭🇰 香港 | HKG 9
+  port: 9527
+  server: 43.132.192.16
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 47506713-508e-441a-bb02-56eb679b4dc9
-  ws-opts:
-    path: /
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 5
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
+  uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c
 - name: HK_speednode_0012
   password: BxceQaOe
   port: 27161

@@ -1,4 +1,14 @@
 proxies:
+- cipher: chacha20-ietf
+  name: 🇭🇰HK_3|4.9MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8103
+  server: cn01.somethingstranges.com
+  type: ss
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港 | HKG 2
@@ -8,36 +18,54 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: 0
+- alterId: 0
   cipher: auto
-  name: 🇭🇰 香港 | HKG 4
+  name: 🇭🇰 香港 | HKG 3
   network: ws
-  port: 32913
-  server: 47.243.39.251
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
-  uuid: 47506713-508e-441a-bb02-56eb679b4dc9
+  uuid: 6d27fe18-4e19-4b4e-8f47-e05a85414f0d
   ws-opts:
+    headers:
+      Host: a7fbf12df555e5e8a99fc901525aaa76.mobgslb.tbcache.com
+    path: /
+- name: 🇭🇰 香港 | HKG 4
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 6
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
 - alpn:
   - ''
   alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 5
-  network: ws
-  port: 35043
-  server: 156.245.232.239
+  cipher: chacha20-poly1305
+  name: 🇭🇰 香港 | HKG 9
+  port: 9527
+  server: 43.132.192.16
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
+  uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c
 - name: HK_speednode_0012
   password: BxceQaOe
   port: 27161
