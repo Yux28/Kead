@@ -1,9 +1,23 @@
 proxies:
-- auth: a56619e2bed91121eabb97d20be207c3
-  name: 🇹🇼TW_1|3.2MB/s
-  password: a56619e2bed91121eabb97d20be207c3
-  port: 50160
-  server: 85.237.207.49
-  skip-cert-verify: true
-  sni: 85-237-207-49.liao.kdns.fr
-  type: hysteria2
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  network: tcp
+  port: 10000
+  server: 220.130.75.248
+  tls: false
+  type: vless
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇼 🇨🇳 台湾 | TWN 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: hZvWDPjsxTSrNSqFXUFgNnXn44vKdr5uirPsie6RGBk
+    short-id: '!!str 16ba1b6178a4bdde'
+  server: 141.11.87.48
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 601e4ca5-df0a-43a1-97c2-0b1f5c0ae413

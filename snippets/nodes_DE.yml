@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 🇩🇪 德国 | DEU 5
+  password: PQ05174892
+  port: 443
+  server: casual-quail.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true

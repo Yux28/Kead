@@ -1,48 +1,7 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 🇭🇰HK_3|4.9MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8103
-  server: cn01.somethingstranges.com
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 2
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 香港 | HKG 3
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6d27fe18-4e19-4b4e-8f47-e05a85414f0d
-  ws-opts:
-    headers:
-      Host: a7fbf12df555e5e8a99fc901525aaa76.mobgslb.tbcache.com
-    path: /
-- name: 🇭🇰 香港 | HKG 4
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 6
+  name: 🇭🇰HK_1|5.5MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
@@ -54,11 +13,18 @@ proxies:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
+- name: 🇭🇰 香港 | HKG
+  password: PQ05174892
+  port: 443
+  server: just-alpaca.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alpn:
   - ''
   alterId: 0
   cipher: chacha20-poly1305
-  name: 🇭🇰 香港 | HKG 9
+  name: 🇭🇰 香港 | HKG 3
   port: 9527
   server: 43.132.192.16
   skip-cert-verify: true
@@ -66,6 +32,40 @@ proxies:
   type: vmess
   udp: true
   uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 6
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰 香港 | HKG 7
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 8
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
 - name: HK_speednode_0012
   password: BxceQaOe
   port: 27161

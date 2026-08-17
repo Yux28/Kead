@@ -1,15 +1,76 @@
 proxies:
-- name: 🇰🇷KR_1|4.4MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 47901
-  server: sivp555.ipad1el.com
-  sni: kr06.nyssl.cc
-  type: anytls
-- auth: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+- auth: dfb54e674104158210fdfcac45e5679d
   name: 🇰🇷 韩国 | KOR
-  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
-  port: 8080
-  server: 139.28.168.55
+  password: dfb54e674104158210fdfcac45e5679d
+  port: 50160
+  server: 193.122.104.200
   skip-cert-verify: true
-  sni: grape-honk.yyuyy.com
+  sni: 193-122-104-200.liao.kdns.fr
   type: hysteria2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 韩国 | KOR 2
+  network: grpc
+  port: 10046
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+- name: 🇰🇷 韩国 | KOR 3
+  password: PQ05174892
+  port: 443
+  server: precious-stag.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | KOR 4
+  password: PQ05174892
+  port: 443
+  server: factual-titmouse.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇰🇷 韩国 | KOR 5
+  network: tcp
+  port: 10038
+  reality-opts:
+    public-key: JddbQk5RNLhnZOTiod0E7JGcCTRNO69nrP1b8VtKS2c
+    short-id: '!!str 2a92'
+  server: family.bucket.8.kfc-520.com
+  servername: www.adobe.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a88deea-221d-3f06-9846-4067c6f725ee
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 韩国 | KOR 6
+  network: grpc
+  port: 10049
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+- name: 🇰🇷 韩国 | KOR 7
+  password: PQ05174892
+  port: 443
+  server: united-grouse.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true

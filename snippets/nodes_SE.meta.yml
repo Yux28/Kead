@@ -1,37 +1,8 @@
 proxies:
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 🇸🇪 瑞典 | SWE
-  network: grpc
-  port: 9880
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  server: 176.108.252.108
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇸🇪 瑞典 | SWE 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: '!!str ff776ff77be48b88'
-  server: swed1.helper-internet.com
-  servername: swed1.helper-internet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
 - alpn:
   - h3
   auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  name: 🇸🇪 瑞典 | SWE 3
+  name: 🇸🇪 瑞典 | SWE
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: us65.mechvpn.online

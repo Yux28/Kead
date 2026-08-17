@@ -1,43 +1,114 @@
 proxies:
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|1.9MB/s
+  password: PQ05174892
+  port: '443'
+  server: infinite-anteater.rooster465.autos
+  skip-cert-verify: false
+  sni: infinite-anteater.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP
+  password: PQ05174892
+  port: 443
+  server: lenient-grubworm.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇬 新加坡 | SGP 2
   network: tcp
-  port: 443
+  port: 10019
   reality-opts:
-    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
-    short-id: '!!str e53048e82bb20077'
-  server: 154.196.139.50
-  servername: asia.cendora.ru
+    public-key: pqXjD4or04GC_CbVnjNLFhJkfxcIXSAbxzLsBad2TCI
+    short-id: '!!str 6b4135b5fd'
+  server: family.bucket.6.kfc-520.com
+  servername: www.sap.com
   tls: true
   type: vless
   udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 🇸🇬 新加坡 | SGP 3
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 45647
-  server: yazhouany02.twzq59.cc
-  skip-cert-verify: true
-  sni: yazhou11ak.2uuzhe.com
-  type: anytls
+  uuid: 2a88deea-221d-3f06-9846-4067c6f725ee
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 | SGP 3
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: '!!str af1bdd293097b664'
+  server: 111.119.235.145
+  servername: tesla.com
+  tls: true
+  type: vless
   udp: true
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 4
-  network: ws
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- name: 🇸🇬 新加坡 | SGP 4
+  password: PQ05174892
   port: 443
-  server: madsnf-production.up.railway.app
-  servername: madsnf-production.up.railway.app
+  server: pro-mako.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 | SGP 5
+  network: tcp
+  port: 10018
+  reality-opts:
+    public-key: __YqMje4P5LY575OvzZjKJddTTn3vI6n0tMsMKCgcRY
+    short-id: '!!str 6cfa2459bb'
+  server: family.bucket.6.kfc-520.com
+  servername: www.sap.com
   tls: true
   type: vless
   udp: true
-  uuid: 14f0954e-d3c5-458b-9244-1136dd68a9b3
-  ws-opts:
-    headers:
-      Host: madsnf-production.up.railway.app
-    path: /ws/vless/14f0954e-d3c5-458b-9244-1136dd68a9b3?ed
+  uuid: 2a88deea-221d-3f06-9846-4067c6f725ee
 - name: 🇸🇬 新加坡 | SGP 6
+  password: PQ05174892
+  port: 443
+  server: apparent-wasp.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 | SGP 7
+  network: tcp
+  port: 10017
+  reality-opts:
+    public-key: XV85nYU2U8OlC9HYGBH9gXLUvkLELGbHAeI8bGD0SSY
+    short-id: '!!str 68f899acc3729e'
+  server: family.bucket.6.kfc-520.com
+  servername: www.sap.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a88deea-221d-3f06-9846-4067c6f725ee
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬 新加坡 | SGP 8
+  network: grpc
+  port: 10039
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg4-r.link-t7.com
+  servername: d1.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+- name: 🇸🇬 新加坡 | SGP 9
+  password: PQ05174892
+  port: 443
+  server: allowing-ram.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 10
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
   port: 60572
   server: sivp666.ipad1el.com
@@ -45,26 +116,18 @@ proxies:
   sni: yzhou015.jdvipkuai.cc
   type: anytls
   udp: true
-- encryption: mlkem768x25519plus.native.0rtt.X89bst5pyjkexho_hHA5hJhmor55v0lFu-avO03xo3k
-  name: 🇸🇬 新加坡 | SGP 7
-  network: tcp
-  port: 10962
-  server: 45.77.171.254
-  tls: false
-  type: vless
+- name: 🇸🇬 新加坡 | SGP 11
+  password: PQ05174892
+  port: 443
+  server: excited-alien.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: 06568db5-1a09-4c8f-a595-71984bbd37e2
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP 8
-  network: tcp
-  port: 635
-  reality-opts:
-    public-key: SKcaabHvWBPjt9YWU-6NMKVEBmDJ5ZCIZIcmriu_tFg
-    short-id: '!!str b3773a87'
-  server: cloud-asia9.orbit-clouds.com
-  servername: sns-video-al.xhscdn.com
-  tls: true
-  type: vless
+- name: 🇸🇬 新加坡 | SGP 12
+  password: ac466a42-4623-42ad-a5a4-b747dd8763f9
+  port: 56762
+  server: 665.zlstar.sbs
+  skip-cert-verify: true
+  sni: 665.zlstar.sbs
+  type: anytls
   udp: true
-  uuid: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1

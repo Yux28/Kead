@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- client-fingerprint: ios
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  name: 🇨🇭 瑞士 | CHE
+  network: grpc
+  port: 9882
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: '!!str aa'
+  server: 80.78.246.205
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155

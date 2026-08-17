@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- name: 🇰🇷 韩国 | KOR 3
+  password: PQ05174892
+  port: 443
+  server: precious-stag.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | KOR 4
+  password: PQ05174892
+  port: 443
+  server: factual-titmouse.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | KOR 7
+  password: PQ05174892
+  port: 443
+  server: united-grouse.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true

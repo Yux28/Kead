@@ -1,18 +1,18 @@
 proxies:
-- client-fingerprint: safari
+- client-fingerprint: firefox
   encryption: none
   grpc-opts:
-    grpc-service-name: grpc-reality
-  name: 🇷🇺RU_1|2.0MB/s
+    grpc-service-name: grpc
+  name: 🇷🇺RU_1|3.7MB/s
   network: grpc
-  port: '9001'
+  port: '443'
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 194.55.239.211
-  servername: api-maps.yandex.ru
+    public-key: J3W60M3AtU5k97dW435MfETjHX-DtfFqNrRUNoj2MXE
+    short-id: '!!str a1b2c3d4'
+  server: 31.177.111.144
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  uuid: 8071f3cc-994f-4fe2-bb87-cdc79559cb56
   xudp: true

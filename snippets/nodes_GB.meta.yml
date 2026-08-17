@@ -1,71 +1,48 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇬🇧GB_1|3.1MB/s
-  password: SEYnpOitNLndBhDtkZyeAShl
-  port: '443'
-  server: nl-vk.tkbvpcompany.site
-  skip-cert-verify: false
-  sni: nl-vk.tkbvpcompany.site
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|3.3MB/s
-  network: tcp
-  port: '1443'
-  reality-opts:
-    public-key: Yf10DFHbCihRVIDaxQkkib1kEBy4uIf2vCiPml7M2AI
-    short-id: '!!str 0441f3e34348cb15'
-  server: 151.243.28.59
-  servername: unitking.snowfalls.top
+- name: 🇬🇧GB_1|2.2MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 27dcb3a9-c82d-4628-a8c4-bae39e6cb4f4
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: rpc.v1.SyncService
+  type: http
+- auth: 725bc0b69e720cd5a2cd209252507c6e
   name: 🇬🇧 英国 | GBR
-  network: grpc
-  port: 443
-  server: 164.37.100.59
-  servername: edge1.numberoneok.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 788312f9-b95e-46da-9a39-623d798de761
-- client-fingerprint: firefox
+  password: 725bc0b69e720cd5a2cd209252507c6e
+  port: 50160
+  server: 94-229-64-108.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 94-229-64-108.liao.kdns.fr
+  type: hysteria2
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧 英国 | GBR 2
   network: tcp
   port: 443
   reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: '!!str ff776ff77be48b88'
-  server: eng3.helper-internet.com
-  servername: eng3.helper-internet.com
+    public-key: LQ4cJhrzBRuRu3Nb3xUaHEBkPEJ7P5Uca5bFAbMj0is
+    short-id: '!!str b8e2ce6fc1d12895'
+  server: 212.135.38.193
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
-- client-fingerprint: firefox
+  uuid: 601e4ca5-df0a-43a1-97c2-0b1f5c0ae413
+- client-fingerprint: edge
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc
   name: 🇬🇧 英国 | GBR 3
-  network: tcp
+  network: grpc
   port: 443
   reality-opts:
-    public-key: R0Iip6sJXLO1OKQ68Jfi01mj3kiN6FtGsY4vOkGV5ho
-    short-id: '!!str 403d24a2'
-  server: 167.104.223.65
-  servername: www.canonical.com
+    public-key: BGTwwq2WH2vyjysboV2EksEqACpm_ixBREZvDnhOgBQ
+    short-id: '!!str c531f0e4'
+  server: 167.104.223.42
+  servername: gbr15.tcpnet.fun
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  uuid: f8c5b018-f51a-4137-be8a-50a451630589
 - name: GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443

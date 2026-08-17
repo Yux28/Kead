@@ -1,58 +1,226 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇯🇵JP_1|3.3MB/s
+  name: 🇯🇵JP_1|4.9MB/s
   network: tcp
+  password: PQ05174892
+  port: '443'
+  server: mighty-lemming.rooster465.autos
+  skip-cert-verify: false
+  sni: mighty-lemming.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_2|4.3MB/s
+  network: tcp
+  password: PQ05174892
+  port: '443'
+  server: ethical-raccoon.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN
+  password: PQ05174892
   port: 443
+  server: robust-toucan.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 2
+  password: PQ05174892
+  port: 443
+  server: champion-alien.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 3
+  password: PQ05174892
+  port: 443
+  server: together-amoeba.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 4
+  password: PQ05174892
+  port: 443
+  server: smooth-cougar.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 5
+  network: tcp
+  port: 10014
   reality-opts:
-    public-key: Zi3V0K3Mg8xDRLdpPF5Srlc3sHWEWn_2g6laXmZNXEQ
-    short-id: '!!str 3f91fcb900e7b35e'
-  server: 206.237.120.221
+    public-key: e7VmsvYFVaiDl82Z5K0WnMvfBwHAEsJlrWE1cFmsiiI
+    short-id: '!!str feecfdb471b39f'
+  server: family.bucket.7.kfc-520.com
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a88deea-221d-3f06-9846-4067c6f725ee
+- name: 🇯🇵 日本 | JPN 6
+  password: PQ05174892
+  port: 443
+  server: moved-weasel.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 7
+  password: PQ05174892
+  port: 443
+  server: ready-monarch.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 8
+  password: PQ05174892
+  port: 443
+  server: inspired-hound.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 9
+  password: PQ05174892
+  port: 443
+  server: famous-opossum.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 10
+  password: PQ05174892
+  port: 443
+  server: outgoing-cockatoo.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 11
+  password: PQ05174892
+  port: 443
+  server: merry-falcon.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 12
+  password: PQ05174892
+  port: 443
+  server: flexible-titmouse.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 13
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 6rwYiIkFeAvFmuAZv8ZclWjn5SmTU1ex4U4KTRRQ2DI
+    short-id: '!!str 12206db5fe8b1dd4'
+  server: 45.202.254.53
   servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 9caa5a2d-371d-4eb9-8960-6ae3cc20ac37
+  udp: true
+  uuid: 601e4ca5-df0a-43a1-97c2-0b1f5c0ae413
+- name: 🇯🇵 日本 | JPN 14
+  password: PQ05174892
+  port: 443
+  server: excited-squirrel.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 15
+  network: ws
+  port: 443
+  server: jp.vpn.taiaise.cn
+  servername: jp.vpn.taiaise.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 060aede7-11ea-4032-b025-6c4168a5182e
+  ws-opts:
+    headers:
+      Host: jp.vpn.taiaise.cn
+    path: /jp
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN
-  network: tcp
-  port: 13779
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇯🇵 日本 | JPN 16
+  network: grpc
+  port: 10032
   reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: '!!str af1bdd293097b664'
-  server: 8.216.82.150
-  servername: tesla.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp2-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 3
-  network: tcp
-  port: 13779
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: '!!str af1bdd293097b664'
-  server: 154.83.93.197
-  servername: tesla.com
-  tls: true
-  type: vless
+  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+- auth: bc751c4c5c80f17dfbc05785c368b613
+  name: 🇯🇵 日本 | JPN 17
+  password: bc751c4c5c80f17dfbc05785c368b613
+  port: 50160
+  server: 154.31.115.179
+  skip-cert-verify: true
+  sni: 154-31-115-179.liao.kdns.fr
+  type: hysteria2
+- name: 🇯🇵 日本 | JPN 18
+  password: PQ05174892
+  port: 443
+  server: brief-flamingo.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 4
-  network: tcp
-  port: 55555
-  reality-opts:
-    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-    short-id: '!!str af317506'
-  server: aws-jp01.ziyoufly.xyz
-  servername: iosapps.itunes.apple.com
-  tls: true
-  type: vless
+- name: 🇯🇵 日本 | JPN 19
+  password: PQ05174892
+  port: 443
+  server: musical-mouse.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: 5fce1c98-0192-4d03-a8b4-9ba8a8eef474
+- name: 🇯🇵 日本 | JPN 20
+  password: PQ05174892
+  port: 443
+  server: unbiased-coyote.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 21
+  password: PQ05174892
+  port: 443
+  server: humorous-starling.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 22
+  password: PQ05174892
+  port: 443
+  server: proud-escargot.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 23
+  password: PQ05174892
+  port: 443
+  server: aware-puma.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- auth: m3bqxk03mg221yi2
+  name: 🇳🇬 尼日利亚 | NGA
+  obfs: salamander
+  obfs-password: phos93w1zi0nj6uv
+  password: m3bqxk03mg221yi2
+  port: 52049
+  server: 95.217.96.131
+  skip-cert-verify: true
+  sni: assets.gateway-stream.com
+  type: hysteria2
 - name: JP_speednode_0014
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
