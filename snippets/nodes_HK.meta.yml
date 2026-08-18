@@ -1,7 +1,39 @@
 proxies:
+- name: 🇭🇰HK_1|4.6MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 24318
+  server: yzany01.jdoanst2026.com
+  skip-cert-verify: true
+  sni: hk08.alytest.cc
+  type: anytls
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇭🇰HK_6|3.1MB/s
+  network: tcp
+  port: '29008'
+  server: 366-1095.rabbitpro-in-3.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+  xudp: true
+- name: 🇭🇰 香港 | HKG
+  network: ws
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 34041
+  server: gr1.vip2.moonbase.life
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_1|5.5MB/s
+  name: 🇭🇰 香港 | HKG 5
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
@@ -13,80 +45,56 @@ proxies:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇭🇰HK_2|4.0MB/s
-  network: grpc
-  port: 10126
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 95.40.100.129
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
-- name: 🇭🇰 香港 | HKG 5
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 24318
-  server: yzany01.jdoanst2026.com
-  skip-cert-verify: true
-  sni: hk08.alytest.cc
-  type: anytls
-  udp: true
-- name: 🇭🇰HK_4|4.3MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 33782
-  server: yzany01.jdoanst2026.com
-  skip-cert-verify: true
-  sni: hk06.nynet.shop
-  type: anytls
-  udp: true
-- name: 🇭🇰HK_7|4.7MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 45883
-  server: yzany01.jdoanst2026.com
-  skip-cert-verify: true
-  sni: hk35.ascwt179.com
-  type: anytls
-  udp: true
-- name: 🇭🇰 香港 | HKG
-  password: PQ05174892
-  port: 443
-  server: just-alpaca.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港 | HKG 2
+- name: 🇭🇰 香港 | HKG 6
   network: ws
-  port: 443
-  server: hk01.vpn.taiaise.cn
-  servername: hk01.vpn.taiaise.cn
-  tls: true
-  type: vless
-  udp: true
-  uuid: 060aede7-11ea-4032-b025-6c4168a5182e
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30144
+  server: hk4.vip2.moonbase.life
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
   ws-opts:
     headers:
-      Host: hk01.vpn.taiaise.cn
-    path: /vless
-- alpn:
-  - ''
-  alterId: 0
-  cipher: chacha20-poly1305
-  name: 🇭🇰 香港 | HKG 3
-  port: 9527
-  server: 43.132.192.16
+      Host: www.microsoft.com
+    path: /home
+- name: 🇭🇰 香港 | HKG 7
+  network: ws
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30113
+  server: hk3.moonbase.life
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c
+  sni: www.microsoft.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home
+- name: 🇭🇰 香港 | HKG 8
+  network: ws
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30141
+  server: hk1.vip2.moonbase.life
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇭🇰 香港 | HKG 4
+  name: 🇭🇰 香港 | HKG 9
+  network: tcp
+  port: 12939
+  server: 49.lwdh.us
+  servername: 49.lwdh.us
+  tls: true
+  type: vless
+  udp: true
+  uuid: df8cd190-eaf0-4cf1-ac32-bb07a3bd4c36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG 13
   network: tcp
   port: 9444
   server: bns.taiaise.cn
@@ -95,40 +103,29 @@ proxies:
   type: vless
   udp: true
   uuid: 060aede7-11ea-4032-b025-6c4168a5182e
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 6
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 香港 | HKG 7
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG 14
+  network: tcp
+  port: 13001
+  server: 4.lwdh.us
+  servername: 4.lwdh.us
+  tls: true
+  type: vless
   udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 8
+  uuid: df8cd190-eaf0-4cf1-ac32-bb07a3bd4c36
+- name: 🇭🇰 香港 | HKG 15
   network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30115
+  server: hk5.moonbase.life
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  sni: www.microsoft.com
+  type: trojan
   ws-opts:
     headers:
-      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
-    path: /
+      Host: www.microsoft.com
+    path: /home
 - name: HK_speednode_0012
   password: BxceQaOe
   port: 27161

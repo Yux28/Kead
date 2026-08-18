@@ -1,172 +1,154 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|3.2MB/s
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
-    short-id: '!!str c0d1d1776fed0f6d'
-  server: 50.7.90.188
-  servername: de-t2.vinnypuxtomoon.today
-  tls: true
-  type: vless
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇩🇪DE_1|1.2MB/s
+  network: ws
+  port: '80'
+  server: 68.183.209.180
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 629f88a6-b20b-4489-a22f-4d8b418c0488
-- client-fingerprint: edge
-  encryption: none
+  uuid: d5121154-ced6-460d-a9fd-5892027ab4a0
+  ws-opts:
+    headers: {}
+    path: /graphql
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: edge
   grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_2|1.1MB/s
+    grpc-service-name: ajv
+  name: 🇪🇪 爱沙尼亚 | EST
   network: grpc
-  port: '443'
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '!!str 3303c7a5'
-  server: 46.8.221.218
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+  port: 443
+  server: ru-5b7331.atlanta-games.com
+  skip-cert-verify: true
+  sni: ru-5b7331.atlanta-games.com
+  type: trojan
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|1.8MB/s
-  network: tcp
-  port: '38443'
-  reality-opts:
-    public-key: aeorXE4CoDuWHIDPK4KgTgOe-xdBvxPtlPYOZD6BQ3k
-    short-id: '!!str 503e22841a33eec0'
-  server: 151.244.72.41
-  servername: fleshas.lt
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48aca1e4-fc30-4ac4-9042-9992cc0cd99f
-  xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU
   network: tcp
-  port: 10037
+  port: 2027
   reality-opts:
-    public-key: 1w_E-3hZml0BGu7hVEBjRUZQQ8MBxSXnpwlVTo_NkWI
-    short-id: '!!str f0'
-  server: family.bucket.9.kfc-520.com
-  servername: www.adobe.com
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: '!!str dc8109baf0f607ea'
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 2a88deea-221d-3f06-9846-4067c6f725ee
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- name: 🇩🇪 德国 | DEU 2
+  network: tcp
+  port: 22224
+  server: 3.79.218.80
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 3
+  network: ws
+  port: 8443
+  server: 51.250.4.141
+  servername: cloudflare.vhub.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5ca83936-136d-4314-8453-4ba10a86cf60
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2W02YfNDSkJAkRpu8t2fOwdcjx9DXr0X6IFp5eCrGDE
+  server: 109.122.198.243
+  servername: info.lagzero.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf840e65-ae71-4d9d-afe8-bf77f032c63b
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 5
+  network: ws
+  port: 443
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
 - client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vqxKvKPwdM4NB1EnIAy90LSglZM9oTRx995mUQIW2Rg
+    short-id: '!!str 6bd15a'
+  server: 2.26.194.15
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a54534f-8a65-42f7-ae91-573ae0bf09b7
+- client-fingerprint: safari
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: vless-grpc-reality
-  name: 🇩🇪 德国 | DEU 2
+  name: 🇩🇪 德国 | DEU 8
   network: grpc
   port: 2096
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 178.250.158.200
+  server: ss.1010101.vip
   servername: id.vk.com
   tls: true
   type: vless
   udp: true
   uuid: 53b7fdec-4ccb-481a-8d98-83aa19509330
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 3
-  network: tcp
-  port: 443
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vless-grpc-reality
+  name: 🇩🇪 德国 | DEU 9
+  network: grpc
+  port: 2096
   reality-opts:
-    public-key: 8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4
-    short-id: '!!str 33b5887524592cad'
-  server: 83.220.175.92
-  servername: veilix.ciphero.xyz
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 82.146.57.205
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: b6b92515-13c5-4e6e-9fea-8db2d44628a0
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 4
-  network: ws
-  port: 443
-  server: 138.199.46.65
-  servername: s3whlhf3.b-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 99476b8e-517a-4fc2-815e-6f2061c9e22d
-  ws-opts:
-    headers:
-      Host: s3whlhf3.b-cdn.net
-    path: /assets/sync
-- name: 🇩🇪 德国 | DEU 5
-  password: PQ05174892
-  port: 443
-  server: casual-quail.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇩🇪 德国 | DEU 6
-  network: ws
-  port: 2086
-  server: www.speedtest.net
+  uuid: 53b7fdec-4ccb-481a-8d98-83aa19509330
+- name: 🇩🇪 德国 | DEU 10
+  network: tcp
+  port: 22224
+  server: 63.180.32.154
   tls: false
   type: vless
   udp: true
-  uuid: c00dfa61-737b-4f70-94c3-120bf98d8160
-  ws-opts:
-    headers:
-      Host: denah.colener.ir
-    path: /
-    v2ray-http-upgrade: true
-- auth: 707db87b-9cbf-438f-b4c7-9d984c8e944a
-  name: 🇩🇪 德国 | DEU 7
-  password: 707db87b-9cbf-438f-b4c7-9d984c8e944a
-  port: 443
-  server: serv21.strettenvpn.com
-  skip-cert-verify: true
-  sni: serv21.strettenvpn.com
-  type: hysteria2
-- alpn:
-  - h3
-  auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  name: 🇩🇪 德国 | DEU 8
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: de104.mechvpn.online
-  skip-cert-verify: true
-  sni: de104.mechvpn.online
-  type: hysteria2
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 5post-gate.x5.ru
-  name: 🇩🇪 德国 | DEU 9
-  network: grpc
-  port: 7771
-  reality-opts:
-    public-key: yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28
-    short-id: '!!str 8248954896'
-  server: serv7.granitvpn.ru
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 707db87b-9cbf-438f-b4c7-9d984c8e944a
-- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  name: 🇩🇪 德国 | DEU 10
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.124.104
-  skip-cert-verify: true
-  sni: mercedes-grape.yyuyy.com
-  type: hysteria2
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443

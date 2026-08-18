@@ -1,22 +1,13 @@
 proxies:
-- name: 🇰🇷 韩国 | KOR 3
-  password: PQ05174892
-  port: 443
-  server: precious-stag.rooster465.autos
+- name: 🇰🇷 韩国 | KOR 2
+  network: ws
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30513
+  server: kr3.moonbase.life
   skip-cert-verify: true
+  sni: www.microsoft.com
   type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 4
-  password: PQ05174892
-  port: 443
-  server: factual-titmouse.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 7
-  password: PQ05174892
-  port: 443
-  server: united-grouse.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home

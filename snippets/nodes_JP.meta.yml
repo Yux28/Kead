@@ -1,225 +1,155 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇯🇵JP_1|4.9MB/s
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 12
   network: tcp
-  password: PQ05174892
-  port: '443'
-  server: mighty-lemming.rooster465.autos
-  skip-cert-verify: false
-  sni: mighty-lemming.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_2|4.3MB/s
-  network: tcp
-  password: PQ05174892
-  port: '443'
-  server: ethical-raccoon.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
+  port: 39411
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- auth: ad6bc66062dbd395a02061c842c0978c
+  name: 🇯🇵JP_3|3.2MB/s
+  password: ad6bc66062dbd395a02061c842c0978c
+  port: 50160
+  server: 162-141-131-59.liao.kdns.fr
+  sni: 162-141-131-59.liao.kdns.fr
+  type: hysteria2
   udp: true
 - name: 🇯🇵 日本 | JPN
-  password: PQ05174892
-  port: 443
-  server: robust-toucan.rooster465.autos
+  network: ws
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30311
+  server: jp1.moonbase.life
   skip-cert-verify: true
+  sni: www.microsoft.com
   type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home
 - name: 🇯🇵 日本 | JPN 2
-  password: PQ05174892
-  port: 443
-  server: champion-alien.rooster465.autos
+  network: ws
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30344
+  server: jp4.vip2.moonbase.life
   skip-cert-verify: true
+  sni: www.microsoft.com
   type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home
 - name: 🇯🇵 日本 | JPN 3
-  password: PQ05174892
-  port: 443
-  server: together-amoeba.rooster465.autos
+  network: ws
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30314
+  server: jp4.moonbase.life
   skip-cert-verify: true
+  sni: www.microsoft.com
   type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home
 - name: 🇯🇵 日本 | JPN 4
-  password: PQ05174892
-  port: 443
-  server: smooth-cougar.rooster465.autos
+  network: ws
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30315
+  server: jp5.moonbase.life
   skip-cert-verify: true
+  sni: www.microsoft.com
   type: trojan
-  udp: true
-- client-fingerprint: firefox
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 🇯🇵 日本 | JPN 5
   network: tcp
-  port: 10014
+  port: 443
   reality-opts:
-    public-key: e7VmsvYFVaiDl82Z5K0WnMvfBwHAEsJlrWE1cFmsiiI
-    short-id: '!!str feecfdb471b39f'
-  server: family.bucket.7.kfc-520.com
-  servername: www.sony.com
+    public-key: IuNWoEP1jFflRBiNsM3FZpRtHmWTQmazXUan9r5cb1g
+    short-id: '!!str fc7b'
+  server: rfc.sushi-node.uk
+  servername: download-porter.hoyoverse.com
   tls: true
   type: vless
   udp: true
-  uuid: 2a88deea-221d-3f06-9846-4067c6f725ee
+  uuid: eef702e3-840a-461a-89e7-44720b0bef5e
 - name: 🇯🇵 日本 | JPN 6
-  password: PQ05174892
-  port: 443
-  server: moved-weasel.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 7
-  password: PQ05174892
-  port: 443
-  server: ready-monarch.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 8
-  password: PQ05174892
-  port: 443
-  server: inspired-hound.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 9
-  password: PQ05174892
-  port: 443
-  server: famous-opossum.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 10
-  password: PQ05174892
-  port: 443
-  server: outgoing-cockatoo.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 11
-  password: PQ05174892
-  port: 443
-  server: merry-falcon.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 12
-  password: PQ05174892
-  port: 443
-  server: flexible-titmouse.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 13
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 6rwYiIkFeAvFmuAZv8ZclWjn5SmTU1ex4U4KTRRQ2DI
-    short-id: '!!str 12206db5fe8b1dd4'
-  server: 45.202.254.53
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 601e4ca5-df0a-43a1-97c2-0b1f5c0ae413
-- name: 🇯🇵 日本 | JPN 14
-  password: PQ05174892
-  port: 443
-  server: excited-squirrel.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本 | JPN 15
   network: ws
-  port: 443
-  server: jp.vpn.taiaise.cn
-  servername: jp.vpn.taiaise.cn
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30343
+  server: jp3.vip2.moonbase.life
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 060aede7-11ea-4032-b025-6c4168a5182e
+  sni: www.microsoft.com
+  type: trojan
   ws-opts:
     headers:
-      Host: jp.vpn.taiaise.cn
-    path: /jp
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇯🇵 日本 | JPN 16
-  network: grpc
-  port: 10032
+      Host: www.microsoft.com
+    path: /home
+- name: 🇯🇵 日本 | JPN 7
+  password: HC04361579
+  port: 443
+  server: accepted-starling.rooster465.autos
+  skip-cert-verify: true
+  sni: accepted-starling.rooster465.autos
+  type: trojan
+- name: 🇯🇵 日本 | JPN 8
+  network: ws
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30316
+  server: jp6.moonbase.life
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 9
+  network: tcp
+  port: 4443
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: jp2-r.link-t7.com
-  servername: s0.awsstatic.com
+    public-key: HaBvzVAoHgHwqpIt5SKQT4feZkEzdPOvnQyjNH8gZBg
+    short-id: '!!str 946e0d473b'
+  server: rfc.sushi-node.uk
+  servername: www.capcom.co.jp
   tls: true
   type: vless
   udp: true
-  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-- auth: bc751c4c5c80f17dfbc05785c368b613
-  name: 🇯🇵 日本 | JPN 17
-  password: bc751c4c5c80f17dfbc05785c368b613
-  port: 50160
-  server: 154.31.115.179
-  skip-cert-verify: true
-  sni: 154-31-115-179.liao.kdns.fr
-  type: hysteria2
-- name: 🇯🇵 日本 | JPN 18
-  password: PQ05174892
+  uuid: eef702e3-840a-461a-89e7-44720b0bef5e
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇯🇵 日本 | JPN 10
+  network: xhttp
   port: 443
-  server: brief-flamingo.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
+  server: s1434.csgfw.top
+  servername: u643766u8b03796es118.kukuss.top
+  tls: true
+  type: vless
   udp: true
-- name: 🇯🇵 日本 | JPN 19
-  password: PQ05174892
-  port: 443
-  server: musical-mouse.rooster465.autos
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  xhttp-opts:
+    host: 8b03796es118.kukuss.top
+    path: a4b260762cd27516cd0530785c70f1e5
+- auth: Pwd_23g4oqdgv8uQJlgcmv_2026
+  name: 🇯🇵 日本 | JPN 11
+  password: Pwd_23g4oqdgv8uQJlgcmv_2026
+  port: 19659
+  server: 38.143.180.241
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 20
-  password: PQ05174892
-  port: 443
-  server: unbiased-coyote.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 21
-  password: PQ05174892
-  port: 443
-  server: humorous-starling.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 22
-  password: PQ05174892
-  port: 443
-  server: proud-escargot.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 23
-  password: PQ05174892
-  port: 443
-  server: aware-puma.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- auth: m3bqxk03mg221yi2
-  name: 🇳🇬 尼日利亚 | NGA
-  obfs: salamander
-  obfs-password: phos93w1zi0nj6uv
-  password: m3bqxk03mg221yi2
-  port: 52049
-  server: 95.217.96.131
-  skip-cert-verify: true
-  sni: assets.gateway-stream.com
+  sni: www.bing.com
   type: hysteria2
 - name: JP_speednode_0014
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1

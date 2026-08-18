@@ -1,45 +1,25 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|1.9MB/s
-  password: PQ05174892
-  port: '443'
-  server: infinite-anteater.rooster465.autos
-  skip-cert-verify: false
-  sni: infinite-anteater.rooster465.autos
-  type: trojan
-  udp: true
 - name: 🇸🇬 新加坡 | SGP
-  password: PQ05174892
-  port: 443
-  server: lenient-grubworm.rooster465.autos
+  network: ws
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30611
+  server: sg1.moonbase.life
   skip-cert-verify: true
+  sni: www.microsoft.com
   type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 4
-  password: PQ05174892
-  port: 443
-  server: pro-mako.rooster465.autos
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home
+- name: 🇸🇬 新加坡 | SGP 2
+  network: ws
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 30646
+  server: sg6.vip2.moonbase.life
   skip-cert-verify: true
+  sni: www.microsoft.com
   type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 6
-  password: PQ05174892
-  port: 443
-  server: apparent-wasp.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 9
-  password: PQ05174892
-  port: 443
-  server: allowing-ram.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 11
-  password: PQ05174892
-  port: 443
-  server: excited-alien.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home

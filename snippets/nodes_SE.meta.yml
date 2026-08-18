@@ -1,14 +1,24 @@
 proxies:
-- alpn:
-  - h3
-  auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  name: 🇸🇪 瑞典 | SWE
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: us65.mechvpn.online
+- name: 🇸🇪 瑞典 | SWE
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 60005
+  server: svip.skycon808.com
   skip-cert-verify: true
-  sni: us65.mechvpn.online
-  type: hysteria2
+  sni: xjp18.2uuzhe.com
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇪 瑞典 | SWE 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: uag6mQ8Nj62hZYzJhhd4ZZ-0GOGA42khyC6XtRbEnAg
+    short-id: '!!str 77ca514a4493ae52'
+  server: se.morinsq.su
+  servername: se.morinsq.su
+  tls: true
+  type: vless
+  uuid: 93fab704-cea7-4ca4-a9ac-5bb46aef263c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: SE_speednode_0116

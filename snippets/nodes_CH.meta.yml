@@ -1,17 +1,13 @@
 proxies:
-- client-fingerprint: ios
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 🇨🇭 瑞士 | CHE
-  network: grpc
-  port: 9882
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: '!!str aa'
-  server: 80.78.246.205
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
+- name: 🇨🇭 瑞士 | CHE
+  network: ws
+  password: 906a82b8-2344-4e16-b992-73b8f9b07166
+  port: 34241
+  server: ch1.vip2.moonbase.life
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home
