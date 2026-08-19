@@ -1,35 +1,9 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇹🇼 🇨🇳 台湾 | TWN
-  network: tcp
-  port: 10260
-  reality-opts:
-    public-key: eLRVVDBV-TYJ-JNmqS3p6gnVUqUJtlU8aCyFeyJqXHs
-    short-id: '!!str 4008e6ae65'
-  server: aaa-jpa.sushi-node.uk
-  servername: www.capcom.co.jp
-  tls: true
-  type: vless
-  udp: true
-  uuid: eef702e3-840a-461a-89e7-44720b0bef5e
-- name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  network: ws
-  password: 906a82b8-2344-4e16-b992-73b8f9b07166
-  port: 30413
-  server: tw3.moonbase.life
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.microsoft.com
-    path: /home
 - client-fingerprint: chrome
-  name: 🇹🇼 🇨🇳 台湾 | TWN 3
+  name: 🇹🇼 🇨🇳 台湾 | TWN
   network: ws
   port: 443
-  server: 59.125.69.19
+  server: 60.248.219.53
   servername: ty986gfazs.cainiaohub.xyz
   tls: true
   type: vless

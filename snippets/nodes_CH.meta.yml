@@ -1,13 +1,22 @@
 proxies:
-- name: 🇨🇭 瑞士 | CHE
-  network: ws
-  password: 906a82b8-2344-4e16-b992-73b8f9b07166
-  port: 34241
-  server: ch1.vip2.moonbase.life
+- name: 🇨🇭CH_1|2.4MB/s
+  password: 1Telegram_MojiVPN
+  port: '1080'
+  server: ch-zur.pvdata.host
   skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.microsoft.com
-    path: /home
+  type: socks5
+  username: N9cyF6jvgy3ZEmCNKe04zBIR
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭 瑞士 | CHE 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: cFmHbKSQO1BQnCBGd26-EA0CU-zYmduwk0Wqu0fhuT0
+    short-id: '!!str 7e8d2954eb836947'
+  server: jhmq-16fdqod.henghesoft.net
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f04037b7-125e-4666-841f-4b6bdbc9823d

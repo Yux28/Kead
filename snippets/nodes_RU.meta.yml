@@ -1,1 +1,25 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭 瑞士 | CHE
+  network: tcp
+  port: 443
+  server: translate.magazinetut.online
+  servername: translate.magazinetut.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c025078-2eae-4c53-bad1-5e491f33395e
+- client-fingerprint: chrome
+  name: 🇬🇪 GE_83
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FfcdBaTRPP5DDUiPmDRFOOghIw8h6-i9j_QyHQI3FUw
+    short-id: '!!str acc4dfcc'
+  server: russia.cloudpath.live
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8783764-ad60-58bb-b2c9-349bfd373a72

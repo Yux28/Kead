@@ -1,154 +1,297 @@
 proxies:
 - alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE_1|1.2MB/s
-  network: ws
-  port: '80'
-  server: 68.183.209.180
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d5121154-ced6-460d-a9fd-5892027ab4a0
-  ws-opts:
-    headers: {}
-    path: /graphql
-  xudp: true
-- alpn:
   - h2
   client-fingerprint: edge
   grpc-opts:
-    grpc-service-name: ajv
-  name: 🇪🇪 爱沙尼亚 | EST
+    grpc-mode: gun
+    grpc-service-name: mygrpc
+  name: 🇩🇪 德国 | DEU 7
   network: grpc
-  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
   port: 443
-  server: ru-5b7331.atlanta-games.com
-  skip-cert-verify: true
-  sni: ru-5b7331.atlanta-games.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU
-  network: tcp
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: '!!str dc8109baf0f607ea'
-  server: 78.159.247.253
-  servername: storage.yandex.net
-  skip-cert-verify: true
+  server: 212.41.26.84
+  servername: v1.api2.ttpservers.ru
   tls: true
   type: vless
   udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- name: 🇩🇪 德国 | DEU 2
+  uuid: 163dc809-7970-4ff8-a7e5-8080ad53e7bb
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|2.8MB/s
   network: tcp
-  port: 22224
-  server: 3.79.218.80
-  tls: false
+  port: '443'
+  reality-opts:
+    public-key: jkGStCLgX1e3kQ31H1_ycSuYm_zSNQ4qVafasU7bkwU
+    short-id: '!!str 4c0be5bf40e9f5ce'
+  server: 43.224.150.71
+  servername: www.bing.com
+  tls: true
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 0a31984d-b06f-4e79-b255-0dc64ee5d419
+  xudp: true
+- encryption: mlkem768x25519plus.random.0rtt.swY_aKEuuHUHKO0BHVV2uot-UFbtrXpLWr7g8uZk0xk
+  http-opts:
+    headers:
+      Host:
+      - us.demonware.net
+    path:
+    - /
+  name: 🇩🇪DE_3|1.2MB/s
+  network: http
+  port: '42538'
+  server: 91.107.158.251
+  type: vless
+  udp: true
+  uuid: 5d07b438-63c1-43fa-aa45-b6810de6d030
+  xudp: true
+- name: 🇩🇪DE_4|1.2MB/s
+  password: LBuHKNUpT
+  port: 63062
+  server: 185.78.79.39
+  type: http
+  username: kdEWXsS2E
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_5|1.5MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 120.232.250.163
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: jkGStCLgX1e3kQ31H1_ycSuYm_zSNQ4qVafasU7bkwU
+    short-id: '!!str 4c0be5bf40e9f5ce'
+  server: qeip-c6a0cn.wealthix.top
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a31984d-b06f-4e79-b255-0dc64ee5d419
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  name: 🇩🇪 德国 | DEU
+  network: xhttp
+  port: 443
+  server: 185.253.23.121
+  servername: cl1.salesmarketmsk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3da11d49-9e92-0071-9245-e7573238a4e4
+  xhttp-opts:
+    host: cl1.salesmarketmsk.ru
+    mode: auto
+    path: /stream121mui0
+    x-padding-bytes: 100-1000
+    x-padding-obfs-mode: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Q9rnUzSmDyhXFoIoeU0r_-H9FsXO8H36DrY7GSqF_wk
+    short-id: '!!str abcd1234'
+  server: 144.31.19.189
+  servername: dzen.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fca74439-d3f4-4247-8be2-d5654bb418a9
 - alpn:
   - http/1.1
-  client-fingerprint: firefox
+  client-fingerprint: android
   name: 🇩🇪 德国 | DEU 3
   network: ws
-  port: 8443
-  server: 51.250.4.141
-  servername: cloudflare.vhub.pro
+  port: 443
+  server: mlt.spbculture.org
+  servername: mlt.spbculture.org
   tls: true
   type: vless
   udp: true
-  uuid: 5ca83936-136d-4314-8453-4ba10a86cf60
+  uuid: fecd4358-c037-4ae2-bae0-c72792fd8e40
   ws-opts:
     headers:
-      Host: cloudflare.vhub.pro
-    path: /websocket?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+      Host: mlt.spbculture.org
+    path: /api/v2/upload/2aec3a50a58a
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - www.apple.com
+    method: GET
+    path:
+    - /
   name: 🇩🇪 德国 | DEU 4
+  network: http
+  port: 28110
+  server: 91.107.255.181
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 753fa7bf-b0be-4c2e-adbe-7e49977f1e3d
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 6
   network: tcp
   port: 443
   reality-opts:
-    public-key: 2W02YfNDSkJAkRpu8t2fOwdcjx9DXr0X6IFp5eCrGDE
-  server: 109.122.198.243
-  servername: info.lagzero.ru
+    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
+    short-id: '!!str f63805c3ecc7a483'
+  server: 195.184.247.220
+  servername: savesafe.co
+  tls: true
+  type: vless
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 8
+  network: ws
+  port: 8443
+  server: 206.251.53.91
+  servername: rubifen.adaspoloandco.com
   tls: true
   type: vless
   udp: true
-  uuid: bf840e65-ae71-4d9d-afe8-bf77f032c63b
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: /GOrbEh
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 9
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KdveJDEjZkGpf3Ymw3Ptu0cjDQ9geOY3ueMniWuWa2E
+    short-id: '!!str 2694d28edfdd2c38'
+  server: jwut-19a9lvb.univanta.top
+  servername: www.bing.com
+  tls: true
+  type: vless
+  uuid: 56971dae-1974-4ebe-a903-00e310828dd5
 - alpn:
+  - h3
+  - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 5
+  name: 🇩🇪 德国 | DEU 10
+  network: xhttp
+  port: 2087
+  server: 104.16.6.70
+  servername: football.bexait.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5fe8b09a-1888-4ae2-a2bf-529dbe7636b8
+  xhttp-opts:
+    host: football.bexait.ir
+    mode: auto
+    path: /
+- auth: 81378ef7-89a1-43b5-9a9d-a04a8af25b7c
+  name: 🇩🇪 德国 | DEU 11
+  password: 81378ef7-89a1-43b5-9a9d-a04a8af25b7c
+  port: 443
+  server: 194.31.223.107
+  skip-cert-verify: true
+  sni: de1.apexvpn.space
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 12
+  network: tcp
+  port: 445
+  reality-opts:
+    public-key: Ku60WZ3HEdE07DoEBJ5I9o_fjcN_bhdK8bTW3RJjBmM
+    short-id: '!!str c226283c4de5b1ad'
+  server: 2.26.100.192
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40205ae5-d30f-4216-b2e0-0506dbbd382e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 14
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500
+    short-id: '!!str b91a73752053b039'
+  server: 178.162.253.64
+  servername: de.servers.gracevpnbuy.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bb05f9d7-a3d1-4b81-a790-f6dba0301907
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 15
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
+    short-id: '!!str 2186a755ed67b034'
+  server: 31.76.5.26
+  servername: nordic.cendora.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 16
   network: ws
   port: 443
-  server: 199.232.78.160
+  server: 199.232.78.159
   servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: e0454af2-6fe9-4983-a55d-05e1da202602
   ws-opts:
     headers:
-      Host: Appxdn.global.ssl.fastly.net
+      Host: lsjaoijji.global.ssl.fastly.neT
     path: /
 - client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 7
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 17
   network: tcp
   port: 443
   reality-opts:
-    public-key: vqxKvKPwdM4NB1EnIAy90LSglZM9oTRx995mUQIW2Rg
-    short-id: '!!str 6bd15a'
-  server: 2.26.194.15
-  servername: www.intel.com
+    public-key: YkcQyTOh9YpZmilRob-eVxwoo4uwBAa9oHmURMTFzEM
+    short-id: '!!str 2b8c5e91'
+  server: 2.26.71.73
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 0a54534f-8a65-42f7-ae91-573ae0bf09b7
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless-grpc-reality
-  name: 🇩🇪 德国 | DEU 8
-  network: grpc
-  port: 2096
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: ss.1010101.vip
-  servername: id.vk.com
+  uuid: 4e843ed6-09e7-4be5-bd52-a1dc46568aeb
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 18
+  network: ws
+  port: 8443
+  server: 170.205.39.165
+  servername: rubifen.adaspoloandco.com
   tls: true
   type: vless
   udp: true
-  uuid: 53b7fdec-4ccb-481a-8d98-83aa19509330
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless-grpc-reality
-  name: 🇩🇪 德国 | DEU 9
-  network: grpc
-  port: 2096
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 82.146.57.205
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53b7fdec-4ccb-481a-8d98-83aa19509330
-- name: 🇩🇪 德国 | DEU 10
-  network: tcp
-  port: 22224
-  server: 63.180.32.154
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: /GOrbEh
 - name: DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443

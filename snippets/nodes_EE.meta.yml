@@ -1,1 +1,28 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 🇪🇪 爱沙尼亚 | EST
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YvW69dJ5-ok7CFVxsbgWmpgJoMKB0uqHoWkuM-ACDCI
+    short-id: '!!str 4fc1a997'
+  server: estonia.cloudpath.live
+  servername: microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8783764-ad60-58bb-b2c9-349bfd373a72
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇪🇪 爱沙尼亚 | EST 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: '!!str 4a46213c935e2ee4'
+  server: 31.76.70.31
+  servername: baltic.cendora.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
