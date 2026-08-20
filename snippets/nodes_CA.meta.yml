@@ -1,17 +1,11 @@
 proxies:
-- encryption: mlkem768x25519plus.random.0rtt.swY_aKEuuHUHKO0BHVV2uot-UFbtrXpLWr7g8uZk0xk
-  http-opts:
-    headers:
-      Host:
-      - mangaarabics.com
-    method: GET
-    path:
-    - /
-  name: 🇨🇦 加拿大 | CAN
-  network: http
-  port: 42538
-  server: 38.128.251.24
+- name: 🇨🇦 加拿大 | CAN
+  network: ws
+  port: 22819
+  server: 216.128.176.166
   tls: false
   type: vless
   udp: true
-  uuid: 5d07b438-63c1-43fa-aa45-b6810de6d030
+  uuid: f60ed982-1ec8-426a-d74e-a675685d6dc8
+  ws-opts:
+    path: /f60ed982-1ec8-426a-d74e-a675685d6dc8

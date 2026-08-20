@@ -1,28 +1,27 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇩🇪DE_5|1.5MB/s
+  name: 🇩🇪DE_1|1.3MB/s
   password: 7eadc6dbe2ae
   port: '65443'
   server: 120.232.250.163
   type: ss
   udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - www.apple.com
-    method: GET
-    path:
-    - /
-  name: 🇩🇪 德国 | DEU 4
-  network: http
-  port: 28110
-  server: 91.107.255.181
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_2|3.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.79.230.55
+  type: ss
   udp: true
-  uuid: 753fa7bf-b0be-4c2e-adbe-7e49977f1e3d
+- cipher: aes-256-cfb
+  name: 🇩🇪 德国 | DEU 5
+  password: amazonskr05
+  port: 443
+  server: 63.178.246.78
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇩🇪 德国 | DEU 8
+  password: amazonskr05
+  port: 443
+  server: 18.153.64.41
+  type: ss

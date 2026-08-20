@@ -1,136 +1,69 @@
 proxies:
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: sync.v2.SyncService
-  name: 🇳🇱 荷兰 | NLD 7
-  network: grpc
+  encryption: none
+  name: 🇬🇧 英国 | GBR 3
+  network: xhttp
   port: 443
-  server: 213.193.254.131
-  servername: video.she-happ.com
+  reality-opts:
+    public-key: fkYk0Ow--0GYExpBFb2wZjooymT7uASOQLw9ESC3DF8
+    short-id: '!!str 62b6d6e64d461d78'
+  server: api.getsavesafe.space
+  servername: api.getsavesafe.space
   tls: true
   type: vless
   udp: true
-  uuid: ea6db8fa-7e15-4eb2-87f1-22004ac00061
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts:
+    host: api.getsavesafe.space
+    mode: auto
+    path: /
+  xudp: true
 - name: 🇬🇧GB_2|2.2MB/s
-  port: 9443
-  server: 37.120.233.34
+  port: 443
+  server: 193.36.118.210
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_3|2.5MB/s
+  name: 🇩🇪 德国 | DEU 10
   network: tcp
-  port: '443'
+  port: 445
   reality-opts:
-    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
-    short-id: '!!str f63805c3ecc7a483'
-  server: 195.184.247.225
-  servername: savesafe.co
+    public-key: Ku60WZ3HEdE07DoEBJ5I9o_fjcN_bhdK8bTW3RJjBmM
+    short-id: '!!str c226283c4de5b1ad'
+  server: 2.26.100.192
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  uuid: 40205ae5-d30f-4216-b2e0-0506dbbd382e
   xudp: true
-- client-fingerprint: qq
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 🇬🇧 英国 | GBR
-  network: ws
+  network: tcp
   port: 443
-  server: gb1.wba-pn.ru
-  servername: gb1.wba-pn.ru
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: '!!str fd55b698ee8c3629'
+  server: 5.152.223.193
+  servername: strapi.io
   tls: true
   type: vless
-  uuid: 4bc8ff7a-20b4-41b2-9751-dfca869f0553
-  ws-opts:
-    headers:
-      Host: gb1.wba-pn.ru
-    path: /
+  udp: true
+  uuid: 2c55365f-2d22-4cf5-881c-10321e578806
 - client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: media.playback.v1.SessionGateway
   name: 🇬🇧 英国 | GBR 2
-  network: ws
-  port: 443
-  server: 129.121.95.159
-  servername: 129.121.95.159
+  network: grpc
+  port: 5443
+  server: 62.233.43.35
+  servername: de2.frost-api.com
   tls: true
   type: vless
   udp: true
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  ws-opts:
-    headers:
-      Host: 129.121.95.159
-    path: /connect
-- name: GB_speednode_0003
-  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-  port: 443
-  server: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-- name: GB_speednode_0004
-  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 73721193-tcxds0-tvgkxc-hrtf.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-- name: GB_speednode_0005
-  password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
-  port: 443
-  server: 0bfaae1c-t9zts0-tlm64c-xm0q.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 3437f34e-1b77-11eb-8684-f23c913c8d2b
-- name: GB_speednode_0006
-  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-  port: 443
-  server: 686ce217-t9zts0-ta5nd4-e06r.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-- name: GB_speednode_0007
-  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  port: 443
-  server: 9035056e-t9zts0-tcmken-19les.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-- name: GB_speednode_0008
-  password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  port: 443
-  server: 0b517612-t9zts0-tcq5zn-19qpt.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-- name: GB_speednode_0009
-  password: a95e9198-0671-11f0-9426-f23c932f2c32
-  port: 443
-  server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: a95e9198-0671-11f0-9426-f23c932f2c32
-- name: GB_speednode_0010
-  password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-  port: 443
-  server: 650f31b8-t9zts0-tkka1f-1k25p.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-- name: GB_speednode_0011
-  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 3051f36a-t9zts0-tr9h64-1f1f1.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  uuid: cbe5611f-392b-4ec3-9d8b-5bbe59c0fa68

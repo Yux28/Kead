@@ -1,67 +1,20 @@
 proxies:
-- name: 🇸🇬SG_1|3.3MB/s
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 1935
-  server: sg2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg2.xiaoliyu.cyou
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_3|1.1MB/s
-  network: tcp
-  port: '8686'
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 13.214.195.192
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  xudp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 新加坡 | SGP
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.253.90
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇸🇬SG_4|2.3MB/s
+  name: 🇸🇬 新加坡 | SGP 2
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: 3ZKNZEktRaPxt-XoWmx68EGsFwglnICVkvIl96973iA
-    short-id: '!!str 4014ce9b0d82ad9d'
-  server: e4ur-1936et2.startora.top
+    public-key: kwZBG2HBA1WN4eZW1GK0D9OVC4TPEs5J-ZeeBA2bVBw
+    short-id: '!!str 08f1620e7ad50ca8'
+  server: yebm-1936hwy.revora.top
   servername: www.bing.com
   tls: true
   type: vless
-  udp: true
-  uuid: 690ad3be-991b-4a2c-b351-42dd06789d03
-  xudp: true
-- name: 🇸🇬 新加坡 | SGP
-  password: EQ30679154
-  port: 443
-  server: well-goshawk.rooster465.autos
-  skip-cert-verify: true
-  sni: well-goshawk.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: rJ-aDop3jUC-FzyETfI2uDSXQ659PFlehr7XWm5Cm0A
-    short-id: '!!str fe1a104caf309f5a'
-  server: 6fzw-19369ic.meibao.site
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 8d1e0577-bfcb-4cbd-91c0-1f8788d4ba44
-- name: 🇸🇬 新加坡 | SGP 4
-  password: EQ30679154
-  port: 443
-  server: balanced-firefly.rooster465.autos
-  skip-cert-verify: true
-  sni: balanced-firefly.rooster465.autos
-  type: trojan
-  udp: true
+  uuid: be154d71-04ca-4389-8a89-d14219b25cd7

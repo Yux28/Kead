@@ -1,81 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇯🇵JP_2|4.5MB/s
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: 57.180.56.235
-  skip-cert-verify: false
-  sni: gentle-perch.rooster465.autos
-  type: trojan
+- cipher: aes-256-cfb
+  name: 🇯🇵 日本 | JPN 4
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.136
+  type: ss
   udp: true
-- client-fingerprint: qq
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇯🇵 日本 | JPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZuN9nc78h4Ccb19eb9NpTCs0jZkhJB8L0i1ZoAhu0XU
-    short-id: '!!str b2f4518cf979889d'
-  server: 43.165.177.82
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b772594-d6b9-4f4f-849b-8a6f92f594fe
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 2
-  network: tcp
-  port: 39401
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 🇯🇵 日本 | JPN 3
-  password: EQ30679154
-  port: 443
-  server: faithful-panther.rooster465.autos
-  skip-cert-verify: true
-  sni: faithful-panther.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 4
-  network: ws
-  port: 443
-  server: cfyes.ziyoufly.xyz
-  servername: cf-uh-jp01.23523463.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5fce1c98-0192-4d03-a8b4-9ba8a8eef474
-  ws-opts:
-    headers:
-      Host: cf-uh-jp01.23523463.xyz
-    path: /ziyou
-- name: 🇯🇵 日本 | JPN 5
-  password: fg20mtCFHy
-  port: 5710
-  server: 172.105.197.232
-  skip-cert-verify: true
-  sni: jpcaw.southbyte.xyz
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 6
-  password: EQ30679154
-  port: 443
-  server: 54.250.159.158
-  skip-cert-verify: true
-  sni: faithful-panther.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 7
   network: tcp
   port: 55555
   reality-opts:
@@ -87,39 +20,18 @@ proxies:
   type: vless
   udp: true
   uuid: 5fce1c98-0192-4d03-a8b4-9ba8a8eef474
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 8
+- name: 🇯🇵 日本 | JPN 2
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: h2GGazCHLBtmIUxiCxGUvsaEF8mGi8xFeCcI14sAJTI
-    short-id: '!!str 4bbe62498d4cc3c9'
-  server: 156.231.113.153
-  servername: www.cloudflare.com
-  tls: true
+  port: 2044
+  server: 199.30.90.148
+  tls: false
   type: vless
   udp: true
-  uuid: 3340c44a-042e-4dfd-b82c-33192d56ba98
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 9
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500
-    short-id: '!!str b91a73752053b039'
-  server: 142.91.105.104
-  servername: jp.servers.gracevpnbuy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bb05f9d7-a3d1-4b81-a790-f6dba0301907
-- name: JP_speednode_0014
-  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
-  port: 55682
-  server: t11.qifei.app
-  skip-cert-verify: true
-  sni: t11.qifei.app
-  type: trojan
+  uuid: d3e99826-5aeb-4d6f-a85a-3ef435255dee
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本 | JPN 3
+  password: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
+  port: 613
+  server: 0ccenterhk-c.center-link.org
+  type: ss
   udp: true

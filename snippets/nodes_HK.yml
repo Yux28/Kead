@@ -1,77 +1,33 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇭🇰 香港 | HKG 4
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.253.96
+  type: ss
+  udp: true
 - alpn:
   - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_3|3.8MB/s
-  network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
+  alterId: 0
+  cipher: chacha20-poly1305
+  name: 🇭🇰 香港 | HKG
+  port: 9527
+  server: 43.132.192.16
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 0c657913-e593-4893-9555-f88478c33a4b
-  ws-opts:
-    headers:
-      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 4
-  network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
+  uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港 | HKG 3
+  password: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
+  port: 611
+  server: 0ccenterhk-c.center-link.org
+  type: ss
+  udp: true
+- name: 🇭🇰 香港 | HKG 5
+  password: EQ30679154
+  port: 443
+  server: kind-unicorn.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e01e16ef-6e90-43a0-8582-84c426264678
-  ws-opts:
-    headers:
-      Host: 0c9125a3a7b10901acb65f26906fea4b.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 5
-  network: ws
-  port: 16622
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b312c029-18bb-43c8-bc5a-b4f8d193853c
-  ws-opts:
-    headers:
-      Host: 09a25e0678d5f69a5bb882d9f6441ad2.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 7
-  network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b655fa09-40b8-4317-a713-87a793dde9d0
-  ws-opts:
-    headers:
-      Host: 883147dc12db58e094e3f13e202fe20c.mobgslb.tbcache.com
-    path: /
-- name: HK_speednode_0012
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
   type: trojan
-  udp: true
-- name: HK_speednode_0013
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
