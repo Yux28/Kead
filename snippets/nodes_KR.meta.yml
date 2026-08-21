@@ -1,8 +1,23 @@
 proxies:
+- name: 🇰🇷 韩国 | KOR
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 62375
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: kr09.lunartrace.io
+  type: anytls
+  udp: true
 - cipher: aes-256-cfb
-  name: 🇰🇷KR_1|2.2MB/s
+  name: 🇰🇷 韩国 | KOR 2
   password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.235
+  port: 65443
+  server: 121.46.230.138
   type: ss
+- name: 🇰🇷 韩国 | KOR 4
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 31289
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: kr01.lunartrace.io
+  type: anytls
   udp: true

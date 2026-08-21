@@ -1,22 +1,33 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇹🇼 🇨🇳 台湾 | TWN
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.253.94
-  type: ss
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 37236
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: tw16.swiftrelay.cc
+  type: anytls
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  network: tcp
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
   port: 443
-  reality-opts:
-    public-key: WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0
-    short-id: '!!str f713561d'
-  server: 207.56.137.51
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
+  server: tw73.cybergalaxy.me
+  skip-cert-verify: true
+  sni: tw73.cybergalaxy.me
+  type: anytls
   udp: true
-  uuid: 01ada9fb-fa2f-45da-a0d0-bce80cdf433b
+- name: 🇹🇼 🇨🇳 台湾 | TWN 3
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 41572
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: tw88.webflarex.top
+  type: anytls
+  udp: true
+- name: 🇹🇼 🇨🇳 台湾 | TWN 4
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 61303
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: tw33.swiftrelay.cc
+  type: anytls
+  udp: true

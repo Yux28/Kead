@@ -1,17 +1,10 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.7MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: NBiCX_Tj3BeMAyG-GbLLKpGjW_qacm3A2Mz5mN8v3Xk
-    short-id: '!!str ab532d3308daa67b'
-  server: 212.233.99.132
-  servername: ru.chick-team.ru
-  tls: true
+- name: 🇷🇺 俄罗斯 | RUS 3
+  network: tcp
+  port: 443
+  server: 89.19.223.136
+  tls: false
   type: vless
   udp: true
-  uuid: fe0138b5-ca60-4a67-91aa-b5a49266eeb5
+  uuid: 22419260-5475-49d8-a29c-01905c54d1b8
   xudp: true

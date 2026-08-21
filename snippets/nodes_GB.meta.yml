@@ -1,69 +1,95 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧 英国 | GBR 3
-  network: xhttp
+- name: 🇬🇧GB_3|2.1MB/s
   port: 443
-  reality-opts:
-    public-key: fkYk0Ow--0GYExpBFb2wZjooymT7uASOQLw9ESC3DF8
-    short-id: '!!str 62b6d6e64d461d78'
-  server: api.getsavesafe.space
-  servername: api.getsavesafe.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api.getsavesafe.space
-    mode: auto
-    path: /
-  xudp: true
-- name: 🇬🇧GB_2|2.2MB/s
-  port: 443
-  server: 193.36.118.210
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 10
-  network: tcp
-  port: 445
+  name: 🇬🇧GB_4|1.5MB/s
+  network: raw
+  port: '443'
   reality-opts:
-    public-key: Ku60WZ3HEdE07DoEBJ5I9o_fjcN_bhdK8bTW3RJjBmM
-    short-id: '!!str c226283c4de5b1ad'
-  server: 2.26.100.192
-  servername: ads.x5.ru
+    public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
+    short-id: '!!str 33acba1b'
+  server: 138.124.180.137
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 40205ae5-d30f-4216-b2e0-0506dbbd382e
+  uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
   xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR
-  network: tcp
-  port: 443
+  name: 🇬🇧GB_5|1.9MB/s
+  network: raw
+  port: '443'
   reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: '!!str fd55b698ee8c3629'
-  server: 5.152.223.193
+    public-key: IFEZmwpGK7VCuDj3kmVdyMn7vUIG8Sntc6TG4eIS3xs
+    short-id: '!!str 1aa9f3c9021280c0'
+  server: 5.152.223.97
   servername: strapi.io
   tls: true
   type: vless
   udp: true
-  uuid: 2c55365f-2d22-4cf5-881c-10321e578806
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: media.playback.v1.SessionGateway
-  name: 🇬🇧 英国 | GBR 2
-  network: grpc
-  port: 5443
-  server: 62.233.43.35
-  servername: de2.frost-api.com
+  uuid: be5b6ad6-8184-4b63-82ac-3bc00c09c98c
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.Rj5Jm-uPO7iwO9TJV7j4zgDKBpEvUNxDQafm_8zRND4
+  name: 🇬🇧 英国 | GBR
+  network: xhttp
+  port: 443
+  server: 188.114.97.8
+  servername: allineedradiohead.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: cbe5611f-392b-4ec3-9d8b-5bbe59c0fa68
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: allineedradiohead.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+- http-opts:
+    headers:
+      Host:
+      - pasarguardpanelmmd.vipneninet.ir
+    method: GET
+    path:
+    - /
+  name: 🇬🇧 英国 | GBR 3
+  network: http
+  port: 5059
+  server: pasarguardpanelmmd.vipneninet.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7715a37f-866a-4845-8c1c-4ee7d450ac96
+- name: 🇬🇧 英国 | GBR 4
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 53991
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: jp03.pulsarcore.site
+  type: anytls
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 | GBR 5
+  network: tcp
+  port: 10034
+  reality-opts:
+    public-key: _UXzf4Zyye_n7o12vta73c6Xa9O9c_5sygBta8HYtWo
+    short-id: '!!str 055b15a128e5'
+  server: family.bucket.9.kfc-520.com
+  servername: www.hp.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3979cfac-7f7b-3dcf-a4e4-513eb8d125a7

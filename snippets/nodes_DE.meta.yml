@@ -1,163 +1,148 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_1|1.3MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 120.232.250.163
+- encryption: none
+  name: 🇩🇪DE_1|3.5MB/s
+  network: tcp
+  port: '22222'
+  server: 63.188.40.90
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 10
+  password: BlRtjyYlj18kYcrEL/8wcbSyqNKSPESiwSDDvisu9+o=
+  port: 30874
+  server: e2.cover20.ir
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇩🇪DE_2|3.5MB/s
+  name: 🇩🇪DE_3|3.5MB/s
   password: amazonskr05
   port: 443
-  server: 3.79.230.55
+  server: 63.181.36.211
   type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU
-  network: tcp
+- name: 🇩🇪DE_4|4.7MB/s
   port: 443
-  reality-opts:
-    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
-    short-id: '!!str a91045bc'
-  server: 163.5.153.153
-  servername: www.samsung.com
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 🇩🇪DE_5|1.6MB/s
+  network: ws
+  password: 8ccc5a61-b4f5-4fe4-a394-65890d8f044b
+  port: 443
+  server: space.byu.id.yxls.eu.cc
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    path: /sg-orcl
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  fingerprint: dc554fddecc5fb70f55d439bc1e1c42acb5e7b8ebbcd85224aee41aad3b1c104
+  name: 🇩🇪 德国 | DEU 4
+  network: ws
+  port: 8443
+  server: 51.250.4.141
+  servername: cloudflare.vhub.pro
   tls: true
   type: vless
-  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
-- name: 🇩🇪 德国 | DEU 2
+  udp: true
+  uuid: 5ca83936-136d-4314-8453-4ba10a86cf60
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket?ed=2560
+  xudp: true
+- alpn:
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.inAciB3I53AnkMDoEg-e2KjU3YxOk0_5B71RhhgIv2k
+  name: 🇩🇪DE_7|1.7MB/s
   network: ws
-  port: 80
-  server: 146.75.119.82
+  port: '443'
+  server: 104.18.113.47
+  servername: arvan2.dearhossein-taktaz.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1808b7a-e330-4120-b5fc-90ef09bb41b8
+  ws-opts:
+    headers:
+      Host: arvan2.dearhossein-taktaz.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_8|3.0MB/s
+  network: xhttp
+  port: '443'
+  server: 85.117.243.19
+  servername: de8.gracefultun.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f6572a8-1189-46a0-9419-3e7441a389f8
+  xhttp-opts:
+    host: de8.gracefultun.xyz
+    path: /assets/build/_app/immutable/chunks/stream-one/
+  xudp: true
+- name: 🇩🇪 德国 | DEU
+  network: ws
+  port: 6969
+  server: sakhrenab.Sav-savteAm.iR
   tls: false
   type: vless
   udp: true
-  uuid: 9ffc4b42-7aa7-4b8c-8420-72ecb8398a25
+  uuid: 2655a52c-a1a8-4100-b083-3fef1ca8a782
   ws-opts:
     headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
-- client-fingerprint: chrome
+      Host: sakhrenab.Sav-savteAm.iR
+    path: /MelinetNew?ed=2095
+- auth: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  name: 🇩🇪 德国 | DEU 2
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8443
+  server: 138.124.0.168
+  skip-cert-verify: true
+  sni: hopp-legend-se.roxa.org
+  type: hysteria2
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 3
   network: tcp
   port: 443
   reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: '!!str e7'
-  server: finnode3.frost-api.com
-  servername: eh.vk.com
+    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
+    short-id: '!!str 2186a755ed67b034'
+  server: 31.76.5.26
+  servername: nordic.cendora.ru
   tls: true
   type: vless
   udp: true
-  uuid: cbe5611f-392b-4ec3-9d8b-5bbe59c0fa68
-- name: 🇩🇪 德国 | DEU 4
-  network: tcp
-  port: 443
-  server: ger.iranstoresf.ir
-  tls: false
-  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- name: 🇩🇪 德国 | DEU 5
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 58031
+  server: sivp555.ascwt179.com
+  skip-cert-verify: true
+  sni: de01.lunartrace.io
+  type: anytls
   udp: true
-  uuid: 0da6bac1-644a-47d0-b9e8-03cb138079e8
-- cipher: aes-256-cfb
-  name: 🇩🇪 德国 | DEU 5
-  password: amazonskr05
-  port: 443
-  server: 63.178.246.78
-  type: ss
-- name: 🇩🇪 德国 | DEU 6
-  network: tcp
-  port: 443
-  server: 139.28.241.77
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5d5c40b1-102c-4343-94cc-d5b794dbd0c6
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: safari
-  name: 🇩🇪 德国 | DEU 7
-  network: ws
-  port: 443
-  server: d2hplu8rn1zhez.cloudfront.net
-  servername: d2hplu8rn1zhez.cloudfront.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: f17a82cc-4b2b-49bc-8875-51c43cc49c36
-  ws-opts:
-    headers:
-      Host: d2hplu8rn1zhez.cloudfront.net
-    path: /api/v3/ws/events
-- cipher: aes-256-cfb
-  name: 🇩🇪 德国 | DEU 8
-  password: amazonskr05
-  port: 443
-  server: 18.153.64.41
-  type: ss
-- encryption: mlkem768x25519plus.native.0rtt.xv7sk1D2Us-JXkjuqIRno-kcLA8kqeKy6seL9gXGB2M
-  name: 🇩🇪 德国 | DEU 9
-  network: ws
-  port: 8080
-  server: de-11.th3store.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: c164613c-ab89-4b34-a1d7-d526fadcd5b6
-  ws-opts:
-    headers:
-      Host: de-11.th3store.ir
-    path: /play
-    v2ray-http-upgrade: true
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 11
-  network: ws
-  port: 8443
-  server: 45.76.222.30
-  servername: rubifen.adaspoloandco.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 12
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: QMJRGTqZRbpeLpIAdvn6dhftuzrpwbtwmVG2s5IuuU0
-    short-id: '!!str 00a02855ba568c29'
-  server: 138.124.254.68
-  servername: de-two.quiet-rogue.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6fe06b02-74f7-431f-8ca4-c702fa3322bf
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 13
-  network: tcp
-  port: 7190
-  reality-opts:
-    public-key: mPyGyFIPaIJskk9IhHv9rkv7amf77CYUV0KVeqDsPU8
-    short-id: '!!str 7398e0c72f7d5c0e'
-  server: 5.75.207.94
-  servername: pypi.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ce90db0-2b57-41eb-83f2-f65f68c6409b
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 🇩🇪 德国 | DEU 14
+  name: 🇩🇪 德国 | DEU 6
   port: 54177
   protocol: udp
   server: 5.83.129.90
@@ -168,22 +153,87 @@ proxies:
 - http-opts:
     headers:
       Host:
-      - www.apple.com
+      - pasarguardmmmmkeje.vahidzhv.ir
     method: GET
     path:
     - /
-  name: 🇩🇪 德国 | DEU 15
+  name: 🇩🇪 德国 | DEU 7
   network: http
-  port: 8443
-  server: 159.69.180.75
+  port: 5057
+  server: pasarguardmmmmkeje.vahidzhv.ir
   tls: false
   type: vless
   udp: true
-  uuid: 47f70ee6-9b40-4da8-8974-6a239a48108a
+  uuid: 7715a37f-866a-4845-8c1c-4ee7d450ac96
+- http-opts:
+    headers:
+      Host:
+      - pasarguardpanelmmd1.sobu.ir
+    method: GET
+    path:
+    - /
+  name: 🇩🇪 德国 | DEU 8
+  network: http
+  port: 5060
+  server: pasarguardpanelmmd1.sobu.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7715a37f-866a-4845-8c1c-4ee7d450ac96
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 9
+  network: tcp
+  port: 10037
+  reality-opts:
+    public-key: 1w_E-3hZml0BGu7hVEBjRUZQQ8MBxSXnpwlVTo_NkWI
+    short-id: '!!str f0'
+  server: family.bucket.9.kfc-520.com
+  servername: www.adobe.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3979cfac-7f7b-3dcf-a4e4-513eb8d125a7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 11
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 66-fz0xjwauydj29EfFKyPHjJ2CIGaGSsJ6hsB--zAc
+    short-id: '!!str de8d3223e7d85761'
+  server: 45.195.228.227
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: b55dd203-630d-46a3-b506-c52ebcafa77c
+- name: 🇩🇪 德国 | DEU 12
+  network: tcp
+  port: 22223
+  server: 63.188.40.90
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 13
+  network: tcp
+  port: 13443
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: '!!str a7f3c91b2e6d84c0'
+  server: 31.76.5.26
+  servername: auto.cendora.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 16
+  name: 🇩🇪 德国 | DEU 14
   network: ws
   port: 443
   server: 199.232.78.160
@@ -196,3 +246,11 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
+- auth: 5ca83936-136d-4314-8453-4ba10a86cf60
+  name: 🇩🇪 德国 | DEU 15
+  password: 5ca83936-136d-4314-8453-4ba10a86cf60
+  port: 8443
+  server: 31.76.70.78
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  type: hysteria2
