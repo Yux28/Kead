@@ -1,44 +1,15 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇸🇪 瑞典 | SWE
   network: tcp
-  port: 443
+  port: 13443
   reality-opts:
-    public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
-    short-id: '!!str d3ee47fc2f553c44'
-  server: 45.196.161.171
-  servername: storage.yandex.net
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: '!!str a7f3c91b2e6d84c0'
+  server: 150.241.73.177
+  servername: auto.cendora.ru
   tls: true
   type: vless
   udp: true
-  uuid: b55dd203-630d-46a3-b506-c52ebcafa77c
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇪 瑞典 | SWE 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '!!str 2d6d073dc88f22a8'
-  server: se1.se-cdn.ru
-  servername: se1.se-cdn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d96e05a1-18bb-45da-9e9f-ab7caab6952a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇪 瑞典 | SWE 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: '!!str 4a46213c935e2ee4'
-  server: 31.76.70.32
-  servername: baltic.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  uuid: b80b392c-0cf4-42f9-ae54-9f862e3ba276

@@ -1,10 +1,1 @@
-proxies:
-- name: 🇷🇺 俄罗斯 | RUS 3
-  network: tcp
-  port: 443
-  server: 89.19.223.136
-  tls: false
-  type: vless
-  udp: true
-  uuid: 22419260-5475-49d8-a29c-01905c54d1b8
-  xudp: true
+proxies: []

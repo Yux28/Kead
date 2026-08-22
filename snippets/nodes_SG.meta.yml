@@ -1,29 +1,61 @@
 proxies:
 - name: 🇸🇬 新加坡 | SGP
   password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 443
-  server: jd-us62.y1static-content-distribution.shop
+  port: 27631
+  server: yzany01.downapptwo.cc
   skip-cert-verify: true
-  sni: jd-us62.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- auth: 9gWt2z3KdC9VI8kAQYVvvSvhT9e05CfI
-  name: 🇸🇬 新加坡 | SGP 2
-  password: 9gWt2z3KdC9VI8kAQYVvvSvhT9e05CfI
-  port: 12645
-  server: vip-sg-1.hkd4fwmg.vip
-  skip-cert-verify: true
-  sni: vip-sg-1.hkd4fwmg.vip
-  type: hysteria2
-- name: 🇸🇬 新加坡 | SGP 3
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 47992
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: yz21.y1static-content-distribution.shop
+  sni: hk03.jdddyy01.cc
   type: anytls
   udp: true
 - name: 🇸🇬 新加坡 | SGP 4
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 14855
+  server: sivp666.ascwt179.com
+  skip-cert-verify: true
+  sni: yz238.y1static-content-distribution.shop
+  type: anytls
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 6
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 10778
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: xjp20.jdddyy01.cc
+  type: anytls
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 7
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 53274
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: jp33.swiftrelay.cc
+  type: anytls
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 10
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 20694
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: malxy.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 13
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 33782
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk06.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 14
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 24318
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk08.jdddyy01.cc
+  type: anytls
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 15
   password: 3b32eb1c-150e-4eb4-8323-370844489508
   port: 443
   server: xjp200.cybergalaxy.me
@@ -31,17 +63,15 @@ proxies:
   sni: xjp200.cybergalaxy.me
   type: anytls
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇸🇬 新加坡 | SGP 7
-  port: 30845
-  server: v45.hdacd.com
+- name: 🇸🇬 新加坡 | SGP 16
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 61303
+  server: yzany01.downapptwo.cc
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: tw33.swiftrelay.cc
+  type: anytls
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇸🇬 新加坡 | SGP 8
+- name: 🇸🇬 新加坡 | SGP 17
   password: 3b32eb1c-150e-4eb4-8323-370844489508
   port: 47096
   server: sivp666.ascwt179.com
@@ -49,17 +79,11 @@ proxies:
   sni: xjp33.pulsarcore.site
   type: anytls
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP 9
-  network: tcp
-  port: 10019
-  reality-opts:
-    public-key: pqXjD4or04GC_CbVnjNLFhJkfxcIXSAbxzLsBad2TCI
-    short-id: '!!str 6b4135b5fd'
-  server: family.bucket.6.kfc-520.com
-  servername: www.sap.com
-  tls: true
-  type: vless
+- name: 🇸🇬 新加坡 | SGP 18
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 35853
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk01.pulsarcore.site
+  type: anytls
   udp: true
-  uuid: 3979cfac-7f7b-3dcf-a4e4-513eb8d125a7

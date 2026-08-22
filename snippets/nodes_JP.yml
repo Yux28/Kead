@@ -1,8 +1,18 @@
 proxies:
+- client-fingerprint: chrome
+  name: 🇯🇵JP_1|2.0MB/s
+  network: tcp
+  password: fg20mtCFHy
+  port: '5443'
+  server: 172.237.3.17
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: 🇯🇵JP_1|2.7MB/s
+  name: 🇯🇵 日本 | JPN
   password: 7eadc6dbe2ae
-  port: '65443'
+  port: 65443
   server: 121.46.230.136
   type: ss
   udp: true
