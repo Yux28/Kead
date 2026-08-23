@@ -1,35 +1,65 @@
 proxies:
-- name: 🇬🇧GB_1|3.0MB/s
+- name: 🇬🇧GB_1|3.8MB/s
+  password: None
   port: 443
   server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|2.9MB/s
+  username: null
+- name: 🇬🇧GB_2|2.2MB/s
+  password: None
   port: 443
-  server: 185.235.0.34
+  server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: '!!str fd55b698ee8c3629'
-  server: 95.154.237.47
-  servername: lanacion.com.ar
-  tls: true
-  type: vless
-  udp: true
-  uuid: b113f831-8658-467f-a819-927d16a54d6a
+  username: null
 - auth: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  name: 🇬🇧 英国 | GBR 3
+  name: 🇬🇧 英国 | GBR
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
   server: 138.124.0.168
   skip-cert-verify: true
   sni: hopp-legend-se.roxa.org
   type: hysteria2
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国 | GBR 2
+  port: 5383
+  server: dashboard.afrasoft.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 76cefcd7-6b53-4c65-ad29-1a92734fc968
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 | GBR 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: '!!str fd55b698ee8c3629'
+  server: 109.169.37.129
+  servername: foodnetwork.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ed0d2a0-dbba-4cc2-95df-a197831d9978
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 | GBR 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.246.60
+  servername: v.gb-cdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ab5d143-d8be-4506-b8ae-039fee32dfa2

@@ -1,89 +1,28 @@
 proxies:
-- name: 🇸🇬 新加坡 | SGP
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 27631
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: hk03.jdddyy01.cc
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 4
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 14855
-  server: sivp666.ascwt179.com
-  skip-cert-verify: true
-  sni: yz238.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 6
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 10778
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: xjp20.jdddyy01.cc
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 7
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 53274
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: jp33.swiftrelay.cc
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 10
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 20694
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: malxy.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 13
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 33782
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: hk06.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 14
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 24318
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: hk08.jdddyy01.cc
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 15
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 | SGP
+  network: tcp
   port: 443
-  server: xjp200.cybergalaxy.me
-  skip-cert-verify: true
-  sni: xjp200.cybergalaxy.me
-  type: anytls
+  reality-opts:
+    public-key: kxuW6rJkcKU88l_sgqezrcMFEy4yofrgouBoKufWASs
+    short-id: '!!str 2fadfe9a357ec21e'
+  server: 66.42.62.84
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 389e0591-86d6-408f-bf24-18f611a0c94b
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 2
+  network: ws
+  port: 2087
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
   udp: true
-- name: 🇸🇬 新加坡 | SGP 16
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 61303
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: tw33.swiftrelay.cc
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 17
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 47096
-  server: sivp666.ascwt179.com
-  skip-cert-verify: true
-  sni: xjp33.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 18
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 35853
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: hk01.pulsarcore.site
-  type: anytls
-  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
