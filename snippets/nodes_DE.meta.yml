@@ -1,6 +1,14 @@
 proxies:
-- auth: Germany2026hy
+- auth: e660daf2da753ca8317387342b8af384
   name: 🇩🇪 德国 | DEU 2
+  password: e660daf2da753ca8317387342b8af384
+  port: 50160
+  server: 3.71.196.174
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- auth: Germany2026hy
+  name: 🇩🇪 德国 | DEU 12
   obfs: salamander
   obfs-password: SalamanderDE2026
   password: Germany2026hy
@@ -9,91 +17,151 @@ proxies:
   skip-cert-verify: true
   sni: de.nobelchat.ru
   type: hysteria2
-- encryption: none
-  name: 🇩🇪DE_2|2.1MB/s
-  network: ws
-  port: '80'
-  server: 45.130.125.114
+- name: 🇩🇪DE_3|1.7MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpcacc225ca6bcafad270c1c0e69972889a7f90c58f
+  name: 🇩🇪DE_4|1.9MB/s
+  network: grpc
+  port: '36443'
+  reality-opts:
+    public-key: 4P8qDGM9uWFSHNl2t7SuD2h8gkmD5evMcidqn-0p9Qk
+    short-id: '!!str 645f272a4cfa6a17'
+  server: 72.60.129.96
+  servername: www.cloudflare.com
+  tls: true
   type: vless
   udp: true
-  uuid: b0c1d2e3-f4a5-4b6c-8d7e-8f9a0b1c2d3e
-  ws-opts:
-    headers:
-      Host: free-hzr18-cdn.sabzi.name.ng.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
+  uuid: 37d0a39c-6f46-49cb-bc30-5327702abe83
   xudp: true
-- auth: e5gqbtu97umt992j
+- cipher: chacha20-ietf-poly1305
   name: 🇩🇪 德国 | DEU
-  password: e5gqbtu97umt992j
-  port: 9443
-  server: 185.230.44.170
-  skip-cert-verify: true
-  sni: 185.230.44.170
-  type: hysteria2
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 3
-  port: 5381
-  server: dashboard.afrashop.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  password: r1/f/3g123mW0/6i08mSMJ5bOhYWAnTlmoYK+NqVTuo=
+  port: 16156
+  server: e4.cover20.ir
+  type: ss
   udp: true
-  uuid: 76cefcd7-6b53-4c65-ad29-1a92734fc968
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 3
+  network: tcp
+  port: 8050
+  reality-opts:
+    public-key: hjJ1VN2xwcl1n7vrwvOspB2NFWrXNySUNPexutOVvAM
+    short-id: '!!str 4bdfc3394f'
+  server: 45.134.38.204
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a88e2744-3555-4a0a-9635-0aae23e038f8
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 4
   network: tcp
   port: 443
   reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: '!!str ff776ff77be48b88'
-  server: 93.123.101.78
-  servername: germ3.freeinternat.com
+    public-key: gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ
+  server: 31.76.119.198
+  servername: www.akamai.com
   tls: true
   type: vless
   udp: true
-  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681
-- http-opts:
-    headers:
-      Host:
-      - amp-api-edge.apps.apple.com
-    method: GET
-    path:
-    - /
+  uuid: 45c595fa-988f-11f1-8024-54db13ea7d40
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 5
-  network: http
-  port: 13470
-  server: 65.109.181.252
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
+    short-id: '!!str 2186a755ed67b034'
+  server: 31.76.5.26
+  servername: nordic.cendora.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 6
+  network: tcp
+  port: 8053
+  reality-opts:
+    public-key: hjJ1VN2xwcl1n7vrwvOspB2NFWrXNySUNPexutOVvAM
+    short-id: '!!str 109754c5259066d1'
+  server: 45.134.38.204
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a88e2744-3555-4a0a-9635-0aae23e038f8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 8
+  network: tcp
+  port: 1234
+  reality-opts:
+    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
+    short-id: '!!str 4844fb0c077b20b7'
+  server: store1.vevluma.ir
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 22fff84b-dd89-489d-bc4c-794f664b92a2
+- name: 🇩🇪 德国 | DEU 9
+  network: ws
+  port: 2052
+  server: freesocks.work
   tls: false
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇩🇪 德国 | DEU 6
-  password: dbab9df7-5c0a-4726-8574-11e34972b67d
-  port: 33014
-  reduce-rtt: false
-  request-timeout: 0
-  server: 86.53.105.117
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: dbab9df7-5c0a-4726-8574-11e34972b67d
-- auth: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  name: 🇩🇪 德国 | DEU 7
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  port: 443
-  server: hy2.aspidnet.xyz
-  skip-cert-verify: true
-  type: hysteria2
+  uuid: b0a6832e-e6a3-491c-8137-fee5a7912ed4
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+    path: /@BlueKnight_net--@BlueKnight_net
+- name: 🇩🇪 德国 | DEU 10
+  network: ws
+  port: 2052
+  server: hikvision-plus.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: b0a6832e-e6a3-491c-8137-fee5a7912ed4
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+    path: /@BlueKnight_net--@BlueKnight_net
+- name: 🇩🇪 德国 | DEU 11
+  network: ws
+  port: 2052
+  server: cctvhikvision.center
+  tls: false
+  type: vless
+  udp: true
+  uuid: b0a6832e-e6a3-491c-8137-fee5a7912ed4
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+    path: /@BlueKnight_net--@BlueKnight_net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 13
+  network: tcp
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: '!!str dc8109baf0f607ea'
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060

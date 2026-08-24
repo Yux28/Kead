@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 443
+  server: tw72.cybergalaxy.me
+  skip-cert-verify: true
+  sni: tw72.cybergalaxy.me
+  type: anytls
+  udp: true
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 443
+  server: tw73.cybergalaxy.me
+  skip-cert-verify: true
+  sni: tw73.cybergalaxy.me
+  type: anytls
+  udp: true

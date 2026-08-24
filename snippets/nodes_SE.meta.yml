@@ -1,21 +1,15 @@
 proxies:
-- name: 🇸🇪SE_1|1.6MB/s
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇪 瑞典 | SWE
   network: tcp
   port: 443
   reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: '!!str cbb0a5c1dc905505'
-  server: 185.58.115.34
-  servername: restore.anti-zapret.com
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: '!!str ff776ff77be48b88'
+  server: 185.186.78.111
+  servername: swed2.freeinternat.com
   tls: true
   type: vless
   udp: true
-  uuid: 1b627e4d-4ea4-4dce-8bd8-fc2d3ffbeaba
+  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681

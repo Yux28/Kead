@@ -1,15 +1,53 @@
 proxies:
-- client-fingerprint: chrome
+- cipher: aes-128-gcm
+  name: 🇭🇰HK_1|5.1MB/s
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+  port: '10933'
+  server: mn.qwer-cn.org
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 🇭🇰 香港 | HKG
-  network: ws
-  port: 8443
-  server: 103.148.73.167
-  servername: ty986gfazs.cainiaohub.xyz
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: j0mfhbzohqV1W_PaNeYyKEVuaiK1-A9k2AQJQK7ZDzQ
+    short-id: '!!str 4aeab483de4dd53a'
+  server: 43.161.225.44
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4
+  uuid: 904183f1-0495-478b-b11f-1fe12e84ad8b
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 2
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d52b72b0-a509-490a-adae-23da2348d29c
   ws-opts:
     headers:
-      Host: ty986gfazs.cainiaohub.xyz
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      Host: 82d16f3a12ad1d0871e0270510bf2ef6.mobgslb.tbcache.com
+    path: /
+- auth: a7255862658f113e8d651df9bd75af28
+  name: 🇭🇰 香港 | HKG 3
+  password: a7255862658f113e8d651df9bd75af28
+  port: 50160
+  server: 154.3.35.200
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- auth: b0917015b656b3dd2286b5633af0c5c1
+  name: 🇭🇰 香港 | HKG 4
+  password: b0917015b656b3dd2286b5633af0c5c1
+  port: 50160
+  server: 31.57.248.176
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2

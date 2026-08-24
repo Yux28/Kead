@@ -1,13 +1,8 @@
 proxies:
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 3
-  port: 5381
-  server: dashboard.afrashop.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU
+  password: r1/f/3g123mW0/6i08mSMJ5bOhYWAnTlmoYK+NqVTuo=
+  port: 16156
+  server: e4.cover20.ir
+  type: ss
   udp: true
-  uuid: 76cefcd7-6b53-4c65-ad29-1a92734fc968

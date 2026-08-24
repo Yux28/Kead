@@ -1,15 +1,1 @@
-proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇪🇪 爱沙尼亚 | EST
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: '!!str ff776ff77be48b88'
-  server: 185.36.142.111
-  servername: est2.freeinternat.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681
+proxies: []
