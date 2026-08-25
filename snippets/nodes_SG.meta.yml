@@ -1,55 +1,14 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬SG_1|4.9MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: fls-bbg--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/F-ls
 - name: 🇸🇬 新加坡 | SGP
   password: 29204996-a723-4291-8c70-30843b592d40
-  port: 25504
+  port: 10778
   server: yzany01.downapptwo.cc
   skip-cert-verify: true
-  sni: us02.swiftrelay.cc
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 10860
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: us10.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 20694
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: malxy.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 5
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 24318
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: hk08.jdddyy01.cc
+  sni: xjp20.jdddyy01.cc
   type: anytls
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 6
+  name: 🇸🇬 新加坡 | SGP 2
   network: ws
   port: 2087
   server: 172.64.146.211
@@ -62,14 +21,6 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     path: /
-- name: 🇸🇬 新加坡 | SGP 7
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 10778
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: xjp20.jdddyy01.cc
-  type: anytls
-  udp: true
 - alpn:
   - ''
   alterId: 0
@@ -78,7 +29,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 🇸🇬 新加坡 | SGP 8
+  name: 🇸🇬 新加坡 | SGP 3
   network: http
   port: 59121
   server: 129.226.157.220

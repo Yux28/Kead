@@ -1,17 +1,29 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
+- alpn:
+  - h2
+  client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.3MB/s
+  name: 🇷🇺 俄罗斯 | RUS
   network: tcp
-  port: '443'
-  reality-opts:
-    public-key: L5qLDM9pWlBV6gU9yCT4_yc7jz982FiLi2CZWLo3Ki0
-    short-id: '!!str dcbf3f13ce2dbe37'
-  server: 46.8.41.42
-  servername: uk1.panel11.ru
+  port: 8443
+  server: 185.147.27.165
+  servername: user-6a8c51f9.noooo.win
   tls: true
   type: vless
   udp: true
-  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
+  uuid: f230254f-d4cd-4d83-8a2d-e83927ef98ac
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|1.2MB/s
+  network: tcp
+  port: '8443'
+  server: 66.90.90.13
+  servername: ai-6a8c51f9.noooo.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: f230254f-d4cd-4d83-8a2d-e83927ef98ac
   xudp: true

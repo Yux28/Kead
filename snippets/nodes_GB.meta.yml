@@ -1,71 +1,95 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇬🇧 英国 | GBR 3
-  password: amazonskr05
-  port: 443
-  server: 13.135.73.177
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_2|3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.135.161.144
-  type: ss
-  udp: true
-- name: 🇬🇧GB_3|1.6MB/s
-  password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|2.2MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_5|2.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 0DU2XI6J-aVzvYzrKQ7XOI9WPRMOADKTyn2V9E71WA8
-    short-id: '!!str b4c513c67294b791'
-  server: swe-one.letsgodance.site
-  servername: swe-one.letsgodance.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d36ddf8-dde5-4b2d-8213-d3255f22a0f1
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇬🇧 英国 | GBR
-  password: amazonskr05
-  port: 443
-  server: 35.178.103.18
-  type: ss
-- cipher: aes-256-cfb
   name: 🇬🇧 英国 | GBR 4
   password: amazonskr05
   port: 443
-  server: 13.135.252.176
+  server: 35.177.76.120
   type: ss
+  udp: true
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR 5
-  network: tcp
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  name: 🇮🇹 意大利 | ITA
+  network: grpc
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.131.212.41
-  servername: gb.sellflow.org
+    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
+  server: 104.171.128.225
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 5322390f-20ee-49e4-9b38-51fc1b5a1758
+  uuid: 80d02a71-54a5-4c5b-976d-5ee573c502af
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_3|2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.175.227.220
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: 🇬🇧GB_4|3.8MB/s
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_5|1.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: '!!str fd55b698ee8c3629'
+  server: 95.154.237.50
+  servername: lanacion.com.ar
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e13b8d7-ca30-4441-9b43-65ebf3de6c37
+  xudp: true
+- client-fingerprint: edge
+  name: 🇬🇧 英国 | GBR
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: '!!str 2b5b1ffa8a6a1a68'
+  server: mnl.savesafe.space
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts:
+    host: ya.ru
+    path: /web/cdn/v2/assets
+- client-fingerprint: firefox
+  name: 🇬🇧 英国 | GBR 5
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: '!!str b997e34499a919f3'
+  server: mnl.savesafe.space
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fa47585b-260a-4dbb-a32c-11fe7fb24fc7
+  xhttp-opts:
+    host: ya.ru
+    mode: auto
+    no-grpc-header: true
+    path: /web/cdn/v2/assets
+    x-padding-bytes: 100-1000
+- cipher: aes-256-cfb
+  name: 🇬🇧 英国 | GBR 6
+  password: amazonskr05
+  port: 443
+  server: 13.135.73.3
+  type: ss
+  udp: true

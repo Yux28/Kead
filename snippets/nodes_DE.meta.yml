@@ -1,167 +1,257 @@
 proxies:
-- auth: e660daf2da753ca8317387342b8af384
-  name: 🇩🇪 德国 | DEU 2
-  password: e660daf2da753ca8317387342b8af384
-  port: 50160
-  server: 3.71.196.174
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- auth: Germany2026hy
-  name: 🇩🇪 德国 | DEU 12
-  obfs: salamander
-  obfs-password: SalamanderDE2026
-  password: Germany2026hy
-  port: 8443
-  server: 45.128.99.14
-  skip-cert-verify: true
-  sni: de.nobelchat.ru
-  type: hysteria2
-- name: 🇩🇪DE_3|1.7MB/s
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 11
+  network: tcp
+  port: 22216
+  reality-opts:
+    public-key: sTE0YXI6Pv6OQUNbM-hNpNOhzon0_m2YUd7B1_g-JAU
+    short-id: '!!str 0f4412d42129f080'
+  server: gernoad.whooisthebest.ir
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c5619e4-0577-48d4-8d0c-6ad9c5cc0ecf
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|2.8MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: '!!str 43dcff53849b81e6'
+  server: 152.53.33.73
+  servername: at.quattro-tech.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85cc845e-644c-4148-8288-f0c03c83c1ec
+  xudp: true
+- name: 🇩🇪DE_3|1.8MB/s
   password: None
-  port: 9443
-  server: 87.249.132.97
+  port: 443
+  server: 138.201.56.241
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- client-fingerprint: firefox
+- name: 🇩🇪DE_6|1.2MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_5|2.3MB/s
+  port: 9870
+  server: 195.201.35.63
+  type: http
+- client-fingerprint: chrome
   grpc-opts:
-    grpc-service-name: grpcacc225ca6bcafad270c1c0e69972889a7f90c58f
-  name: 🇩🇪DE_4|1.9MB/s
+    grpc-service-name: grpc-tunnel
+  name: 🇩🇪DE_7|3.6MB/s
   network: grpc
-  port: '36443'
+  port: '9892'
   reality-opts:
-    public-key: 4P8qDGM9uWFSHNl2t7SuD2h8gkmD5evMcidqn-0p9Qk
-    short-id: '!!str 645f272a4cfa6a17'
-  server: 72.60.129.96
-  servername: www.cloudflare.com
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: '!!str aa'
+  server: 200.165.235.98
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 37d0a39c-6f46-49cb-bc30-5327702abe83
+  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
   xudp: true
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-reality
+  name: 🇩🇪DE_8|3.4MB/s
+  network: grpc
+  port: '8444'
+  reality-opts:
+    public-key: Ng71fIN6Rqh8dWkwWgoCUN6Qmsl4vkCjNZNLXT3_YHA
+    short-id: '!!str bd4a2659'
+  server: 178.250.242.219
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84e3de56-4917-4a35-a7db-9c3464e25a5a
+  xudp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_9|2.4MB/s
+  network: tcp
+  port: '3444'
+  reality-opts:
+    public-key: FbVQL4BtNGLa_0gFjedYc1caA7Ouvygbn4VCHj5uSQk
+    short-id: '!!str 274c4ebf488820b1'
+  server: 89.39.121.186
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
+  xudp: true
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: vless
+  name: 🇩🇪DE_10|4.2MB/s
+  network: grpc
+  port: '7443'
+  reality-opts:
+    public-key: fYyYNkbi8gAi12cu0bLDPzatCm8taK4dpBG86o6Ggxk
+    short-id: '!!str a1b2c3d4e5f60708'
+  server: 89.39.121.186
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU
-  password: r1/f/3g123mW0/6i08mSMJ5bOhYWAnTlmoYK+NqVTuo=
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str b0c58c398abb6842'
+  server: 45.195.228.100
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 219762a7-b918-4e2b-8a3d-d309ef98bb61
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 2
+  password: TIU2Q+zGv43ySqEreN27+haqVHskIeIQ4I+DE1Em0Fk=
   port: 16156
   server: e4.cover20.ir
   type: ss
   udp: true
-- client-fingerprint: chrome
+- grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vless
   name: 🇩🇪 德国 | DEU 3
-  network: tcp
-  port: 8050
-  reality-opts:
-    public-key: hjJ1VN2xwcl1n7vrwvOspB2NFWrXNySUNPexutOVvAM
-    short-id: '!!str 4bdfc3394f'
-  server: 45.134.38.204
-  servername: www.amd.com
-  tls: true
+  network: grpc
+  port: 443
+  server: 141.0.184.113
+  tls: false
   type: vless
   udp: true
-  uuid: a88e2744-3555-4a0a-9635-0aae23e038f8
+  uuid: 15b154c3-b4f9-435d-9b46-bd096dec4be1
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 4
   network: tcp
-  port: 443
+  port: 5504
   reality-opts:
-    public-key: gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ
-  server: 31.76.119.198
-  servername: www.akamai.com
+    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
+  server: ip1.sanzivo.ir
+  servername: play.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 45c595fa-988f-11f1-8024-54db13ea7d40
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
-    short-id: '!!str 2186a755ed67b034'
-  server: 31.76.5.26
-  servername: nordic.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 6
-  network: tcp
-  port: 8053
-  reality-opts:
-    public-key: hjJ1VN2xwcl1n7vrwvOspB2NFWrXNySUNPexutOVvAM
-    short-id: '!!str 109754c5259066d1'
-  server: 45.134.38.204
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a88e2744-3555-4a0a-9635-0aae23e038f8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 8
-  network: tcp
-  port: 1234
-  reality-opts:
-    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
-    short-id: '!!str 4844fb0c077b20b7'
-  server: store1.vevluma.ir
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22fff84b-dd89-489d-bc4c-794f664b92a2
-- name: 🇩🇪 德国 | DEU 9
-  network: ws
-  port: 2052
-  server: freesocks.work
-  tls: false
-  type: vless
-  udp: true
-  uuid: b0a6832e-e6a3-491c-8137-fee5a7912ed4
-  ws-opts:
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-    path: /@BlueKnight_net--@BlueKnight_net
-- name: 🇩🇪 德国 | DEU 10
-  network: ws
-  port: 2052
-  server: hikvision-plus.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: b0a6832e-e6a3-491c-8137-fee5a7912ed4
-  ws-opts:
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-    path: /@BlueKnight_net--@BlueKnight_net
-- name: 🇩🇪 德国 | DEU 11
+  uuid: 1aebe546-a3d7-432d-8717-cae4b5b95b64
+- name: 🇩🇪 德国 | DEU 5
   network: ws
   port: 2052
   server: cctvhikvision.center
   tls: false
   type: vless
-  udp: true
-  uuid: b0a6832e-e6a3-491c-8137-fee5a7912ed4
+  uuid: 3302c871-79e8-45a3-8233-d0547ae963ed
   ws-opts:
     headers:
       Host: uwu.blueknightnet.qzz.io
     path: /@BlueKnight_net--@BlueKnight_net
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 6
+  password: MzcxY
+  port: 8388
+  server: 45.95.2.25
+  type: ss
+  udp: true
+- encryption: mlkem768x25519plus.native.0rtt.xv7sk1D2Us-JXkjuqIRno-kcLA8kqeKy6seL9gXGB2M
+  name: 🇩🇪 德国 | DEU 7
+  network: ws
+  port: 8080
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  udp: true
+  uuid: c164613c-ab89-4b34-a1d7-d526fadcd5b6
+  ws-opts:
+    headers:
+      Host: de-11.th3store.ir
+    path: /play
+    v2ray-http-upgrade: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 9
+  network: tcp
+  port: 7777
+  reality-opts:
+    public-key: 4iWZChsH0rnqtn89xiB1evDLkFjmgh-3WYjx8cknZC0
+    short-id: '!!str a8b9c0d1e2f34567'
+  server: 31.76.111.113
+  servername: console.cloud.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 10
+  network: tcp
+  port: 22216
+  reality-opts:
+    public-key: sTE0YXI6Pv6OQUNbM-hNpNOhzon0_m2YUd7B1_g-JAU
+    short-id: '!!str 0f4412d42129f080'
+  server: finlnoad.whooisthebest.ir
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  uuid: 5c5619e4-0577-48d4-8d0c-6ad9c5cc0ecf
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 12
+  network: ws
+  port: 2053
+  server: hikvision-plus.com
+  servername: uwu.blueknightnet.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: bee9fc75-4375-4327-bdb2-755cb4d829b0
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 13
   network: tcp
-  port: 2027
+  port: 443
   reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: '!!str dc8109baf0f607ea'
-  server: 78.159.247.253
-  servername: storage.yandex.net
+    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
+    short-id: '!!str a91045bc'
+  server: 163.5.153.153
+  servername: www.samsung.com
   tls: true
   type: vless
   udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 15
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Qr6_9TMQYMCB2hVSYeONcMvxBqIaT0mzPUy8nIivV1g
+    short-id: '!!str b58b'
+  server: 89.167.2.67
+  servername: play.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 694eb5d5-794c-4389-af65-e5a4b8489dae

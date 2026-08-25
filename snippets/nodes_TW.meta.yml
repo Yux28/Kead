@@ -2,16 +2,30 @@ proxies:
 - name: 🇹🇼 🇨🇳 台湾 | TWN
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 443
-  server: tw72.cybergalaxy.me
+  server: tw71.cybergalaxy.me
   skip-cert-verify: true
-  sni: tw72.cybergalaxy.me
+  sni: tw71.cybergalaxy.me
   type: anytls
   udp: true
 - name: 🇹🇼 🇨🇳 台湾 | TWN 2
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 443
-  server: tw73.cybergalaxy.me
+  server: tw72.cybergalaxy.me
   skip-cert-verify: true
-  sni: tw73.cybergalaxy.me
+  sni: tw72.cybergalaxy.me
   type: anytls
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇼 🇨🇳 台湾 | TWN 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MFbgadSb-vgPdOS29Lj5RwpuDIkhJluY_08dPbumxCA
+    short-id: '!!str 4fde185e'
+  server: tw4.china-206xswl.com
+  servername: blzddist1-a.akamaihd.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce551b1c-95f5-4ea2-b6fc-5e9ef472fae1

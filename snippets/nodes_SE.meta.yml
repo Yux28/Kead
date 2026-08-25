@@ -1,15 +1,62 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇪 瑞典 | SWE
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: '!!str ff776ff77be48b88'
-  server: 185.186.78.111
-  servername: swed2.freeinternat.com
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: edge.sync.v1
+  name: 🇸🇪SE_1|3.4MB/s
+  network: grpc
+  port: '443'
+  server: swa.mythos-wargame.fun
   tls: true
   type: vless
   udp: true
-  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681
+  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  name: 🇸🇪 瑞典 | SWE
+  network: grpc
+  port: 9830
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: '!!str aabb'
+  server: 176.109.108.83
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  name: 🇸🇪 瑞典 | SWE 2
+  network: grpc
+  port: 9830
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: '!!str aa'
+  server: 176.109.108.83
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  name: 🇸🇪 瑞典 | SWE 3
+  network: grpc
+  port: 9872
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: '!!str aabb'
+  server: 176.123.164.9
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
