@@ -7,7 +7,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 🇸🇬 新加坡 | SGP 3
+  name: 🇸🇬 新加坡 | SGP 4
   network: http
   port: 59121
   server: 129.226.157.220

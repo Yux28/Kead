@@ -1,29 +1,55 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: edge
+- down: ''
+  fingerprint: ''
+  name: 🇷🇺RU_1|3.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: '443'
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇷🇺RU_2|3.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: '443'
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: 91.196.32.163
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇷🇺 俄罗斯 | RUS
+  name: 🇷🇺RU_3|1004KB/s
   network: tcp
-  port: 8443
-  server: 185.147.27.165
-  servername: user-6a8c51f9.noooo.win
+  port: '443'
+  server: 81.163.23.111
+  servername: shop.core-multiplayer.com
   tls: true
   type: vless
   udp: true
-  uuid: f230254f-d4cd-4d83-8a2d-e83927ef98ac
-- alpn:
-  - h2
-  client-fingerprint: firefox
+  uuid: 00a9b272-0296-47da-b365-bf585a7009b2
+  xudp: true
+- client-fingerprint: qq
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|1.2MB/s
-  network: tcp
-  port: '8443'
-  server: 66.90.90.13
-  servername: ai-6a8c51f9.noooo.win
+  name: 🇷🇺RU_4|3.1MB/s
+  network: ws
+  port: '443'
+  server: 45.150.64.157
+  servername: alb1.abvpn.ru
   tls: true
   type: vless
   udp: true
-  uuid: f230254f-d4cd-4d83-8a2d-e83927ef98ac
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /websocket
   xudp: true

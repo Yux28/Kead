@@ -1,62 +1,137 @@
 proxies:
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: edge.sync.v1
-  name: 🇸🇪SE_1|3.4MB/s
-  network: grpc
-  port: '443'
-  server: swa.mythos-wargame.fun
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-  xudp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 🇸🇪 瑞典 | SWE
-  network: grpc
-  port: 9830
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: '!!str aabb'
-  server: 176.109.108.83
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 🇸🇪 瑞典 | SWE 2
-  network: grpc
-  port: 9830
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: '!!str aa'
-  server: 176.109.108.83
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 🇸🇪 瑞典 | SWE 3
-  network: grpc
-  port: 9872
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: '!!str aabb'
-  server: 176.123.164.9
-  servername: dl.google.com
+  name: 🇸🇪 瑞典 | SWE 5
+  network: ws
+  port: 443
+  server: 83.147.255.84
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE_2|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: '!!str 00bca5982f82d083'
+  server: 2.27.244.96
+  servername: eu-central.cendora.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  xudp: true
+- name: 🇸🇪SE_3|1.6MB/s
+  password: None
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  name: 🇸🇪 瑞典 | SWE
+  network: ws
+  port: 443
+  server: 62.182.192.195
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: 🇸🇪 瑞典 | SWE 2
+  network: ws
+  port: 2053
+  server: 5.189.254.168
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: 🇸🇪 瑞典 | SWE 3
+  network: ws
+  port: 443
+  server: 95.85.243.240
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: 🇸🇪 瑞典 | SWE 4
+  network: ws
+  port: 8443
+  server: 84.32.99.175
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: 🇸🇪 瑞典 | SWE 6
+  network: ws
+  port: 443
+  server: 5.189.254.168
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: 🇸🇪 瑞典 | SWE 8
+  network: ws
+  port: 8443
+  server: 130.49.178.164
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: 🇸🇪 瑞典 | SWE 9
+  network: ws
+  port: 443
+  server: 94.242.59.31
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173

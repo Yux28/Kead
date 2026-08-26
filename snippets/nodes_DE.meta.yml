@@ -1,34 +1,35 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 11
-  network: tcp
-  port: 22216
-  reality-opts:
-    public-key: sTE0YXI6Pv6OQUNbM-hNpNOhzon0_m2YUd7B1_g-JAU
-    short-id: '!!str 0f4412d42129f080'
-  server: gernoad.whooisthebest.ir
-  servername: amp-api-edge.apps.apple.com
+  name: 🇩🇪 德国 | DEU 2
+  network: ws
+  port: 443
+  server: 77.110.121.157
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 5c5619e4-0577-48d4-8d0c-6ad9c5cc0ecf
-- client-fingerprint: chrome
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|2.8MB/s
+  name: 🇩🇪 德国 | DEU 5
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: '!!str 43dcff53849b81e6'
-  server: 152.53.33.73
-  servername: at.quattro-tech.ru
+    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
+    short-id: '!!str e91da98020a38be9'
+  server: 31.76.34.203
+  servername: russia.cendora.ru
   tls: true
   type: vless
   udp: true
-  uuid: 85cc845e-644c-4148-8288-f0c03c83c1ec
+  uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
   xudp: true
-- name: 🇩🇪DE_3|1.8MB/s
+- name: 🇩🇪DE_3|3.6MB/s
   password: None
   port: 443
   server: 138.201.56.241
@@ -36,222 +37,63 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_6|1.2MB/s
-  password: None
+- name: 🇩🇪DE_4|4.2MB/s
+  port: 2077
+  server: 168.119.100.60
+  type: http
+- name: 🇩🇪DE_6|3.7MB/s
   port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
+  server: 130.61.112.125
   type: http
-  username: null
-- name: 🇩🇪DE_5|2.3MB/s
-  port: 9870
-  server: 195.201.35.63
-  type: http
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇩🇪DE_7|3.6MB/s
-  network: grpc
-  port: '9892'
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: '!!str aa'
-  server: 200.165.235.98
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-reality
-  name: 🇩🇪DE_8|3.4MB/s
-  network: grpc
-  port: '8444'
-  reality-opts:
-    public-key: Ng71fIN6Rqh8dWkwWgoCUN6Qmsl4vkCjNZNLXT3_YHA
-    short-id: '!!str bd4a2659'
-  server: 178.250.242.219
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 84e3de56-4917-4a35-a7db-9c3464e25a5a
-  xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|2.4MB/s
-  network: tcp
-  port: '3444'
-  reality-opts:
-    public-key: FbVQL4BtNGLa_0gFjedYc1caA7Ouvygbn4VCHj5uSQk
-    short-id: '!!str 274c4ebf488820b1'
-  server: 89.39.121.186
-  servername: www.bing.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
-  xudp: true
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: vless
-  name: 🇩🇪DE_10|4.2MB/s
-  network: grpc
-  port: '7443'
-  reality-opts:
-    public-key: fYyYNkbi8gAi12cu0bLDPzatCm8taK4dpBG86o6Ggxk
-    short-id: '!!str a1b2c3d4e5f60708'
-  server: 89.39.121.186
-  servername: www.bing.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- auth: cd74c0a406664a5bc0bac098220a2468
   name: 🇩🇪 德国 | DEU
-  network: tcp
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  reality-opts:
-    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
-    short-id: '!!str b0c58c398abb6842'
-  server: 45.195.228.100
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 219762a7-b918-4e2b-8a3d-d309ef98bb61
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 2
-  password: TIU2Q+zGv43ySqEreN27+haqVHskIeIQ4I+DE1Em0Fk=
-  port: 16156
-  server: e4.cover20.ir
-  type: ss
-  udp: true
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless
-  name: 🇩🇪 德国 | DEU 3
-  network: grpc
-  port: 443
-  server: 141.0.184.113
-  tls: false
-  type: vless
-  udp: true
-  uuid: 15b154c3-b4f9-435d-9b46-bd096dec4be1
+  server: de1.sferavpn.pro
+  skip-cert-verify: true
+  sni: de1.sferavpn.pro
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 4
-  network: tcp
-  port: 5504
-  reality-opts:
-    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
-  server: ip1.sanzivo.ir
-  servername: play.google.com
+  name: 🇩🇪 德国 | DEU 3
+  network: ws
+  port: 8443
+  server: 95.181.175.209
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 1aebe546-a3d7-432d-8717-cae4b5b95b64
-- name: 🇩🇪 德国 | DEU 5
-  network: ws
-  port: 2052
-  server: cctvhikvision.center
-  tls: false
-  type: vless
-  uuid: 3302c871-79e8-45a3-8233-d0547ae963ed
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: uwu.blueknightnet.qzz.io
-    path: /@BlueKnight_net--@BlueKnight_net
-- cipher: chacha20-ietf-poly1305
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 6
-  password: MzcxY
-  port: 8388
-  server: 45.95.2.25
-  type: ss
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc
+    short-id: '!!str 76132b3b39704c44'
+  server: 77.91.66.178
+  servername: de1.hat.onl
+  tls: true
+  type: vless
   udp: true
-- encryption: mlkem768x25519plus.native.0rtt.xv7sk1D2Us-JXkjuqIRno-kcLA8kqeKy6seL9gXGB2M
+  uuid: dbb5075f-2ff4-4aad-a952-bcc82e4a6355
+- client-fingerprint: chrome
   name: 🇩🇪 德国 | DEU 7
   network: ws
-  port: 8080
-  server: www.speedtest.net
-  tls: false
+  port: 8443
+  server: 77.110.120.45
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
   type: vless
   udp: true
-  uuid: c164613c-ab89-4b34-a1d7-d526fadcd5b6
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: de-11.th3store.ir
-    path: /play
-    v2ray-http-upgrade: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 9
-  network: tcp
-  port: 7777
-  reality-opts:
-    public-key: 4iWZChsH0rnqtn89xiB1evDLkFjmgh-3WYjx8cknZC0
-    short-id: '!!str a8b9c0d1e2f34567'
-  server: 31.76.111.113
-  servername: console.cloud.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 10
-  network: tcp
-  port: 22216
-  reality-opts:
-    public-key: sTE0YXI6Pv6OQUNbM-hNpNOhzon0_m2YUd7B1_g-JAU
-    short-id: '!!str 0f4412d42129f080'
-  server: finlnoad.whooisthebest.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  uuid: 5c5619e4-0577-48d4-8d0c-6ad9c5cc0ecf
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 12
-  network: ws
-  port: 2053
-  server: hikvision-plus.com
-  servername: uwu.blueknightnet.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: bee9fc75-4375-4327-bdb2-755cb4d829b0
-  ws-opts:
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 13
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
-    short-id: '!!str a91045bc'
-  server: 163.5.153.153
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 15
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Qr6_9TMQYMCB2hVSYeONcMvxBqIaT0mzPUy8nIivV1g
-    short-id: '!!str b58b'
-  server: 89.167.2.67
-  servername: play.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 694eb5d5-794c-4389-af65-e5a4b8489dae
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173

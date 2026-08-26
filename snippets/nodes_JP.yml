@@ -1,15 +1,1 @@
-proxies:
-- cipher: aes-256-gcm
-  name: 🇯🇵 日本 | JPN
-  password: Butterfly123@qwe9527
-  port: 40001
-  server: 103.236.66.4
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇯🇵 日本 | JPN 4
-  password: Butterfly123@qwe9527
-  port: 40002
-  server: 103.236.66.4
-  type: ss
-  udp: true
+proxies: []
