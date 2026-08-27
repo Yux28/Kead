@@ -1,66 +1,17 @@
 proxies:
-- name: 🇬🇧GB_1|4.9MB/s
-  password: 5b2012ba-d040-4281-b92c-4f005badd179
-  port: 55003
-  server: dafeizhu.xxxyun.top
-  sni: atlsg1.jueduibupao.top
-  type: anytls
-- name: 🇬🇧GB_2|2.7MB/s
-  password: None
-  port: 443
-  server: 193.36.118.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_3|1.0MB/s
-  port: 5002
-  server: 94.76.224.104
-  type: http
-- name: 🇬🇧GB_4|2.9MB/s
-  password: None
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_5|1.3MB/s
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_6|3.5MB/s
-  network: tcp
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|4.2MB/s
+  password: amazonskr05
   port: '443'
-  reality-opts:
-    public-key: cWVHOLypYFtzpvgldlZ5h1fhOTptEC-ZQI7pFb7ok0c
-    short-id: '!!str 5e11872495085a8f'
-  server: 78.129.237.23
-  servername: strapi.io
-  tls: true
-  type: vless
+  server: 18.171.235.36
+  type: ss
   udp: true
-  uuid: 10000025-9365-7667-f000-0943b428a020
-  xudp: true
-- name: 🇬🇧 英国 | GBR
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 30659
-  server: test01.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: uk05.lunartrace.io
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: 🇬🇧 英国 | GBR 2
+- name: 🇬🇧GB_2|2.2MB/s
   network: ws
   port: 8443
-  server: 193.219.99.65
+  server: 193.219.99.66
   servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -68,8 +19,43 @@ proxies:
   ws-opts:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- name: 🇬🇧 英国 | GBR 3
+    path: /pg/10086-dfc816f117c491730| 大嘤帝国 | uk | 193.219.99.66:8443
+- name: 🇬🇧GB_3|1.2MB/s
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_4|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: QdGXMBWibJZdfDmDk3YcCMxNPd0yd_CkHAOt2yDYJCE
+    short-id: '!!str 97ac193c0962477c'
+  server: 85.159.92.161
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇬🇧GB_5|2.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 8674df07-56b3-43ea-b687-aef2b1a20137
+  port: '443'
+  server: 31.76.22.210
+  skip-cert-verify: false
+  sni: crt.ultimagamest.com
+  type: hysteria2
+  up: ''
+- name: 🇬🇧 英国 | GBR
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 53991
   server: yazhouany02.downapptwo.cc
@@ -77,3 +63,23 @@ proxies:
   sni: jp03.pulsarcore.site
   type: anytls
   udp: true
+- cipher: aes-256-cfb
+  name: 🇬🇧 英国 | GBR 2
+  password: amazonskr05
+  port: 443
+  server: 18.171.210.5
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧 英国 | GBR 3
+  password: amazonskr05
+  port: 443
+  server: 18.170.37.90
+  type: ss
+- name: 🇬🇧 英国 | GBR 4
+  network: tcp
+  port: 22224
+  server: 51.24.175.55
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e

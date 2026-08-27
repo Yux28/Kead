@@ -1,52 +1,6 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 2
-  network: ws
-  port: 443
-  server: 77.110.121.157
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-    short-id: '!!str e91da98020a38be9'
-  server: 31.76.34.203
-  servername: russia.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
-  xudp: true
-- name: 🇩🇪DE_3|3.6MB/s
-  password: None
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_4|4.2MB/s
-  port: 2077
-  server: 168.119.100.60
-  type: http
-- name: 🇩🇪DE_6|3.7MB/s
-  port: 443
-  server: 130.61.112.125
-  type: http
 - auth: cd74c0a406664a5bc0bac098220a2468
-  name: 🇩🇪 德国 | DEU
+  name: 🇩🇪DE_1|2.1MB/s
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -55,45 +9,182 @@ proxies:
   skip-cert-verify: true
   sni: de1.sferavpn.pro
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 3
-  network: ws
-  port: 8443
-  server: 95.181.175.209
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 6
-  network: tcp
+- name: 🇩🇪DE_2|3.7MB/s
   port: 443
-  reality-opts:
-    public-key: V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc
-    short-id: '!!str 76132b3b39704c44'
-  server: 77.91.66.178
-  servername: de1.hat.onl
+  server: 130.61.112.125
+  type: http
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  fingerprint: 1aeacc25d232c936f0199a487fc17da95ba59fb6c06656846214cec835d3ac23
+  name: 🇩🇪DE_3|1.2MB/s
+  network: xhttp
+  port: '2087'
+  server: s4.zynetraq.ir
+  servername: s4.zynetraq.ir
   tls: true
   type: vless
   udp: true
-  uuid: dbb5075f-2ff4-4aad-a952-bcc82e4a6355
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 7
+  uuid: 76680848-41e6-4700-0962-85930e685ebe
+  xhttp-opts:
+    host: s4.zynetraq.ir
+    mode: auto
+    path: /BetForward
+    x-padding-bytes: 100-1000
+  xudp: true
+- http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    method: GET
+    path:
+    - /
+  name: 🇩🇪 德国 | DEU
+  network: http
+  port: 443
+  server: 5.75.193.127
+  tls: false
+  type: vless
+  udp: true
+  uuid: 34647ada-f376-4e9f-a6a7-25838542ee67
+- auth: 585b7bfe-6269-4149-ae22-ff07c57b5510
+  name: 🇩🇪 德国 | DEU 2
+  obfs: salamander
+  obfs-password: Xydh1mcz51VQHbbJ
+  password: 585b7bfe-6269-4149-ae22-ff07c57b5510
+  port: 443
+  server: 157.228.137.81
+  skip-cert-verify: true
+  sni: msk2.nebuchadnezzar.ink
+  type: hysteria2
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 4
   network: ws
-  port: 8443
-  server: 77.110.120.45
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  port: 443
+  server: 188.114.97.3
+  servername: fast.iqiraq.shop.
   tls: true
   type: vless
   udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  uuid: 5d8fae5f-0427-4da3-99ab-242905fa5c69
   ws-opts:
     headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
+      Host: fast.iqiraq.shop.
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: qq
+  name: 🇩🇪 德国 | DEU 5
+  network: xhttp
+  port: 443
+  server: 178.176.128.128
+  servername: www.nexusassets.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: fbdc2b2d-60cd-49de-aa6d-bea46ba45247
+  xhttp-opts:
+    host: www.nexusassets.online
+    mode: packet-up
+    path: /x/data/s
+    uplink-http-method: GET
+    x-padding-bytes: 96-592
+    x-padding-key: v
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: query
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 6
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: da6ece67-aff5-4f94-94f3-08e87ca8cd51
+  ws-opts:
+    headers:
+      Host: 7wwwspeedtestnet.global.ssl.fastly.net
+    path: /
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 7
+  port: 59076
+  server: 91.107.155.9
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8c692a4d-d223-470a-92b3-00c4b189ca73
+- name: 🇩🇪 德国 | DEU 8
+  network: tcp
+  port: 22386
+  server: 91.107.155.9
+  tls: false
+  type: vless
+  udp: true
+  uuid: 8c692a4d-d223-470a-92b3-00c4b189ca73
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  name: 🇩🇪 德国 | DEU 9
+  network: xhttp
+  port: 2096
+  server: 193.227.99.253
+  servername: df.monister.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18e0bef1-3cda-4feb-aa2d-2efc21d09127
+  xhttp-opts:
+    host: df.monister.ir
+    mode: auto
+    path: /
+- name: 🇩🇪 德国 | DEU 10
+  network: ws
+  port: 80
+  server: 23.235.42.251
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7c2f6922-1b9a-4782-bd42-ccd76dee2a7f
+  ws-opts:
+    headers:
+      Host: ggrm.global.ssl.fastly.net
+    path: /
+- name: 🇩🇪 德国 | DEU 12
+  network: ws
+  port: 8080
+  server: 91.107.190.63
+  tls: false
+  type: vless
+  udp: true
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 13
+  network: tcp
+  port: 34156
+  reality-opts:
+    public-key: BsCp88E9PdpEDjC5bxLMP2tiJYK6afCPQT_CoxCVgAI
+    short-id: '!!str d6cdfdd9a21f8d23'
+  server: de.propollcenter.site
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16c50a3f-b9bd-45f5-9bcd-76bf878876f6

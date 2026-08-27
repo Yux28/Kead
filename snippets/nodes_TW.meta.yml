@@ -1,17 +1,25 @@
 proxies:
+- name: 🇹🇼TW_1|3.5MB/s
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 443
+  server: tw77.cybergalaxy.me
+  skip-cert-verify: true
+  sni: tw77.cybergalaxy.me
+  type: anytls
+  udp: true
 - name: 🇹🇼 🇨🇳 台湾 | TWN
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 443
-  server: tw75.cybergalaxy.me
+  server: tw73.cybergalaxy.me
   skip-cert-verify: true
-  sni: tw75.cybergalaxy.me
+  sni: tw73.cybergalaxy.me
   type: anytls
   udp: true
 - name: 🇹🇼 🇨🇳 台湾 | TWN 2
   password: 29204996-a723-4291-8c70-30843b592d40
-  port: 33368
-  server: yazhouany02.downapptwo.cc
+  port: 443
+  server: tw76.cybergalaxy.me
   skip-cert-verify: true
-  sni: tw01.swiftrelay.cc
+  sni: tw76.cybergalaxy.me
   type: anytls
   udp: true

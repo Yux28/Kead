@@ -1,47 +1,21 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN
-  network: ws
-  port: 443
-  server: 140.245.89.136
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  tls: true
-  type: vless
+- name: 🇯🇵 日本 | JPN
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 28219
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: us05.pulsarcore.site
+  type: anytls
   udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 2
-  network: ws
+- name: 🇯🇵 日本 | JPN 2
+  password: 29204996-a723-4291-8c70-30843b592d40
   port: 443
-  server: 161.33.181.105
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  tls: true
-  type: vless
+  server: jd-us78.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: jd-us78.y1static-content-distribution.shop
+  type: anytls
   udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 3
-  network: ws
-  port: 443
-  server: 172.104.81.253
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- name: 🇯🇵 日本 | JPN 4
+- name: 🇯🇵 日本 | JPN 3
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 12791
   server: jpglobal-identity-federation-auth.younai-ytl.shop
@@ -50,16 +24,38 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 5
-  network: ws
-  port: 443
-  server: 43.170.8.95
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 4
+  network: tcp
+  port: 15007
+  reality-opts:
+    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
+    short-id: '!!str 2c4d005b'
+  server: nian.001.url111.kcloud02.top
+  servername: www.bing.com
   tls: true
   type: vless
   udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 5
+  network: tcp
+  port: 50159
+  reality-opts:
+    public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
+    short-id: '!!str 091e1c5db8451757'
+  server: 154.31.114.248
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
+- name: 🇯🇵 日本 | JPN 6
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 443
+  server: jd-jp06jg.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: jd-jp06jg.y1static-content-distribution.shop
+  type: anytls
+  udp: true

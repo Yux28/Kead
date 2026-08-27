@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 7
+  port: 59076
+  server: 91.107.155.9
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8c692a4d-d223-470a-92b3-00c4b189ca73

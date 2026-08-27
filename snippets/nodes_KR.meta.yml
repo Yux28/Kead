@@ -1,23 +1,97 @@
 proxies:
 - name: 🇰🇷 韩国 | KOR
   password: 29204996-a723-4291-8c70-30843b592d40
-  port: 15503
-  server: test01.y1static-content-distribution.shop
+  port: 30019
+  server: yzany01.downapptwo.cc
   skip-cert-verify: true
-  sni: kr08.lunartrace.io
+  sni: yiselie01.swiftrelay.cc
   type: anytls
   udp: true
-- client-fingerprint: chrome
-  name: 🇰🇷 韩国 | KOR 2
-  network: ws
-  port: 443
-  server: 168.107.32.255
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  tls: true
-  type: vless
+- name: 🇰🇷 韩国 | KOR 2
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 17930
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: flv02.swiftrelay.cc
+  type: anytls
   udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
+- name: 🇰🇷 韩国 | KOR 3
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 20694
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: malxy.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇰🇷 韩国 | KOR 4
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 38400
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: us16.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇰🇷 韩国 | KOR 5
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 10778
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: xjp20.jdddyy01.cc
+  type: anytls
+  udp: true
+- name: 🇰🇷 韩国 | KOR 6
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 27631
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk03.jdddyy01.cc
+  type: anytls
+  udp: true
+- name: 🇰🇷 韩国 | KOR 7
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 51178
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk09.alytest.cc
+  type: anytls
+  udp: true
+- auth: 9cfc9458e48c028ec03ff86ebc71c744
+  name: 🇰🇷 韩国 | KOR 8
+  password: 9cfc9458e48c028ec03ff86ebc71c744
+  port: 50160
+  server: 150-230-252-217.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 150-230-252-217.liao.kdns.fr
+  type: hysteria2
+- auth: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  name: 🇰🇷 韩国 | KOR 9
+  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  port: 8080
+  server: 139.28.168.58
+  skip-cert-verify: true
+  sni: grape-honk.yyuyy.com
+  type: hysteria2
+- name: 🇰🇷 韩国 | KOR 10
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 25504
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: us02.swiftrelay.cc
+  type: anytls
+  udp: true
+- name: 🇰🇷 韩国 | KOR 11
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 35853
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk01.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇰🇷 韩国 | KOR 12
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 45959
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: eluosi01.pulsarcore.site
+  type: anytls
+  udp: true

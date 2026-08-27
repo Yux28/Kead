@@ -3,7 +3,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: update
-  name: 🇸🇬SG_1|3.6MB/s
+  name: 🇸🇬SG_1|4.9MB/s
   network: grpc
   port: '10038'
   reality-opts:
@@ -18,17 +18,53 @@ proxies:
   xudp: true
 - down: ''
   fingerprint: ''
-  name: 🇸🇬SG_2|3.9MB/s
+  name: 🇸🇬SG_2|5.2MB/s
   obfs: ''
   obfs-password: ''
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: '443'
-  server: 47.129.144.53
+  server: 13.212.191.206
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇸🇬SG_3|3.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: 13.212.74.81
   skip-cert-verify: true
   sni: vpn-sg-001.fastervpn.world
   type: hysteria2
   up: ''
 - name: 🇸🇬 新加坡 | SGP
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 61088
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: yindu03.pulsarcore.site
+  type: anytls
+  udp: true
+- auth: f87376e17da040ed04c9665ce8972930
+  name: 🇸🇬 新加坡 | SGP 2
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 🇸🇬 新加坡 | SGP 3
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 14855
+  server: test01.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: yz238.y1static-content-distribution.shop
+  type: anytls
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 4
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 16406
   server: test01.y1static-content-distribution.shop
@@ -36,20 +72,36 @@ proxies:
   sni: yz203.y1static-content-distribution.shop
   type: anytls
   udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 10778
-  server: yzany01.downapptwo.cc
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 | SGP 5
+  network: ws
+  port: 443
+  server: 188.114.97.3
+  servername: sg-new.vpnjatim.eu.cc
   skip-cert-verify: true
-  sni: xjp20.jdddyy01.cc
-  type: anytls
+  tls: true
+  type: vmess
   udp: true
-- name: 🇸🇬 新加坡 | SGP 3
+  uuid: a04c5cd0-fef7-4d85-8901-ae3163889c54
+  ws-opts:
+    headers:
+      Host: sg-new.vpnjatim.eu.cc
+    path: /vmess
+- auth: 0a344117cfeef3d6602e338c2f1e7957
+  name: 🇸🇬 新加坡 | SGP 6
+  password: 0a344117cfeef3d6602e338c2f1e7957
+  port: 50160
+  server: 38.180.190.215
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 🇸🇬 新加坡 | SGP 7
   password: 29204996-a723-4291-8c70-30843b592d40
-  port: 41453
+  port: 47053
   server: yazhouany02.downapptwo.cc
   skip-cert-verify: true
-  sni: yz236.y1static-content-distribution.shop
+  sni: xjp202.pulsarcore.site
   type: anytls
   udp: true
 - alpn:
@@ -60,7 +112,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 🇸🇬 新加坡 | SGP 4
+  name: 🇸🇬 新加坡 | SGP 8
   network: http
   port: 59121
   server: 129.226.157.220
@@ -69,33 +121,27 @@ proxies:
   type: vmess
   udp: true
   uuid: d9865d63-d95c-454b-ba07-8e88b838a801
-- name: 🇸🇬 新加坡 | SGP 5
+- name: 🇸🇬 新加坡 | SGP 10
   password: 29204996-a723-4291-8c70-30843b592d40
-  port: 14855
+  port: 24099
   server: test01.y1static-content-distribution.shop
   skip-cert-verify: true
-  sni: yz238.y1static-content-distribution.shop
+  sni: us56.pulsarcore.site
   type: anytls
   udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 6
-  network: ws
-  port: 8443
-  server: 43.160.246.223
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- name: 🇸🇬 新加坡 | SGP 7
+- name: 🇸🇬 新加坡 | SGP 11
   password: 29204996-a723-4291-8c70-30843b592d40
-  port: 56277
-  server: yzany01.downapptwo.cc
+  port: 15503
+  server: test01.y1static-content-distribution.shop
   skip-cert-verify: true
-  sni: xjp03.pulsarcore.site
+  sni: kr08.lunartrace.io
+  type: anytls
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 12
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 31289
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: kr01.lunartrace.io
   type: anytls
   udp: true
