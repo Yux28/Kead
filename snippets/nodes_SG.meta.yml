@@ -1,11 +1,23 @@
 proxies:
+- name: 🇸🇬SG_1|1.0MB/s
+  port: 9090
+  server: 104.248.151.93
+  type: http
+- name: 🇸🇬SG_2|2.6MB/s
+  password: ''
+  port: '9443'
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: chrome
-  encryption: none
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: update
-  name: 🇸🇬SG_1|4.9MB/s
+  name: 🇸🇬 新加坡 | SGP
   network: grpc
-  port: '10038'
+  port: 10038
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
@@ -14,134 +26,81 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇸🇬SG_2|5.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: '443'
-  server: 13.212.191.206
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇸🇬SG_3|3.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: '443'
-  server: 13.212.74.81
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  type: hysteria2
-  up: ''
-- name: 🇸🇬 新加坡 | SGP
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 61088
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: yindu03.pulsarcore.site
-  type: anytls
-  udp: true
-- auth: f87376e17da040ed04c9665ce8972930
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
   name: 🇸🇬 新加坡 | SGP 2
-  password: f87376e17da040ed04c9665ce8972930
-  port: 50160
-  server: 138.2.73.238
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 🇸🇬 新加坡 | SGP 3
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 14855
-  server: test01.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: yz238.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 4
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 16406
-  server: test01.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: yz203.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 | SGP 5
   network: ws
-  port: 443
-  server: 188.114.97.3
-  servername: sg-new.vpnjatim.eu.cc
-  skip-cert-verify: true
+  port: 2087
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: a04c5cd0-fef7-4d85-8901-ae3163889c54
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: sg-new.vpnjatim.eu.cc
-    path: /vmess
-- auth: 0a344117cfeef3d6602e338c2f1e7957
-  name: 🇸🇬 新加坡 | SGP 6
-  password: 0a344117cfeef3d6602e338c2f1e7957
-  port: 50160
-  server: 38.180.190.215
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 🇸🇬 新加坡 | SGP 7
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 47053
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: xjp202.pulsarcore.site
-  type: anytls
-  udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇸🇬 新加坡 | SGP 8
-  network: http
-  port: 59121
-  server: 129.226.157.220
-  skip-cert-verify: true
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
+- name: 🇸🇬 新加坡 | SGP 3
+  network: ws
+  port: 8080
+  server: 162.159.43.187
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
-- name: 🇸🇬 新加坡 | SGP 10
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 24099
-  server: test01.y1static-content-distribution.shop
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- auth: b492c1192f7aa3433c9818baf5ebb4ff
+  name: 🇸🇬 新加坡 | SGP 4
+  password: b492c1192f7aa3433c9818baf5ebb4ff
+  port: 443
+  server: 134.185.87.191
   skip-cert-verify: true
-  sni: us56.pulsarcore.site
-  type: anytls
+  sni: sb.jmx666.eu.cc
+  type: hysteria2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬 新加坡 | SGP 5
+  network: grpc
+  port: 10037
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
   udp: true
-- name: 🇸🇬 新加坡 | SGP 11
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 15503
-  server: test01.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: kr08.lunartrace.io
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 12
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 31289
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: kr01.lunartrace.io
-  type: anytls
-  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 | SGP 6
+  network: tcp
+  port: 15006
+  reality-opts:
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: '!!str 029a6cc4'
+  server: nian.001.url111.kcloud02.top
+  servername: www.adobe.com
+  tls: true
+  type: vless
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 | SGP 7
+  network: tcp
+  port: 15006
+  reality-opts:
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: '!!str 029a6cc4'
+  server: 82.38.46.66
+  servername: www.adobe.com
+  tls: true
+  type: vless
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86

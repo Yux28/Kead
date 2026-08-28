@@ -1,1 +1,23 @@
-proxies: []
+proxies:
+- name: 🇨🇭CH_1|4.4MB/s
+  password: None
+  port: 7272
+  server: 212.65.190.199
+  type: http
+  username: null
+- name: 🇨🇭CH_2|2.8MB/s
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- auth: 84a506ca5aca505696a454d828420b3f
+  name: 🇨🇭 瑞士 | CHE
+  password: 84a506ca5aca505696a454d828420b3f
+  port: 50160
+  server: 140.238.213.114
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2

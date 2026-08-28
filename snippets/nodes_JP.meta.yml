@@ -1,31 +1,29 @@
 proxies:
-- name: 🇯🇵 日本 | JPN
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 28219
-  server: jpglobal-identity-federation-auth.younai-ytl.shop
-  skip-cert-verify: true
-  sni: us05.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 🇯🇵 日本 | JPN 2
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 443
-  server: jd-us78.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: jd-us78.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- name: 🇯🇵 日本 | JPN 3
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 12791
-  server: jpglobal-identity-federation-auth.younai-ytl.shop
-  skip-cert-verify: true
-  sni: jp10.pulsarcore.site
-  type: anytls
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 4
+  name: 🇯🇵 日本 | JPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: sPdtqEglJBpjsEgeOHkyafVgHSDcGzIn4ChX3gY4aVg
+    short-id: '!!str 280e30b0075dfda0'
+  server: 96.126.130.176
+  servername: www.japan-travel.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 825c049b-403c-49e0-b60f-379bdb8611e9
+- auth: b504c8ce7f607a6c910ec5209e526b7e
+  name: 🇯🇵 日本 | JPN 2
+  password: b504c8ce7f607a6c910ec5209e526b7e
+  port: 38888
+  server: 177.2.185.222
+  skip-cert-verify: true
+  sni: 177.2.185.222
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 3
   network: tcp
   port: 15007
   reality-opts:
@@ -37,25 +35,3 @@ proxies:
   type: vless
   udp: true
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 5
-  network: tcp
-  port: 50159
-  reality-opts:
-    public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
-    short-id: '!!str 091e1c5db8451757'
-  server: 154.31.114.248
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
-- name: 🇯🇵 日本 | JPN 6
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 443
-  server: jd-jp06jg.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: jd-jp06jg.y1static-content-distribution.shop
-  type: anytls
-  udp: true

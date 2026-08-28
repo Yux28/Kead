@@ -1,13 +1,9 @@
 proxies:
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 7
-  port: 59076
-  server: 91.107.155.9
+- name: 🇩🇪 德国 | DEU 2
+  password: '!!str 123123'
+  port: 25830
+  server: node5.quaxly.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: node5.quaxly.com
+  type: trojan
   udp: true
-  uuid: 8c692a4d-d223-470a-92b3-00c4b189ca73
