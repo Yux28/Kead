@@ -1,93 +1,102 @@
 proxies:
 - name: 🇬🇧GB_1|2.6MB/s
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|2.5MB/s
   password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
+  port: 3118
+  server: 154.61.56.215
   type: http
   username: null
-- name: 🇬🇧GB_3|1.8MB/s
-  password: None
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|2.2MB/s
+  network: tcp
+  port: '51847'
+  reality-opts:
+    public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
+    short-id: '!!str 0eec442e7b34d2f2'
+  server: 3.9.135.156
+  servername: www.tesla.com
   tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|3.5MB/s
-  password: None
+  type: vless
+  udp: true
+  uuid: 391a01e9-b664-407b-9158-610fab3f5920
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 | GBR 6
+  network: tcp
   port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
+  reality-opts:
+    public-key: OINuDFEDTdmtFR8QRxAZfQIMPA-wJxfGN1LjB3TFUHo
+    short-id: '!!str 535a3304'
+  server: 50.7.193.131
+  servername: app5.jarvesitw.ru
   tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_5|1.7MB/s
-  password: None
-  port: 443
-  server: 193.36.118.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_6|2.8MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  type: vless
+  udp: true
+  uuid: ec537bff-dc14-495c-b65f-65393ad7ee75
+  xudp: true
 - cipher: aes-256-cfb
   name: 🇬🇧 英国 | GBR
   password: amazonskr05
   port: 443
-  server: 18.171.210.5
+  server: 18.170.37.90
   type: ss
-- name: 🇬🇧 英国 | GBR 2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 | GBR 2
   network: tcp
-  port: 22222
-  server: 18.133.19.17
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇬🇧 英国 | GBR 3
-  network: xhttp
-  port: 2096
-  server: 193.227.99.253
-  servername: tf.monister.ir
+  port: 443
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: '!!str fd55b698ee8c3629'
+  server: 78.129.150.217
+  servername: strapi.io
   tls: true
   type: vless
   udp: true
-  uuid: b07fa744-dd60-4a35-afbe-bd84e2dc86af
-  xhttp-opts:
-    host: tf.monister.ir
-    path: /
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+  uuid: 66e9b3dc-76e2-417b-a2f3-bc350a8e17dc
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 | GBR 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: '!!str fd55b698ee8c3629'
+  server: 78.129.150.217
+  servername: strapi.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44ef4e96-2b9e-49bb-80f5-7583bbfdca19
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧 英国 | GBR 4
   network: tcp
   port: 443
-  server: uk60.mechvpn.online
-  servername: uk60.mechvpn.online
+  reality-opts:
+    public-key: vvpu_ljhBuTWmM9w5Hl6jj8ZTiE_JYq29S77zNDeCjQ
+    short-id: '!!str ff6975658b6cefce'
+  server: 109.169.84.72
+  servername: strapi.io
   tls: true
   type: vless
   udp: true
-  uuid: 50767b5d-7e5d-4aee-af39-5a07d36ccc36
+  uuid: 7f437070-a14e-4355-bfbc-a6036a6bb040
+- name: 🇬🇧 英国 | GBR 5
+  network: tcp
+  port: 22224
+  server: 18.168.125.235
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇬🇧 英国 | GBR 7
+  network: tcp
+  port: 24314
+  server: 104.238.174.99
+  tls: false
+  type: vless
+  udp: true
+  uuid: dc40dac7-add2-4e09-b3df-d0c6b39701eb

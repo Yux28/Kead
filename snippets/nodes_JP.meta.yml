@@ -1,37 +1,230 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN
+  name: 🇯🇵JP_1|3.6MB/s
   network: tcp
-  port: 443
+  port: '18921'
   reality-opts:
-    public-key: sPdtqEglJBpjsEgeOHkyafVgHSDcGzIn4ChX3gY4aVg
-    short-id: '!!str 280e30b0075dfda0'
-  server: 96.126.130.176
-  servername: www.japan-travel.cn
+    public-key: Ct9tvt4V8JSZ7uCbKWKuXNMG5Q7U_FMDWPHgi4YHAXw
+    short-id: '!!str 2e23c31063fcff'
+  server: 54.249.200.131
+  servername: www.nvidia.com
   tls: true
   type: vless
   udp: true
-  uuid: 825c049b-403c-49e0-b60f-379bdb8611e9
-- auth: b504c8ce7f607a6c910ec5209e526b7e
-  name: 🇯🇵 日本 | JPN 2
-  password: b504c8ce7f607a6c910ec5209e526b7e
-  port: 38888
-  server: 177.2.185.222
-  skip-cert-verify: true
-  sni: 177.2.185.222
-  type: hysteria2
+  uuid: fe113f0b-43fa-4662-9403-9f91b53fed1f
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_2|2.5MB/s
+  network: tcp
+  port: '59497'
+  reality-opts:
+    public-key: l7ImR_EgkkLJ4BkITf0eHQcOazxENAz4EL8pQ1k5lko
+    short-id: '!!str d1d28c01d2c3c6'
+  server: 54.178.54.169
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c178adb-54c2-4eaa-8e30-1322d17922c4
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_3|4.3MB/s
+  network: tcp
+  port: '25892'
+  reality-opts:
+    public-key: 20EMD5w9RCv9W_MtV6PfJAcKwSUpRfdQ_uA_UBHggRE
+    short-id: '!!str 9b0f012413fd'
+  server: 52.68.64.80
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31d84170-673e-4653-afaf-0656656be6dc
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 6
+  network: tcp
+  port: 14422
+  reality-opts:
+    public-key: WA02heAP6997PPTwF6hbbFXwbYmXRz1bH2ZXWk6ipEw
+    short-id: '!!str 9b0f012413fd'
+  server: 13.113.195.74
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 75f0b53b-ff3b-483a-b25e-5269b0229d14
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_5|1017KB/s
+  network: tcp
+  port: '58573'
+  reality-opts:
+    public-key: P_qGsMinT163P1KLO6LzedQXEeHimWQ1CrqM4cYkFB8
+    short-id: '!!str 4de17b381e6af2'
+  server: 13.230.140.251
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea3fb423-d86c-461a-9610-cbad189253e2
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 9
+  network: tcp
+  port: 56449
+  reality-opts:
+    public-key: anIR48iTD0Inl1z85396AwMvDhcx9y25DdFsVR896DE
+    short-id: '!!str 25a9435577670327'
+  server: 52.194.211.43
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe855f99-4eb5-4a80-ad48-354649ff1305
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_7|5.1MB/s
+  network: tcp
+  port: '36024'
+  reality-opts:
+    public-key: z1IzZjwLcymnYShSSGE6NkK10-S6aIGbe1_qQotmplU
+    short-id: '!!str d1d28c01d2c3c6'
+  server: 3.112.129.179
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ad407b1-b8f3-4591-ae75-05cf4035e09e
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_8|5.7MB/s
+  network: tcp
+  port: '16611'
+  reality-opts:
+    public-key: cDzA5Efsd52LehcCFXh9bS3eCuj7HQZwau-yjPqLPgQ
+    short-id: '!!str 701b0c5c9dee514d'
+  server: 13.114.89.187
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 059fbe5b-21dc-413f-8f5c-dac39201914c
+  xudp: true
 - client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇯🇵 日本 | JPN
+  network: grpc
+  port: 10032
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 2
+  network: tcp
+  port: 28573
+  reality-opts:
+    public-key: 1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg
+    short-id: '!!str 03653bc03be10c97'
+  server: 18.183.215.124
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 871bfce7-8440-4394-8d82-56b51f20fdad
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇯🇵 日本 | JPN 3
   network: tcp
-  port: 15007
+  port: 32652
   reality-opts:
-    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
-    short-id: '!!str 2c4d005b'
-  server: nian.001.url111.kcloud02.top
-  servername: www.bing.com
+    public-key: 6OOibzbkPmuVsl6LgqgUJ0FLHNEqt4VYSzqygL1GL2w
+    short-id: '!!str b5c421053ba4'
+  server: 13.114.63.132
+  servername: www.tesla.com
   tls: true
   type: vless
   udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  uuid: 5bf65fa6-d8af-4932-970e-a13d444a24af
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 4
+  network: tcp
+  port: 23082
+  reality-opts:
+    public-key: lbFqrC1Be1nP6BceqztrFDBENdxyQzAdjj_bOmZB8nc
+    short-id: '!!str e064889ce12c46f0'
+  server: 18.179.7.11
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 66f9ea74-295d-425c-af01-331161bae8d9
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 5
+  network: tcp
+  port: 29860
+  reality-opts:
+    public-key: g7I81MzpM7J6K9WLbZdaMPS9We6GYeeNY3EKRvyiKW4
+    short-id: '!!str c992a34f288be189'
+  server: 3.112.47.207
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7460547d-e83c-4843-b404-9142b22261a7
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇯🇵 日本 | JPN 7
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp6-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇯🇵 日本 | JPN 8
+  network: grpc
+  port: 10033
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp3-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31

@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇪🇪 爱沙尼亚 | EST
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DM3bRAvFPKomKjjmatlS2dH5VYZnUkPHw0BmA40kI2k
+    short-id: '!!str 0f4daaf87f9dff'
+  server: 46.8.210.143
+  servername: smartcaptcha.yandexcloud.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7a322a80-b9ae-0007-bec7-affed230a484

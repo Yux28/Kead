@@ -1,23 +1,14 @@
 proxies:
-- name: 🇸🇪SE_1|2.9MB/s
-  password: None
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇪 瑞典 | SWE
   network: tcp
   port: 443
   reality-opts:
-    public-key: pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ
-    short-id: '!!str 0f4dacf89993e21f'
-  server: 84.32.106.178
-  servername: sw.api-yandex.net
+    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+  server: 89.124.251.166
+  servername: d.tranzit-net.ru
   tls: true
   type: vless
   udp: true
-  uuid: 4928c901-be72-4f81-8d59-091ce9e01692
+  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb

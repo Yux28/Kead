@@ -1,23 +1,15 @@
 proxies:
-- name: 🇨🇭CH_1|4.4MB/s
-  password: None
-  port: 7272
-  server: 212.65.190.199
-  type: http
-  username: null
-- name: 🇨🇭CH_2|2.8MB/s
-  password: None
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- auth: 84a506ca5aca505696a454d828420b3f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 🇨🇭 瑞士 | CHE
-  password: 84a506ca5aca505696a454d828420b3f
-  port: 50160
-  server: 140.238.213.114
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: PMYLdOtnvW-ca8Zf6u7CFgGXoGXCvmCMPerPjGY3AAc
+    short-id: '!!str 77d7abe2c55892f1'
+  server: 45.90.58.216
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e8077d9-7bd9-444b-b2e3-de940d2eb35e
