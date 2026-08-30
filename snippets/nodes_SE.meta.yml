@@ -5,10 +5,11 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-  server: 89.124.251.166
-  servername: d.tranzit-net.ru
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: '!!str 00bca5982f82d083'
+  server: 31.76.69.40
+  servername: eu-central.cendora.ru
   tls: true
   type: vless
   udp: true
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f

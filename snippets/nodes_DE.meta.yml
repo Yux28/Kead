@@ -1,137 +1,165 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
-  grpc-opts:
-    grpc-service-name: b21a4d915b94
-  name: 🇩🇪DE_1|1.7MB/s
-  network: grpc
-  port: '8443'
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 8
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: tzOeyllk2VtPXZ_BJ2lOZcGtsnn41ZHBa9dE6s9sFiQ
-    short-id: '!!str c8c75aaf699259b4'
-  server: 159.195.242.180
-  servername: at2.tsumshop.org
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: '!!str 4da5d1853f04af6d'
+  server: rrr.windconnect.pro
+  servername: rrr.windconnect.pro
   tls: true
   type: vless
   udp: true
-  uuid: 82d145c1-d691-4eef-9de1-9c316db4859a
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
   xudp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇳🇱 荷兰 | NLD 6
-  network: ws
-  port: 443
-  server: 130.185.122.177
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f232d454-b014-4e00-a7ae-430341909db4
-  ws-opts:
-    headers:
-      Host: 130.185.122.177
-    path: /
-  xudp: true
-- name: 🇩🇪DE_4|1.1MB/s
+- name: 🇩🇪DE_2|1.1MB/s
   password: None
   port: 11111
   server: 103.237.102.191
   type: http
   username: null
-- name: 🇩🇪DE_5|4.3MB/s
+- name: 🇩🇪DE_3|4.9MB/s
   port: 11000
   server: 116.202.172.187
   type: http
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_6|1.3MB/s
-  network: grpc
-  port: '2054'
-  reality-opts:
-    public-key: ZiTQKF9QGeU4kt3NGbfwDa9n1TQ9l-p4ZhAUx94oQBc
-    short-id: '!!str 46a38b73a4ed4ccd'
-  server: 185.233.104.77
-  servername: www.ibm.com
+- name: 🇩🇪DE_4|2.8MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|1.6MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_6|1.9MB/s
+  password: None
+  port: 443
+  server: 141.17.83.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_7|2.1MB/s
+  network: ws
+  port: '443'
+  server: 216.24.57.15
+  servername: four04-rd37.onrender.com
   tls: true
   type: vless
   udp: true
-  uuid: 82d145c1-d691-4eef-9de1-9c316db4859a
+  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
+  ws-opts:
+    headers:
+      Host: four04-rd37.onrender.com
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefox
   xudp: true
-- name: 🇩🇪 德国 | DEU 2
+- auth: 523486c6-c0b5-4e5b-8896-4af2375b41cc
+  name: 🇩🇪 德国 | DEU
+  password: 523486c6-c0b5-4e5b-8896-4af2375b41cc
+  port: 8443
+  server: 31.76.70.107
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  type: hysteria2
+- auth: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  name: 🇩🇪 德国 | DEU 2
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  port: 443
+  server: fin14qr.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fin14qr.wwwinternetvideo.click
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 3
+  network: tcp
+  port: 20995
+  reality-opts:
+    public-key: GqIZ3PiZBcvHMfXhk7BDZMWhF2Q4FrGVW9sgkllXkA4
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 159.69.28.178
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C819rM4M_c473A8glp-eBFh8Fm9O1cmEeXmivDhM1Fc
+  server: 217.60.183.220
+  servername: v.expres.fr-1.keshe-voz.pw
+  tls: true
+  type: vless
+  udp: true
+  uuid: c124a209-d949-4951-8234-e2d918b3e6c0
+- encryption: mlkem768x25519plus.native.0rtt.hew1F9CYPLUZiTdwAGVxEDx99Ywva4Q6UgfAVZhw28nC3xjKOUR9qsEO9sKs1vMRH6qFzzhpR_GD8II6mEoozjF-DDtNUcQlgbVy44qmzWW2rENt_NbA1bScfsNwK1kMPsc63wwgx1xxaCg3M-wEp6YKKXVxeKej3UmLzUFzk2MTVHioBUCnHoFnZnAGXiGfW8p8-CIBRkdpBggzFOQAUzuLL3h8-NW1dst86Mgj-bKToMBxxZQbntnLbBhJB9YiIyhWKlqaC4HH8Ic_-zKgAwabJcihXryapvIDwlEXCCfANaY6dOiDm1oG4vC3_Rc1GuWqZXgOjKE9fUKY0Cy08TWUagl0qbDFukMTR7mEN_N-7HN_qFF_UZqTmIjOUDCLxVQj4veEdEBXkZV9XbYNMHS3kqug3bcpIeh7beDH7aOC9XW3UrEKWwC9xpF1uFpvEcwz5pIOrVFBuMAnWAtaElSd7itKjdAzcYCPE9sTI7GDOWWZP7ddffx2umobaCeJSzenihwom3EEasN_zPUR7DeJcfFz8Gt-EsMwUThIXURn3_eOdZnCTsM8U2d_VdNIDhO_FMiZsqIfAFONNhXJSlm1DjfHCPOUtXcMqqFcyiuugRNlQCTL8_idd_Ii62s3enLLjwBZkjehmxEZDcRPiRGF_zdbAxAZUAysOttHsvEKRLq4HLMx78UuGgIrIqJbWFQIybqeXKsuVINp5DW6cYBAALopPNF951ITeClMVsaRLdZ9FBQ4DBFWWiav9EYpYcylgIOpQMJobDqfjIqH4TlBUPSvwrgMhwGsLZNEQ_q21KCxNuyrQDGv0QHDSRiLDjpTiMkvwNFEhZJkq1CD7ESRfLeSmaUCLzE0ssgL6SJmwzADz0gRkWp-lnM2tEHEF6uPlDRvLxpI0jpPj3Qth0qZQzAmucpT-1RGnlBf8YOfTYKPAXMS8CnB82kvAvhd-aUUK-BMwwq0eQq1YtU4kmUIU_zAjpemesvIqrpN4Vs1WUDNuTyWAsKSt6F3E1GSiOYJCYN9ntEdozeoE8FYBEFbg4xJxYVfJDKGQ-CMf9vIB8bMjhkqTiVOO_InesRl3idT9yIjk3dVBbu5jBGjW_QgNZFFbEcqICLPl6u1tCx_VyGbFhYv4iRVU9xXLFa1lsAJo7pC2DZreIuh2Va-YtcEX3qWThU8tdVEBGNCHGxQW6saRrKFEJJfPwAFHeyDyPYgQvAQF8LIUJJHmSA3FSJafcSGeUmQGeywPihEBizORLcSQJktPGGz6bMw8csPLbo2CNcm4FrNG3DOWEGNSMtS1OxTuRKk-JFA_SNnPCDJrWR2h9BycbPCRKkZZ6IN16kVMkxvTxo5XpODfpYMM5GCblB8ivQPdZl048mNO1eGGaybnvB8hFrChGKDROqTLFAe9CyBdZNDvfzIKnfK1XAnm8lo0WxqZrPEUOZvR-HAl0O-5SkBHmBEPFQZwVGIPTZ8_QkDVntKF-OZY5sAAhRiC-ukg6F4FKd8v_c0jNGQTvhUnvKIJqWZ68gGUqy0pwy7TQHwmHRuOmkiWTrU03uAbIBzZkVaUEaUTsWaUIQ
+  name: 🇩🇪 德国 | DEU 5
+  network: xhttp
+  port: 10443
+  server: 31.76.106.36
+  tls: false
+  type: vless
+  udp: true
+  uuid: f77fdea5-e50f-4766-89b1-d0cd6ada7dae
+  xhttp-opts:
+    host: s3.storage.selcloud.ru
+    mode: stream-up
+    path: /my-bucket
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 6
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: '!!str 4fa44664f6a566d3'
+  server: 45.95.96.225
+  servername: germany.superbuba.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
+- http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    method: GET
+    path:
+    - /
+  name: 🇩🇪 德国 | DEU 10
+  network: http
+  port: 61169
+  server: alman2.pythonsaz.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: c4ee7a89-eb01-462c-84d2-67e3fcdd5812
+- name: 🇩🇪 德国 | DEU 12
   network: ws
   port: 80
   server: 146.75.119.82
   tls: false
   type: vless
   udp: true
-  uuid: 4ac953d2-a5ec-4a53-ab56-6aee7429c1b4
+  uuid: 4a49c0ba-3d57-48df-bfa4-99fcb9edac56
   ws-opts:
     headers:
       Host: rb24.ir
-    path: /ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: '!!str d68d40aba9c0394a'
-  server: 31.76.71.133
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d900a139-8b5f-4758-8a32-389c6f36fc86
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: '!!str d68d40aba9c0394a'
-  server: 31.76.71.133
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: '!!str ff776ff77be48b88'
-  server: 138.124.8.117
-  servername: fin2.helper-internet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 8
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: '!!str ff776ff77be48b88'
-  server: fin2.helper-internet.com
-  servername: fin2.helper-internet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 10
-  password: iibqDfY-xDEyF0J8ntYH28gLob2ycGgy
-  port: 102
-  server: 135.106.198.25
-  type: ss
-  udp: true
+    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
