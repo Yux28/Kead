@@ -1,10 +1,22 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|4.4MB/s
+  name: 🇯🇵 日本 | JPN
   network: tcp
-  port: '15007'
+  port: 42635
+  reality-opts:
+    public-key: Zasj_Tu2GbBtMqnYXrEFd6mE5OtRpna2EUWzaVoipjI
+    short-id: '!!str 542c8d39a816'
+  server: rbalytavhhksrbgdx.jiedddym.com
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 0234cdd9-35ee-40a5-b698-9820f09a04f5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 2
+  network: tcp
+  port: 15007
   reality-opts:
     public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
     short-id: '!!str 2c4d005b'
@@ -14,45 +26,17 @@ proxies:
   type: vless
   udp: true
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN
-  network: tcp
-  port: 55596
-  reality-opts:
-    public-key: QQUHUyF5Wb3XeRRrky-WOaRTxBtHokNaMec02HURWSI
-    short-id: '!!str 6ac09686189038'
-  server: 206.251.54.34
-  servername: www.amd.com
-  tls: true
-  type: vless
-  uuid: 9fc6444b-987a-41d5-9bf5-195d147e0a05
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 2
-  network: tcp
-  port: 47571
-  reality-opts:
-    public-key: OyfEDzOiDM5eMvTacJ4bVhF1V0QZgvz-vP3K456l3W4
-    short-id: '!!str 4c8b46e500b0f3ad'
-  server: 35.78.59.6
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88a67610-b7ae-42ba-8af0-29cfa54cef37
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇯🇵 日本 | JPN 3
   network: tcp
-  port: 27898
+  port: 15007
   reality-opts:
-    public-key: Pd8NKW1KgKjHl6lzGTB3qIAThLbT7alN_I1uIbAQrxA
-    short-id: '!!str 9e638ff3d3d9265c'
-  server: 54.95.137.141
-  servername: www.amd.com
+    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
+    short-id: '!!str 2c4d005b'
+  server: 82.38.46.66
+  servername: www.bing.com
   tls: true
   type: vless
   udp: true
-  uuid: 40a726db-6815-44de-9c2f-80e7bfb8f81c
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86

@@ -1,25 +1,15 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇹🇼TW_1|4.5MB/s
-  port: 24215
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  server: hinet1.2yly.com
-  servername: addons.mozilla.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-- client-fingerprint: firefox
   name: 🇹🇼 🇨🇳 台湾 | TWN
-  network: tcp
-  port: 24215
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  server: 118.167.224.189
-  servername: addons.mozilla.org
+  network: ws
+  port: 443
+  server: 60.248.219.52
+  servername: ty986gfazs.cainiaohub.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  uuid: f265b49a-70a3-407a-b17b-e45dfb9f255c
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530

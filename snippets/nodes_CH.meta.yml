@@ -1,5 +1,5 @@
 proxies:
-- name: 🇨🇭CH_1|2.0MB/s
+- name: 🇨🇭CH_1|2.6MB/s
   password: None
   port: 443
   server: 31.7.62.50
@@ -8,17 +8,31 @@ proxies:
   type: http
   username: null
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
   name: 🇨🇭 瑞士 | CHE
   network: tcp
   port: 443
   reality-opts:
     public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-  server: de48.tranzit-net.ru
+  server: 159.200.230.117
   servername: d.tranzit-net.ru
   tls: true
   type: vless
   udp: true
   uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
-  xudp: true
+- auth: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  name: 🇨🇭 瑞士 | CHE 2
+  password: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  port: 5002
+  server: 31.76.4.128
+  skip-cert-verify: true
+  sni: fi.aeternavpn.space
+  type: hysteria2
+- auth: 84a506ca5aca505696a454d828420b3f
+  name: 🇨🇭 瑞士 | CHE 3
+  password: 84a506ca5aca505696a454d828420b3f
+  port: 50160
+  server: 140.238.213.114
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2

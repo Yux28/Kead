@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 | DEU 5
+  password: tpuWvAQtjd-Mvvk81l7OLg
+  port: 8243
+  server: cdn-2d12.giftcardbazarbot.com
+  type: ss
+  udp: true

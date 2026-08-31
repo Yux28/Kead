@@ -1,4 +1,19 @@
 proxies:
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇸🇪 瑞典 | SWE 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8HYqDHdQ1IuLPhAOENT70_j0prAi1PNkwlT6venYAEM
+    short-id: '!!str a78da1f7'
+  server: app1.jarvestip.ru
+  servername: app1.jarvestip.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84491c04-b011-4fdc-b97d-770975586f3a
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇪 瑞典 | SWE
@@ -13,3 +28,34 @@ proxies:
   type: vless
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 瑞典 | SWE 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8HYqDHdQ1IuLPhAOENT70_j0prAi1PNkwlT6venYAEM
+    short-id: '!!str a78da1f7'
+  server: 50.7.95.195
+  servername: app1.jarvestip.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84491c04-b011-4fdc-b97d-770975586f3a
+- client-fingerprint: random
+  name: 🇸🇪 瑞典 | SWE 3
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str f79448a30d'
+  server: se-xh01.tcp-reset-club.net
+  servername: s3.netavex.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0678ed07-980a-49c1-9066-05caec654967
+  xhttp-opts:
+    host: s3.netavex.com
+    mode: packet-up
+    path: /assets/v2/pkg
