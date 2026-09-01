@@ -1,149 +1,196 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国 | USA 35
-  network: tcp
+- client-fingerprint: random
+  name: 🇸🇪 瑞典 | SWE
+  network: xhttp
   port: 443
   reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: '!!str 4da5d1853f04af6d'
-  server: 31.76.71.140
-  servername: rrr.windconnect.pro
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str f79448a30d'
+  server: se-xh01.tcp-reset-club.net
+  servername: s3.netavex.com
   tls: true
   type: vless
   udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- name: 🇩🇪DE_2|4.7MB/s
-  port: 9099
-  server: 213.109.162.200
+  uuid: 0678ed07-980a-49c1-9066-05caec654967
+  xhttp-opts:
+    host: s3.netavex.com
+    mode: packet-up
+    path: /assets/v2/pkg
+- name: 🇩🇪DE_2|3.2MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
   type: http
-- name: 🇩🇪DE_3|4.4MB/s
-  port: 80
-  server: 193.37.70.182
+  username: null
+- name: 🇩🇪DE_3|1.9MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
   type: http
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_4|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
+    short-id: '!!str 09ef88a6'
+  server: app4.goonars.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_5|1.1MB/s
+  network: ws
+  port: '2087'
+  server: 188.220.67.181
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_6|1.1MB/s
+  network: ws
+  port: '2087'
+  server: 188.220.67.224
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_7|1.3MB/s
+  network: ws
+  port: '2087'
+  server: 188.220.67.245
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪 德国 | DEU 2
+  name: 🇩🇪DE_8|3.3MB/s
+  network: ws
+  port: '443'
+  server: 8.6.112.0
+  servername: cf6.rumedia-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  ws-opts:
+    headers:
+      Host: cf6.rumedia-cdn.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /cdn/v3/live
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_9|4.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
+    short-id: '!!str f0eb800bd980b00b'
+  server: nbg.edgeptr.org
+  servername: www.lovelive-anime.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6097ffb6-8022-4c86-b5d5-9c2aeab5f19d
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_10|3.8MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY
+    short-id: '!!str '
+  server: 212.233.121.169
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2b4683b8-c5ac-45a0-afe1-1f3dbb62fcfa
+  xudp: true
+- alpn:
+  - h3
+  auth: clz08qwil91241w7
+  name: 🇩🇪 德国 | DEU
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: clz08qwil91241w7
+  port: 52064
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: true
+  sni: giftcard.gateway-stream.com
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 3
   network: ws
   port: 443
-  server: 140.248.186.45
+  server: 151.101.56.6
   servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: d499fa8c-2e14-4bd5-a3ca-73fae7f04cb5
   ws-opts:
     headers:
-      Host: Appxdn.global.ssl.fastly.net
+      Host: c12.com
     path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU
-  network: xhttp
-  port: 443
-  server: www.speedtest.net
-  servername: e9abdf3df549b59f-gr2.aliyoStd.sitE.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: edge-dgskj2v37hkd82n-sslhost.aliyOstd.sitE.
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: '!!str 4fa44664f6a566d3'
-  server: 45.95.96.225
-  servername: germany.superbuba.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU 5
-  password: tpuWvAQtjd-Mvvk81l7OLg
-  port: 8243
-  server: cdn-2d12.giftcardbazarbot.com
-  type: ss
-  udp: true
-- auth: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  name: 🇩🇪 德国 | DEU 6
-  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  port: 443
-  server: 144.31.148.87
-  skip-cert-verify: true
-  sni: replay.wwwinternetvideo.click
-  type: hysteria2
-- client-fingerprint: qq
-  name: 🇩🇪 德国 | DEU 7
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
-    short-id: '!!str 2b5b1ffa8a6a1a68'
-  server: 178.236.254.174
-  servername: ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: ya.ru
-    path: /web/cdn/v2/assets
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 8
-  network: tcp
-  port: 5000
-  reality-opts:
-    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
-    short-id: '!!str a1b2c3d4'
-  server: 80.96.109.223
-  servername: special.aeternavpn.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-- name: 🇩🇪 德国 | DEU 9
+- name: 🇩🇪 德国 | DEU 5
   network: ws
-  port: 80
-  server: 146.75.119.82
+  port: 2087
+  server: 188.220.67.140
   tls: false
   type: vless
   udp: true
-  uuid: ea03b5e4-6b21-4fb1-b42e-de2ac9467b8f
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
-    headers:
-      Host: rb24.ir
-    path: /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+    path: /8f2690e2d016
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 10
+  name: 🇩🇪 德国 | DEU 6
   network: tcp
-  port: 443
+  port: 5000
   reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: '!!str ff776ff77be48b88'
-  server: 138.124.8.117
-  servername: fin2.helper-internet.com
+    public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs
+    short-id: '!!str a1b2c3d4'
+  server: 31.77.183.88
+  servername: max.ru
   tls: true
   type: vless
   udp: true
-  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
-- auth: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  name: 🇩🇪 德国 | DEU 11
-  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  port: 443
-  server: replay.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: replay.wwwinternetvideo.click
-  type: hysteria2
+  uuid: 74f73fb2-49cc-4744-bd37-97c5f83963ab

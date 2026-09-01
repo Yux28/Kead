@@ -1,1 +1,82 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 2
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0f2a8df7-6119-496d-aef8-45ff837cf9ec
+  ws-opts:
+    headers:
+      Host: 236be42fc5d210917a1ecf890328e104.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_2|2.5MB/s
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 56174c24-a84b-4caf-b033-739728cc2773
+  ws-opts:
+    headers:
+      Host: af47ea9d24759da2ccb4dbdb6c4bb073.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_3|1.6MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6605fd88-f41c-4c2a-90ee-6777ac0a32a2
+  ws-opts:
+    headers:
+      Host: 052977cd32d141678a739f13963d57ac.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇭🇰HK_4|3.5MB/s
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  type: vmess
+  uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
+  ws-opts:
+    headers:
+      Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
+    path: /
+- name: 🇭🇰HK_6|4.4MB/s
+  password: 302cf77d-6fb7-4ac8-ae61-88e286340d59
+  port: 50222
+  server: hk03.qianmoip.win
+  skip-cert-verify: true
+  sni: taobao.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8ed52c4d-1fe1-4c08-b46f-ca8eb2729cb9
+  ws-opts:
+    headers:
+      Host: f406e32143bc023a8819a6335733f851.mobgslb.tbcache.com
+    path: /

@@ -1,34 +1,25 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN
-  network: tcp
-  port: 42635
-  reality-opts:
-    public-key: Zasj_Tu2GbBtMqnYXrEFd6mE5OtRpna2EUWzaVoipjI
-    short-id: '!!str 542c8d39a816'
-  server: rbalytavhhksrbgdx.jiedddym.com
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 0234cdd9-35ee-40a5-b698-9820f09a04f5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 2
-  network: tcp
-  port: 15007
-  reality-opts:
-    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
-    short-id: '!!str 2c4d005b'
-  server: nian.001.url111.kcloud02.top
-  servername: www.bing.com
+  encryption: none
+  name: 🇯🇵JP_1|4.7MB/s
+  network: ws
+  port: '443'
+  server: wangcai.cf.877774.xyz
+  servername: ex3r.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- client-fingerprint: firefox
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  ws-opts:
+    headers:
+      Host: ex3r.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /sg-orcl
+  xudp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 3
+  name: 🇯🇵 日本 | JPN
   network: tcp
   port: 15007
   reality-opts:

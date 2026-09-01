@@ -1,26 +1,16 @@
 proxies:
-- client-fingerprint: edge
-  encryption: none
-  name: 🇷🇺 俄罗斯 | RUS
-  network: xhttp
-  port: 40000
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|2.9MB/s
+  network: tcp
+  port: '40443'
   reality-opts:
-    public-key: vqnE1wKOqp4JXotgCl4SI2CBJ7ys3080cZjL83r9pmE
-    short-id: '!!str 49443d1a'
-  server: rua02.333210.best
-  servername: aws.amazon.com
+    public-key: ZSzB9TQPGNcCiC0WLmciF5Jc8doJDvdRgbqTi8SCoEM
+    short-id: '!!str a1b2c3d4e5f6789a'
+  server: z0211mq18-z3rk.ru-a1.y-tun.com
+  servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: e103b504-eb8c-4ddb-8c60-9921133e77d4
-  xhttp-opts:
-    host: aws.amazon.com
-    mode: auto
-    path: /
+  uuid: 3499f741-a304-4212-8bb9-4d809e154e28
   xudp: true
-- name: 🇷🇺RU_2|1.6MB/s
-  password: None
-  port: 8120
-  server: 46.148.234.53
-  type: http
-  username: null
