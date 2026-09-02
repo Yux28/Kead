@@ -1,10 +1,17 @@
 proxies:
-- name: 🇹🇼TW_1|4.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 33368
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: tw01.swiftrelay.cc
+  type: anytls
+  udp: true
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 443
+  server: tw74.cybergalaxy.me
+  skip-cert-verify: true
+  sni: tw74.cybergalaxy.me
+  type: anytls
+  udp: true

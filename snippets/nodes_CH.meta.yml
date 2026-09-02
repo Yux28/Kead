@@ -1,7 +1,22 @@
 proxies:
-- name: 🇨🇭CH_1|2.0MB/s
+- name: 🇨🇭CH_1|3.4MB/s
   password: None
-  port: 7272
-  server: 212.65.190.199
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
   type: http
   username: null
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭 瑞士 | CHE
+  network: tcp
+  port: 25301
+  reality-opts:
+    public-key: IrWojZI-Pu5n8iCeKuwgHoI2CQbjJSV7mZ63Tm46bUE
+    short-id: '!!str d25aa4409e4940d8'
+  server: ch.sixseven.network
+  servername: proxy11.h1guro.ovh
+  tls: true
+  type: vless
+  uuid: 62a05f8e-eedf-4500-8c79-c9315f565bcc

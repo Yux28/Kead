@@ -1,31 +1,11 @@
 proxies:
-- name: 🇬🇧GB_1|4.1MB/s
+- name: 🇬🇧GB_1|2.3MB/s
   port: 443
   server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|3.0MB/s
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|2.4MB/s
-  password: None
-  port: 443
-  server: 193.36.118.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|3.2MB/s
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|3.3MB/s
+- name: 🇬🇧GB_2|3.7MB/s
   password: None
   port: 443
   server: 185.235.0.2
@@ -33,24 +13,23 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_6|3.9MB/s
-  password: None
-  port: 3118
-  server: 154.61.56.215
+- name: 🇬🇧GB_3|2.2MB/s
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
   type: http
-  username: null
-- name: 🇬🇧GB_7|1.6MB/s
+- name: 🇬🇧GB_4|2.2MB/s
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_5|1.2MB/s
   password: None
   port: 443
-  server: 185.235.0.66
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- cipher: aes-256-cfb
-  name: 🇬🇧 英国 | GBR
-  password: amazonskr05
-  port: 443
-  server: 18.132.203.206
-  type: ss
-  udp: true

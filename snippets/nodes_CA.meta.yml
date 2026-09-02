@@ -1,21 +1,16 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇨🇦 加拿大 | CAN 2
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: SfFw8nx4WUjN5xs-4-al4coSfu31GWgWTpTJiwse420
-  server: 155.248.229.115
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
 - cipher: aes-256-cfb
   name: 🇨🇦 加拿大 | CAN
   password: amazonskr05
   port: 443
   server: 3.96.124.46
   type: ss
+  udp: true
+- name: 🇨🇦 加拿大 | CAN 2
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 16011
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: jnd0111.swiftrelay.cc
+  type: anytls
   udp: true

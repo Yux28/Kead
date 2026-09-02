@@ -1,79 +1,10 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬SG_1|4.8MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: fls-bbg--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/F-ls
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇸🇬SG_2|5.5MB/s
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|4.1MB/s
-  network: ws
-  port: '443'
-  server: 188.164.248.67
-  servername: vp21.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp21.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇸🇬 新加坡 | SGP
-  network: ws
-  port: 2082
-  server: 162.159.43.187
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- auth: 19f72087-4591-4d72-930b-2697078ec2be
-  name: 🇸🇬 新加坡 | SGP 2
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 1933
-  server: sg1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
-  type: hysteria2
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇸🇬 新加坡 | SGP 3
+  name: 🇸🇬SG_1|5.3MB/s
   network: grpc
   port: 10039
   reality-opts:
@@ -83,10 +14,10 @@ proxies:
   servername: d1.awsstatic.com
   tls: true
   type: vless
-  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-- client-fingerprint: firefox
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP 4
+  name: 🇸🇬 新加坡 | SGP
   network: tcp
   port: 8444
   reality-opts:
@@ -95,5 +26,41 @@ proxies:
   servername: tesla.com
   tls: true
   type: vless
+  uuid: 4a9c7489-045f-4ff1-ba94-0502e69a8b26
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬 新加坡 | SGP 2
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+- auth: 436114b5f36b2e704bdfa0927d57b6cd
+  name: 🇸🇬 新加坡 | SGP 3
+  password: 436114b5f36b2e704bdfa0927d57b6cd
+  port: 50160
+  server: 47.241.108.227
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 | SGP 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M4VxY_IPnii4ldlg9Z3Av6VZ_lpC-njSq_JnRBSUM1s
+    short-id: '!!str 8e5a820d'
+  server: do2sg1xxx.87544899.xyz
+  servername: bod.changiairport.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
+  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94

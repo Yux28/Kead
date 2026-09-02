@@ -1,52 +1,24 @@
 proxies:
-- client-fingerprint: random
-  name: 🇸🇪 瑞典 | SWE
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: '!!str f79448a30d'
-  server: se-xh01.tcp-reset-club.net
-  servername: s3.netavex.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-  xhttp-opts:
-    host: s3.netavex.com
-    mode: packet-up
-    path: /assets/v2/pkg
-- name: 🇩🇪DE_2|3.2MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_3|1.9MB/s
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|2.6MB/s
+  name: 🇩🇪 德国 | DEU 4
   network: tcp
-  port: '443'
+  port: 101
   reality-opts:
-    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
-    short-id: '!!str 09ef88a6'
-  server: app4.goonars.com
+    public-key: VxFkVk2SKEQrRnBnhzvl29UpHlS2i5t6Is__HGPmuRU
+    short-id: '!!str 03e5ac759d2e7e90'
+  server: 49.12.244.56
+  servername: amp-api-edge.apps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
+  uuid: 40c81dcc-bc8a-4690-abdf-75ea8530234b
   xudp: true
 - encryption: none
-  name: 🇩🇪DE_5|1.1MB/s
+  name: 🇩🇪DE_2|1.1MB/s
   network: ws
   port: '2087'
   server: 188.220.67.181
@@ -56,15 +28,30 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /8f2690e2d016
   xudp: true
 - encryption: none
-  name: 🇩🇪DE_6|1.1MB/s
+  http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    path:
+    - /
+  name: 🇩🇪DE_3|3.0MB/s
+  network: http
+  port: '28111'
+  server: tp.paydar.site
+  type: vless
+  udp: true
+  uuid: 82c6792a-ea57-42a1-9b7c-eca252d0b8ea
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_4|1.3MB/s
   network: ws
   port: '2087'
-  server: 188.220.67.224
+  server: 188.220.67.140
   type: vless
   udp: true
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
@@ -72,125 +59,114 @@ proxies:
     headers:
       Host: ''
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
     path: /8f2690e2d016
   xudp: true
+- name: 🇩🇪DE_5|1.0MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- name: 🇩🇪DE_6|1.8MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|3.7MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_8|4.1MB/s
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 159.195.137.29
+  servername: sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ae1bbd2-dd81-4737-bbec-6a8c1c74e8f1
+  xudp: true
 - encryption: none
-  name: 🇩🇪DE_7|1.3MB/s
+  name: 🇩🇪DE_9|1.0MB/s
   network: ws
   port: '2087'
-  server: 188.220.67.245
+  server: 188.220.67.161
   type: vless
   udp: true
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
     path: /8f2690e2d016
   xudp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: ZRTNgwFRP8viY4SQOgPTfWlLWJCwY3dr0aawA7vHwhU
+    short-id: '!!str a1b2c3d4e5f6a7b8'
+  server: 2.27.205.136
+  servername: xnod5x.artemida.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: e03a3489-b7e3-4a9b-9017-f8d4c720401e
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_8|3.3MB/s
-  network: ws
-  port: '443'
-  server: 8.6.112.0
-  servername: cf6.rumedia-cdn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
-  ws-opts:
-    headers:
-      Host: cf6.rumedia-cdn.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /cdn/v3/live
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|4.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
-    short-id: '!!str f0eb800bd980b00b'
-  server: nbg.edgeptr.org
-  servername: www.lovelive-anime.jp
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6097ffb6-8022-4c86-b5d5-9c2aeab5f19d
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_10|3.8MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY
-    short-id: '!!str '
-  server: 212.233.121.169
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b4683b8-c5ac-45a0-afe1-1f3dbb62fcfa
-  xudp: true
-- alpn:
-  - h3
-  auth: clz08qwil91241w7
-  name: 🇩🇪 德国 | DEU
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: clz08qwil91241w7
-  port: 52064
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: true
-  sni: giftcard.gateway-stream.com
-  type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 3
+  name: 🇩🇪 德国 | DEU 2
   network: ws
   port: 443
-  server: 151.101.56.6
+  server: 199.232.78.160
   servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: d499fa8c-2e14-4bd5-a3ca-73fae7f04cb5
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: c12.com
+      Host: Appxdn.global.ssl.fastly.net
     path: /
-- name: 🇩🇪 德国 | DEU 5
-  network: ws
-  port: 2087
-  server: 188.220.67.140
-  tls: false
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 3
+  network: tcp
+  port: 5001
+  reality-opts:
+    public-key: HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ
+    short-id: '!!str a1b2c3d4'
+  server: 31.76.4.128
+  servername: fi.aeternavpn.space
+  tls: true
   type: vless
-  udp: true
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    path: /8f2690e2d016
+  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 6
+  name: 🇩🇪 德国 | DEU 5
   network: tcp
-  port: 5000
+  port: 12443
   reality-opts:
-    public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs
+    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
     short-id: '!!str a1b2c3d4'
-  server: 31.77.183.88
-  servername: max.ru
+  server: 31.77.220.185
+  servername: special.aeternavpn.space
   tls: true
   type: vless
   udp: true
-  uuid: 74f73fb2-49cc-4744-bd37-97c5f83963ab
+  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
