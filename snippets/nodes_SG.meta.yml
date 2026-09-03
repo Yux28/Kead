@@ -1,66 +1,31 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇸🇬SG_1|5.3MB/s
+  name: 🇸🇬 新加坡 | SGP
   network: grpc
-  port: 10039
+  port: 10040
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
-  server: sg4-r.link-t7.com
+  server: sg5-r.link-t7.com
   servername: d1.awsstatic.com
   tls: true
   type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-  server: 140.245.109.76
-  servername: tesla.com
-  tls: true
-  type: vless
-  uuid: 4a9c7489-045f-4ff1-ba94-0502e69a8b26
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
   name: 🇸🇬 新加坡 | SGP 2
   network: grpc
-  port: 10036
+  port: 10040
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
+  server: sg5-r.link-t7.com
+  servername: d1.awsstatic.com
   tls: true
   type: vless
-  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-- auth: 436114b5f36b2e704bdfa0927d57b6cd
-  name: 🇸🇬 新加坡 | SGP 3
-  password: 436114b5f36b2e704bdfa0927d57b6cd
-  port: 50160
-  server: 47.241.108.227
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP 4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M4VxY_IPnii4ldlg9Z3Av6VZ_lpC-njSq_JnRBSUM1s
-    short-id: '!!str 8e5a820d'
-  server: do2sg1xxx.87544899.xyz
-  servername: bod.changiairport.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6

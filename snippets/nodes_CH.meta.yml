@@ -1,22 +1,19 @@
 proxies:
-- name: 🇨🇭CH_1|3.4MB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇭 瑞士 | CHE
-  network: tcp
-  port: 25301
+  encryption: none
+  name: 🇨🇭CH_1|2.8MB/s
+  network: xhttp
+  port: '443'
   reality-opts:
-    public-key: IrWojZI-Pu5n8iCeKuwgHoI2CQbjJSV7mZ63Tm46bUE
-    short-id: '!!str d25aa4409e4940d8'
-  server: ch.sixseven.network
-  servername: proxy11.h1guro.ovh
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str f79448a30d'
+  server: ch-xh01.tcp-reset-club.net
+  servername: s3.netavex.com
   tls: true
   type: vless
-  uuid: 62a05f8e-eedf-4500-8c79-c9315f565bcc
+  udp: true
+  uuid: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  xhttp-opts:
+    mode: packet-up
+    path: /assets/v2/pkg
+  xudp: true

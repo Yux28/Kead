@@ -2,8 +2,25 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
+    grpc-service-name: update
+  name: 🇭🇰HK_1|4.6MB/s
+  network: grpc
+  port: 10127
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
     grpc-service-name: movie
-  name: 🇭🇰 香港 | HKG 5
+  name: 🇭🇰 香港 | HKG 2
   network: grpc
   port: 10128
   reality-opts:
@@ -15,35 +32,23 @@ proxies:
   type: vless
   udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_2|5.1MB/s
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
-  ws-opts:
-    headers:
-      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | HKG
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 🇭🇰HK_3|3.9MB/s
+  network: grpc
+  port: '10126'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
-  ws-opts:
-    headers:
-      Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
-    path: /
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -53,76 +58,76 @@ proxies:
   name: 🇭🇰 香港 | HKG 4
   network: grpc
   packet-encoding: xudp
+  port: 10136
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- name: 🇭🇰 香港 | HKG
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 15700
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk18.pulsarcore.site
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG 3
+  network: tcp
+  port: 21000
+  reality-opts:
+    public-key: bxu_fj69tCOtW1R_Kc3NFy1L9PJ0I1wBzOVKZwEW8VA
+  server: x-xg2.xueshan168.cc
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG 5
+  network: tcp
+  port: 16000
+  reality-opts:
+    public-key: bxu_fj69tCOtW1R_Kc3NFy1L9PJ0I1wBzOVKZwEW8VA
+  server: x-xg0.xueshan168.cc
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 🇭🇰 香港 | HKG 6
+  network: grpc
   port: 10130
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
   server: hk5-r.link-t7.com
   servername: s0.awsstatic.com
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- name: 🇭🇰HK_5|4.9MB/s
-  password: abc123
-  port: 1080
-  server: 47.239.98.42
-  type: socks5
-  username: abc123
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇭🇰 香港 | HKG 2
-  network: tcp
-  port: 10043
-  reality-opts:
-    public-key: PGH5Jy0dfgEwQlGGd2YklalRs51yUTvD5j1DZPxKgUw
-    short-id: '!!str 9eafa129b6'
-  server: family.bucket.zjs.a.b.9.kfc-520.com
-  servername: www.adobe.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2564a65-0821-3241-b090-45d49cef58fd
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇭🇰 香港 | HKG 3
-  network: tcp
-  port: 10019
-  reality-opts:
-    public-key: pqXjD4or04GC_CbVnjNLFhJkfxcIXSAbxzLsBad2TCI
-    short-id: '!!str 6b4135b5fd'
-  server: family.bucket.zjs.s.1.kfc-520.com
-  servername: www.sap.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2564a65-0821-3241-b090-45d49cef58fd
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇭🇰 香港 | HKG 6
-  network: tcp
-  port: 10018
-  reality-opts:
-    public-key: __YqMje4P5LY575OvzZjKJddTTn3vI6n0tMsMKCgcRY
-    short-id: '!!str 6cfa2459bb'
-  server: family.bucket.zjs.s.1.kfc-520.com
-  servername: www.sap.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2564a65-0821-3241-b090-45d49cef58fd
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇭🇰 香港 | HKG 7
   network: tcp
-  port: 10015
+  port: 16000
   reality-opts:
-    public-key: ikCB12OSZuP08JB3pfGfS1QE02Xw7Ddm9k1RDS3ZWmE
-    short-id: '!!str e38d'
-  server: family.bucket.zjs.j.1.kfc-520.com
-  servername: www.sony.com
+    public-key: iv3BAoFjlsPSSjOn1cyXVZ3H31KqX65PoJusBEfU0lM
+  server: hkt.xueshan168.cc
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: c2564a65-0821-3241-b090-45d49cef58fd
+  uuid: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
