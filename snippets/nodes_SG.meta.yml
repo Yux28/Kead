@@ -1,31 +1,47 @@
 proxies:
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇸🇬 新加坡 | SGP
-  network: grpc
-  port: 10040
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: sg5-r.link-t7.com
-  servername: d1.awsstatic.com
+  encryption: none
+  name: 🇸🇬SG_1|3.7MB/s
+  network: ws
+  port: '2087'
+  server: 8.35.211.115
+  servername: mysheep.dpdns.org
   tls: true
   type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  udp: true
+  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
+  ws-opts:
+    headers:
+      Host: mysheep.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇸🇬 新加坡 | SGP
+  password: 9d280633-bba9-40e7-92e1-a6f7715e016b
+  port: 7000
+  server: asg2.jueduibupao.top
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
   name: 🇸🇬 新加坡 | SGP 2
-  network: grpc
-  port: 10040
+  network: tcp
+  port: 8686
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: sg5-r.link-t7.com
-  servername: d1.awsstatic.com
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 47.129.63.121
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+- name: 🇸🇬 新加坡 | SGP 3
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 41453
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: yz236.y1static-content-distribution.shop
+  type: anytls
+  udp: true

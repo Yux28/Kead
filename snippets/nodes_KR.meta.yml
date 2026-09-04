@@ -1,9 +1,31 @@
 proxies:
-- name: 🇰🇷 韩国 | KOR
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 31289
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: kr01.lunartrace.io
-  type: anytls
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|4.7MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.138
+  type: ss
   udp: true
+- name: 🇰🇷KR_2|3.7MB/s
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 31433
+  server: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
+  sni: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
+  tls: true
+  type: http
+  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷KR_3|1.7MB/s
+  network: tcp
+  port: '8686'
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 43.201.21.214
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  xudp: true

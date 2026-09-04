@@ -1,84 +1,60 @@
 proxies:
-- client-fingerprint: firefox
-  name: 🇩🇪DE_1|4.1MB/s
-  network: xhttp
-  port: 443
-  server: 188.72.103.4
-  servername: cdn.huananconn.xyz
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_1|3.2MB/s
+  network: ws
+  port: '443'
+  server: 199.232.78.160
+  servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: 9329556f-f4c2-42fe-8859-c52ce5f95c23
-  xhttp-opts:
-    host: cdn.huananconn.xyz
-    mode: packet-up
-    path: /api/v1/assets
-    uplink-http-method: GET
-    x-padding-bytes: 16-64
-    x-padding-header: X-Signature
-    x-padding-key: _token
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
-- name: 🇩🇪 德国 | DEU 7
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 33832
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: de02.swiftrelay.cc
-  type: anytls
-  udp: true
-- encryption: none
-  name: 🇩🇪DE_3|4.7MB/s
-  network: ws
-  port: '80'
-  server: 104.20.18.56
-  type: vless
-  udp: true
-  uuid: 6b8e7f4c-7286-4427-b9aa-e8c96352675d
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: telegram1.freepersianland5.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /eyJqdW5rIjoiTFc3T1JyYU8za2hKIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==?ed=2560
+      Host: Appxdn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇩🇪DE_4|4.9MB/s
-  network: grpc
-  port: '2054'
-  reality-opts:
-    public-key: 0-HIOsSIQTrTYc5PdFT0OSKGBiBUiGrJzgV6ctal8Fg
-    short-id: '!!str '
-  server: 159.195.244.171
-  servername: www.ibm.com
-  tls: true
-  type: vless
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 🇩🇪DE_2|2.3MB/s
+  port: 20088
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
   udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-  xudp: true
-- name: 🇩🇪DE_5|2.8MB/s
+  up: '500'
+- name: 🇩🇪DE_3|3.1MB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 443
-  server: 87.249.132.97
+  server: as-de003.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: as-de003.y1static-content-distribution.shop
+  type: anytls
+  udp: true
+- name: 🇩🇪DE_4|3.0MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|1.6MB/s
-  port: 443
-  server: 141.17.83.73
-  skip-cert-verify: true
-  tls: true
-  type: http
+  username: null
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇩🇪DE_7|4.3MB/s
+  name: 🇩🇪DE_5|3.1MB/s
   network: grpc
-  port: '18443'
+  packet-encoding: xudp
+  port: 18443
   reality-opts:
     public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
     short-id: '!!str 5c766813929a1fdd'
@@ -89,107 +65,73 @@ proxies:
   udp: true
   uuid: ab6a5359-0edf-41c3-8dfd-e4b005e80820
   xudp: true
-- name: 🇩🇪DE_8|3.2MB/s
-  network: ws
-  port: '8880'
-  server: 104.27.82.154
-  type: vless
-  udp: true
-  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
-  ws-opts:
-    headers:
-      Host: old-violet-a5ce.29-440.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪DE_9|2.7MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU
-  network: tcp
-  port: 16000
-  reality-opts:
-    public-key: cMB0tAmD6scVvjRbLVm1IjryKtXM6SDtceLiz_qF6iw
-  server: x-dg.xueshan168.cc
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
-- name: 🇩🇪 德国 | DEU 2
-  network: tcp
-  port: 545
-  server: 212.43.158.62
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6cbc63c1-97de-4460-847c-7fd7bdda3fa6
-- alpn:
+  - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 3
+  name: 🇩🇪DE_6|3.5MB/s
   network: ws
-  port: 443
-  server: 199.232.78.160
-  servername: ssl.fastly.com
+  password: ysbdg3l5iqbvo26u
+  port: '2097'
+  server: 185.204.170.130
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_7|1.4MB/s
+  network: xhttp
+  port: '1819'
+  server: 185.204.170.130
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
+  uuid: b8136e5f-8ece-4a06-99af-5a207c749bc4
+  xhttp-opts:
+    mode: auto
     path: /
-- encryption: mlkem768x25519plus.random.0rtt.swY_aKEuuHUHKO0BHVV2uot-UFbtrXpLWr7g8uZk0xk
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇩🇪 德国 | DEU 4
-  network: http
-  port: 56539
-  server: 5.75.194.217
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5ca098ea-8220-42bb-b6b6-e155a6a62094
-- name: 🇩🇪 德国 | DEU 5
-  network: ws
-  port: 2087
-  server: 188.220.67.245
-  tls: false
-  type: vless
-  udp: true
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    path: /8f2690e2d016
+    x-padding-bytes: 100-1000
+  xudp: true
 - alpn:
   - h2
   client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 6
+  name: 🇩🇪 德国 | DEU
   network: ws
   port: 443
-  server: a2.arshia-nova.ir
+  server: 151.101.56.6
   servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: d60e2537-13e8-41db-bdad-cd5c054a0ec7
+  uuid: 08ffff12-93bb-42eb-8c83-6489644a1d04
   ws-opts:
     headers:
       Host: c12.com
-    path: /
+    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: '!!str 4da5d1853f04af6d'
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
+  tls: true
+  type: vless
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- name: 🇩🇪 德国 | DEU 3
+  password: e70ec0f2ab60e8c22b316156bf9ac43fec98b45be6681401
+  port: 443
+  server: 178.105.126.242
+  skip-cert-verify: true
+  type: anytls

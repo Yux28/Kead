@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港 | HKG 4
+  password: UBPQ5iBUbv5d4jpM
+  port: 8388
+  server: 212.192.15.99
+  type: ss
+  udp: true

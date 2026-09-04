@@ -1,5 +1,5 @@
 proxies:
-- name: 🇯🇵JP_1|2.9MB/s
+- name: 🇫🇷 法国 | FRA 2
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 12791
   server: jpglobal-identity-federation-auth.younai-ytl.shop
@@ -7,74 +7,41 @@ proxies:
   sni: jp10.pulsarcore.site
   type: anytls
   udp: true
-- name: 🇯🇵JP_2|2.7MB/s
-  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+- name: 🇯🇵 日本 | JPN
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 31735
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: jp31.lunartrace.io
+  type: anytls
+  udp: true
+- name: 🇯🇵 日本 | JPN 2
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 443
-  server: 54bcaef3-tcev40-th02zb-m0b9.jp.oshuawei.com
-  tls: true
-  type: http
-  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  server: jd-us78.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: jd-us78.y1static-content-distribution.shop
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵JP_3|2.0MB/s
-  network: ws
-  port: '443'
-  server: wangcai.cf.877774.xyz
-  servername: ex3r.qzz.io
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: gun
+  name: 🇯🇵 日本 | JPN 3
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng
+    short-id: '!!str 3fa234ea9feaa048'
+  server: 140.99.243.19
+  servername: jp03.glaveda.net
   tls: true
   type: vless
   udp: true
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
-  ws-opts:
-    headers:
-      Host: ex3r.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /sg-orcl
-  xudp: true
-- auth: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
-  down: 1000
-  name: 🇯🇵 日本 | JPN
-  password: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
-  port: 20201
-  server: x-rb2.xueshan168.cc
-  skip-cert-verify: true
-  sni: x-rb2.xueshan168.cc
-  type: hysteria2
-  up: 1000
-- auth: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  name: 🇯🇵 日本 | JPN 2
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: 52454
-  server: 45.88.43.116
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- auth: 184cdec28da5a09450803c8debcd2cc9
-  name: 🇯🇵 日本 | JPN 3
-  password: 184cdec28da5a09450803c8debcd2cc9
-  port: 50160
-  server: 138.3.208.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- auth: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
-  down: 1000
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+- cipher: aes-256-cfb
   name: 🇯🇵 日本 | JPN 4
-  password: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
-  port: 20201
-  server: x-rb1.xueshan168.cc
-  skip-cert-verify: true
-  sni: x-rb1.xueshan168.cc
-  type: hysteria2
-  up: 1000
-- auth: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
-  down: 1000
-  name: 🇯🇵 日本 | JPN 5
-  password: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
-  port: 20201
-  server: x-rb7.xueshan168.cc
-  skip-cert-verify: true
-  sni: x-rb7.xueshan168.cc
-  type: hysteria2
-  up: 1000
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss

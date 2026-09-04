@@ -1,74 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇭🇰HK_1|4.6MB/s
-  network: grpc
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: 🇭🇰 香港 | HKG 2
-  network: grpc
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 🇭🇰HK_3|3.9MB/s
-  network: grpc
-  port: '10126'
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: 🇭🇰 香港 | HKG 4
-  network: grpc
-  packet-encoding: xudp
-  port: 10136
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk6-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- name: 🇭🇰 香港 | HKG
+- name: 🇭🇰HK_1|2.4MB/s
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 15700
   server: yzany01.downapptwo.cc
@@ -76,58 +7,34 @@ proxies:
   sni: hk18.pulsarcore.site
   type: anytls
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰 香港 | HKG 3
+- name: 🇭🇰 香港 | HKG
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 35853
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk01.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇭🇰 香港 | HKG 2
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 443
+  server: hk37.cybergalaxy.me
+  skip-cert-verify: true
+  sni: hk37.cybergalaxy.me
+  type: anytls
+  udp: true
+- name: 🇭🇰 香港 | HKG 3
   network: tcp
-  port: 21000
-  reality-opts:
-    public-key: bxu_fj69tCOtW1R_Kc3NFy1L9PJ0I1wBzOVKZwEW8VA
-  server: x-xg2.xueshan168.cc
-  servername: s0.awsstatic.com
-  tls: true
+  port: 45647
+  server: 182.16.61.6
+  tls: false
   type: vless
   udp: true
-  uuid: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰 香港 | HKG 5
-  network: tcp
-  port: 16000
-  reality-opts:
-    public-key: bxu_fj69tCOtW1R_Kc3NFy1L9PJ0I1wBzOVKZwEW8VA
-  server: x-xg0.xueshan168.cc
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
+  uuid: 6f361c37-bc54-43dd-8c8b-0f59354745a5
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港 | HKG 4
+  password: UBPQ5iBUbv5d4jpM
+  port: 8388
+  server: 212.192.15.99
+  type: ss
   udp: true
-  uuid: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: 🇭🇰 香港 | HKG 6
-  network: grpc
-  port: 10130
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk5-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰 香港 | HKG 7
-  network: tcp
-  port: 16000
-  reality-opts:
-    public-key: iv3BAoFjlsPSSjOn1cyXVZ3H31KqX65PoJusBEfU0lM
-  server: hkt.xueshan168.cc
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 954f9a43-b779-46a7-8a3e-8f951ad51a2e

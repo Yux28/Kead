@@ -1,17 +1,33 @@
 proxies:
 - name: 🇹🇼 🇨🇳 台湾 | TWN
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 443
+  server: tw35.cybergalaxy.me
+  skip-cert-verify: true
+  sni: tw35.cybergalaxy.me
+  type: anytls
+  udp: true
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 37236
   server: yazhouany02.downapptwo.cc
   skip-cert-verify: true
   sni: tw16.swiftrelay.cc
   type: anytls
   udp: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+- name: 🇹🇼 🇨🇳 台湾 | TWN 3
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 33368
   server: yazhouany02.downapptwo.cc
   skip-cert-verify: true
   sni: tw01.swiftrelay.cc
+  type: anytls
+  udp: true
+- name: 🇹🇼 🇨🇳 台湾 | TWN 4
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 443
+  server: tw73.cybergalaxy.me
+  skip-cert-verify: true
+  sni: tw73.cybergalaxy.me
   type: anytls
   udp: true
