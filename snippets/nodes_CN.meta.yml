@@ -1,5 +1,11 @@
 proxies:
 - cipher: aes-256-cfb
+  name: 🇨🇳 CN_20
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+- cipher: aes-256-cfb
   name: CN_speednode_0001
   password: 7eadc6dbe2ae
   port: 65443
