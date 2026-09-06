@@ -1,1 +1,30 @@
-proxies: []
+proxies:
+- name: 🇬🇧GB_1|3.9MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|3.0MB/s
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_3|3.0MB/s
+  network: tcp
+  port: '40421'
+  reality-opts:
+    public-key: wCxG46NhMGffE2VezAgfPj9PJckGUo07yEBvItYUAGI
+    short-id: '!!str '
+  server: 82.40.62.39
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2eed725-ce71-4ca8-967e-639669f26bc3
+  xudp: true

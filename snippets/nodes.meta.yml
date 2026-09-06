@@ -1,309 +1,15 @@
 proxies:
-- auth: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  name: 🇧🇷BR_1|2.2MB/s
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  port: 443
-  server: go2.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: admin.wwwinternetvideo.click
-  type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4IoUUt2YZPsn8Y1JqOqV9LnQK0vNlY9AeV4m-83e2SE
-    short-id: 'ab9d5f3c'
-  server: sv14.betust.net
-  servername: apiv14.betust.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
-- auth: gf1:gfhysteria2024
-  name: 🇺🇸US_1|1.1MB/s
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 66.94.121.46
-  skip-cert-verify: true
-  sni: www.broadcom.com
-  type: hysteria2
 - cipher: aes-256-cfb
-  name: 🇰🇷KR_1|2.2MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.138
+  name: 🇨🇦CA_1|4.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.99.178.14
   type: ss
   udp: true
 - alpn:
   - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_2|1.1MB/s
-  network: xhttp
-  port: '443'
-  server: 69.46.46.5
-  servername: quartz-meadow-2cc8-production.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0b04cce-5ee6-947d-74eb-b6dbd56133b2
-  xhttp-opts:
-    host: quartz-meadow-2cc8-production.up.railway.app
-    mode: stream-up
-    path: /xhttp-siz10/stream-up/f0b04cce-5ee6-947d-74eb-b6dbd56133b2
-  xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 100 Mbps
-  name: 🇩🇪 德国 | DEU 13
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 50 Mbps
-- name: US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
-- name: 🇭🇰HK_1|1.5MB/s
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 25135
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: hk27.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 🇺🇸US_4|1.5MB/s
-  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  tls: true
-  type: http
-  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-- name: 🇮🇹IT_1|1.1MB/s
-  password: None
-  port: 443
-  server: 185.183.105.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇪🇸ES_1|2.8MB/s
-  port: 443
-  server: 130.195.250.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇸ES_2|1.1MB/s
-  password: None
-  port: 443
-  server: 130.195.250.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇻🇳VN_1|3.4MB/s
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 64962
-  server: yzany01.downapptwo.cc
-  sni: yuean.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 🇳🇱NL_1|1.7MB/s
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
-  skip-cert-verify: true
-  sni: www.linux.com
-  type: hysteria2
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇧🇷BR_2|1.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  port: '443'
-  server: 144.31.93.126
-  skip-cert-verify: true
-  sni: admin.wwwinternetvideo.click
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_3|4.3MB/s
-  network: tcp#5👝@oneclickvpnkeys
-  port: '49805'
-  reality-opts:
-    public-key: KhyeJbZtFAik5Mx1K_AQMIEK_MPwQnwUwSe-jTjq8yU
-    short-id: '4a753538b6a9eee9'
-  server: 47.129.185.35
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0803fc94-25f9-42db-9e6b-dd1418ae50ec
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|1.8MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 57.130.20.7
-  servername: fr.sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0bc31c7f-1ee2-4dd3-929b-b61ae780eb3c
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR_2|4.5MB/s
-  network: raw
-  port: '19179'
-  reality-opts:
-    public-key: BabvzCKB_cqCz56qFQhOWIypFKFhEWo9Eyn_JPZIAxA
-    short-id: 'fa1e592603c283'
-  server: 3.38.1.152
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 10dd7b2d-eda2-4a47-9f6e-5093a3cd7ded
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_5|2.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: vFnG0SzHIv43o3L8bw4reKp3EIFuSS-BCyBqbWUsYCo
-    short-id: '6591f200'
-  server: 84.32.61.87
-  servername: apiv10.jarvesitw.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL_2|1.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg
-    short-id: 'cf41f778'
-  server: sv5.jarvesitw.ru
-  servername: apiv5.jarvesitw.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|3.0MB/s
-  network: tcp
-  port: '2434'
-  reality-opts:
-    public-key: yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0
-    short-id: '9de041877612a718'
-  server: fn5.bexait.ir
-  servername: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ebfc0509-53ed-46c6-96d9-e6788ab31cac
-  xudp: true
-- cipher: aes-256-gcm
-  name: 🇨🇦 加拿大 | CAN
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 51.79.85.185
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇨🇦 加拿大 | CAN 2
-  password: amazonskr05
-  port: 443
-  server: 15.156.204.87
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇨🇦 加拿大 | CAN 3
-  password: amazonskr05
-  port: 443
-  server: 35.182.118.89
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇨🇳 CN_20
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU
-  network: tcp
-  port: 7333
-  reality-opts:
-    public-key: isO0qF2Xg6UI1GKARgfg9UHZSrrUBcOazkz04mTl-kE
-    short-id: '0f62cf6250eb31c0'
-  server: www.e.mobilesari.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60f95d63-10c8-4103-a23e-6eac345b3f32
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: eBPoRhgoi1Wc3_CWGAfvF6dO_QqXzPWcpUKTycvx3Ck
-  server: 64.188.91.247
-  servername: de-3.kihsuyhf8jkiugsxb.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dc1fc26-b8e9-4296-9870-0996de3c2333
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: eBPoRhgoi1Wc3_CWGAfvF6dO_QqXzPWcpUKTycvx3Ck
-  server: de-3.kihsuyhf8jkiugsxb.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dc1fc26-b8e9-4296-9870-0996de3c2333
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 4
+  client-fingerprint: firefox
+  name: 🇫🇮FI_1|3.4MB/s
   network: ws
   port: 443
   server: k2.cloud--vpn.site
@@ -311,487 +17,1017 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 607f4f6c-2a71-43aa-e047-1ff5b5c23f67
+  uuid: 95b5d1d0-a878-4a52-bf2a-c8e323457b02
   ws-opts:
     headers:
       Host: c12.com
     path: /
+- cipher: aes-256-cfb
+  name: 🇮🇪IE_1|4.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.250.40.89
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|2.4MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 5
+  name: 🇵🇱PL_1|4.0MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: ia6cEEqjnawIhBPzcHFWSNsQIOJcHQU5t5FebSphWGA
-  server: de-6.kihsuyhf8jkiugsxb.cfd
-  servername: de-6.kihsuyhf8jkiugsxb.cfd
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: bridge.kolhoz.fuck-rkn.xyz
+  servername: jobinvest.ru
   tls: true
   type: vless
   udp: true
-  uuid: 0dc1fc26-b8e9-4296-9870-0996de3c2333
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 6
-  network: ws
-  port: 443
-  server: a2.arshia-nova.ir
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 607f4f6c-2a71-43aa-e047-1ff5b5c23f67
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vEy_W2dc5P99Ud28Jde7NtELJB5wEQds1vdB9Q2wvwA
-  server: 79.137.184.61
-  servername: fi-4.kihsuyhf8jkiugsxb.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dc1fc26-b8e9-4296-9870-0996de3c2333
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 8
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: 'c39cc7310a'
-  server: 82.39.171.12
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU 9
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 10
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QMkh_UZF6wTVrYukjoZTbrRUziZxT-s0Oj8zVP_RuH0
-    short-id: 'b0ffeec3'
-  server: sv9.jarvesitw.ru
-  servername: apiv91.jarvesitw.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 12
-  network: tcp
-  port: 7333
-  reality-opts:
-    public-key: isO0qF2Xg6UI1GKARgfg9UHZSrrUBcOazkz04mTl-kE
-    short-id: '0f62cf6250eb31c0'
-  server: www.e.mobilesari.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e7856a09-3641-4ba9-8254-d02e30c6d1bb
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 14
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QMkh_UZF6wTVrYukjoZTbrRUziZxT-s0Oj8zVP_RuH0
-    short-id: 'b0ffeec3'
-  server: 88.216.190.205
-  servername: apiv91.jarvesitw.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇪🇪 爱沙尼亚 | EST
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fp0m6TwQ47jO5mrwlrTJCnpzbTmRlyQY5B4WyrYWORY
-  server: 93.123.39.206
-  servername: ee-5.kihsuyhf8jkiugsxb.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dc1fc26-b8e9-4296-9870-0996de3c2333
-- name: 🇫🇷 法国 | FRA
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.179
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 2
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 3
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 4
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.187
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 5
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.34
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 🇫🇷 法国 | FRA 6
-  network: grpc
-  port: 9880
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: 'aabbccdd'
-  server: 176.123.162.100
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-- name: 🇫🇷 法国 | FRA 7
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.2
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 8
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇫🇷 法国 | FRA 9
-  network: xhttp
-  port: 443
-  server: 188.68.218.160
-  servername: host10.pushbyte.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: abbbee7f-8d57-4639-b1e4-2da523e70a42
-  xhttp-opts:
-    host: host10.pushbyte.cc
-    mode: packet-up
-    path: /api/v2/
-    x-padding-bytes: 100-1000
-    x-padding-obfs-mode: false
+  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷 法国 | FRA 10
-  network: tcp
-  port: 11155
-  reality-opts:
-    public-key: apdJQ6PvGF0CNcgPB_gQ86oNH5pW66VGiHlQk0H2eRA
-    short-id: '0cdae7f121bae7c0'
-  server: sc.edgecorex.ir
-  servername: amp-api-edge.apps.apple.com
+  name: 🇫🇷FR_1|2.8MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: render.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|3.1MB/s
+  network: xhttp
+  port: '443'
+  server: 69.46.46.35
+  servername: cobalt-beacon-a070-production.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: b48060b0-5658-46f8-be7d-8f0091208386
-- name: 🇫🇷 法国 | FRA 11
+  uuid: 052d8d73-4552-545e-5505-7c544f47de7a
+  xhttp-opts:
+    host: cobalt-beacon-a070-production.up.railway.app
+    mode: stream-up
+    path: /xhttp-siz10/stream-up/052d8d73-4552-545e-5505-7c544f47de7a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇵🇱PL_4|4.0MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: bridge2.kolhoz.fuck-rkn.xyz
+  servername: jobinvest.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|2.1MB/s
   network: ws
   password: humanity
-  port: 443
-  server: 104.18.152.155
-  skip-cert-verify: true
+  port: '443'
+  server: 104.16.174.12
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
-- name: 🇫🇷 法国 | FRA 12
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: movie
+  name: 🇭🇰HK_1|5.1MB/s
+  network: grpc
+  port: '10136'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '686c0ef0'
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇯🇵 日本 | JPN 3
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.5MB/s
   network: ws
   password: humanity
-  port: 443
-  server: 104.18.152.246
-  skip-cert-verify: true
+  port: '443'
+  server: 104.16.174.6
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/51.0.2704.103 Safari/537.36
     path: /assignment
-- name: 🇫🇷 法国 | FRA 13
+- encryption: none
+  name: 🇳🇱 荷兰 | NLD 3
+  network: ws
+  port: 2087
+  server: 178.95.170.83
+  servername: 178.95.170.83
+  tls: false
+  type: vless
+  udp: true
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  ws-opts:
+    path: /4bc027a44532
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇫🇷FR_4|1.6MB/s
   network: ws
   password: humanity
-  port: 443
-  server: 198.41.223.96
-  skip-cert-verify: true
+  port: '443'
+  server: 8.6.112.0
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /assignment
-- name: 🇫🇷 法国 | FRA 14
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.7
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_3|5.6MB/s
+  network: raw
+  port: '28573'
+  reality-opts:
+    public-key: 1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg
+    short-id: '03653bc03be10c97'
+  server: 18.183.215.124
+  servername: www.sony.com
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 15
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.15.137
+  uuid: 871bfce7-8440-4394-8d82-56b51f20fdad
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇧🇷BR_1|1.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  port: '443'
+  server: 144.31.49.47
   skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 16
-  network: ws
-  password: humanity
+  sni: admin.wwwinternetvideo.click
+  type: hysteria2
+  up: ''
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU
+  network: tcp
   port: 443
-  server: 104.16.174.101
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: '4da5d1853f04af6d'
+  server: rrr.windconnect.pro
+  servername: rrr.windconnect.pro
   skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- name: NL_speednode_0008
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO_speednode_0083
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: RO_speednode_0094
+  password: None
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇳🇱NL_2|4.0MB/s
+  password: None
+  port: 16668
+  server: 82.115.6.209
+  type: http
+  username: null
+- name: 🇯🇵JP_6|2.4MB/s
+  password: ''
+  port: '443'
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_4|4.1MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇺🇸US_5|3.8MB/s
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: 🇧🇪BE_1|3.3MB/s
+  port: 443
+  server: 146.70.176.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|4.6MB/s
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇨🇭CH_1|3.3MB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_7|4.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_8|1.0MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_9|4.4MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_10|4.1MB/s
+  password: None
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇦🇹AT_1|3.9MB/s
+  port: 443
+  server: 146.70.244.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇮🇹IT_1|3.5MB/s
+  port: 3535
+  server: 195.54.160.88
+  type: http
+- name: 🇺🇸US_11|3.3MB/s
+  password: None
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇳🇱NL_3|3.3MB/s
+  port: 443
+  server: 185.246.153.42
+  skip-cert-verify: true
+  sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
+  tls: true
+  type: http
+- name: 🇺🇸US_12|3.0MB/s
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_13|4.5MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_14|4.6MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇷🇸RS_1|1.7MB/s
+  port: 443
+  server: 146.70.221.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_15|4.3MB/s
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_16|1.8MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_17|4.8MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇬🇷GR_1|3.1MB/s
+  port: 443
+  server: 149.22.85.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇪🇸ES_1|3.3MB/s
+  port: 443
+  server: 82.102.17.178
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇱🇻LV_1|2.6MB/s
+  port: 443
+  server: 109.248.147.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇪🇸ES_2|2.9MB/s
+  password: None
+  port: 443
+  server: 130.195.250.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_2|2.5MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_3|3.3MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇿CZ_1|2.7MB/s
+  password: None
+  port: 443
+  server: 185.216.35.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇳🇱NL_4|4.3MB/s
+  password: None
+  port: 443
+  server: 51.158.243.91
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇨🇭CH_2|3.9MB/s
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_18|2.1MB/s
+  password: None
+  port: 443
+  server: 52.55.81.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇰DK_1|2.3MB/s
+  password: None
+  port: 9443
+  server: 185.245.84.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇷🇴RO_3|1.3MB/s
+  password: None
+  port: 9002
+  server: 193.176.84.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_19|3.0MB/s
+  password: None
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_1|3.9MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇷GR_2|3.3MB/s
+  password: ''
+  port: 443
+  server: 149.22.85.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇻🇪VE_1|3.1MB/s
+  port: 999
+  server: 38.51.239.218
+  type: http
+- name: 🇰🇷KR_2|4.6MB/s
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 31433
+  server: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
+  sni: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
+  tls: true
+  type: http
+  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+- name: 🇬🇧GB_2|3.0MB/s
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇳🇱NL_5|3.7MB/s
+  password: ''
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇩🇪DE_4|3.1MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇪🇨EC_1|3.3MB/s
+  password: ''
+  port: 9443
+  server: 38.165.231.71
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇷🇴RO_4|1.0MB/s
+  port: 9002
+  server: 193.176.84.16
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|2.4MB/s
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇵🇹PT_1|2.8MB/s
+  password: None
+  port: 443
+  server: 149.22.86.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇨🇴CO_1|1.4MB/s
+  port: 999
+  server: 190.14.231.137
+  type: http
+- name: 🇮🇹IT_2|1.7MB/s
+  password: None
+  port: 443
+  server: 93.42.177.250
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇱🇻LV_2|2.4MB/s
+  password: None
+  port: 443
+  server: 109.248.149.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇧🇷BR_2|1.4MB/s
+  port: 80
+  server: 177.36.18.56
+  type: http
+- name: 🇺🇸US_20|1.0MB/s
+  password: None
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- down: ''
+  fingerprint: ''
+  name: 🇫🇮FI_2|4.1MB/s
+  obfs: salamander
+  obfs-password: 8zzng75tz4tf82pj
+  password: sxc15led4b0vp5fy
+  port: '8443'
+  server: musicclips.videolinks.ru
+  skip-cert-verify: false
+  sni: musicclips.videolinks.ru
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_21|4.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
+    short-id: '896f52ba2cfca903'
+  server: 47.251.108.158
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
+  xudp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: firefox
-  name: 🇫🇷 法国 | FRA 17
+  encryption: none
+  name: 🇫🇷FR_5|2.9MB/s
   network: xhttp
-  port: 443
+  port: '443'
   server: 37.9.4.128
   servername: api1.madapp.cc
   tls: true
   type: vless
   udp: true
-  uuid: abbbee7f-8d57-4639-b1e4-2da523e70a42
+  uuid: 56ad191d-8a01-4d83-bd5d-27d9ff912dd5
   xhttp-opts:
     host: api1.madapp.cc
     mode: packet-up
     path: /api/v2/
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇪SE_1|1.8MB/s
+  network: xhttp
+  port: '2053'
+  server: page.irhubby.ir
+  servername: vips.irhubby.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c481672-8818-45f3-afdd-ad677ce98923
+  xhttp-opts:
+    host: vips.irhubby.ir
+    mode: auto
+    path: /
     x-padding-bytes: 100-1000
-    x-padding-obfs-mode: false
-- cipher: aes-256-cfb
-  name: 🇫🇷 法国 | FRA 18
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 95.170.13.47
-  type: ss
-  udp: true
-- name: 🇫🇷 法国 | FRA 19
+  xudp: true
+- encryption: none
+  name: 🇸🇪SE_2|3.1MB/s
   network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
+  port: '8080'
+  server: vips.irhubby.ir
+  type: vless
   udp: true
+  uuid: 3c481672-8818-45f3-afdd-ad677ce98923
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷 韩国 | KOR
-  network: grpc
-  port: 10048
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: kr3-r.link-t7.com
-  servername: s0.awsstatic.com
+      Host: vips.irhubby.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_22|3.5MB/s
+  network: ws
+  port: '443'
+  server: web-production-08d89.up.railway.app
   tls: true
   type: vless
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-- client-fingerprint: firefox
+  udp: true
+  uuid: 8546ebf8-5761-4b01-ae23-07d68c1433e9
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ws/vless/8546ebf8-5761-4b01-ae23-07d68c1433e9?ed=2048
+  xudp: true
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_23|2.8MB/s
+  network: ws
+  port: '443'
+  server: web-production-08d89.up.railway.app
+  servername: web-production-08d89.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8546ebf8-5761-4b01-ae23-07d68c1433e9
+  ws-opts:
+    headers:
+      Host: web-production-08d89.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /ws/vless/8546ebf8-5761-4b01-ae23-07d68c1433e9?ed=2048
+  xudp: true
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇱🇹 立陶宛 | LTU
+  name: 🇷🇺RU_1|3.0MB/s
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
-    public-key: 9-CBTMmqCCu_jcCDWZxcWZbY10RwhW8_l-pX-ugJNEQ
-  server: 31.76.83.137
-  servername: lt-2.kihsuyhf8jkiugsxb.cfd
+    public-key: djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo
+    short-id: 'ea1058117be12087'
+  server: 46.173.25.146
+  servername: ru.crunch-crunch.com
   tls: true
   type: vless
   udp: true
-  uuid: 0dc1fc26-b8e9-4296-9870-0996de3c2333
-- cipher: aes-256-cfb
-  name: 🇲🇾 马来西亚 | MYS
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 118.107.222.231
-  type: ss
-  udp: true
-- name: 🇳🇱 荷兰 | NLD
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.158
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- auth: 19f72087-4591-4d72-930b-2697078ec2be
-  name: 🇸🇬 新加坡 | SGP
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 1933
-  server: sg1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
-  type: hysteria2
+  uuid: 8d1a1b09-12d6-4b76-82f0-893cc805d9c0
+  xudp: true
 - client-fingerprint: chrome
-  name: 🇹🇼 🇨🇳 台湾 | TWN
-  network: ws
-  port: 443
-  server: 60.248.219.53
-  servername: ty986gfazs.cainiaohub.xyz
+  encryption: none
+  name: 🇬🇧GB_3|3.0MB/s
+  network: tcp
+  port: '40421'
+  reality-opts:
+    public-key: wCxG46NhMGffE2VezAgfPj9PJckGUo07yEBvItYUAGI
+    short-id: ''
+  server: 82.40.62.39
+  servername: amp-api-edge.apps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4
+  uuid: b2eed725-ce71-4ca8-967e-639669f26bc3
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|4.3MB/s
+  network: tcp
+  port: '19088'
+  reality-opts:
+    public-key: Wc8zy18AFoHjIldxYy0YrbZkplY8mY-UvvMHtlBSgyo
+    short-id: '5f0d8889eed11401'
+  server: ef.tarnishedking.ir
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9c64c4b-c12a-4673-be52-21c080ac07a1
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇪SE_3|3.1MB/s
+  network: tcp
+  port: '2087'
+  reality-opts:
+    public-key: 06ep3nkkA60Jh8rWJSz3dCpLWxUPYLN0uZnESYsoQFo
+    short-id: '2b044515f70accef'
+  server: sw.mrhservice.ir
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9c64c4b-c12a-4673-be52-21c080ac07a1
+  xudp: true
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - telewebion.ir
+    path:
+    - /
+  name: 🇳🇱NL_6|3.9MB/s
+  network: http
+  port: '1060'
+  server: vdx.tarnishedking.ir
+  type: vless
+  udp: true
+  uuid: c9c64c4b-c12a-4673-be52-21c080ac07a1
+  xudp: true
+- name: 🇷🇴RO_5|3.1MB/s
+  password: 'null'
+  port: '9002'
+  server: 193.176.84.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇯🇵JP_5|2.7MB/s
+  password: 'null'
+  port: '443'
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  name: 🇺🇸US_24|2.1MB/s
+  network: ws
+  port: '443'
+  server: 172.67.221.200
+  servername: 5-M16.cHIAn-mAI-9.kDNS.fR
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: ty986gfazs.cainiaohub.xyz
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-- cipher: aes-256-gcm
-  name: 🇺🇸 美国 | USA
-  password: N2JiY2IxNjU3ZDg3
-  port: 23456
-  server: 65.49.217.190
+      Host: 5-M16.chiaN-Mai-9.KdnS.Fr
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- name: 🇺🇸US_25|3.2MB/s
+  password: None
+  port: '9002'
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇲🇩 摩尔多瓦 | MDA
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
+    short-id: 'a1b2c3d4'
+  server: 31.59.150.174
+  servername: hotcoals.aeternavpn.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|3.2MB/s
+  network: tcp
+  port: '443'
+  server: 82.148.21.26
+  servername: crypt-obhod-15.mystatic-cdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29834e2e-729c-491f-af21-d1d9a8bde8c6
+  xudp: true
+- name: RO_speednode_0126
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: RO_speednode_0087
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: RO_speednode_0044
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_10|2.1MB/s
+  password: None
+  port: '9002'
+  server: 193.176.84.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_26|4.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: _0A8M6IEGN2T61KyqQOgiLlDu-dVcp0TFUyfukK5YhI
+    short-id: '55a7e6ff3ccf94c9'
+  server: 198.44.36.41
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: da7863a0-5858-4322-840e-0474e423bede
+  xudp: true
+- auth: a34f3990b69f44bfa0d32385
+  name: 🇦🇺 澳大利亚 | AUS
+  obfs: salamander
+  obfs-password: a34f3990b69f44bfa0d32385
+  password: a34f3990b69f44bfa0d32385
+  port: 20000
+  ports: 20000-30000
+  server: 158.180.5.199
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 🇨🇦 加拿大 | CAN
+  password: amazonskr05
+  port: 443
+  server: 35.182.118.89
   type: ss
   udp: true
 - alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 2
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 100 Mbps
+  name: 🇩🇪 德国 | DEU 2
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
   skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
+  sni: apple.com
+  type: hysteria
+  up: 50 Mbps
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 3
+  network: ws
+  port: 1819
+  server: 185.204.169.127
+  servername: 185.204.169.127
+  tls: true
+  type: vless
   udp: true
+  uuid: 5fd0c433-efe8-466a-9fd7-233a448e8b58
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 3
+      Host: 185.204.169.127
+    path: /
+    v2ray-http-upgrade: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: '4da5d1853f04af6d'
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
+  tls: true
+  type: vless
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- encryption: mlkem768x25519plus.native.0rtt.nFI_JgJxT50cFCqg8vIonXbldu6Gufopc4hWwCrVPxw
+  name: 🇩🇪 德国 | DEU 5
+  network: ws
+  port: 8080
+  server: 104.21.51.132
+  tls: false
+  type: vless
+  udp: true
+  uuid: c55c929d-e9d4-45bc-ba53-de4a2cfcabb5
+  ws-opts:
+    headers:
+      Host: 150.241.94.132.th3store.ir
+    path: /play
+    v2ray-http-upgrade: true
+- name: 🇩🇪 德国 | DEU 6
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5ec0a50f-b6b9-48f3-9f8c-f1664eb8bd48
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: /ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+- name: 🇫🇷 法国 | FRA
   network: ws
   password: humanity
   port: 443
@@ -804,11 +1040,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 4
+- name: 🇫🇷 法国 | FRA 2
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.72
+  server: 104.18.152.140
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -817,11 +1053,15 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 5
+- alpn:
+  - h3
+  - +h2
+  - +http/1.1
+  name: 🇫🇷 法国 | FRA 3
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.233
+  server: 185.75.243.102
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -830,11 +1070,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 6
+- name: 🇫🇷 法国 | FRA 4
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.77
+  server: 172.67.149.60
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -843,11 +1083,325 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 7
+- name: 🇫🇷 法国 | FRA 5
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.73
+  server: 130.250.137.171
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 6
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.109
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 7
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.124
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷 法国 | FRA 8
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 9
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.73.213
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 10
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 11
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 12
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.14.137
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 13
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.179
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 14
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 🇫🇷 法国 | FRA 15
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN
+  network: tcp
+  port: 443
+  server: 38.175.203.11
+  servername: oulucloud.706666.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b8ec962-6e6f-4fc3-a9a4-c8a6fc907796
+- name: 🇯🇵 日本 | JPN 2
+  password: i99Cef
+  port: 443
+  server: 45.76.51.23
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 4
+  password: i99Cef
+  port: 27242
+  server: 45.32.57.242
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | KOR
+  password: i99Cef
+  port: 28158
+  server: 211.20.156.191
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+  udp: true
+- name: 🇱🇦 LA_146
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10045
+  server: z-sg2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇲🇲 MM_147
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10046
+  server: z-sg1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇲🇲 MM_148
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10046
+  server: z-sg2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 | NLD
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.66
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 | NLD 2
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.82
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇳🇱 荷兰 | NLD 4
+  network: ws
+  port: 33736
+  server: 78.17.71.236
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  ws-opts:
+    path: /vmess-ws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇵🇱 波兰 | POL
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 31.77.61.214
+  servername: jobinvest.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇵🇱 波兰 | POL 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 31.77.61.213
+  servername: jobinvest.ru
+  tls: true
+  type: vless
+  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+- cipher: chacha20-ietf-poly1305
+  name: 🇵🇱 波兰 | POL 3
+  password: cTAObwg4OWWXkZJQs0ZdgC
+  port: 34260
+  server: 31.76.82.131
+  type: ss
+  udp: true
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  name: 🇸🇪 瑞典 | SWE
+  network: ws
+  port: 443
+  server: 185.178.208.176
+  servername: founders-blog.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71de4ff3-e9f0-4edb-a1cf-7adc0e49b628
+  ws-opts:
+    headers:
+      Host: founders-blog.online
+    path: /stream/615428/socket
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡 | SGP
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19001
+  server: ss.050.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇸🇬 新加坡 | SGP 2
+  password: qpSevKaUXYQKvSjp
+  port: 8388
+  server: 139.180.220.175
+  type: ss
+  udp: true
+- name: 🇺🇸 美国 | USA
+  network: ws
+  port: 8080
+  server: 162.159.43.187
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 美国 | USA 2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.177.143
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 3
+  network: ws
+  password: humanity
+  port: 443
+  server: render.com
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -857,7 +1411,7 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - auth: https://xship.2fa.cat
-  name: 🇺🇸 美国 | USA 8
+  name: 🇺🇸 美国 | USA 4
   password: https://xship.2fa.cat
   port: 443
   server: starlink-ft.251313.xyz
@@ -865,38 +1419,11 @@ proxies:
   sni: xship.top
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 9
-  network: ws
-  port: 8443
-  server: 172.64.146.211
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- name: 🇺🇸 美国 | USA 10
+- name: 🇺🇸 美国 | USA 5
   network: ws
   password: humanity
   port: 443
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 11
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
+  server: 104.16.174.36
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -905,11 +1432,87 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
+- client-fingerprint: chrome
+  name: 🇺🇸 美国 | USA 6
+  network: ws
+  port: 443
+  server: 172.67.204.201
+  servername: 7-m16.CHiaN-MAi-8.KDNs.FR
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 7-m16.CHiaN-MAi-8.KDNS.Fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 🇺🇸 美国 | USA 7
+  password: i99Cef
+  port: 29739
+  server: 207.246.97.36
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 | USA 8
+  network: xhttp
+  port: 443
+  server: 69.46.46.34
+  servername: sunny-reef-cd7f-production.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: f1c63399-f3b9-9a7b-4ec4-2e2d1b9e09fc
+  xhttp-opts:
+    host: sunny-reef-cd7f-production.up.railway.app
+    mode: stream-up
+    path: /xhttp-siz10/stream-up/f1c63399-f3b9-9a7b-4ec4-2e2d1b9e09fc
+- client-fingerprint: chrome
+  name: 🇺🇸 美国 | USA 9
+  network: ws
+  port: 443
+  server: 172.67.206.48
+  servername: 1-M16.AyUTthaYa2030.kdNS.FR
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 1-M16.AyUtTHAYA2030.KdNS.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 🇺🇸 美国 | USA 10
+  network: ws
+  port: 443
+  server: 104.21.27.112
+  servername: 8-M16.PatTAya-8.kdnS.fR
+  tls: true
+  type: vless
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 8-m16.paTtAya-8.kdns.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 🇺🇸 美国 | USA 11
+  network: ws
+  port: 443
+  server: 104.21.77.60
+  servername: 6-M16.aYUTthayA2029.KDNS.fr
+  tls: true
+  type: vless
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 6-M16.AYutthAyA2029.kdns.Fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 🇺🇸 美国 | USA 12
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.50
+  server: 104.18.152.207
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -922,7 +1525,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.143
+  server: 104.16.174.101
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -948,7 +1551,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.12
+  server: 104.16.174.6
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -957,19 +1560,24 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- auth: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
-  name: 🇺🇸 美国 | USA 16
-  password: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
-  port: 7443
-  server: 31.77.220.185
+- name: 🇺🇸 美国 | USA 16
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
   skip-cert-verify: true
-  sni: fi.aeternavpn.space
-  type: hysteria2
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 🇺🇸 美国 | USA 17
   network: ws
   password: humanity
   port: 443
-  server: 104.18.12.149
+  server: 104.18.152.77
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -979,44 +1587,36 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - name: 🇺🇸 美国 | USA 18
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.3
+  password: i99Cef
+  port: 27251
+  server: 154.16.27.250
   skip-cert-verify: true
-  sni: www.ignitelimit.com
   type: trojan
   udp: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 🇺🇸 美国 | USA 19
+  network: ws
+  port: 443
+  server: a2.arshia-nova.ir
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95b5d1d0-a878-4a52-bf2a-c8e323457b02
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 19
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.0
+      Host: c12.com
+    path: /
+- name: 🇾🇪 YE_194
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10010
+  server: z-jp1.251313.xyz
   skip-cert-verify: true
-  sni: www.ignitelimit.com
+  sni: www.cloudflare.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 20
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.1
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
 - cipher: aes-256-cfb
   name: CN_speednode_0001
   password: 7eadc6dbe2ae
@@ -1061,14 +1661,6 @@ proxies:
   type: http
   udp: true
 - name: NL_speednode_0007
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL_speednode_0008
-  password: None
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
@@ -1322,13 +1914,6 @@ proxies:
 - name: RO_speednode_0043
   port: 9002
   server: 84.239.49.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0044
-  port: 9002
-  server: 193.176.84.35
   skip-cert-verify: true
   tls: true
   type: http
@@ -1608,13 +2193,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: RO_speednode_0083
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: RO_speednode_0084
   port: 9002
   server: 84.239.49.37
@@ -1632,13 +2210,6 @@ proxies:
 - name: RO_speednode_0086
   port: 9002
   server: 84.239.49.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0087
-  port: 9002
-  server: 193.176.84.20
   skip-cert-verify: true
   tls: true
   type: http
@@ -1683,14 +2254,6 @@ proxies:
   password: None
   port: 9002
   server: 84.239.49.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0094
-  password: None
-  port: 9002
-  server: 193.176.84.31
   skip-cert-verify: true
   tls: true
   type: http
@@ -1926,13 +2489,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: RO_speednode_0126
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: RO_speednode_0127
   port: 9002
   server: 84.239.49.180
@@ -1997,6 +2553,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -2104,13 +2666,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0144

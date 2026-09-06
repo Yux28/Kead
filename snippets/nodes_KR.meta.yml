@@ -1,39 +1,24 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇰🇷KR_1|2.2MB/s
+  name: 🇰🇷KR_1|2.4MB/s
   password: 7eadc6dbe2ae
-  port: '65443'
+  port: 65443
   server: 121.46.230.138
   type: ss
   udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR_2|4.5MB/s
-  network: raw
-  port: '19179'
-  reality-opts:
-    public-key: BabvzCKB_cqCz56qFQhOWIypFKFhEWo9Eyn_JPZIAxA
-    short-id: '!!str fa1e592603c283'
-  server: 3.38.1.152
-  servername: www.intel.com
+- name: 🇰🇷KR_2|4.6MB/s
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 31433
+  server: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
+  sni: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
   tls: true
-  type: vless
+  type: http
+  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+- name: 🇰🇷 韩国 | KOR
+  password: i99Cef
+  port: 28158
+  server: 211.20.156.191
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
   udp: true
-  uuid: 10dd7b2d-eda2-4a47-9f6e-5093a3cd7ded
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷 韩国 | KOR
-  network: grpc
-  port: 10048
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: kr3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3

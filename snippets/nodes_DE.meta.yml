@@ -1,200 +1,128 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: '!!str 4da5d1853f04af6d'
+  server: rrr.windconnect.pro
+  servername: rrr.windconnect.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- name: 🇩🇪DE_2|2.5MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_3|3.3MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|3.1MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|2.4MB/s
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|4.3MB/s
+  network: tcp
+  port: '19088'
+  reality-opts:
+    public-key: Wc8zy18AFoHjIldxYy0YrbZkplY8mY-UvvMHtlBSgyo
+    short-id: '!!str 5f0d8889eed11401'
+  server: ef.tarnishedking.ir
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9c64c4b-c12a-4673-be52-21c080ac07a1
+  xudp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 100 Mbps
-  name: 🇩🇪 德国 | DEU 13
+  name: 🇩🇪 德国 | DEU 2
   port: 20088
   protocol: udp
   server: 5.83.129.153
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
-  udp: true
   up: 50 Mbps
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|3.0MB/s
-  network: tcp
-  port: '2434'
-  reality-opts:
-    public-key: yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0
-    short-id: '!!str 9de041877612a718'
-  server: fn5.bexait.ir
-  servername: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ebfc0509-53ed-46c6-96d9-e6788ab31cac
-  xudp: true
 - alpn:
+  - h2
   - http/1.1
   client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU
-  network: tcp
-  port: 7333
-  reality-opts:
-    public-key: isO0qF2Xg6UI1GKARgfg9UHZSrrUBcOazkz04mTl-kE
-    short-id: '!!str 0f62cf6250eb31c0'
-  server: www.e.mobilesari.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60f95d63-10c8-4103-a23e-6eac345b3f32
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: eBPoRhgoi1Wc3_CWGAfvF6dO_QqXzPWcpUKTycvx3Ck
-  server: 64.188.91.247
-  servername: de-3.kihsuyhf8jkiugsxb.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dc1fc26-b8e9-4296-9870-0996de3c2333
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: eBPoRhgoi1Wc3_CWGAfvF6dO_QqXzPWcpUKTycvx3Ck
-  server: de-3.kihsuyhf8jkiugsxb.cfd
+  network: ws
+  port: 1819
+  server: 185.204.169.127
+  servername: 185.204.169.127
   tls: true
   type: vless
   udp: true
-  uuid: 0dc1fc26-b8e9-4296-9870-0996de3c2333
-- alpn:
-  - h2
-  client-fingerprint: chrome
+  uuid: 5fd0c433-efe8-466a-9fd7-233a448e8b58
+  ws-opts:
+    headers:
+      Host: 185.204.169.127
+    path: /
+    v2ray-http-upgrade: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 4
-  network: ws
+  network: tcp
   port: 443
-  server: k2.cloud--vpn.site
-  servername: ssl.fastly.com
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: '!!str 4da5d1853f04af6d'
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
   tls: true
   type: vless
-  udp: true
-  uuid: 607f4f6c-2a71-43aa-e047-1ff5b5c23f67
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- encryption: mlkem768x25519plus.native.0rtt.nFI_JgJxT50cFCqg8vIonXbldu6Gufopc4hWwCrVPxw
   name: 🇩🇪 德国 | DEU 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ia6cEEqjnawIhBPzcHFWSNsQIOJcHQU5t5FebSphWGA
-  server: de-6.kihsuyhf8jkiugsxb.cfd
-  servername: de-6.kihsuyhf8jkiugsxb.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dc1fc26-b8e9-4296-9870-0996de3c2333
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 6
   network: ws
-  port: 443
-  server: a2.arshia-nova.ir
-  servername: ssl.fastly.com
-  tls: true
+  port: 8080
+  server: 104.21.51.132
+  tls: false
   type: vless
   udp: true
-  uuid: 607f4f6c-2a71-43aa-e047-1ff5b5c23f67
+  uuid: c55c929d-e9d4-45bc-ba53-de4a2cfcabb5
   ws-opts:
     headers:
-      Host: c12.com
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vEy_W2dc5P99Ud28Jde7NtELJB5wEQds1vdB9Q2wvwA
-  server: 79.137.184.61
-  servername: fi-4.kihsuyhf8jkiugsxb.cfd
-  tls: true
+      Host: 150.241.94.132.th3store.ir
+    path: /play
+    v2ray-http-upgrade: true
+- name: 🇩🇪 德国 | DEU 6
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
   type: vless
   udp: true
-  uuid: 0dc1fc26-b8e9-4296-9870-0996de3c2333
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 8
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 82.39.171.12
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU 9
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 10
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QMkh_UZF6wTVrYukjoZTbrRUziZxT-s0Oj8zVP_RuH0
-    short-id: '!!str b0ffeec3'
-  server: sv9.jarvesitw.ru
-  servername: apiv91.jarvesitw.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 12
-  network: tcp
-  port: 7333
-  reality-opts:
-    public-key: isO0qF2Xg6UI1GKARgfg9UHZSrrUBcOazkz04mTl-kE
-    short-id: '!!str 0f62cf6250eb31c0'
-  server: www.e.mobilesari.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e7856a09-3641-4ba9-8254-d02e30c6d1bb
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 14
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QMkh_UZF6wTVrYukjoZTbrRUziZxT-s0Oj8zVP_RuH0
-    short-id: '!!str b0ffeec3'
-  server: 88.216.190.205
-  servername: apiv91.jarvesitw.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
+  uuid: 5ec0a50f-b6b9-48f3-9f8c-f1664eb8bd48
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: /ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048

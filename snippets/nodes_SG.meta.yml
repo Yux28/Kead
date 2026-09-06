@@ -1,25 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_3|4.3MB/s
-  network: tcp#5👝@oneclickvpnkeys
-  port: '49805'
-  reality-opts:
-    public-key: KhyeJbZtFAik5Mx1K_AQMIEK_MPwQnwUwSe-jTjq8yU
-    short-id: '!!str 4a753538b6a9eee9'
-  server: 47.129.185.35
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0803fc94-25f9-42db-9e6b-dd1418ae50ec
-  xudp: true
-- auth: 19f72087-4591-4d72-930b-2697078ec2be
+- cipher: chacha20-ietf-poly1305
   name: 🇸🇬 新加坡 | SGP
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 1933
-  server: sg1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
-  type: hysteria2
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19001
+  server: ss.050.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇸🇬 新加坡 | SGP 2
+  password: qpSevKaUXYQKvSjp
+  port: 8388
+  server: 139.180.220.175
+  type: ss
+  udp: true

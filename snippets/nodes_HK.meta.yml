@@ -1,9 +1,18 @@
 proxies:
-- name: 🇭🇰HK_1|1.5MB/s
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 25135
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: hk27.pulsarcore.site
-  type: anytls
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: movie
+  name: 🇭🇰HK_1|5.1MB/s
+  network: grpc
+  port: '10136'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
   udp: true
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+  xudp: true
