@@ -1,128 +1,174 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU
+  name: 🇩🇪DE_1|2.5MB/s
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
     public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
     short-id: '!!str 4da5d1853f04af6d'
   server: rrr.windconnect.pro
   servername: rrr.windconnect.pro
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- name: 🇩🇪DE_2|2.5MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_3|3.3MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|3.1MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|2.4MB/s
-  port: 443
-  server: 141.17.83.73
-  skip-cert-verify: true
-  tls: true
-  type: http
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_6|4.3MB/s
-  network: tcp
-  port: '19088'
+  name: 🇩🇪DE_2|4.3MB/s
+  network: xhttp
+  port: '14639'
   reality-opts:
-    public-key: Wc8zy18AFoHjIldxYy0YrbZkplY8mY-UvvMHtlBSgyo
-    short-id: '!!str 5f0d8889eed11401'
-  server: ef.tarnishedking.ir
+    public-key: AL1Q34aEyaqV5FlCsQU75ga6XoKRLIktpytwS0jrtUA
+    short-id: '!!str c4659970'
+  server: 91.107.174.203
   servername: amp-api-edge.apps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: c9c64c4b-c12a-4673-be52-21c080ac07a1
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    mode: auto
+    path: /
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 100 Mbps
-  name: 🇩🇪 德国 | DEU 2
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 50 Mbps
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|3.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw
+    short-id: '!!str 4a1b0c7d'
+  server: 91.233.8.31
+  servername: tnt-cloud.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2feda6f7-8baa-4591-a851-1e2037a58572
+  xudp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 3
-  network: ws
-  port: 1819
-  server: 185.204.169.127
-  servername: 185.204.169.127
+  encryption: none
+  name: 🇩🇪DE_4|2.0MB/s
+  network: xhttp
+  port: '2087'
+  server: cl.econeko.ir
+  servername: cdn-edge-static-assets-delivery-node-a7f2c9e4b1d8.esmahdi9.com
   tls: true
   type: vless
   udp: true
-  uuid: 5fd0c433-efe8-466a-9fd7-233a448e8b58
+  uuid: cf1d2ded-2472-483a-f2f2-12c83d1826dd
+  xhttp-opts:
+    mode: auto
+    path: /@v2_line
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_5|1.4MB/s
+  network: ws
+  port: '2087'
+  server: 188.220.67.245
+  servername: 188.220.67.245
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
     headers:
-      Host: 185.204.169.127
-    path: /
-    v2ray-http-upgrade: true
-- client-fingerprint: firefox
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
+- name: 🇩🇪DE_6|1.3MB/s
+  password: udp-relay=true
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: None
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU
+  network: tcp
+  port: 11437
+  reality-opts:
+    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+    short-id: '!!str 7de83d0e31eb75ef'
+  server: Fi.horlutr.ir
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 4
+  name: 🇩🇪 德国 | DEU 2
   network: tcp
   port: 443
   reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: '!!str 4da5d1853f04af6d'
-  server: 31.76.71.140
-  servername: rrr.windconnect.pro
+    public-key: 9GEc6lOjnGQyyE1951OZSBMWt4uCXsOjKyj9fysxHH0
+    short-id: '!!str e4e77e76e6e49da7'
+  server: de-2.srv.dvzh.net
+  servername: de-2.srv.dvzh.net
   tls: true
   type: vless
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- encryption: mlkem768x25519plus.native.0rtt.nFI_JgJxT50cFCqg8vIonXbldu6Gufopc4hWwCrVPxw
+  udp: true
+  uuid: 2da9c09a-842f-4aed-a099-8a07c0266efc
+- name: 🇩🇪 德国 | DEU 3
+  network: ws
+  port: 2087
+  server: 163.8.195.241
+  tls: false
+  type: vless
+  udp: true
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  ws-opts:
+    path: /29c8fed7ca22
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 4
+  network: ws
+  port: 55136
+  server: 193.168.200.207
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fe0f6ae2-85e4-4815-9206-4209bc118e94
+  ws-opts:
+    headers:
+      Host: pull.free.video.10010.com
+    path: /
+- alpn:
+  - h2
+  client-fingerprint: chrome
   name: 🇩🇪 德国 | DEU 5
-  network: ws
-  port: 8080
-  server: 104.21.51.132
-  tls: false
+  network: xhttp
+  port: 443
+  server: fsn1.nordlinkcloud.com
+  servername: fsn1.nordlinkcloud.com
+  tls: true
   type: vless
   udp: true
-  uuid: c55c929d-e9d4-45bc-ba53-de4a2cfcabb5
-  ws-opts:
-    headers:
-      Host: 150.241.94.132.th3store.ir
-    path: /play
-    v2ray-http-upgrade: true
-- name: 🇩🇪 德国 | DEU 6
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
+  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
+  xhttp-opts:
+    host: fsn1.nordlinkcloud.com
+    path: /api/v3/stream/
+- client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 6
+  network: xhttp
+  port: 443
+  server: xs13.mcufa.pro
+  servername: xs13.mcufa.pro
+  tls: true
   type: vless
   udp: true
-  uuid: 5ec0a50f-b6b9-48f3-9f8c-f1664eb8bd48
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: /ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+  uuid: 0764541b-3e57-4b47-954b-51e996fae5fc
+  xhttp-opts:
+    host: xs13.mcufa.pro
+    mode: packet-up
+    path: /api/v1/minecraft178/sync/
+    sc-max-each-post-bytes: 1000000
+    uplink-data-placement: body
+    uplink-http-method: GET
