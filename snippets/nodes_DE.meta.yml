@@ -1,174 +1,169 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|2.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: '!!str 4da5d1853f04af6d'
-  server: rrr.windconnect.pro
-  servername: rrr.windconnect.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|4.3MB/s
-  network: xhttp
-  port: '14639'
-  reality-opts:
-    public-key: AL1Q34aEyaqV5FlCsQU75ga6XoKRLIktpytwS0jrtUA
-    short-id: '!!str c4659970'
-  server: 91.107.174.203
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|3.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw
-    short-id: '!!str 4a1b0c7d'
-  server: 91.233.8.31
-  servername: tnt-cloud.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2feda6f7-8baa-4591-a851-1e2037a58572
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|2.0MB/s
-  network: xhttp
-  port: '2087'
-  server: cl.econeko.ir
-  servername: cdn-edge-static-assets-delivery-node-a7f2c9e4b1d8.esmahdi9.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf1d2ded-2472-483a-f2f2-12c83d1826dd
-  xhttp-opts:
-    mode: auto
-    path: /@v2_line
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_5|1.4MB/s
+- name: 🇩🇪 德国 | DEU 6
   network: ws
-  port: '2087'
+  port: 2087
   server: 188.220.67.245
-  servername: 188.220.67.245
+  tls: false
   type: vless
   udp: true
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /8f2690e2d016
-  xudp: true
-- name: 🇩🇪DE_6|1.3MB/s
-  password: udp-relay=true
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: None
 - client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU
+  encryption: none
+  name: 🇩🇪DE_2|4.0MB/s
   network: tcp
-  port: 11437
+  port: '10694'
   reality-opts:
-    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-    short-id: '!!str 7de83d0e31eb75ef'
-  server: Fi.horlutr.ir
+    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
+    short-id: '!!str a0fbc54d937aaccb'
+  server: gers3.milkabebar.ir
   servername: amp-api-edge.apps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+  uuid: c72a1a13-9c39-4cf2-ab15-b44491b35861
+  xudp: true
+- name: 🇩🇪DE_3|4.2MB/s
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|2.5MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_5|3.0MB/s
+  network: xhttp
+  port: '2053'
+  server: 104.17.158.32
+  servername: mind.esmahdi9.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e89c315-6436-4800-e287-c16d26d407a8
+  xhttp-opts:
+    host: mind.esmahdi9.com
+    mode: auto
+    path: /@v2_line
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_6|2.4MB/s
+  network: xhttp
+  port: '2053'
+  server: 193.227.99.253
+  servername: mind.esmahdi9.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e89c315-6436-4800-e287-c16d26d407a8
+  xhttp-opts:
+    host: mind.esmahdi9.com
+    mode: auto
+    path: /@v2_line
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_7|2.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '!!str e1f8a3b6'
+  server: 91.233.8.16
+  servername: tnt-cloud.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d427a02f-e0ea-4fce-9cfb-66c1866ca3ce
+  xudp: true
 - client-fingerprint: chrome
+  name: 🇩🇪DE_8|1.8MB/s
+  network: ws
+  port: '443'
+  server: 77.239.104.82
+  servername: vp58.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /Telegram @VPNine1
+  xudp: true
+- name: 🇩🇪 德国 | DEU
+  network: ws
+  port: 2083
+  server: 45.135.194.198
+  tls: false
+  type: vless
+  udp: true
+  uuid: 69eab0fb-eb02-4a65-8103-63221e934732
+  ws-opts:
+    path: /
+- client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 2
   network: tcp
   port: 443
   reality-opts:
-    public-key: 9GEc6lOjnGQyyE1951OZSBMWt4uCXsOjKyj9fysxHH0
-    short-id: '!!str e4e77e76e6e49da7'
-  server: de-2.srv.dvzh.net
-  servername: de-2.srv.dvzh.net
+    public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
+    short-id: '!!str 1067b23f928e7618'
+  server: 200.165.229.159
+  servername: flarora.ferreo.sbs
   tls: true
   type: vless
   udp: true
-  uuid: 2da9c09a-842f-4aed-a099-8a07c0266efc
-- name: 🇩🇪 德国 | DEU 3
-  network: ws
-  port: 2087
-  server: 163.8.195.241
-  tls: false
+  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 3
+  network: xhttp
+  port: 2053
+  server: pro2.hx9.ir
+  servername: mind.esmahdi9.com
+  tls: true
   type: vless
   udp: true
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  ws-opts:
-    path: /29c8fed7ca22
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 4
-  network: ws
-  port: 55136
-  server: 193.168.200.207
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fe0f6ae2-85e4-4815-9206-4209bc118e94
-  ws-opts:
-    headers:
-      Host: pull.free.video.10010.com
-    path: /
+  uuid: 7e89c315-6436-4800-e287-c16d26d407a8
+  xhttp-opts:
+    host: mind.esmahdi9.com
+    mode: auto
+    path: /@v2_line
 - alpn:
   - h2
   client-fingerprint: chrome
   name: 🇩🇪 德国 | DEU 5
   network: xhttp
   port: 443
-  server: fsn1.nordlinkcloud.com
+  server: 167.233.219.201
   servername: fsn1.nordlinkcloud.com
   tls: true
   type: vless
   udp: true
   uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
   xhttp-opts:
-    host: fsn1.nordlinkcloud.com
+    mode: auto
     path: /api/v3/stream/
-- client-fingerprint: firefox
-  name: 🇩🇪 德国 | DEU 6
-  network: xhttp
-  port: 443
-  server: xs13.mcufa.pro
-  servername: xs13.mcufa.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0764541b-3e57-4b47-954b-51e996fae5fc
-  xhttp-opts:
-    host: xs13.mcufa.pro
-    mode: packet-up
-    path: /api/v1/minecraft178/sync/
-    sc-max-each-post-bytes: 1000000
-    uplink-data-placement: body
-    uplink-http-method: GET

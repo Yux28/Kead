@@ -1,19 +1,55 @@
 proxies:
-- name: 🇯🇵JP_1|1.4MB/s
-  password: ''
-  port: '443'
-  server: fan.571589.xyz
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_1|5.2MB/s
+  network: ws
+  port: '2096'
+  server: saas.sin.fan
+  servername: cindy.rainfall0705.cc.cd
   tls: true
-  type: http
-  username: bnVsbDpudWxs
-- auth: 07a4fcf5553a80cf300374d325386038
-  name: 🇯🇵 日本 | JPN
-  obfs: salamander
-  obfs-password: d0dd99b2b4da604123ce17b6d17072a2
-  password: 07a4fcf5553a80cf300374d325386038
-  port: 443
-  server: 141.147.151.58
+  type: vless
+  udp: true
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+  ws-opts:
+    headers:
+      Host: cindy.rainfall0705.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇯🇵 日本 | JPN
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10012
+  server: z-jp1.251313.xyz
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.26
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- name: 🇯🇵 日本 | JPN 3
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10010
+  server: z-jp1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 4
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10011
+  server: z-jp1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
