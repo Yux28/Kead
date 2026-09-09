@@ -1,13 +1,23 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB_1|2.2MB/s
+  name: 🇬🇧GB_1|3.8MB/s
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: 130.12.102.62
+  server: 130.12.102.125
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: freshjuniper.download
   servername: localhost
   tls: true
   type: vless
@@ -15,58 +25,66 @@ proxies:
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   xudp: true
 - client-fingerprint: chrome
-  name: 🇬🇧GB_2|2.4MB/s
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: freshjuniper.download
-  servername: localhost
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 4
+  name: 🇩🇪 德国 | DEU 2
   network: tcp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
   server: brightharbor.download
   servername: localhost
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   xudp: true
+- name: 🇬🇧GB_4|2.6MB/s
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_5|2.6MB/s
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_6|2.9MB/s
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_7|2.2MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_8|2.7MB/s
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_4|4.3MB/s
+  name: 🇬🇧GB_9|3.3MB/s
   network: tcp
   port: '443'
   reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: 194.34.175.115
-  servername: localhost
+    public-key: yrVIq4JbtlfUJ47XyhymkkZlr5w5QwrOi74yv5aRBHM
+    short-id: '!!str 24a44934dc907f5f'
+  server: 94.156.250.10
+  servername: www.apple.com.cn
   tls: true
   type: vless
   udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  uuid: 8e2419a7-ef0d-4b19-b52b-3333a0edcba8
   xudp: true
-- name: 🇬🇧GB_6|1.0MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_7|1.4MB/s
-  password: None
-  port: 32766
-  server: 178.62.83.124
-  type: http
-  username: null

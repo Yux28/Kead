@@ -1,24 +1,8 @@
 proxies:
-- name: 🇯🇵 日本 | JPN
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10012
-  server: z-jp1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
 - name: 🇯🇵 日本 | JPN 3
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10010
-  server: z-jp1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 4
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10011
-  server: z-jp1.251313.xyz
+  server: z-jp2.1card.cc
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan

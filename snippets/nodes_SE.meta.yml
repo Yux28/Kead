@@ -1,22 +1,15 @@
 proxies:
-- name: 🇸🇪SE_1|3.1MB/s
+- name: 🇸🇪SE_1|4.0MB/s
   password: None
   port: 443
-  server: 149.50.216.65
+  server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- client-fingerprint: chrome
-  name: 🇸🇪 瑞典 | SWE
-  network: xhttp
-  port: 2053
-  server: page.irhubby.ir
+- name: 🇸🇪SE_2|1.3MB/s
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 9abe6dbd-5988-4943-8a93-afc65ab50f54
-  xhttp-opts:
-    host: vips.irhubby.ir
-    mode: auto
-    path: /
+  type: http

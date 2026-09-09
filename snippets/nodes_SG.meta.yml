@@ -1,103 +1,32 @@
 proxies:
-- name: 🇸🇬SG_1|2.7MB/s
-  password: ''
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - client-fingerprint: chrome
-  name: 🇸🇬SG_2|3.7MB/s
+  name: 🇸🇬SG_1|4.2MB/s
   network: ws
   port: '443'
-  server: 188.164.248.67
-  servername: vp21.cc.cd
+  server: cf4.466688.xyz
+  servername: mia10.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
   ws-opts:
     headers:
-      Host: vp21.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
+      Host: mia10.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /china/clips/dl?ed=2560@https://t.me/QiangLieTuiJian
   xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_3|2.3MB/s
-  network: tcp
-  port: '10018'
-  reality-opts:
-    public-key: __YqMje4P5LY575OvzZjKJddTTn3vI6n0tMsMKCgcRY
-    short-id: '!!str 6cfa2459bb'
-  server: family.bucket.6.kfc-520.com
-  servername: www.sap.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a88deea-221d-3f06-9846-4067c6f725ee
-  xudp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬SG_4|1.4MB/s
-  password: jNy2XswI3dD0Upal
-  port: '8388'
-  server: 192.124.176.28
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  name: 🇸🇬 新加坡 | SGP
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 2
   network: ws
-  port: 8443
-  server: 104.17.71.206
-  servername: 8.sahanwickramasinghe.me
+  port: 2083
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   tls: true
   type: vless
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: 8.sahanwickramasinghe.me
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     path: /
-- name: 🇸🇬 新加坡 | SGP 2
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10046
-  server: z-sg2.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10044
-  server: z-sg1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 4
-  network: ws
-  port: 2082
-  server: 162.159.43.187
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 🇸🇬 新加坡 | SGP 5
-  network: ws
-  port: 2086
-  server: 162.159.43.187
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
