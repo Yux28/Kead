@@ -1,45 +1,21 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|3.3MB/s
-  network: xhttp
-  port: '2096'
-  server: 193.227.99.253
-  servername: df.monister.ir
-  tls: true
+- encryption: mlkem768x25519plus.native.0rtt.UIj8DGzlc6BltM32rsxWO_NYIp7KK2bzYWdnRIOJPn4
+  name: 🇩🇪 德国 | DEU 5
+  network: tcp
+  port: 27634
+  server: 45.74.158.39
+  tls: false
   type: vless
   udp: true
-  uuid: ef04fed2-399b-4533-b423-f92c8cb66234
-  xhttp-opts:
-    host: df.monister.ir
-    mode: auto
-    path: /
+  uuid: f8ac5397-4ccb-4ba8-b490-32032e752038
   xudp: true
-- name: 🇩🇪DE_2|2.9MB/s
+- name: 🇩🇪DE_2|2.8MB/s
   port: 443
-  server: 149.36.50.1
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|3.3MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|1.0MB/s
-  password: None
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|2.2MB/s
+- name: 🇩🇪DE_3|2.1MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -47,78 +23,78 @@ proxies:
   tls: true
   type: http
   username: null
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 德国 | DEU 6
+- encryption: none
+  name: 🇩🇪DE_4|3.5MB/s
   network: ws
-  port: 443
-  server: 140.248.186.45
-  servername: ssl.fastly.com
-  tls: true
+  port: '2052'
+  server: snapp.ir
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 8619f429-1ca5-4e53-a94e-1dd36b585396
   ws-opts:
     headers:
-      Host: Appxdn.global.ssl.fastly.net
+      Host: cdn.pershiansport.ir
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
     path: /
   xudp: true
-- client-fingerprint: android
+- encryption: mlkem768x25519plus.native.0rtt.Gu-KSpH9m5bbaKh-CvzzJVA2sMSXuuYYiLL5Q85Rx3o
+  http-opts:
+    headers:
+      Host:
+      - play-apps-features.googleusercontent.com
+    method: GET
+    path:
+    - /
   name: 🇩🇪 德国 | DEU
-  network: ws
-  port: 443
-  server: 2.26.21.230
-  servername: syncpointbase.online
-  tls: true
+  network: http
+  port: 14779
+  server: snnsjsowowiwueieyeye.sobu.ir
+  tls: false
   type: vless
-  uuid: b9507a19-b57c-4065-b9a4-75f16e5e49dc
+  udp: true
+  uuid: 1ab5ef70-14af-428b-bf4b-03889e0a3131
+- encryption: mlkem768x25519plus.native.0rtt.okGUzusuo_GhbdMOKYJtp7wIjhXd2WDV0wLJMzOFNQY
+  name: 🇩🇪 德国 | DEU 2
+  network: ws
+  port: 12204
+  server: 5.75.207.73
+  tls: false
+  type: vless
+  udp: true
+  uuid: a6e02f9e-be9a-4247-8261-742dce89d24e
   ws-opts:
-    headers:
-      Host: syncpointbase.online
-    path: /ws
+    path: /
 - client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.KBrQxiiQpLoPmAj-s67EKMOiPKoxBnWiXDcPLKd2bVo
   name: 🇩🇪 德国 | DEU 3
   network: xhttp
-  port: 443
+  port: 2093
   reality-opts:
-    public-key: as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg
-    short-id: '!!str 1c213fd68e13'
-  server: 62.238.49.168
-  servername: www.wikipedia.org
+    public-key: 6xNHP5QQQjDfKaoolhZ79hjAfDUti50HzvQ0i-Rh3TU
+    short-id: '!!str b547393e603ff2ed'
+  server: vnet.korluma.ir
+  servername: my-trip-online.com
   tls: true
   type: vless
   udp: true
-  uuid: 10b0fa95-ca1d-4ba7-829f-350758056697
+  uuid: fa80d79a-0410-4e1c-8bc1-1f855e794860
   xhttp-opts:
-    host: www.wikipedia.org
-    path: /farasati1
-- client-fingerprint: chrome
+    host: my-trip-online.com
+    mode: auto
+    path: /@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---
+- alpn:
+  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 4
   network: tcp
   port: 443
   reality-opts:
-    public-key: sntQ0HsOXhaye-K7bKrMw1w3cRmjgp0lT5IhP-ngwlU
-    short-id: '!!str 998432bc'
-  server: rude01.sv-dock.me
-  servername: userapi.com
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 2.26.178.129
+  servername: localhost
   tls: true
   type: vless
   udp: true
-  uuid: 7e7605df-7493-4dcf-8e1f-76784f2c6613
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: w0J3H-DEyHEK-Nj7bst_5sQqzcPl700ybHpqq5mFz0U
-    short-id: '!!str 12a3b7681806bc97'
-  server: 144.31.215.48
-  servername: eu-central-de2.hanvpn.biz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
