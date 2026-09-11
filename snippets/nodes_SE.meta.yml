@@ -1,7 +1,27 @@
 proxies:
-- name: 🇸🇪SE_1|4.0MB/s
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 瑞典 | SWE
+  network: tcp
   port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
+  server: viper-7.moriarty-web.com
+  servername: viper-7.moriarty-web.com
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 瑞典 | SWE 2
+  network: tcp
+  port: 443
+  server: viper-8.moriarty-web.com
+  servername: viper-8.moriarty-web.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
