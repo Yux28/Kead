@@ -1,65 +1,39 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|1.5MB/s
-  network: ws
-  port: '443'
-  server: 172.64.152.23
-  servername: s2p.open-ml.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02960dc5-ade0-4f85-a3ec-3e73b3599f0f
-  ws-opts:
-    headers:
-      Host: s2p.open-ml.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇩🇪DE_2|2.9MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.KBrQxiiQpLoPmAj-s67EKMOiPKoxBnWiXDcPLKd2bVo
-  name: 🇩🇪DE_3|4.2MB/s
-  network: xhttp
-  port: 2093
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.3MB/s
+  network: tcp
+  port: 8443
   reality-opts:
-    public-key: 6xNHP5QQQjDfKaoolhZ79hjAfDUti50HzvQ0i-Rh3TU
-    short-id: '!!str b547393e603ff2ed'
-  server: vnet.korluma.ir
-  servername: my-trip-online.com
+    public-key: QMJRGTqZRbpeLpIAdvn6dhftuzrpwbtwmVG2s5IuuU0
+    short-id: '!!str 00a02855ba568c29'
+  server: 171.22.129.56
+  servername: de-two.quiet-rogue.site
   tls: true
   type: vless
   udp: true
-  uuid: fa80d79a-0410-4e1c-8bc1-1f855e794860
-  xhttp-opts:
-    host: my-trip-online.com
-    mode: auto
-    path: /@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---
-- name: 🇩🇪DE_4|1.3MB/s
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
-- name: 🇩🇪DE_5|4.5MB/s
+  uuid: 9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|2.2MB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: QMJRGTqZRbpeLpIAdvn6dhftuzrpwbtwmVG2s5IuuU0
+    short-id: '!!str 00a02855ba568c29'
+  server: 171.22.129.56
+  servername: de-two.quiet-rogue.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2744db0-1c64-4218-a93b-9eba0e5f811f
+- name: 🇩🇪DE_3|2.1MB/s
   port: 443
   server: 138.201.56.241
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|2.7MB/s
+- name: 🇩🇪DE_4|2.6MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -67,61 +41,130 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: chrome
+- name: 🇩🇪DE_5|2.6MB/s
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  client-fingerprint: qq
   encryption: none
-  name: 🇩🇪DE_7|4.4MB/s
-  network: tcp
-  port: '2434'
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇩🇪DE_6|1.0MB/s
+  network: grpc
+  port: '9891'
   reality-opts:
-    public-key: yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0
-    short-id: '!!str 9de041877612a718'
-  server: de5.bexait.ir
-  servername: icloud.com
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: '!!str aabbccdd'
+  server: 188.68.216.38
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 999a8e4e-f13a-411e-b0db-e7753d982efd
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   xudp: true
-- client-fingerprint: qq
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
   encryption: none
+  fingerprint: 1aeacc25d232c936f0199a487fc17da95ba59fb6c06656846214cec835d3ac23
+  name: 🇩🇪DE_7|1.4MB/s
+  network: xhttp
+  port: '2087'
+  server: s4.zynetraq.ir
+  servername: s4.zynetraq.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f3dbafe-98a5-4b32-c0ab-a82c90a5369a
+  xhttp-opts:
+    host: s4.zynetraq.ir
+    mode: auto
+    path: /BetForward
+    x-padding-bytes: 100-1000
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: android
+  name: 🇩🇪 德国 | DEU
+  network: ws
+  port: 14443
+  server: 212.233.98.12
+  servername: api.stroymatdv.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87bd8ffa-7327-47a0-8517-a98eb602d861
+  ws-opts:
+    path: /apws3
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_8|2.8MB/s
+  name: 🇩🇪 德国 | DEU 2
   network: tcp
-  port: '1932'
+  port: 7443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 195.66.24.173
-  servername: www.vk.com
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: '!!str d2061bb1'
+  server: 31.76.7.154
+  servername: ya.ru
   tls: true
   type: vless
   udp: true
-  uuid: ea8eb632-7d56-4bfb-8195-dc34268b5844
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
+  uuid: d7cad038-0c3f-4cce-8f8a-36464aaf66c0
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|3.3MB/s
+  name: 🇩🇪 德国 | DEU 3
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 195.66.24.174
-  servername: www.vk.com
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: '!!str 8ffa160e608bf539'
+  server: 84.21.173.246
+  servername: de.pinkmoon.pro
   tls: true
   type: vless
   udp: true
-  uuid: ea8eb632-7d56-4bfb-8195-dc34268b5844
-  xudp: true
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: '!!str 8ffa160e608bf539'
+  server: fin.pinkmoon.pro
+  servername: fin.pinkmoon.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+- client-fingerprint: edge
+  name: 🇩🇪 德国 | DEU 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WlAXTWbhFDMJJHaXkpnbbxEBtQV3lZNoIH86pmYzMx8
+    short-id: '!!str f532fd0a180d3458'
+  server: 91.107.144.42
+  servername: play-apps-features.googleusercontent.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f1505323-ecb6-4152-9a5b-d37b3ae1cacf
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 德国 | DEU 5
+  name: 🇩🇪 德国 | DEU 6
   network: ws
   port: 443
-  server: 199.232.78.160
+  server: 199.232.78.170
   servername: ssl.fastly.com
   tls: true
   type: vless
@@ -131,127 +174,3 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
-  xudp: true
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_11|3.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 195.66.24.172
-  servername: www.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea8eb632-7d56-4bfb-8195-dc34268b5844
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 | DEU
-  password: BKoK3EPN2TwJUf0IBOPQSA
-  port: 8390
-  server: germ6.velqixa.ir
-  type: ss
-  udp: true
-- name: 🇩🇪 德国 | DEU 2
-  network: ws
-  port: 8080
-  server: 91.107.181.197
-  tls: false
-  type: vless
-  udp: true
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 3
-  network: ws
-  port: 443
-  server: 212.43.156.143
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 4
-  network: tcp
-  port: 1932
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 195.66.24.169
-  servername: www.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea8eb632-7d56-4bfb-8195-dc34268b5844
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 6
-  network: ws
-  port: 443
-  server: 5.188.26.85
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 7
-  network: ws
-  port: 443
-  server: 194.226.142.120
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 8
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4
-    short-id: '!!str b4c823'
-  server: 31.76.88.150
-  servername: www.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 69f7103a-a7dc-4a07-959c-eaa9e50bd656
-  xhttp-opts:
-    host: www.yandex.ru
-    path: /video/download
-- client-fingerprint: qq
-  name: 🇩🇪 德国 | DEU 9
-  network: tcp
-  port: 8445
-  reality-opts:
-    public-key: TJJ4Zfq2KhZii_IP8J1EW4VNt3HBYnlIR5yn7JzbFXs
-    short-id: '!!str 498dde7df1bf79ab'
-  server: germ6.velqixa.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f2900749-7cff-42b7-9566-dfb03840d374
