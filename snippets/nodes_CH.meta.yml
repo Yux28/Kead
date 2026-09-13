@@ -1,22 +1,30 @@
 proxies:
-- name: 🇨🇭CH_1|4.1MB/s
-  password: None
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - play-apps-features.googleusercontent.com
+    method: GET
+    path:
+    - /
+  name: 🇨🇭 瑞士 | CHE
+  network: http
+  port: 8443
+  server: it.kanzelo.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0ecf2aa4-0ae7-1a4f-5455-b116c864542d
+  xudp: true
+- name: 🇨🇭CH_2|2.3MB/s
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇨🇭 瑞士 | CHE
-  network: ws
-  password: humanity
-  port: 2053
-  server: 91.245.225.79
+- name: 🇨🇭CH_3|3.0MB/s
+  port: 443
+  server: 31.7.62.50
   skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
+  tls: true
+  type: http

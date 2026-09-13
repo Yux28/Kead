@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- auth: bf902e668996d97397a6427725141ef6
+  name: 🇰🇷 韩国 | KOR
+  obfs: salamander
+  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
+  password: bf902e668996d97397a6427725141ef6
+  port: 443
+  server: 47.80.61.21
+  skip-cert-verify: true
+  sni: 47.80.61.21
+  type: hysteria2
+  udp: true

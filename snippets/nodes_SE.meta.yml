@@ -1,52 +1,35 @@
 proxies:
-- name: 🇸🇪SE_1|2.2MB/s
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇸🇪SE_2|4.0MB/s
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: TunService
-  name: 🇸🇪 瑞典 | SWE
-  network: grpc
-  port: 33743
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇪SE_1|3.2MB/s
+  network: xhttp
+  port: '443'
   reality-opts:
-    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
-  server: 79.141.174.147
-  servername: www.google.com
+    public-key: tl7xSwczBM--oN16cxdLnAD8GMf8tA0f-FXE9ilCCjA
+    short-id: '!!str '
+  server: 89.47.55.9
+  servername: download.intel.com
   tls: true
   type: vless
   udp: true
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇪 瑞典 | SWE 2
-  network: tcp
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- name: 🇸🇪SE_2|3.3MB/s
+  password: None
   port: 443
-  server: austria-2.moritech.net
+  server: 146.70.242.146
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇪 瑞典 | SWE 3
-  network: tcp
+  type: http
+  username: null
+- name: 🇸🇪SE_3|2.6MB/s
+  password: None
   port: 443
-  server: austria.moritech.net
+  server: 149.50.216.65
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  type: http
+  username: null
