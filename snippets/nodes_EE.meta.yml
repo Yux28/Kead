@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇪🇪 爱沙尼亚 | EST
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
+    short-id: '!!str 00a61d55a07de885'
+  server: 131.123.25.3
+  servername: fr.convert-flow.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a22ca95-bd99-00e9-a799-f8f73930ea05
