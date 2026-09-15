@@ -1,48 +1,19 @@
 proxies:
-- cipher: rc4-md5
-  name: 🇬🇧GB_1|2.0MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: '8080'
-  server: 146.70.23.32
-  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇬🇧GB_1|4.3MB/s
+  network: tcp
+  port: '110'
+  server: 31.77.8.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- name: 🇬🇧GB_2|3.2MB/s
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|2.1MB/s
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_4|2.1MB/s
-  password: None
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_5|2.9MB/s
-  password: ''
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇬🇧GB_6|3.0MB/s
-  password: None
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_7|2.9MB/s
+  uuid: e8758bf0-c234-4809-89f7-25fd868316d0
+  xudp: true
+- name: 🇬🇧GB_2|2.7MB/s
   password: None
   port: 443
   server: 37.120.233.50
@@ -50,55 +21,86 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_8|2.9MB/s
+- name: 🇬🇧GB_3|3.0MB/s
+  port: 443
+  server: 185.235.0.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_4|3.7MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_5|2.2MB/s
+  password: None
   port: 443
   server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
+  username: null
+- name: 🇬🇧GB_6|2.6MB/s
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_7|3.1MB/s
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_8|1.2MB/s
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_9|3.6MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_9|3.2MB/s
+  name: 🇬🇧GB_10|2.6MB/s
   network: tcp
-  port: '24443'
+  port: '4443'
   reality-opts:
-    public-key: uUI9qoHBKhlrPy4BRJSQQygc4jstmLKLrhRI6jqhYxw
-    short-id: '!!str 8df4211d612176a5'
-  server: 2.26.101.19
-  servername: se.chick-team.ru
+    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
+    short-id: '!!str 7da2eae792187ab9'
+  server: 31.77.199.147
+  servername: images.unsplash.com
   tls: true
   type: vless
   udp: true
-  uuid: 15553b23-a621-4dfd-995e-2fe28d124526
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
   xudp: true
-- client-fingerprint: chrome
-  name: 🇬🇧 英国 | GBR
+- client-fingerprint: firefox
+  encryption: mlkem768x25519plus.native.0rtt.FMzsDHTFQeuALVUzD8uqH-NzPoYYu5TXFKroZ7aExHk
+  name: 🇬🇧GB_11|2.6MB/s
   network: xhttp
-  port: 443
+  port: '43054'
   reality-opts:
-    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
-  server: 104.245.242.8
-  servername: download.nvidia.com
+    public-key: YhntgPILPFepw5l3EZwsODZ8AQbjyztiUNbC0DqB1SQ
+    short-id: '!!str be595a95ec409d13'
+  server: loc1-cdn.mycarservhpdd10.ir
+  servername: translate.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  uuid: 527462f9-95a9-4470-ba22-ba1c45903954
   xhttp-opts:
-    host: download.nvidia.com
+    host: play.google.com
     mode: auto
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 英国 | GBR 2
-  password: c58d16e593d44f42
-  port: 11001
-  server: 158.173.221.214
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 英国 | GBR 3
-  password: ce680bff12723187
-  port: 30126
-  server: 87.86.252.153
-  type: ss
-  udp: true
+    path: /ws
+  xudp: true

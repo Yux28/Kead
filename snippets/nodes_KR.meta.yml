@@ -1,39 +1,40 @@
 proxies:
-- auth: z4zi7wYc7s
+- auth: 3ce2883e1dca7a6b08e4e95db4959ccc
   name: 🇰🇷 韩国 | KOR
-  password: z4zi7wYc7s
-  port: 45534
-  server: 158.180.88.172
+  obfs: salamander
+  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
+  password: 3ce2883e1dca7a6b08e4e95db4959ccc
+  port: 443
+  server: 47.80.62.188
   skip-cert-verify: true
-  sni: go.microsoft.com
+  sni: 47.80.62.188
   type: hysteria2
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
+  udp: true
+- client-fingerprint: random
   name: 🇰🇷 韩国 | KOR 2
-  network: grpc
-  port: 10048
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: kr3-r.link-t7.com
-  servername: s0.awsstatic.com
+  network: ws
+  port: 443
+  server: 123.111.169.70
+  servername: vip.868068.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  ws-opts:
+    headers:
+      Host: vip.868068.xyz
+    path: /proxyip=us.xiabibi.cf
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
   name: 🇰🇷 韩国 | KOR 3
   network: grpc
-  port: 10049
+  port: 10048
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
-  server: kr4-r.link-t7.com
+  server: kr3-r.link-t7.com
   servername: s0.awsstatic.com
   tls: true
   type: vless

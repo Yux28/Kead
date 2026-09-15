@@ -1,5 +1,5 @@
 proxies:
-- name: 🇺🇸 美国 | USA 8
+- name: 🇺🇸 美国 | USA 5
   network: ws
   password: humanity
   port: 443
@@ -12,49 +12,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 9
-  network: ws
-  password: humanity
-  port: 443
-  server: join-telegram-channel.tirexnet.kdns.fr
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alpn:
-  - h2
-  - http/1.1
-  name: 🇺🇸 美国 | USA 10
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.15.230
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 11
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 14
+- name: 🇺🇸 美国 | USA 6
   network: ws
   password: humanity
   port: 443
@@ -67,11 +25,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 16
+- name: 🇺🇸 美国 | USA 7
   network: ws
   password: humanity
   port: 443
-  server: 141.101.90.101
+  server: 104.16.174.121
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -80,11 +38,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 17
+- name: 🇺🇸 美国 | USA 12
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.204
+  server: 104.16.73.213
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -93,11 +51,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 18
+- name: 🇺🇸 美国 | USA 14
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.152
+  server: 104.18.152.219
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -110,20 +68,20 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.71
+  server: 188.114.96.3
   skip-cert-verify: true
-  sni: www.ignitelimit.com
+  sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
+      Host: www.calmlunch.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 21
+- name: 🇺🇸 美国 | USA 20
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.143
+  server: 104.18.152.210
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -134,22 +92,9 @@ proxies:
     path: /assignment
 - name: 🇺🇸 美国 | USA 22
   network: ws
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  skip-cert-verify: true
-  sni: _acme-challenge.sb.cloudns.biz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: _acme-challenge.sb.cloudns.biz
-    path: /
-- name: 🇺🇸 美国 | USA 24
-  network: ws
   password: humanity
   port: 443
-  server: 104.16.174.6
+  server: 104.18.22.63
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -158,11 +103,24 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 25
+- name: 🇺🇸 美国 | USA 27
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.121
+  server: join-telegram-channel.tirexnet.kdns.fr
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 28
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.1
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan

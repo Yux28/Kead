@@ -1,11 +1,33 @@
 proxies:
-- name: 🇩🇪DE_2|3.5MB/s
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.5MB/s
+  network: xhttp
+  port: '443'
+  server: 199.232.79.166
+  servername: cdn.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cd9279f-a107-4860-8356-fc994ca4dff7
+  xhttp-opts:
+    host: telegram-uonvpn.global.ssl.fastly.net
+    mode: auto
+    path: /@UonVPN-*-@UonVPN--*-@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN
+    x-padding-bytes: 100-1000
+  xudp: true
+- name: 🇩🇪DE_2|1.1MB/s
+  port: 11111
+  server: 103.237.102.191
+  type: http
+- name: 🇩🇪DE_3|1001KB/s
   port: 443
   server: 138.201.56.241
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|2.4MB/s
+- name: 🇩🇪DE_4|2.6MB/s
   password: None
   port: 443
   server: 149.36.50.157
@@ -13,191 +35,45 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_4|1.9MB/s
-  port: 443
-  server: 141.17.83.73
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 🇩🇪DE_5|3.0MB/s
-  network: ws
-  password: 51oeqnj11lq5mljn
-  port: '2087'
-  server: uwu.blueknightnet.qzz.io
-  skip-cert-verify: false
-  sni: uwu.dianaw.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-- encryption: none
-  name: 🇩🇪DE_6|3.0MB/s
-  network: ws
-  port: '2052'
-  server: hikvision-plus.com
-  type: vless
-  udp: true
-  uuid: 49a9813a-a8be-4ce7-9095-e5f37e3c6f92
-  ws-opts:
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_7|2.9MB/s
-  network: ws
-  port: '2052'
-  server: hikvision-plus.com
-  type: vless
-  udp: true
-  uuid: f9b05993-49d6-4ef4-b371-e0f7718e4a4b
-  ws-opts:
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: edge
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: vless-grpc-reality
-  name: 🇺🇸 美国 | USA 3
+  name: 🇩🇪 德国 | DEU
   network: grpc
-  port: 2096
+  port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 91.240.85.248
+  server: ns.o11111o.club
   servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
-  xudp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU
-  network: ws
-  port: 443
-  server: 80.240.252.241
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+- http-opts:
     headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
+      Host:
+      - play-apps-features.googleusercontent.com
+    method: GET
+    path:
+    - /
   name: 🇩🇪 德国 | DEU 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NA5eMfdHkl_L80S75uxQwUirS9nvZ80V2u1s71KeXkc
-    short-id: '!!str 2de63d3fd7261b7e'
-  server: app-ms-35.ecom-ai-solutions.com
-  servername: assets-ms-35.ecom-ai-solutions.com
-  tls: true
+  network: http
+  port: 9097
+  server: 65.109.205.148
+  tls: false
   type: vless
   udp: true
-  uuid: a71ad164-3b29-4dbe-aa66-24d095ca7b6d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 3
-  network: tcp
-  port: 6443
-  reality-opts:
-    public-key: HHz-2xJzux-wn53uLOnSpdjds9rnRZEI7sr6z5hYnis
-    short-id: '!!str 79245360'
-  server: 31.76.54.56
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7cad038-0c3f-4cce-8f8a-36464aaf66c0
-- alpn:
-  - h2
-  name: 🇩🇪 德国 | DEU 4
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇩🇪 德国 | DEU 4
   network: ws
-  password: hn7irbb7dw6vcqds
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
-  skip-cert-verify: true
-  sni: uwu.dianaw.cc.cd
-  type: trojan
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
   udp: true
+  uuid: a3ba5b2d-939b-418a-ab76-d7049c347d28
   ws-opts:
     headers:
-      Host: uwu.dianaw.cc.cd
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: '!!str 8ffa160e608bf539'
-  server: 89.39.121.239
-  servername: de.pinkmoon.pro
-  tls: true
-  type: vless
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 🇩🇪 德国 | DEU 6
-  network: grpc
-  port: 9892
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: '!!str aa'
-  server: 201.24.50.67
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 7
-  network: tcp
-  port: 51668
-  reality-opts:
-    public-key: 7PbaVARfVVKrnQj8suIZKSr8LEEVvtxKSNbsC36rqEE
-    short-id: '!!str db5d'
-  server: 116.203.8.171
-  servername: kit.fontawesome.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9002adfc-b3be-475e-ad6f-be77edab4f51
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: snob-grpc-de
-  name: 🇩🇪 德国 | DEU 8
-  network: grpc
-  port: 4443
-  reality-opts:
-    public-key: nhvyI4KrKDUSgw9Fa63SDeNATaTsAu9bRZ4qaraydRM
-    short-id: '!!str e5f6a1b2'
-  server: 5.35.81.60
-  servername: maps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+      Host: rb24.ir
+    path: ws/?ed=2048/@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1/?2048

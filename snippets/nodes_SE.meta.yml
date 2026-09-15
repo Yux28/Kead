@@ -1,28 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: TunService
-  name: 🇸🇪 瑞典 | SWE 2
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
-  server: 170.168.99.8
-  servername: cdn.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  xudp: true
-- name: 🇸🇪SE_2|2.0MB/s
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_3|3.8MB/s
+- name: 🇸🇪SE_1|2.5MB/s
   password: None
   port: 443
   server: 146.70.242.146
@@ -30,23 +7,17 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇸🇪SE_4|2.1MB/s
+- name: 🇸🇪SE_2|2.8MB/s
   port: 443
   server: 149.50.216.65
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇪 瑞典 | SWE
-  network: tcp
-  port: 24443
-  reality-opts:
-    public-key: uUI9qoHBKhlrPy4BRJSQQygc4jstmLKLrhRI6jqhYxw
-    short-id: '!!str 8df4211d612176a5'
-  server: se.chick-team.ru
-  servername: se.chick-team.ru
+- name: 🇸🇪SE_3|3.0MB/s
+  password: None
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 15553b23-a621-4dfd-995e-2fe28d124526
+  type: http
+  username: null

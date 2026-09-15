@@ -1,30 +1,123 @@
 proxies:
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇸🇬 新加坡 | SGP
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
+  name: 🇸🇬SG_1|4.4MB/s
+  network: ws
+  port: 443
+  server: 172.64.145.195
+  servername: cfnew.zxs1202.cc.cd
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP 2
-  network: tcp
+  name: 🇸🇬SG_2|5.5MB/s
+  network: ws
   port: 443
-  reality-opts:
-    public-key: qbsLW0C_w5YhxXuCO42VQU3wjmJu93mpAGBBbcfMLSM
-    short-id: '!!str 0c09d9bb1f10bc4d'
-  server: 8.219.144.195
-  servername: www.nvidia.com
+  server: 172.64.157.90
+  servername: cfnew.zxs1202.cc.cd
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
-  uuid: 867e835d-b5a8-4ab2-aa93-ab8a7cc80470
+  udp: true
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 🇸🇬SG_3|4.3MB/s
+  network: ws
+  port: 443
+  server: 172.64.154.124
+  servername: cfnew.zxs1202.cc.cd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 🇸🇬SG_4|1.8MB/s
+  network: ws
+  port: 443
+  server: 166.88.194.248
+  servername: kkkk-xcd.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-xcd.pages.dev
+    path: /?ed=2048
+- client-fingerprint: random
+  encryption: none
+  name: 🇸🇬 新加坡 | SGP 3
+  network: ws
+  port: 2096
+  server: cf9.danfeng.eu.org
+  servername: vip.868068.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  ws-opts:
+    headers:
+      Host: vip.868068.xyz
+    path: /proxyip=us.xiabibi.cf
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP
+  network: ws
+  port: 2083
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 2
+  network: ws
+  port: 2087
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
+- client-fingerprint: edge
+  name: 🇸🇬 新加坡 | SGP 4
+  network: ws
+  port: 2053
+  server: 217.60.7.121
+  servername: singapore.36109178.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  ws-opts:
+    headers:
+      Host: singapore.36109178.xyz
+    path: /static/media/video-chunk.f4v

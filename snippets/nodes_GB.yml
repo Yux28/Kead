@@ -1,22 +1,15 @@
 proxies:
-- cipher: rc4-md5
-  name: 🇬🇧GB_1|2.0MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: '8080'
-  server: 146.70.23.32
-  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇬🇧GB_1|4.3MB/s
+  network: tcp
+  port: '110'
+  server: 31.77.8.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 英国 | GBR 2
-  password: c58d16e593d44f42
-  port: 11001
-  server: 158.173.221.214
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 英国 | GBR 3
-  password: ce680bff12723187
-  port: 30126
-  server: 87.86.252.153
-  type: ss
-  udp: true
+  uuid: e8758bf0-c234-4809-89f7-25fd868316d0
+  xudp: true
