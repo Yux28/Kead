@@ -1,84 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|4.4MB/s
-  network: ws
-  port: 443
-  server: 172.64.145.195
-  servername: cfnew.zxs1202.cc.cd
-  skip-cert-verify: false
-  tfo: false
+- name: 🇸🇬SG_1|2.9MB/s
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
-  ws-opts:
-    headers:
-      Host: cfnew.zxs1202.cc.cd
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 🇸🇬SG_2|5.5MB/s
-  network: ws
-  port: 443
-  server: 172.64.157.90
-  servername: cfnew.zxs1202.cc.cd
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
-  ws-opts:
-    headers:
-      Host: cfnew.zxs1202.cc.cd
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|4.3MB/s
-  network: ws
-  port: 443
-  server: 172.64.154.124
-  servername: cfnew.zxs1202.cc.cd
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
-  ws-opts:
-    headers:
-      Host: cfnew.zxs1202.cc.cd
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 🇸🇬SG_4|1.8MB/s
-  network: ws
-  port: 443
-  server: 166.88.194.248
-  servername: kkkk-xcd.pages.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-    path: /?ed=2048
-- client-fingerprint: random
-  encryption: none
-  name: 🇸🇬 新加坡 | SGP 3
-  network: ws
-  port: 2096
-  server: cf9.danfeng.eu.org
-  servername: vip.868068.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  ws-opts:
-    headers:
-      Host: vip.868068.xyz
-    path: /proxyip=us.xiabibi.cf
-  xudp: true
+  username: ''
 - client-fingerprint: chrome
   name: 🇸🇬 新加坡 | SGP
   network: ws
@@ -93,10 +22,23 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     path: /
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 2
+- name: 🇸🇬 新加坡 | SGP 2
   network: ws
-  port: 2087
+  port: 2086
+  server: 162.159.43.187
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 3
+  network: ws
+  port: 8443
   server: 172.64.146.211
   servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   tls: true
@@ -107,17 +49,17 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     path: /
-- client-fingerprint: edge
+- client-fingerprint: unsafe
   name: 🇸🇬 新加坡 | SGP 4
   network: ws
-  port: 2053
-  server: 217.60.7.121
-  servername: singapore.36109178.xyz
+  port: 443
+  server: 104.16.10.233
+  servername: u.srilankangrill.online
   tls: true
   type: vless
   udp: true
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   ws-opts:
     headers:
-      Host: singapore.36109178.xyz
-    path: /static/media/video-chunk.f4v
+      Host: u.srilankangrill.online
+    path: /
