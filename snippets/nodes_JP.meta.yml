@@ -1,33 +1,26 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|4.7MB/s
-  network: tcp
-  port: 13779
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: '!!str af1bdd293097b664'
-  server: 202.144.192.76
-  servername: tesla.com
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
   tls: true
   type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  name: 🇯🇵 日本 | JPN
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  uuid: 62cd6e5a-f41a-462a-8df9-31ab0ef75e46
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- auth: 49f7ff21-a176-30cc-ab60-a5988fd85ce0
   name: 🇯🇵 日本 | JPN 2
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 20562
-  server: mszz.mangshe.xyz
+  password: 49f7ff21-a176-30cc-ab60-a5988fd85ce0
+  port: 60001
+  server: hk01.kfc-520.com
   skip-cert-verify: true
-  sni: www.microsoft.com
+  sni: hk01.kfc-520.com
   type: hysteria2

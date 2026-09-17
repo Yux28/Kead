@@ -1,11 +1,21 @@
 proxies:
-- name: 🇬🇧GB_1|2.5MB/s
+- name: 🇬🇧GB_1|2.4MB/s
+  password: None
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|3.8MB/s
+  username: null
+- name: 🇬🇧GB_2|3.3MB/s
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_3|3.1MB/s
   password: None
   port: 443
   server: 37.120.233.18
@@ -13,3 +23,34 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 🇬🇧GB_4|2.5MB/s
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_5|1021KB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: yMoulSTnxnbOfAjWPfB244a29ms9HUkjgA1zLZ65Nzw
+    short-id: '!!str '
+  server: 31.76.111.152
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24b84bd3-baa3-4192-9625-23c9690ae6f6
+  xudp: true
+- name: 🇬🇧GB_6|3.0MB/s
+  password: ''
+  port: '443'
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
