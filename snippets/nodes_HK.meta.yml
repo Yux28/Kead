@@ -1,1 +1,26 @@
-proxies: []
+proxies:
+- name: 🇭🇰HK_1|1.2MB/s
+  password: Og==
+  port: 1080
+  server: 103.210.161.8
+  type: socks5
+  udp: true
+  username: Og==
+- name: 🇭🇰 香港 | HKG
+  password: e78c9b0e-2e52-3ca8-bae2-ed04d8894f61
+  port: 443
+  server: aic-1.serbia-maki.stream
+  skip-cert-verify: true
+  sni: aic-1.serbia-maki.stream
+  type: anytls
+  udp: true
+- auth: e78c9b0e-2e52-3ca8-bae2-ed04d8894f61
+  name: 🇭🇰 香港 | HKG 2
+  obfs: salamander
+  obfs-password: 7a20306e45cc40f02b4e4bd56d678d5e
+  password: e78c9b0e-2e52-3ca8-bae2-ed04d8894f61
+  port: 32030
+  server: aic-2.serbia-maki.stream
+  skip-cert-verify: true
+  sni: aic-2.serbia-maki.stream
+  type: hysteria2

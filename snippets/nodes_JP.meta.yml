@@ -1,26 +1,63 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 🇯🇵 日本 | JPN
-  network: ws
-  packet-encoding: xudp
+  network: tcp
   port: 443
-  server: adheres-scruple.quick-cdn.net
-  servername: adheres-scruple.quick-cdn.net
+  reality-opts:
+    public-key: ImUbTZ1OKgAaiNlCf8zkeO5NnbAdKHdm2fhphvEZNxY
+    short-id: '!!str 56'
+  server: 1-jp.ap.ku-ke.cc
+  servername: cdn.jsdelivr.net
   tls: true
   type: vless
   udp: true
-  uuid: 62cd6e5a-f41a-462a-8df9-31ab0ef75e46
+  uuid: d03c34c3-98fa-42ff-80a8-6ea1d0b24ac9
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇯🇵JP_2|1.2MB/s
+  network: ws
+  port: 443
+  server: 108.160.136.71
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
-- auth: 49f7ff21-a176-30cc-ab60-a5988fd85ce0
-  name: 🇯🇵 日本 | JPN 2
-  password: 49f7ff21-a176-30cc-ab60-a5988fd85ce0
-  port: 60001
-  server: hk01.kfc-520.com
+      Host: cdn8848.776676.xyz
+    path: /doc/products/view?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇯🇵JP_3|1.0MB/s
+  network: ws
+  port: 443
+  server: 167.179.111.237
+  servername: cdn8848.776676.xyz
   skip-cert-verify: true
-  sni: hk01.kfc-520.com
-  type: hysteria2
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /act/player/search?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: el-V-GCKOca5NayG-NZ9BzIpi73UlbggLlwGkNvEQ2A
+    short-id: '!!str 1d8e067a2fc2c587'
+  server: tic-7.serbia-maki.stream
+  servername: is1-ssl.mzstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e78c9b0e-2e52-3ca8-bae2-ed04d8894f61

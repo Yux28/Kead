@@ -1,17 +1,1 @@
-proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇰🇷 韩国 | KOR
-  network: ws
-  port: 443
-  server: 172.64.159.190
-  servername: a860d725.69lover.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43e60b75-9920-450a-94ee-8762758ca49c
-  ws-opts:
-    headers:
-      Host: a860d725.69lover.site
-    path: /api/v2/288cd04559d84d1d/stream
+proxies: []
