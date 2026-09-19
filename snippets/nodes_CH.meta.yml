@@ -5,17 +5,19 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇭 瑞士 | CHE
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6V_LHB1yblp9RDyo5GOXL-V_V9MFa-mBRO0epwSQP3U
-    short-id: '!!str a1ab5a56bca2b1d3'
-  server: captaingold.app
-  servername: captaingold.app
+- name: 🇨🇭CH_2|3.9MB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: c40ed630-4c4f-49d0-9ef3-362e802d47fc
+  type: http
+  username: null
+- name: 🇨🇭CH_3|2.6MB/s
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

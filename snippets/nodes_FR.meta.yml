@@ -1,45 +1,72 @@
 proxies:
 - encryption: none
-  name: 🇫🇷FR_1|4.7MB/s
+  name: 🇫🇷FR_1|4.3MB/s
   network: tcp
   port: '22224'
-  server: 13.37.81.71
+  server: 13.39.230.204
   type: vless
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   xudp: true
-- client-fingerprint: chrome
-  name: 🇫🇷FR_2|1006KB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.149
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_3|3.0MB/s
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_4|4.3MB/s
+- name: 🇫🇷FR_2|4.5MB/s
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷 法国 | FRA
+- name: 🇫🇷FR_3|2.8MB/s
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷 法国 | FRA 9
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ
+  server: 130.49.77.6
+  servername: www.philips.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  xhttp-opts:
+    host: www.philips.com
+    mode: auto
+    path: /
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_5|4.0MB/s
+  password: amazonskr05
+  port: '443'
+  server: 15.237.252.23
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国 | FRA
+  network: ws
+  port: 80
+  server: 188.114.96.19
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 479526cd-5011-43cf-a788-504da95e07c2
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+    path: /
+- name: 🇫🇷 法国 | FRA 2
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.44
+  server: 104.26.14.137
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -48,27 +75,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷 法国 | FRA 2
-  network: ws
-  port: 443
-  server: 199.232.78.170
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-    path: /
 - name: 🇫🇷 法国 | FRA 3
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.219
+  server: 104.18.152.161
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -77,127 +88,20 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇫🇷 法国 | FRA 4
-  network: ws
-  password: humanity
+- client-fingerprint: chrome
+  name: 🇫🇷 法国 | FRA 4
+  network: tcp
   port: 443
-  server: 172.67.74.2
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 5
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.210
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 6
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.155
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷 法国 | FRA 7
-  network: ws
-  port: 443
-  server: 199.232.78.160
-  servername: ssl.fastly.com
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+    short-id: '!!str ae682368818bd6c5'
+  server: 34.155.10.226
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-    path: /
-- name: 🇫🇷 法国 | FRA 8
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.244
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 9
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 10
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.72
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 11
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.188.109
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 12
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国 | FRA 13
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+- name: 🇫🇷 法国 | FRA 5
   network: ws
   password: humanity
   port: 443
@@ -210,11 +114,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇫🇷 法国 | FRA 14
+- name: 🇫🇷 法国 | FRA 6
   network: ws
   password: humanity
   port: 443
-  server: 104.16.73.213
+  server: 104.20.6.134
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -223,11 +127,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇫🇷 法国 | FRA 15
+- name: 🇫🇷 法国 | FRA 7
   network: ws
   password: humanity
   port: 443
-  server: 104.18.22.63
+  server: 104.17.111.3
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -240,11 +144,50 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: 🇫🇷 法国 | FRA 16
+  name: 🇫🇷 法国 | FRA 8
   network: ws
   password: humanity
   port: 443
-  server: 162.159.254.191
+  server: 104.21.8.107
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 10
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.4
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 11
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.74.2
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 12
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan

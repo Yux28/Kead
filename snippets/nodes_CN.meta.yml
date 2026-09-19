@@ -1,4 +1,18 @@
 proxies:
+- name: 🇨🇳CN_1|5.6MB/s
+  password: T2c9PTpPZz09
+  port: 1080
+  server: 103.210.161.8
+  type: socks5
+  udp: true
+  username: T2c9PTpPZz09
+- name: 🇨🇳CN_2|5.9MB/s
+  password: Og==
+  port: 1080
+  server: 103.210.161.8
+  type: socks5
+  udp: true
+  username: Og==
 - cipher: aes-256-cfb
   name: CN_speednode_0001
   password: 7eadc6dbe2ae

@@ -1,13 +1,22 @@
 proxies:
-- name: 🇸🇪SE_1|3.8MB/s
-  password: None
-  port: 443
-  server: 79.142.77.63
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇸🇪SE_1|3.6MB/s
+  network: ws
+  port: 2053
+  server: 109.107.155.76
+  servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
-  type: http
-  username: null
-- name: 🇸🇪SE_2|2.9MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /tv/member/auth?ed=2560
+- name: 🇸🇪SE_2|3.8MB/s
   password: None
   port: 443
   server: 146.70.242.130
@@ -15,3 +24,30 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 🇸🇪SE_3|3.3MB/s
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪SE_4|2.8MB/s
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  name: 🇸🇪 瑞典 | SWE
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fV003yDr_sb_Wkgz6MxnIUJMgD15osWhzU-HZ5fLPFg
+    short-id: '!!str 79ff7d51e3c56323'
+  server: 34.51.231.250
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4be912f-68e8-4d51-80a4-1342b646f8e0

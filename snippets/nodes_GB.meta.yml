@@ -1,21 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|2.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 8q_xD5tfjZGDPsnq-3VqXWVV7-D03crExMBuL4xQNBM
-    short-id: '!!str d4f6a8c1b2e3f9aa'
-  server: 2.26.51.75
-  servername: 4pda.to
+- name: 🇬🇧GB_1|2.5MB/s
+  password: ''
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 57e2a48b-0cc2-4b60-aacd-b36358fcba96
-  xudp: true
-- name: 🇬🇧GB_2|1.8MB/s
+  type: http
+  username: ''
+- name: 🇬🇧GB_2|2.9MB/s
   password: None
   port: 443
   server: 37.120.233.50
@@ -23,60 +15,51 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_4|3.3MB/s
+- name: 🇬🇧GB_3|2.7MB/s
   password: None
   port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|2.8MB/s
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_5|2.0MB/s
+  password: None
+  port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_5|2.4MB/s
-  port: 1088
-  server: 144.126.197.184
-  type: socks5
-- client-fingerprint: ios
-  name: 🇬🇧GB_6|4.3MB/s
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: GzQr6fDhigtRAr0n2Y7Nk3snhdytYyOvaYo9zYe1Xn4
-    short-id: '!!str b3a1cc510a2001c6'
-  server: 2.26.148.189
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6eefb4c5-96c2-4b41-a8e3-3dd13e8e09d0
-  xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_7|2.4MB/s
+  name: 🇬🇧GB_6|3.9MB/s
   network: tcp
-  port: '443'
+  port: '12884'
   reality-opts:
-    public-key: sEzXu5KZcPPaT5ZKj8gBIOa4ana3Jq75-iZSMQPW9BY
-    short-id: '!!str 8c3f17a4d92be560'
-  server: 45.43.166.56
-  servername: travel.yandex.ru
+    public-key: PZId4C7clCYYpoK4vHV9hJ7BNEz4J4tHxGicMeasriQ
+    short-id: '!!str 1b6028'
+  server: 36.151.187.225
+  servername: www.spotify.com
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
   xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: TunService
-  name: 🇬🇧 英国 | GBR
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
-  server: 45.88.13.5
-  servername: download.nvidia.com
+- name: 🇬🇧GB_7|1.9MB/s
+  password: ''
+  port: '443'
+  server: 212.102.63.61
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 2bb8b13c-b3f0-2552-da05-d0929bfb36db
+  type: http
+  username: ''
