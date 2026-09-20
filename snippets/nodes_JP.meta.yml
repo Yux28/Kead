@@ -3,10 +3,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇯🇵JP_1|4.3MB/s
+  name: 🇯🇵JP_1|4.5MB/s
   network: ws
-  port: 8443
-  server: 206.251.53.91
+  port: 18443
+  server: 92.113.124.204
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -15,19 +15,4 @@ proxies:
   ws-opts:
     headers:
       Host: cdn8848.776676.xyz
-    path: /settings?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_2|3.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: V94ws5oTIja_a6Hui3rSjomr7hZ-QCtYlsT7BWmxTzk
-    short-id: '!!str 973bd4f3d8d217fd'
-  server: 8.209.248.218
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: caab26f1-c2e0-438d-8342-5d2125fb45df
-  xudp: true
+    path: /directory/ads/news?ed=2560
