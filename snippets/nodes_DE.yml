@@ -1,33 +1,23 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_1|1.9MB/s
-  password: a1-hsiyxkoJ_4Zsszu66wA
-  port: '2060'
-  server: p1tun2.greewebservices.ir
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_5|4.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 63.181.79.8
-  type: ss
-  udp: true
-- name: 🇩🇪 德国 | DEU 5
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_5|2.3MB/s
   network: ws
-  password: humanity
-  port: 443
-  server: 88.198.82.150
+  password: Km/pIG4AGCjCOiGWj5FsWA==
+  port: '25040'
+  server: node8.quaxly.com
   skip-cert-verify: true
-  sni: www.ignitelimit.com
+  sni: /gay-anal
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /node8.quaxly.com
 - cipher: aes-256-cfb
-  name: 🇩🇪 德国 | DEU 6
+  name: 🇩🇪 德国 | DEU
   password: amazonskr05
   port: 443
   server: 18.156.84.97

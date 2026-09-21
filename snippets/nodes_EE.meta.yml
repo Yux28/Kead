@@ -1,1 +1,39 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇪🇪EE_1|2.7MB/s
+  network: ws
+  port: 8443
+  server: 5.101.115.117
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /magnet/thread?ed=2560
+- auth: 319ed24b1c7203aa
+  name: 🇪🇪 爱沙尼亚 | EST
+  password: 319ed24b1c7203aa
+  port: 8443
+  server: tishina-axe.dedyn.io
+  skip-cert-verify: true
+  sni: tishina-axe.dedyn.io
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇪🇪 爱沙尼亚 | EST 2
+  network: ws
+  port: 2053
+  server: 5.101.114.44
+  servername: cdn8848.776676.xyz
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /collection/directory?ed=2560

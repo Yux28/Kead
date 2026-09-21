@@ -1,27 +1,10 @@
 proxies:
 - name: 🇸🇬SG_1|2.5MB/s
-  port: 443
-  server: 154.26.139.24
+  password: ''
+  port: 9443
+  server: 149.88.99.209
   skip-cert-verify: true
   tls: true
   type: http
-- auth: 1027576c-c4df-4277-b3ef-38d3213b6574
-  name: 🇸🇬 新加坡 | SGP
-  password: 1027576c-c4df-4277-b3ef-38d3213b6574
-  port: 443
-  server: 161.118.253.238
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 2
-  network: tcp
-  port: 20003
-  reality-opts:
-    public-key: MNuMD-QetOhWYDuVRaQj-mhcrQMVWyF3zm3DNpaE_E4
-    short-id: '!!str 43ebaa76bdeab867'
-  server: 106.75.137.66
-  servername: cache.video.iqiyi.com
-  tls: true
-  type: vless
-  uuid: efbd22e5-1fd7-4c50-a41d-279915d89b66
+  udp: true
+  username: ''
