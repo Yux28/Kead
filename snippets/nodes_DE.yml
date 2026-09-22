@@ -1,24 +1,11 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_5|2.3MB/s
-  network: ws
-  password: Km/pIG4AGCjCOiGWj5FsWA==
-  port: '25040'
-  server: node8.quaxly.com
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 2
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: true
-  sni: /gay-anal
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: /node8.quaxly.com
-- cipher: aes-256-cfb
-  name: 🇩🇪 德国 | DEU
-  password: amazonskr05
-  port: 443
-  server: 18.156.84.97
-  type: ss
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

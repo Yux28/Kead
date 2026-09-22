@@ -1,9 +1,4 @@
 proxies:
-- name: 🇨🇳CN_1|5.0MB/s
-  port: 1080
-  server: 103.210.161.8
-  type: socks5
-  udp: true
 - cipher: aes-256-cfb
   name: CN_speednode_0001
   password: 7eadc6dbe2ae
