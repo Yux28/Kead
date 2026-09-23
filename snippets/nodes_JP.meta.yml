@@ -1,8 +1,14 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_1|5.5MB/s
-  password: amazonskr05
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN
+  network: tcp
   port: 443
-  server: 18.181.165.254
-  type: ss
+  reality-opts:
+    public-key: Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE
+    short-id: '!!str 8380ad05cd21a69f'
+  server: 35.243.84.20
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 0c4c6ebb-603f-4429-8682-beef6b65b80d

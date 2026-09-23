@@ -1,15 +1,14 @@
 proxies:
 - client-fingerprint: chrome
   name: 🇨🇦 加拿大 | CAN
-  network: ws
-  port: 2096
-  server: 104.21.8.201
-  servername: cdn-ca.skyvora.app
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0dSYzX_uvVr-YmiONeKxPt7TdFkaFeYopYfjobxxEC4
+    short-id: '!!str 341ec000a90f1ced'
+  server: 34.186.193.91
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 1d54a125-8f1e-46bb-9a23-0ecf4ac92db8
-  ws-opts:
-    headers:
-      Host: cdn-ca.skyvora.app
-    path: /fqg7aacd8s
+  uuid: 2ea95ec3-6b09-470e-952a-ebb171b0d666

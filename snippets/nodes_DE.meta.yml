@@ -1,216 +1,141 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|3.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: '!!str 4fa44664f6a566d3'
-  server: 45.95.96.236
-  servername: gesmankos.sadiepinki.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|2.7MB/s
-  network: tcp
-  port: '443'
-  server: 144.31.159.86
-  servername: de3.duck-proxy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5d6221d-e3ad-4453-b5c6-8bf7ccaa7aa5
-  xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_10|3.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: '!!str 4fa44664f6a566d3'
-  server: gesmankos.sadiepinki.com
-  servername: gesmankos.sadiepinki.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  xudp: true
-- name: 🇩🇪DE_4|2.1MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|2.7MB/s
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪DE_6|3.2MB/s
+  encryption: none
+  name: 🇩🇪DE_1|1.5MB/s
   network: ws
-  port: 443
-  server: 130.17.27.204
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  port: '443'
+  server: 103.63.30.73
+  servername: xi.tbv.ccwu.cc
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  uuid: b2593749-691c-428c-9481-14979cba3446
   ws-opts:
     headers:
-      Host: cdn8848.776676.xyz
-    path: /player/shop?ed=2560
-- name: 🇩🇪DE_7|2.8MB/s
+      Host: xi.tbv.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /proxyip=us.xiabibi.cf
+  xudp: true
+- name: 🇩🇪DE_2|2.6MB/s
   password: None
-  port: 443
+  port: 9443
   server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪DE_8|3.4MB/s
-  network: ws
+- name: 🇩🇪DE_3|1.2MB/s
+  password: udp-relay=true
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: None
+- name: 🇩🇪DE_4|2.0MB/s
   port: 443
-  server: 209.38.239.249
-  servername: cdn8848.776676.xyz
+  server: 141.17.83.73
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /shows/data?ed=2560
+  type: http
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.qF4y6Itoni19nRraj5neXcQgTeGhi-SOq3gaouKhNDY
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|2.5MB/s
+  name: 🇩🇪DE_5|3.1MB/s
   network: tcp
-  port: '56910'
-  reality-opts:
-    public-key: nc_7Kmj2C6jEodGtpkQn4oZoJdj-99ohSLbZim5CI1w
-    short-id: '!!str 7ed23a63e00ea614'
-  server: donttrust.quickpl.ir
-  servername: amazon.ae
+  port: '7444'
+  server: 185.121.179.105
+  servername: de777.lavivas.org
   tls: true
   type: vless
   udp: true
-  uuid: 9af3f593-e81b-46a2-a49d-ec108fe95c8f
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
-  fingerprint: 1aeacc25d232c936f0199a487fc17da95ba59fb6c06656846214cec835d3ac23
-  name: 🇩🇪DE_11|1.9MB/s
+  name: 🇩🇪DE_6|3.0MB/s
   network: xhttp
-  port: '2087'
-  server: s4.zynetraq.ir
-  servername: s4.zynetraq.ir
+  port: '9443'
+  server: 82.117.87.129
+  servername: hub-vie-01.hanvpn.cc
   tls: true
   type: vless
   udp: true
-  uuid: 384d294f-0cf6-4f36-12f4-4b495e72163b
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
   xhttp-opts:
-    host: s4.zynetraq.ir
-    mode: auto
-    path: /BetForward
-    x-padding-bytes: 100-1000
+    host: hub-vie-01.hanvpn.cc
+    path: /vie01-xhttp-8e47a/
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_12|3.2MB/s
-  network: ws
-  port: '2096'
-  server: 172.67.130.159
-  servername: cdn-de.skyvora.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 735b8344-0b95-464c-b687-1c5616138908
-  ws-opts:
-    headers:
-      Host: cdn-de.skyvora.app
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /3cagtz3
-  xudp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU
   network: tcp
-  port: 80
+  port: 443
   reality-opts:
-    public-key: KDmlFjsZuxHYEHYtFZh-3sLmrkt_KmcxA-sG8twBqxM
-    short-id: '!!str d2549f367a3ed3cc'
-  server: 88.99.123.201
-  servername: www.yahoo.com
+    public-key: LMcNHcOzPISa2fmZWt2JraL6_a_IObpS2znQW70gyDo
+  server: 213.165.56.169
+  servername: fl-api.bachidze.com
   tls: true
   type: vless
   udp: true
-  uuid: 39cd736f-d129-4e75-ac39-77f6cf233450
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 2
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
+  uuid: 974f2c7e-a292-4207-8315-ef4151bdca41
+- name: 🇩🇪 德国 | DEU 2
+  network: ws
+  port: 8880
+  server: de.huge-b.com
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h2
-  client-fingerprint: firefox
+  uuid: 9d33a05a-a51f-4d9e-afa2-592adc5dc293
+  ws-opts:
+    headers:
+      Host: de.huge-b.com
+    path: /@Artemis_Vpn
+    v2ray-http-upgrade: true
+- client-fingerprint: chrome
   name: 🇩🇪 德国 | DEU 3
-  network: xhttp
-  port: 2087
-  server: dee338dd.localip.ir
-  servername: denet1.17e1feeuzi.online
+  network: ws
+  port: 443
+  server: 31.76.226.100
+  servername: hub-fi-03.hanvpn.cc
   tls: true
   type: vless
   udp: true
-  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
-  xhttp-opts:
-    host: denet1.17e1feeuzi.online
-    mode: stream-one
-    path: /meti
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: Google
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  ws-opts:
+    headers:
+      Host: hub-fi-03.hanvpn.cc
+    path: /fi03-ws-8e47a
+- client-fingerprint: chrome
   name: 🇩🇪 德国 | DEU 4
-  network: grpc
-  port: 8445
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: _UazRMiBq9RqMaVrHeLsvUuoBkGFo9Gm-A4ivuZ6ZS8
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 148.135.185.21
-  servername: hetzner.com
+    public-key: -XH2d9x4wRi--KvR6XTcZW9HXbikI2_262zfYDr1uFw
+    short-id: '!!str 690ec9207866c84e'
+  server: 34.185.172.52
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: e5d73666-1ac5-49fc-8e4d-5c8cad769588
+  uuid: 3255d065-119c-4103-a422-ea9d301b0707
+- name: 🇩🇪 德国 | DEU 5
+  password: Tg3RnK7Xp8B1
+  port: 443
+  server: 45.32.157.84
+  skip-cert-verify: true
+  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 6
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
+    short-id: '!!str a1b2c3d4e5f67890'
+  server: 31.76.245.63
+  servername: dzen.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a

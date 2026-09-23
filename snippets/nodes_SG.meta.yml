@@ -1,63 +1,51 @@
 proxies:
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇸🇬SG_1|2.1MB/s
-  network: ws
-  port: 443
-  server: 139.180.220.7
-  servername: cdn8848.776676.xyz
+- name: 🇸🇬SG_1|2.5MB/s
+  password: ''
+  port: 9443
+  server: 149.88.99.209
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /hot/stream?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_2|2.1MB/s
-  network: ws
-  port: '2096'
-  server: 172.67.130.159
-  servername: cdn-sg.skyvora.app
-  tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 832c8f42-7fe1-4aa4-9171-eb9dddbf6fef
-  ws-opts:
-    headers:
-      Host: cdn-sg.skyvora.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /78bc8
-  xudp: true
+  username: ''
 - client-fingerprint: chrome
   name: 🇸🇬 新加坡 | SGP
   network: ws
-  port: 2096
-  server: 104.21.8.201
-  servername: cdn-sg.skyvora.app
+  port: 8443
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   tls: true
   type: vless
   udp: true
-  uuid: 832c8f42-7fe1-4aa4-9171-eb9dddbf6fef
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: cdn-sg.skyvora.app
-    path: /78bc8
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
 - client-fingerprint: chrome
   name: 🇸🇬 新加坡 | SGP 2
-  network: tcp
-  port: 8686
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 13.214.204.133
-  servername: www.apple.com
+  network: ws
+  port: 2087
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   tls: true
   type: vless
   udp: true
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA
+    short-id: '!!str b1fef7a9181ea31d'
+  server: 35.198.230.134
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 50cbda48-00ce-4688-8b3d-0177ab8f177c
