@@ -1,42 +1,8 @@
 proxies:
 - auth: 19f72087-4591-4d72-930b-2697078ec2be
-  name: 🇭🇰 香港 | HKG 2
+  name: 🇭🇰 香港 | HKG
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 4433
   server: hk2.xiaoliyu.cyou
   skip-cert-verify: true
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇭🇰 香港 | HKG
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
-    short-id: '!!str 64b3f192fc0669e1'
-  server: 34.92.145.185
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75d38591-267e-4d89-98bc-164f25b50880
-- client-fingerprint: chrome
-  name: 🇭🇰 香港 | HKG 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
-    short-id: '!!str 56d4e7ae4f86fa39'
-  server: 34.96.146.210
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
-- name: 🇭🇰 香港 | HKG 4
-  password: 9sK2mP8xQ7vL3nZ6
-  port: 443
-  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-  type: anytls
-  udp: true

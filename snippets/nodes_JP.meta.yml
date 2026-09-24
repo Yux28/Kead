@@ -1,14 +1,38 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN
-  network: tcp
+- auth: my_super_password_123
+  name: 🇯🇵JP_1|5.4MB/s
+  password: my_super_password_123
   port: 443
-  reality-opts:
-    public-key: Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE
-    short-id: '!!str 8380ad05cd21a69f'
-  server: 35.243.84.20
-  servername: www.cloudflare.com
-  tls: true
+  server: open.w2m.ink
+  skip-cert-verify: true
+  sni: open.w2m.ink
+  type: hysteria2
+  udp: true
+- auth: my_super_password_123
+  name: 🇯🇵JP_2|5.3MB/s
+  password: my_super_password_123
+  port: 5443
+  server: open.w2m.ink
+  skip-cert-verify: true
+  sni: open.w2m.ink
+  type: hysteria2
+  udp: true
+- name: 🇯🇵 日本 | JPN
+  network: ws
+  port: 2052
+  server: 172.64.229.170
+  tls: false
   type: vless
   udp: true
-  uuid: 0c4c6ebb-603f-4429-8682-beef6b65b80d
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- auth: my_super_password_123
+  name: 🇯🇵 日本 | JPN 2
+  password: my_super_password_123
+  port: 5443
+  server: open.2ml.cc.cd
+  skip-cert-verify: true
+  type: hysteria2

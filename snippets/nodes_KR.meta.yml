@@ -1,14 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 🇰🇷 韩国 | KOR
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
-    short-id: '!!str 8685f8b4d9f4f51e'
-  server: 34.22.64.72
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6
+proxies: []

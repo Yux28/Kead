@@ -1,18 +1,16 @@
 proxies:
-- name: 🇨🇳CN_1|2.9MB/s
-  password: Og==
-  port: '1080'
-  server: 103.210.161.8
-  skip-cert-verify: true
-  type: socks5
-  username: Og==
-- name: 🇨🇳CN_2|4.5MB/s
+- name: 🇨🇳CN_1|5.1MB/s
   password: T2c9PTpPZz09
   port: '1080'
   server: 103.210.161.8
   skip-cert-verify: true
   type: socks5
   username: T2c9PTpPZz09
+- name: 🇨🇳CN_2|5.5MB/s
+  port: 1080
+  server: 103.210.161.8
+  skip-cert-verify: false
+  type: socks5
 - cipher: aes-256-cfb
   name: CN_speednode_0001
   password: 7eadc6dbe2ae

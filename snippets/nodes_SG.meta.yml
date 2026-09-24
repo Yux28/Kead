@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬SG_1|2.5MB/s
+- name: 🇸🇬SG_1|2.3MB/s
   password: ''
   port: 9443
   server: 149.88.99.209
@@ -8,44 +8,3 @@ proxies:
   type: http
   udp: true
   username: ''
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP
-  network: ws
-  port: 8443
-  server: 172.64.146.211
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 2
-  network: ws
-  port: 2087
-  server: 172.64.146.211
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA
-    short-id: '!!str b1fef7a9181ea31d'
-  server: 35.198.230.134
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 50cbda48-00ce-4688-8b3d-0177ab8f177c
