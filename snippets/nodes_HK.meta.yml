@@ -1,8 +1,63 @@
 proxies:
-- auth: 19f72087-4591-4d72-930b-2697078ec2be
-  name: 🇭🇰 香港 | HKG
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: hk2.xiaoliyu.cyou
+- fingerprint: ''
+  name: 🇭🇰 香港 | HKG 3
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
   skip-cert-verify: true
+  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+  type: anytls
+  udp: true
+  username: 9sK2mP8xQ7vL3nZ6
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_2|1.4MB/s
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: uWffyYV5PSa38qThOfFUG_9aHyV4ZbKJ0xc1UK79NUg
+    short-id: '!!str 44'
+  server: 200.165.236.184
+  servername: api.bitrix24.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82e57623-bf39-454c-8b35-218085c536f3
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3xV5ZMHcMyfWXOAD_-FdX5M973QiqUfdCo8OgPcz_k8
+    short-id: '!!str 8eb5'
+  server: 141.11.238.17
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG 2
+  network: tcp
+  port: 10003
+  reality-opts:
+    public-key: BLxr2zh1eI34_v_CCzROgLIfUW6-ki5ZpbQiZ7LS80g
+    short-id: '!!str 98'
+  server: 2.mdn.nba.good.log.a2.kfc-520.com
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
+- auth: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
+  name: 🇭🇰 香港 | HKG 4
+  password: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
+  port: 60001
+  server: hk01.kfc-520.com
+  skip-cert-verify: true
+  sni: hk01.kfc-520.com
   type: hysteria2

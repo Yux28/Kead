@@ -1,14 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 🇨🇦 加拿大 | CAN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0dSYzX_uvVr-YmiONeKxPt7TdFkaFeYopYfjobxxEC4
-    short-id: '!!str 341ec000a90f1ced'
-  server: 34.186.193.91
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2ea95ec3-6b09-470e-952a-ebb171b0d666
+proxies: []

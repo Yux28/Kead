@@ -1,5 +1,18 @@
 proxies:
-- name: 🇸🇬SG_1|2.3MB/s
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|2.5MB/s
+  network: ws
+  port: 2096
+  server: 104.18.47.140
+  servername: rainfall0705.cc.cd
+  tls: true
+  type: vless
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+  ws-opts:
+    headers:
+      Host: rainfall0705.cc.cd
+    path: /
+- name: 🇸🇬SG_2|2.4MB/s
   password: ''
   port: 9443
   server: 149.88.99.209
@@ -8,3 +21,17 @@ proxies:
   type: http
   udp: true
   username: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 | SGP
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IbE3Hk3wScZ2hQncPPC9DGAqNGpf3zTuUGrXNktJmFA
+    short-id: '!!str 7b8bb3ba2c54c2'
+  server: 23.94.192.9
+  servername: chinaunitedmould.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32

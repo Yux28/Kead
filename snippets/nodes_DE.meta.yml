@@ -1,11 +1,27 @@
 proxies:
-- name: 🇩🇪DE_2|1.1MB/s
-  password: None
-  port: 11111
-  server: 103.237.102.191
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|4.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0
+    short-id: '!!str 0c13e8822e7f58aa'
+  server: 87.120.216.144
+  servername: gerwai1488.vvzzkontaktezzvv.garden
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  xudp: true
+- name: 🇩🇪DE_2|2.4MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_3|2.6MB/s
+- name: 🇩🇪DE_3|2.8MB/s
   password: None
   port: 443
   server: 149.36.50.129
@@ -13,76 +29,124 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_4|2.0MB/s
+- name: 🇩🇪DE_4|2.8MB/s
   password: None
-  port: 9443
+  port: 443
   server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- encryption: mlkem768x25519plus.native.0rtt.Px0rEez31FH9Ten81Og17JMaeLuA6l3iAW-Bfu2_Rh0
-  name: 🇩🇪DE_5|2.4MB/s
+- name: 🇩🇪DE_5|1.8MB/s
+  password: None
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_7|3.2MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- encryption: none
+  name: 🇩🇪DE_9|3.2MB/s
   network: ws
-  port: 2082
-  server: down.chaqalli.com
+  port: '2052'
+  server: cctvhikvision.center
   type: vless
   udp: true
-  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+  uuid: b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
+      Host: uwu.blueknightnet.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net
   xudp: true
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_6|4.1MB/s
-  network: raw
-  port: '57160'
+  name: 🇩🇪 德国 | DEU
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: Tbu7sr_pvHngDWFIa0ApL5UL9vEGxlHESd9g53KQehw
-    short-id: '!!str 77b5'
-  server: 77.91.76.156
-  servername: funpay.com
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: '!!str a696de84963656de'
+  server: 138.124.121.233
+  servername: amd.com
   tls: true
   type: vless
   udp: true
-  uuid: 68ad9a6d-2463-4c31-92a7-31547b9d4783
-  xudp: true
-- name: 🇩🇪DE_7|3.3MB/s
-  password: V2RayyNGvpn
-  port: '8443'
-  server: 168.222.43.35
-  skip-cert-verify: true
-  type: socks5
-  username: S8WJyKys
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
+  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 2
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gox8U8f-JNoWrH7BLfIRBsw3mKwEjIDUOcgozmi_nzQ
+    short-id: '!!str 8b36e9b7b3'
+  server: 189.24.107.174
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪 德国 | DEU 3
   network: tcp
-  port: 7443
-  server: dedicated.pivo.lol
-  servername: dedicated.pivo.lol
+  port: 443
+  reality-opts:
+    public-key: ipp8EI-gOcsTnRukQZQBniN2ik9rVO5yImNqqlNxizk
+    short-id: '!!str b39f4826fd1bd648'
+  server: 189.24.114.76
+  servername: addons.mozilla.org
   tls: true
   type: vless
   udp: true
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
+  uuid: 808fd66c-9902-45b8-85e0-0ee1da7904e2
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 🇩🇪 德国 | DEU 4
+  network: ws
+  port: 2083
+  server: 95.85.252.223
+  servername: mol.ultimagamest.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0d18168c-0d44-41f4-b94d-8e9ed0d6a2e7
+  ws-opts:
+    path: /vless-ws#TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
+    short-id: '!!str a1b2c3d4e5f67890'
+  server: 31.76.245.63
+  servername: dzen.ru
+  tls: true
+  type: vless
+  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
+- client-fingerprint: ios
+  name: 🇩🇪 德国 | DEU 6
+  network: tcp
+  port: 1230
+  reality-opts:
+    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
+    short-id: '!!str 9b60d3'
+  server: p1real1.greewebservices.ir
+  servername: play.googleapis.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: faff1125-5ff6-4263-b4f4-d0d44b8423a8

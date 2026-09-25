@@ -1,5 +1,5 @@
 proxies:
-- name: 🇬🇧GB_4|3.1MB/s
+- name: 🇬🇧GB_1|1.7MB/s
   password: None
   port: 443
   server: 37.120.233.50
@@ -7,15 +7,15 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_2|2.9MB/s
+- name: 🇬🇧GB_3|2.2MB/s
   password: None
   port: 443
-  server: 185.235.0.34
+  server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_3|3.1MB/s
+- name: 🇬🇧GB_4|2.9MB/s
   password: ''
   port: 443
   server: 185.235.0.2
@@ -23,18 +23,18 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 🇬🇧GB_5|3.0MB/s
-  password: None
-  port: 9443
+- name: 🇬🇧GB_5|3.1MB/s
+  password: ''
+  port: 443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇬🇧GB_6|1.9MB/s
+  username: ''
+- name: 🇬🇧GB_6|3.3MB/s
   password: None
-  port: 443
-  server: 185.235.0.66
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
