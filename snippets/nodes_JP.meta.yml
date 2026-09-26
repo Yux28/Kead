@@ -1,58 +1,17 @@
 proxies:
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇯🇵JP_1|1.1MB/s
-  network: ws
-  port: '23462'
-  server: 64.176.51.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 95c5abc1-018d-4628-89a7-25ab9c62ab74
-  ws-opts:
-    headers: {}
-    path: /a15206
-  xudp: true
 - auth: my_super_password_123
   name: 🇯🇵 日本 | JPN
   password: my_super_password_123
-  port: 5443
-  server: open.2ml.cc.cd
+  port: 443
+  server: open.2ml.bid
   skip-cert-verify: true
+  sni: open.2ml.bid
   type: hysteria2
-- cipher: aes-256-cfb
+- auth: RQBXe4kpsRant_2u1PzdneBOPuCSwUSI
   name: 🇯🇵 日本 | JPN 2
-  password: amazonskr05
+  password: RQBXe4kpsRant_2u1PzdneBOPuCSwUSI
   port: 443
-  server: 18.179.39.119
-  type: ss
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: T587xqua0Nrs0YreQRWJAP9Wto94NcbbhKPK4DkSi0c
-    short-id: '!!str 2223411c2ad9c55f'
-  server: 103.137.215.122
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea1c1e20-7263-4b08-a01b-690b29af66b3
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
-    short-id: '!!str 780152c21e234b5a'
-  server: 34.84.126.188
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
+  server: 43.167.208.94
+  skip-cert-verify: true
+  sni: 43.167.208.94
+  type: hysteria2

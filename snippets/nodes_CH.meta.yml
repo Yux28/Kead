@@ -1,5 +1,5 @@
 proxies:
-- name: 🇨🇭CH_1|4.0MB/s
+- name: 🇨🇭CH_1|2.1MB/s
   password: None
   port: 9443
   server: 37.120.213.210
@@ -7,28 +7,43 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇨🇭CH_2|2.1MB/s
-  password: None
+- name: 🇨🇭CH_2|2.3MB/s
   port: 443
   server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- client-fingerprint: random
+- auth: 84a506ca5aca505696a454d828420b3f
   name: 🇨🇭 瑞士 | CHE
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: Fe5PnOaERhhHbBXhGBEsQaRUBpSM8hCc03zOEpHz218
-    short-id: '!!str 51b784e13468'
-  server: 72.56.35.81
-  servername: ru19.aimodelhub.top
-  tls: true
+  password: 84a506ca5aca505696a454d828420b3f
+  port: 50160
+  server: 140.238.213.114
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 🇨🇱 智利 | CHL
+  network: ws
+  port: 80
+  server: platform115.golnamakcert.top
+  servername: platform115.halalkhor.info
+  tls: false
   type: vless
   udp: true
-  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
-  xhttp-opts:
-    host: ru19.aimodelhub.top
-    mode: auto
-    path: /
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  ws-opts:
+    headers:
+      Host: platform115.halalkhor.info
+    path: /platform115
+- name: 🇨🇱 智利 | CHL 2
+  network: ws
+  port: 80
+  server: platform103.golnamakcert.top
+  servername: platform103.halalkhor.info
+  tls: false
+  type: vless
+  udp: true
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  ws-opts:
+    headers:
+      Host: platform103.halalkhor.info
+    path: /platform103
