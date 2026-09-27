@@ -1,24 +1,68 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.0MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_1|1.4MB/s
+  network: ws
+  port: '443'
+  server: 199.232.78.170
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷FR_2|1000KB/s
   network: ws
   password: humanity
   port: '443'
-  server: render.com
+  server: join-telegram-channel.tirexnet.kdns.fr
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/39.0.2171.95 Safari/537.36
     path: /assignment
+- client-fingerprint: random
+  encryption: none
+  name: 🇫🇷FR_3|3.0MB/s
+  network: ws
+  port: '443'
+  server: hh.fwqfw783rg2dad.website
+  servername: hh.fwqfw783rg2dad.website
+  tls: true
+  type: vless
+  udp: true
+  uuid: cc39844c-d9ba-4652-9cae-395933f4e353
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: hh.fwqfw783rg2dad.website
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    max-early-data: 2560
+    path: /websocket
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇫🇷FR_2|2.4MB/s
+  name: 🇫🇷FR_4|2.3MB/s
   network: ws
   port: '443'
   server: 199.232.78.160
@@ -31,48 +75,22 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /
   xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷FR_3|1.2MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: join-telegram-channel.tirexnet.kdns.fr
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_4|1.5MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.67.74.2
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /assignment
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 🇫🇷FR_5|1.3MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - name: 🇫🇷 法国 | FRA
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.185
+  server: 104.20.6.134
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -85,7 +103,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.97
+  server: 104.18.152.230
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -98,7 +116,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.26.15.137
+  server: 104.18.152.140
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -111,20 +129,20 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 172.67.149.60
+  server: 45.130.125.190
   skip-cert-verify: true
-  sni: www.ignitelimit.com
+  sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
+      Host: www.calmlunch.com
     path: /assignment
 - name: 🇫🇷 法国 | FRA 5
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.113
+  server: 104.17.111.1
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -137,7 +155,59 @@ proxies:
   network: ws
   password: humanity
   port: 443
+  server: 104.18.152.77
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 7
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.109
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 8
+  network: ws
+  password: humanity
+  port: 443
   server: 159.112.235.52
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 9
+  network: ws
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国 | FRA 10
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.121
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan

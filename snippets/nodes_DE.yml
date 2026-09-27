@@ -1,9 +1,19 @@
 proxies:
-- name: 🇩🇪 德国 | DEU 10
-  password: Tg3RnK7Xp8B1
-  port: 443
-  server: 45.32.157.84
-  skip-cert-verify: true
-  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
-  type: trojan
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇩🇪DE_1|2.4MB/s
+  network: http
+  port: '10803'
+  server: 5.45.97.147
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 018fbfb7-721a-49a9-b9f5-fb55d92592b6
+  xudp: true
