@@ -1,44 +1,50 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN
+  name: 🇯🇵JP_1|2.5MB/s
   network: tcp
-  port: 16000
+  port: '33561'
   reality-opts:
-    public-key: CuqzBeQR_1VIdOGOgn5v8-t-X-YzURF9b3wtKVVyKQ8
-  server: x-rb1.xueshan168.cc
-  servername: s0.awsstatic.com
+    public-key: 158SMilJQo8T-Fi8-T1354xZsVFCYxA8dXQstKbIdVs
+    short-id: '!!str 6b9e61372a82002c'
+  server: 13.158.67.183
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 50c88bb1-d3ae-451a-b841-b8ce9681248f
-- cipher: aes-256-cfb
-  name: 🇯🇵 日本 | JPN 2
-  password: amazonskr05
-  port: 443
-  server: 3.112.209.209
-  type: ss
-  udp: true
-- auth: 50c88bb1-d3ae-451a-b841-b8ce9681248f
-  down: 500
-  name: 🇯🇵 日本 | JPN 3
-  password: 50c88bb1-d3ae-451a-b841-b8ce9681248f
-  port: 20601
-  server: x-rb8.xueshan168.cc
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇯🇵JP_2|4.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: '52454'
+  server: 45.88.43.116
   skip-cert-verify: true
-  sni: x-rb8.xueshan168.cc
+  sni: www.bing.com
   type: hysteria2
-  up: 500
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 | JPN 4
-  network: tcp
+  up: ''
+- auth: my_super_password_123
+  name: 🇯🇵 日本 | JPN
+  password: my_super_password_123
   port: 443
-  reality-opts:
-    public-key: boasPshryA8BDZa_GxZX8JRKJpBErbuH_lS6c9tvPCg
-  server: rb1.xueshan168.cc
-  servername: s0.awsstatic.com
+  server: open.2ml.bid
+  skip-cert-verify: true
+  type: hysteria2
+- client-fingerprint: unsafe
+  name: 🇯🇵 日本 | JPN 2
+  network: ws
+  port: 8443
+  server: 129.211.188.184
+  servername: jp3.yohototo.top
   tls: true
   type: vless
   udp: true
-  uuid: 50c88bb1-d3ae-451a-b841-b8ce9681248f
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws

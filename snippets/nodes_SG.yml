@@ -1,18 +1,8 @@
 proxies:
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇸🇬 新加坡 | SGP 3
-  network: http
-  port: 59121
-  server: 129.226.157.220
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡 | SGP
+  password: f0b9ae63-91a7-4673-924e-498e0e0828c0
+  port: 8989
+  server: 56.10.14.35
+  type: ss
   udp: true
-  uuid: d9865d63-d95c-454b-ba07-8e88b838a801

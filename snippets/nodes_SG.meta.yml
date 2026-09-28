@@ -1,76 +1,96 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|1.8MB/s
-  port: 3389
-  reality-opts:
-    public-key: s5t86eacAGCBMt6TWPF3Zhq8KFkBnmNZY3ZkKBrxHkY
-    short-id: '!!str a4115cac'
-  server: 185.115.207.173
-  servername: www.ntu.edu.sg
-  tls: true
-  type: vless
-  uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32
-- name: 🇸🇬SG_2|1.5MB/s
-  password: ''
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP
+  name: 🇸🇬SG_1|1.6MB/s
   network: tcp
-  port: 443
+  port: '20975'
   reality-opts:
-    public-key: dzSZgKH3Da66x3Z_Btbw0vsLLGZ-GfgGMGMCGkKTbBY
-  server: x-xjp.xueshan168.cc
-  servername: s0.awsstatic.com
+    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
+    short-id: '!!str 2bb0dc48'
+  server: 18.136.119.69
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 50c88bb1-d3ae-451a-b841-b8ce9681248f
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  xudp: true
 - client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_2|2.1MB/s
+  network: ws
+  port: '443'
+  server: 8.35.211.236
+  servername: kkkk-83j.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: kkkk-83j.pages.dev
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    max-early-data: 2048
+    path: /
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡 | SGP
+  password: f0b9ae63-91a7-4673-924e-498e0e0828c0
+  port: 8989
+  server: 56.10.14.35
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 🇸🇬 新加坡 | SGP 2
   network: tcp
-  port: 49289
-  server: 129.150.51.127
-  servername: www.microsoft.com
+  port: 26415
+  reality-opts:
+    public-key: eC5S3o9uFN6i_YjDjiALCXbc_dzh3kEm2C5zduDGtS8
+    short-id: '!!str b7dd999667b0406e'
+  server: 54.251.239.81
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 0590ab38-cb22-41d3-8312-6f396a5cec58
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇸🇬 新加坡 | SGP 3
-  network: http
-  port: 59121
-  server: 129.226.157.220
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
 - client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 4
+  name: 🇸🇬 新加坡 | SGP 3
   network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: gadeimao.ccwu.cc
+  port: 2096
+  server: 91.193.58.57
+  servername: free-server.techsonic.dev
   tls: true
   type: vless
   udp: true
-  uuid: f2a8e93b-5d7c-41b4-a6e2-0d9c4f8a31b7
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   ws-opts:
     headers:
-      Host: gadeimao.ccwu.cc
-    path: /
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
+- auth: d042d150716709bb778cc73889cddb02
+  name: 🇸🇬 新加坡 | SGP 4
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+  password: d042d150716709bb778cc73889cddb02
+  port: 443
+  server: 138.2.89.249
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 | SGP 5
+  network: tcp
+  port: 21464
+  reality-opts:
+    public-key: 7TVqIgOMgFzxjYG4nSSQxWWTE7cBPXjpoZwCsd337lY
+    short-id: '!!str 52f8'
+  server: 18.143.191.201
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec

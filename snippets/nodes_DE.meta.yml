@@ -1,120 +1,129 @@
 proxies:
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇩🇪DE_1|2.4MB/s
-  network: http
-  port: '10803'
-  server: 5.45.97.147
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 018fbfb7-721a-49a9-b9f5-fb55d92592b6
-  xudp: true
-- encryption: none
-  name: 🇩🇪 德国 | DEU 3
-  network: ws
-  port: 80
-  server: 159.69.91.8
-  tls: false
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|4.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4
+    short-id: '!!str 0123456789abcdef'
+  server: 31.76.111.79
+  servername: hh.ru
+  tls: true
   type: vless
   udp: true
-  uuid: 3728d3fa-e004-47b9-b334-9f0723efeef2
-  ws-opts:
-    path: /
+  uuid: ac9a573b-67ff-4953-9e13-4cf43576f8f0
   xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|1.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: ltHl15Wq549qC2JdAtesy-POs6Hwm_BbrlzuwDkWoUk
-    short-id: '!!str a1b2c3d4e5f6a1b2'
-  server: nl2.gursub.com
-  servername: nl2.gursub.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.P5QOV3IRj7P__fqCXMWA0Jv40zsfx2CDF8kmF8l0iFo
-  name: 🇩🇪DE_4|4.4MB/s
-  network: xhttp
-  port: 2053
-  server: 172.64.155.209
-  servername: pannelman.pannelman.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4240b207-8e05-4c5d-b70e-fe4928ecdd55
-  xhttp-opts:
-    host: pannelman.pannelman.ir
-    mode: auto
-    path: /xhttp
-    x-padding-bytes: 100-1000
-- client-fingerprint: safari
-  encryption: none
-  name: 🇩🇪DE_5|3.1MB/s
-  network: ws
-  port: '443'
-  server: 84.38.183.237
-  servername: ws.nightproducts.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /vless#/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.KbnZ4FRwBm5azbttBGOKctAIZh0zSh0iGoY-3bFPbjU
   name: 🇩🇪 德国 | DEU
-  network: xhttp
-  port: 2056
-  reality-opts:
-    public-key: Rvnb3mxrH6pC8OEeiwScIOJVEAUNd-Vjb_pp5K00p1s
-    short-id: '!!str fec7f0420bb978b4'
-  server: nahazoki.shadoww345.ir
-  servername: dynu.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8feb7fa4-83a9-48e6-9240-52c6683b1d32
-  xhttp-opts:
-    host: dynu.com
-    mode: auto
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 2
   network: tcp
   port: 443
   reality-opts:
-    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
-    short-id: '!!str a1b2c3d4e5f67890'
-  server: 31.76.245.63
-  servername: dzen.ru
+    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
+    short-id: '!!str f7d0420b8ab26060'
+  server: de.global-cdn.org
+  servername: de3.global-cdn.org
   tls: true
   type: vless
   udp: true
-  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
+  uuid: defc056e-17e5-4700-bd72-289b163fff47
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|2.7MB/s
+  network: tcp
+  port: '20855'
+  reality-opts:
+    public-key: c6Pu0_yAYxIrnYjbwIYLsKB_xhcLsk17BgojLeaIvE8
+    short-id: '!!str efe9'
+  server: 172.104.237.173
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  xudp: true
+- name: 🇩🇪DE_4|1.9MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_5|1.4MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇩🇪DE_6|3.7MB/s
+  network: grpc
+  port: '9891'
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: '!!str aabb'
+  server: 176.108.241.137
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_7|3.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4
+    short-id: '!!str 0123456789abcdef'
+  server: secret-test-de1.minetis.net
+  servername: hh.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac9a573b-67ff-4953-9e13-4cf43576f8f0
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+  name: 🇩🇪DE_8|2.1MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: '!!str a1b2c3d4e5f6a7b8'
+  server: 186.246.6.110
+  servername: upload.hexagonicfield.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_9|1.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: RMjWKm3Jj09ytfHD-90J0c3qdpQtjqJ4muUSAuF2eXQ
+    short-id: '!!str fbbda5'
+  server: 159.195.197.211
+  servername: acde3.astro-wall.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d05a0a-f298-4be9-8fab-3de32e3fb770
+  xudp: true
