@@ -1,5 +1,29 @@
 proxies:
-- name: 🇰🇷KR_1|1.5MB/s
-  port: 12121
-  server: 112.216.54.226
-  type: http
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇰🇷 韩国 | KOR
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Cn5_Bic3VFQ2ONvH5_npnbMYZ-oxkl4BxawPKxoRdCQ
+    short-id: '!!str f8f2875b3b4cb65b'
+  server: 61.111.247.80
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇰🇷 韩国 | KOR 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F6Asg31ihdkFCmTdIuGjq_232PMYhLsCH9k3Npaa9VI
+    short-id: '!!str 0d9954fe36197887'
+  server: 61.111.247.22
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D

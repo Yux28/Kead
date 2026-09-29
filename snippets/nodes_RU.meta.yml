@@ -1,38 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇷🇺RU_1|2.7MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE
-    short-id: '!!str 8ba6e72ee60667f6'
-  server: 161.104.38.98
-  servername: donatov.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 553d8193-d897-0032-bb46-f075b670f22a
-  xhttp-opts:
-    host: 161.104.38.98
-    mode: packet-up
-    path: /assets
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-connections: '2'
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_2|1.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: '22443'
-  server: 91.240.86.70
+- name: 🇷🇺RU_1|3.2MB/s
+  port: 443
+  server: 82.147.71.46
   skip-cert-verify: true
-  sni: 91.240.86.70
-  type: hysteria2
-  up: ''
+  tls: true
+  type: http
+- name: 🇷🇺RU_2|1.6MB/s
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http

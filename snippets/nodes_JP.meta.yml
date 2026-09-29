@@ -1,50 +1,57 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|2.5MB/s
+  name: 🇯🇵 日本 | JPN
   network: tcp
-  port: '33561'
+  port: 443
   reality-opts:
-    public-key: 158SMilJQo8T-Fi8-T1354xZsVFCYxA8dXQstKbIdVs
-    short-id: '!!str 6b9e61372a82002c'
-  server: 13.158.67.183
+    public-key: noKW5AewoT8xlv0kdC5zc7EU9xQyBejvkTLCyYeUBjw
+    short-id: '!!str 2144fd4211f37e7d'
+  server: 151.242.164.131
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN 2
+  network: ws
+  port: 443
+  server: api.w2m.ink
+  servername: api.w2m.ink
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8344360f-0349-4784-a19f-33fd92e89389
+  ws-opts:
+    headers:
+      Host: api.w2m.ink
+    path: /v2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 3
+  network: tcp
+  port: 38830
+  reality-opts:
+    public-key: 5E5p5boHrgCyBlt5qZPX1XozU9I90JoBgS4zmXngllI
+    short-id: '!!str ac12ed79'
+  server: 13.230.30.102
   servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
   uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇯🇵JP_2|4.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: '52454'
-  server: 45.88.43.116
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
-- auth: my_super_password_123
-  name: 🇯🇵 日本 | JPN
-  password: my_super_password_123
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 4
+  network: tcp
   port: 443
-  server: open.2ml.bid
-  skip-cert-verify: true
-  type: hysteria2
-- client-fingerprint: unsafe
-  name: 🇯🇵 日本 | JPN 2
-  network: ws
-  port: 8443
-  server: 129.211.188.184
-  servername: jp3.yohototo.top
+  reality-opts:
+    public-key: lhU083XnTDtSk8ANeM-PfA-AXh0tMQ6beZRVyxtAJSk
+    short-id: '!!str 2256006a005c9468'
+  server: 151.242.165.73
+  servername: gateway.icloud.com
   tls: true
   type: vless
   udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
+  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D

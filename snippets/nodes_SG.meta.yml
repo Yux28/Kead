@@ -1,66 +1,81 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|1.6MB/s
-  network: tcp
-  port: '20975'
-  reality-opts:
-    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
-    short-id: '!!str 2bb0dc48'
-  server: 18.136.119.69
-  servername: www.cloudflare.com
+- name: 🇸🇬SG_1|2.0MB/s
+  network: ws
+  port: '8880'
+  server: 172.64.144.180
+  type: vless
+  udp: true
+  uuid: 1563ad16-9ac7-4214-8eb7-303f745efb07
+  ws-opts:
+    headers:
+      Host: silent-cake-fb8d.69-a76.workers.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /pyip=proxyip.sg.cmliussss.net
+  xudp: true
+- client-fingerprint: firefox
+  name: 🇸🇬SG_2|2.6MB/s
+  network: ws
+  port: 2096
+  server: free-server.techsonic.dev
+  servername: free-server.techsonic.dev
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_2|2.1MB/s
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
+- client-fingerprint: randomized
+  name: 🇸🇬SG_3|3.3MB/s
   network: ws
   port: '443'
-  server: 8.35.211.236
-  servername: kkkk-83j.pages.dev
+  server: 172.64.144.240
+  servername: pmpmppm.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: kkkk-83j.pages.dev
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    max-early-data: 2048
-    path: /
+      Host: pmpmppm.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /?ed=2048
   xudp: true
-- cipher: chacha20-ietf-poly1305
+- name: 🇸🇬SG_4|2.7MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: xjp2.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp2.mangshe.xyz
+  type: hysteria2
+- auth: f87376e17da040ed04c9665ce8972930
   name: 🇸🇬 新加坡 | SGP
-  password: f0b9ae63-91a7-4673-924e-498e0e0828c0
-  port: 8989
-  server: 56.10.14.35
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
+  skip-cert-verify: true
+  sni: 138.2.73.238
+  type: hysteria2
+- auth: 19f72087-4591-4d72-930b-2697078ec2be
   name: 🇸🇬 新加坡 | SGP 2
-  network: tcp
-  port: 26415
-  reality-opts:
-    public-key: eC5S3o9uFN6i_YjDjiALCXbc_dzh3kEm2C5zduDGtS8
-    short-id: '!!str b7dd999667b0406e'
-  server: 54.251.239.81
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-- client-fingerprint: chrome
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   name: 🇸🇬 新加坡 | SGP 3
   network: ws
   port: 2096
-  server: 91.193.58.57
+  server: 104.17.70.206
   servername: free-server.techsonic.dev
   tls: true
   type: vless
@@ -70,25 +85,15 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- auth: d042d150716709bb778cc73889cddb02
-  name: 🇸🇬 新加坡 | SGP 4
-  obfs: salamander
-  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-  password: d042d150716709bb778cc73889cddb02
-  port: 443
-  server: 138.2.89.249
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP 5
+  name: 🇸🇬 新加坡 | SGP 4
   network: tcp
-  port: 21464
+  port: 20975
   reality-opts:
-    public-key: 7TVqIgOMgFzxjYG4nSSQxWWTE7cBPXjpoZwCsd337lY
-    short-id: '!!str 52f8'
-  server: 18.143.191.201
+    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
+    short-id: '!!str 2bb0dc48'
+  server: 18.136.119.69
   servername: www.cloudflare.com
   tls: true
   type: vless
