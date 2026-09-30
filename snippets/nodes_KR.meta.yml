@@ -1,29 +1,23 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇰🇷 韩国 | KOR
   network: tcp
-  port: 443
+  port: 1891
   reality-opts:
-    public-key: Cn5_Bic3VFQ2ONvH5_npnbMYZ-oxkl4BxawPKxoRdCQ
-    short-id: '!!str f8f2875b3b4cb65b'
-  server: 61.111.247.80
-  servername: gateway.icloud.com
+    public-key: 2olNWILpuviXx_Nr30JZc5tpt3MgtWda7jLGwAOxPxY
+    short-id: '!!str 8378f267'
+  server: icn-a-02.auuas.com
+  servername: www.npmjs.com
   tls: true
   type: vless
   udp: true
-  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇰🇷 韩国 | KOR 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F6Asg31ihdkFCmTdIuGjq_232PMYhLsCH9k3Npaa9VI
-    short-id: '!!str 0d9954fe36197887'
-  server: 61.111.247.22
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
+  uuid: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
+- name: 🇰🇷 韩国 | KOR 2
+  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+  port: 47901
+  server: test01.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: kr06.swiftrelay.cc
+  type: anytls
   udp: true
-  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D

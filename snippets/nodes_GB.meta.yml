@@ -1,31 +1,66 @@
 proxies:
-- name: 🇬🇧GB_1|1.1MB/s
+- encryption: none
+  name: 🇬🇧GB_1|2.3MB/s
+  network: tcp
+  port: '41432'
+  server: BatManAli.Savfasf.ir
+  type: vless
+  udp: true
+  uuid: 79f0aac8-656a-435b-b092-c973a3f85e02
+  xudp: true
+- name: 🇬🇧GB_2|2.1MB/s
   password: None
-  port: 443
-  server: 185.235.0.66
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_2|2.5MB/s
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: yg.mangshe.xyz
+- down: ''
+  fingerprint: ''
+  name: 🇬🇧GB_3|3.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: '52746'
+  server: 5.183.102.5
   skip-cert-verify: true
-  sni: yg.mangshe.xyz
+  sni: iosapps.itunes.apple.com
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_3|2.4MB/s
-  network: tcp
+  up: ''
+- name: 🇬🇧GB_4|3.0MB/s
+  password: ''
   port: '443'
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  name: 🇬🇧 英国 | GBR
+  network: grpc
+  port: 9881
   reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: '!!str db04ce8bdb8900f1'
-  server: 31.76.39.230
-  servername: nvidia.com
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: '!!str aabbccdd'
+  server: 176.108.244.58
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
-  xudp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  name: 🇬🇧 英国 | GBR 2
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

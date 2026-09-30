@@ -1,101 +1,95 @@
 proxies:
-- name: 🇸🇬SG_1|2.0MB/s
+- name: 🇸🇬SG_1|1.5MB/s
   network: ws
   port: '8880'
-  server: 172.64.144.180
+  server: themeforest.net
   type: vless
   udp: true
-  uuid: 1563ad16-9ac7-4214-8eb7-303f745efb07
+  uuid: c2569d72-0ba1-44e8-986f-be445edb5f3d
   ws-opts:
     headers:
-      Host: silent-cake-fb8d.69-a76.workers.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /pyip=proxyip.sg.cmliussss.net
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇸🇬SG_2|2.6MB/s
-  network: ws
-  port: 2096
-  server: free-server.techsonic.dev
-  servername: free-server.techsonic.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.dev
-- client-fingerprint: randomized
-  name: 🇸🇬SG_3|3.3MB/s
-  network: ws
-  port: '443'
-  server: 172.64.144.240
-  servername: pmpmppm.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
-  ws-opts:
-    headers:
-      Host: pmpmppm.pages.dev
+      Host: silent-union-ac36.315-33d.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /?ed=2048
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: 🇸🇬SG_4|2.7MB/s
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: xjp2.mangshe.xyz
+- name: 🇸🇬 新加坡 | SGP
+  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+  port: 16406
+  server: test01.y1static-content-distribution.shop
   skip-cert-verify: true
-  sni: xjp2.mangshe.xyz
+  sni: yz203.y1static-content-distribution.shop
+  type: anytls
+  udp: true
+- client-fingerprint: edge
+  name: 🇸🇬 新加坡 | SGP 2
+  network: ws
+  port: 443
+  server: 5.223.51.84
+  servername: hk.152568.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  ws-opts:
+    headers:
+      Host: hk.152568.xyz
+    path: /cdn/packages/runtime-core.tar.gz
+- auth: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  name: 🇸🇬 新加坡 | SGP 3
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
+- name: 🇸🇬 新加坡 | SGP 4
+  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+  port: 14855
+  server: test01.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: yz238.y1static-content-distribution.shop
+  type: anytls
+  udp: true
 - auth: f87376e17da040ed04c9665ce8972930
-  name: 🇸🇬 新加坡 | SGP
+  name: 🇸🇬 新加坡 | SGP 5
   password: f87376e17da040ed04c9665ce8972930
   port: 50160
   server: 138.2.73.238
   skip-cert-verify: true
-  sni: 138.2.73.238
+  sni: www.bing.com
   type: hysteria2
-- auth: 19f72087-4591-4d72-930b-2697078ec2be
-  name: 🇸🇬 新加坡 | SGP 2
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: sg1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
-  type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 3
-  network: ws
-  port: 2096
-  server: 104.17.70.206
-  servername: free-server.techsonic.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.dev
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP 4
+  name: 🇸🇬 新加坡 | SGP 6
   network: tcp
-  port: 20975
+  port: 443
   reality-opts:
-    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
-    short-id: '!!str 2bb0dc48'
-  server: 18.136.119.69
-  servername: www.cloudflare.com
+    public-key: eAQrXEfedW5BrMMeOecf_M9tkNNqQIShlLOl2xg1cho
+    short-id: '!!str c75bbeb4b67fba71'
+  server: agroup.sg3.ilovegairport.com
+  servername: ap-southeast-1.console.aws.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  uuid: 129e26fe-cee2-4786-9261-b29668337829
+- name: 🇸🇬 新加坡 | SGP 7
+  password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
+  port: 1892
+  server: sin-a-01.auuas.com
+  skip-cert-verify: true
+  sni: images.apple.com
+  type: anytls
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 8
+  network: ws
+  port: 8880
+  server: 162.159.43.187
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls

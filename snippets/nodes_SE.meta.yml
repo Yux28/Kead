@@ -1,33 +1,41 @@
 proxies:
-- name: 🇸🇪SE_1|3.2MB/s
+- name: 🇸🇪SE_1|2.6MB/s
   password: None
   port: 443
-  server: 146.70.242.146
+  server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇸🇪SE_2|3.2MB/s
-  password: None
-  port: 443
-  server: 79.142.77.63
+- name: 🇸🇪SE_2|3.1MB/s
+  password: ''
+  port: '443'
+  server: 149.50.216.65
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- client-fingerprint: firefox
+  username: ''
+- client-fingerprint: ios
+  encryption: none
   grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 🇸🇪 瑞典 | SWE
+    grpc-service-name: moktana.net.v1.StreamService
+  name: 🇸🇪SE_3|3.3MB/s
   network: grpc
-  port: 9881
+  port: '443'
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: '!!str aabb'
-  server: 176.108.247.67
-  servername: dl.google.com
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: '!!str 3f8e2d1c9b4a7e6f'
+  server: 201.24.52.151
+  servername: hexagonicfield.com
   tls: true
   type: vless
   udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
+  xudp: true
+- name: 🇸🇪 瑞典 | SWE
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 60005
+  server: svip.skycon808.com
+  skip-cert-verify: true
+  sni: xjp18.2uuzhe.com
+  type: anytls

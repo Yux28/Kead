@@ -1,15 +1,1 @@
-proxies:
-- name: 🇨🇭CH_1|2.5MB/s
-  port: 443
-  server: 199.68.196.153
-  skip-cert-verify: true
-  tls: true
-  type: http
-- auth: 19f72087-4591-4d72-930b-2697078ec2be
-  name: 🇨🇭 瑞士 | CHE
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: ch.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ch.xiaoliyu.cyou
-  type: hysteria2
+proxies: []
