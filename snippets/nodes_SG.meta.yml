@@ -1,95 +1,46 @@
 proxies:
-- name: 🇸🇬SG_1|1.5MB/s
-  network: ws
-  port: '8880'
-  server: themeforest.net
-  type: vless
-  udp: true
-  uuid: c2569d72-0ba1-44e8-986f-be445edb5f3d
-  ws-opts:
-    headers:
-      Host: silent-union-ac36.315-33d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/39.0.2171.95 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
 - name: 🇸🇬 新加坡 | SGP
-  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
-  port: 16406
-  server: test01.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: yz203.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- client-fingerprint: edge
-  name: 🇸🇬 新加坡 | SGP 2
   network: ws
-  port: 443
-  server: 5.223.51.84
-  servername: hk.152568.xyz
-  tls: true
+  port: 2082
+  server: 104.18.35.86
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: false
   type: vless
   udp: true
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: hk.152568.xyz
-    path: /cdn/packages/runtime-core.tar.gz
-- auth: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡 | SGP 2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 13.215.227.70
+  type: ss
+  udp: true
+- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
   name: 🇸🇬 新加坡 | SGP 3
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  port: 18642
-  server: s3.huhiuh.space
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 13.212.245.120
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
 - name: 🇸🇬 新加坡 | SGP 4
-  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
-  port: 14855
-  server: test01.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: yz238.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- auth: f87376e17da040ed04c9665ce8972930
-  name: 🇸🇬 新加坡 | SGP 5
-  password: f87376e17da040ed04c9665ce8972930
-  port: 50160
-  server: 138.2.73.238
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP 6
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: eAQrXEfedW5BrMMeOecf_M9tkNNqQIShlLOl2xg1cho
-    short-id: '!!str c75bbeb4b67fba71'
-  server: agroup.sg3.ilovegairport.com
-  servername: ap-southeast-1.console.aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 129e26fe-cee2-4786-9261-b29668337829
-- name: 🇸🇬 新加坡 | SGP 7
-  password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
-  port: 1892
-  server: sin-a-01.auuas.com
-  skip-cert-verify: true
-  sni: images.apple.com
-  type: anytls
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 8
   network: ws
-  port: 8880
-  server: 162.159.43.187
-  tls: false
-  type: vless
+  password: '!!str 123456'
+  port: 2096
+  server: 104.18.35.86
+  skip-cert-verify: true
+  sni: 321dfbc6.uir-9i6.pages.dev
+  type: trojan
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
+      Host: 321dfbc6.uir-9i6.pages.dev
+    path: /

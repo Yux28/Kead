@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇰🇷 韩国 | KOR
+  password: bf5129f1-31f5-4edf-a07a-27ec31b26c1d
+  port: 2096
+  server: 43.201.148.241
+  type: ss
+  udp: true

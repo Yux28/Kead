@@ -1,39 +1,37 @@
 proxies:
-- auth: 531d9e93-53be-4f05-a9c1-33490d4da2f3
-  name: 🇯🇵 日本 | JPN 2
-  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
-  port: 52148
-  server: 45.88.43.89
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 🇯🇵 日本 | JPN
-  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
-  port: 65308
-  server: jpglobal-identity-federation-auth.younai-ytl.shop
-  skip-cert-verify: true
-  sni: jp11.pulsarcore.site
-  type: anytls
-  udp: true
-- client-fingerprint: random
-  name: 🇯🇵 日本 | JPN 3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN
   network: tcp
-  port: 52226
+  port: 2090
   reality-opts:
-    public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
-    short-id: '!!str d6'
-  server: 45.76.215.91
-  servername: www.intel.com
+    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
+    short-id: '!!str bb472a184677af64'
+  server: 213.152.165.203
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 88dde62f-b4aa-4e59-84c3-1024f838e1c9
-- name: 🇯🇵 日本 | JPN 4
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1029
-  server: n5s3w3ue.zf-mix.9999231.xyz
+  uuid: c63487b1-2543-40b9-b39a-3f27a5a1f4cf
+- name: 🇯🇵 日本 | JPN 2
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  port: 24999
+  server: tjrb.m2k699.com
   skip-cert-verify: true
-  sni: in-wy.9999231.xyz
-  type: anytls
+  sni: www.itunes.com
+  type: trojan
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 | JPN 3
+  network: tcp
+  port: 35544
+  reality-opts:
+    public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
+    short-id: '!!str 25c79e5856c7'
+  server: funagfrdfs.alixxplay.com
+  servername: iosapps.itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
