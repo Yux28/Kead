@@ -1,75 +1,96 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 51.89.231.124
-  servername: ozon.ru
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: unsafe
+  name: 🇬🇧GB_1|2.0MB/s
+  network: xhttp
+  port: '443'
+  server: 188.114.98.0
+  servername: crm.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 37.235.249.14
-  servername: ai.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.160
-  servername: gb.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR 4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.165
-  servername: gb.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
-- name: GB_speednode_0016
+  uuid: e58384f2-76ba-400b-ae0a-8271b4c9c310
+  xhttp-opts:
+    host: crm.dpdns.org
+    mode: auto
+    path: /api/v1/stream
+  xudp: true
+- name: GB_speednode_0008
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: GB_speednode_0017
+- client-fingerprint: qq
+  name: 🇬🇧 英国 | GBR
+  network: tcp
   port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
+  server: 136.148.83.71
+  servername: wccfu-ru-79dc.my-fade.cloud
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: GB_speednode_0018
-  password: None
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
+  uuid: 00000000-0000-0001-0000-000000000000
+- client-fingerprint: chrome
+  name: 🇬🇧 英国 | GBR 2
+  network: ws
+  port: 443
+  server: 172.64.155.209
+  servername: sinavm2.soft10.ir
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
+  ws-opts:
+    headers:
+      Host: sinavm2.soft10.ir
+    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
+- client-fingerprint: chrome
+  name: 🇬🇧 英国 | GBR 3
+  network: tcp
+  port: 443
+  server: 136.148.83.69
+  servername: szqbx-ru-77dc.my-fade.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: unsafe
+  name: 🇬🇧 英国 | GBR 4
+  network: xhttp
+  port: 443
+  server: 188.114.97.6
+  servername: crm.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: e58384f2-76ba-400b-ae0a-8271b4c9c310
+  xhttp-opts:
+    host: crm.dpdns.org
+    mode: auto
+    path: /api/v1/stream
+- auth: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
+  name: 🇬🇧 英国 | GBR 5
+  password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
+  port: 443
+  server: 136.148.83.69
+  skip-cert-verify: true
+  sni: szqbx-ru-77dc.my-fade.cloud
+  type: hysteria2
+  udp: true
+- client-fingerprint: qq
+  name: 🇬🇧 英国 | GBR 6
+  network: tcp
+  port: 443
+  server: 136.148.83.69
+  servername: szqbx-ru-77dc.my-fade.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324

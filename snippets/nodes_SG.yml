@@ -1,25 +1,16 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 | SGP 2
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 13.215.227.70
-  type: ss
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 4
-  network: ws
-  password: '!!str 123456'
-  port: 2096
-  server: 104.18.35.86
+- name: 🇸🇬 新加坡 | SGP
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: bgsg1.hikigo.com
   skip-cert-verify: true
-  sni: 321dfbc6.uir-9i6.pages.dev
+  sni: bgsg1.hikigo.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: 321dfbc6.uir-9i6.pages.dev
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡 | SGP 3
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 13.212.176.115
+  type: ss
+  udp: true

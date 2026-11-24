@@ -1,37 +1,23 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇦 加拿大 | CAN
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: '!!str 8a9725533854a7e8'
-  server: 213.152.165.203
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 28d7a636-fd0b-489e-bf99-baa5b1bf9f15
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇦 加拿大 | CAN 2
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: '!!str 8a9725533854a7e8'
-  server: 213.152.165.200
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 28d7a636-fd0b-489e-bf99-baa5b1bf9f15
-- name: CA_speednode_0004
-  password: None
-  port: 443
-  server: 206.223.183.21
+- name: 🇨🇦CA_1|3.1MB/s
+  port: 9443
+  server: 181.215.52.6
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇨🇦 加拿大 | CAN
+  password: 26ba2310-31aa-4fe6-86b1-47fcd14cabb2
+  port: 443
+  server: im.lovehk.xyz
+  skip-cert-verify: true
+  sni: im.lovehk.xyz
+  type: anytls
+  udp: true
+- name: 🇨🇦 加拿大 | CAN 2
+  password: d2e242fe-3a90-4d5c-b890-6089474faa39
+  port: 443
+  server: im.lovehk.xyz
+  skip-cert-verify: true
+  sni: im.lovehk.xyz
+  type: anytls
   udp: true

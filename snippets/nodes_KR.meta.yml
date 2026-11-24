@@ -1,23 +1,29 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- name: 🇰🇷KR_1|2.9MB/s
+  port: 1080
+  server: 59.11.209.162
+  skip-cert-verify: true
+  type: socks5
+- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  fingerprint: 89:61:86:FE:B2:0C:B7:40:31:87:A4:5F:F3:BD:5D:DC:8B:FB:DD:41:9D:77:9D:55:D7:86:18:9D:36:73:1A:69
   name: 🇰🇷 韩国 | KOR
-  password: bf5129f1-31f5-4edf-a07a-27ec31b26c1d
-  port: 2096
-  server: 43.201.148.241
-  type: ss
-  udp: true
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: 🇰🇷 韩国 | KOR 2
-  network: http
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 54.180.133.191
-  tls: false
+  server: 13.124.216.73
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇰🇷 韩国 | KOR 2
+  network: tcp
+  packet-encoding: xudp
+  port: 43118
+  reality-opts:
+    public-key: p0crO-ZNRjb07T_GGy9JdkXTjei3-D9f6s2ZzCo2gx8
+    short-id: '!!str 1a70fe8d4b05'
+  server: dddz-4-z.473221.xyz
+  servername: v1-dy.ixigua.com
+  tls: true
   type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  uuid: 5807f1c4-b50e-4ec0-8d01-274045da0da5

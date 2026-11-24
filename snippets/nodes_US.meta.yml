@@ -1,328 +1,158 @@
 proxies:
-- name: 🇺🇸US_1|1.2MB/s
-  port: 22222
-  server: 64.118.155.2
+- name: 🇺🇸US_1|3.0MB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: 🇺🇸US_2|1.1MB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_3|3.1MB/s
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_4|2.7MB/s
+  password: 75bPoRcB
+  port: 62000
+  server: 216.132.114.27
+  type: socks5
+  username: JzufiJ62
+- name: 🇺🇸US_5|1.5MB/s
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sni: 149.34.248.65
+  tls: true
+  type: http
+- name: NN_speednode_0023
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: usgp1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 🇺🇸US_7|2.3MB/s
+  password: None
+  port: '38182'
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇺🇸US_8|3.1MB/s
+  password: ''
+  port: '3128'
+  server: 50.238.106.26
   skip-cert-verify: true
   type: http
-- name: 🇺🇸US_2|3.7MB/s
-  port: 8443
-  server: 154.81.36.92
+  username: ''
+- name: 🇺🇸US_9|2.9MB/s
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: JP_speednode_0029
-  network: tcp
-  packet-encoding: xudp
-  port: 54528
-  reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: '!!str 54cca3c1c1c7'
-  server: funagfrdfs.alixxplay.com
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 🇷🇺 俄罗斯 | RUS
-  network: xhttp
-  port: 443
-  server: 188.72.103.4
-  servername: ru.nnight.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-  xhttp-opts:
-    host: ru.nnight.cfd
-    mode: packet-up
-    path: /api/v4/media/session/poll
-    seq-key: offset
-    seq-placement: query
-    uplink-data-key: X-Playback-Token
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 48-320
-    x-padding-key: q
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇷🇺 俄罗斯 | RUS 2
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 113.30.154.207
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca926603-c678-4639-b726-a5b82d7e110c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 俄罗斯 | RUS 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 147.45.47.93
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-- cipher: aes-256-gcm
-  name: 🇷🇺 俄罗斯 | RUS 4
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-  port: 18443
-  server: 46.17.43.227
-  type: ss
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇷🇺 俄罗斯 | RUS 5
-  network: xhttp
-  port: 443
-  server: 45.11.93.214
-  servername: rjynmkx8v52c.hat.onl
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc
-  xhttp-opts:
-    host: rjynmkx8v52c.hat.onl
-    mode: auto
-    path: /vod/cmzmf68h2m/chunks
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 俄罗斯 | RUS 6
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.169
-  servername: abuse.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b6a937e-5b0e-49ca-b31e-f03f290e97cf
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 | USA
-  port: 8080
-  server: 206.1.101.206
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 01c3e638-85d9-4907-a7cc-9c951a98d255
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 | USA 2
-  network: ws
-  port: 443
-  server: US032021.ssgreen.org
-  servername: US032021.ssgreen.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e3618355-34af-4f6e-8bbd-b84ed4f2ec32
-  ws-opts:
-    headers:
-      Host: US032021.ssgreen.org
-    path: /wes
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 | USA 3
-  network: ws
-  port: 443
-  server: US032024.ssgreen.org
-  servername: US032024.ssgreen.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bd08cc71-b38d-498c-b67f-12410c72d099
-  ws-opts:
-    headers:
-      Host: US032024.ssgreen.org
-    path: /wes
+  username: 'null'
 - client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
-    grpc-service-name: hls-vod.imbsklb92t.segment-75-v1-a1.ts
-  name: 🇺🇸 美国 | USA 4
+    grpc-service-name: mobile.api.Event
+  name: 🇷🇺 俄罗斯 | RUS
   network: grpc
   port: 443
-  server: 87.58.199.144
-  servername: i4kht12omvvhyz.hat.onl
+  server: 201.24.116.192
+  servername: vps3.nemnogogo.com
   tls: true
   type: vless
   udp: true
-  uuid: 7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc
-- auth: 64c05afc-ce81-4ba0-b697-afa04da1427e
-  name: 🇺🇸 美国 | USA 5
-  password: 64c05afc-ce81-4ba0-b697-afa04da1427e
-  port: 44443
-  server: 104.168.6.236
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 6
-  network: ws
-  port: 8080
-  server: mira.sheikhiedu.ir
-  servername: mira.sheikhiedu.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: 530baed3-3c7f-4b73-b8ce-5dba0d8fddfb
-  ws-opts:
-    headers:
-      Host: mira.sheikhiedu.ir
-    path: /cfd
-- cipher: aes-256-gcm
-  name: 🇺🇸 美国 | USA 7
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 | USA 8
-  network: ws
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  name: 🇷🇺 俄罗斯 | RUS 2
+  network: grpc
   port: 443
-  server: 143.198.76.78
-  servername: ccc.010304.xyz
+  server: 201.51.12.98
+  servername: vps3.nemnogogo.com
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
 - alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 | USA 9
-  network: ws
+  - h2
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  name: 🇷🇺 俄罗斯 | RUS 3
+  network: grpc
   port: 443
-  server: US122207.ssgreen.org
-  servername: US122207.ssgreen.org
-  skip-cert-verify: true
+  server: vps3.nemnogogo.com
+  servername: vps3.nemnogogo.com
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 98267316-8f95-45fc-a1bb-52ba34c1e6df
-  ws-opts:
-    headers:
-      Host: US122207.ssgreen.org
-    path: /wes
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
 - alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 | USA 10
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  name: 🇷🇺 俄罗斯 | RUS 4
+  network: grpc
+  port: 443
+  server: leviko-ru4448.shopingggg.ir
+  servername: vps3.nemnogogo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+- client-fingerprint: chrome
+  name: 🇺🇸 美国 | USA
   network: ws
   port: 443
-  server: US032020.ssgreen.org
-  servername: US032020.ssgreen.org
-  skip-cert-verify: true
+  server: ws.liuzedong.ltd
+  servername: ws.liuzedong.ltd
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 6d9380a0-ca0b-4202-9eed-20ff588cf022
+  uuid: FCEAD694-2E27-4EEB-8836-9D4ACF3E028B
   ws-opts:
     headers:
-      Host: US032020.ssgreen.org
-    path: /wes
-- name: US_speednode_0050
-  password: None
+      Host: ws.liuzedong.ltd
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇺🇸 美国 | USA 2
+  network: ws
   port: 443
-  server: 149.22.88.65
-  skip-cert-verify: true
+  server: 104.17.145.43
+  servername: estuary.gerqix.online
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: US_speednode_0051
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0052
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0053
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  ws-opts:
+    headers:
+      Host: estuary.gerqix.online
+    path: /api/de7/stream
+- name: US_speednode_0027
   port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0054
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0055
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0056
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0057
-  port: 443
-  server: 45.63.38.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0058
-  port: 8090
-  server: 173.42.49.102
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0059
-  port: 443
-  server: 68.235.56.51
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http

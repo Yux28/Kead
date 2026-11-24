@@ -1,9 +1,59 @@
 proxies:
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjtw.m2k699.com
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  password: 2902c46c8493
+  port: 443
+  server: rtifgjdr.df6h451rh.xin
+  servername: docs.microsoft.com
   skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
+  sni: docs.microsoft.com
+  tls: true
+  type: anytls
   udp: true
+- name: 🇹🇼TW_2|1.3MB/s
+  password: 0324fbc29561
+  port: 443
+  server: mfjh645drfj1dr6j5.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+- name: 🇹🇼TW_4|1.4MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  password: 87f368b4-2025-46f0-8492-8f749bb97a8b
+  port: 443
+  server: theme.lovehk.xyz
+  skip-cert-verify: true
+  sni: theme.lovehk.xyz
+  type: anytls
+  udp: true
+- name: 🇹🇼 🇨🇳 台湾 | TWN 3
+  password: fa851496-025b-4935-b7e5-83d5f210edc4
+  port: 443
+  server: theme.lovehk.xyz
+  skip-cert-verify: true
+  sni: theme.lovehk.xyz
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: TW_speednode_0026
+  network: tcp
+  port: 47396
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: '!!str fa514b83'
+  server: free.fugui.lol
+  servername: swdist.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
